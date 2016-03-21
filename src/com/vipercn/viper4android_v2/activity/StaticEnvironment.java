@@ -1,6 +1,5 @@
 package com.vipercn.viper4android_v2.activity;
 
-import android.os.Build;
 import android.os.Environment;
 import android.util.Log;
 
@@ -39,85 +38,25 @@ public class StaticEnvironment {
 
     private static void proceedExternalStoragePath() {
         // Get path
-        String mExternalStoragePathName = Environment.getExternalStorageDirectory()
-                .getAbsolutePath();
+        String mExternalStoragePathName = Environment.getExternalStorageDirectory().getAbsolutePath();
 
         // Check writable
         if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            if (Build.VERSION.SDK_INT >= 18) {
-                if (mExternalStoragePathName.endsWith("/emulated/0")
-                        || mExternalStoragePathName.endsWith("/emulated/0/")) {
-                    mExternalStoragePathName = mExternalStoragePathName.replace("/emulated/0",
-                            "/emulated/legacy");
-                }
-            }
-            sExternalStoragePath = mExternalStoragePathName.endsWith("/")
-                    ? mExternalStoragePathName : mExternalStoragePathName + "/";
-            sV4aRoot = sExternalStoragePath + "ViPER4Android/";
-            sV4aKernelPath = sV4aRoot + "Kernel/";
-			sV4aCustomDDCPath = sV4aRoot + "DDC/";
-            sV4aProfilePath = sV4aRoot + "Profile/";
-        } else {
-            boolean isPathFromSdkWorking = false;
-            boolean isPathFromLegacyWorking = false;
-            String externalPath;
-            externalPath = mExternalStoragePathName.endsWith("/") ? mExternalStoragePathName
-                    : mExternalStoragePathName + "/";
-            externalPath = externalPath + "v4a_test_file";
-            Log.i("ViPER4Android", "Now checking for external storage writable, file = "
-                    + externalPath);
-            if (checkWritable(externalPath)) {
-                isPathFromSdkWorking = true;
-            }
-            externalPath = mExternalStoragePathName.endsWith("/") ? mExternalStoragePathName
-                    : mExternalStoragePathName + "/";
-            if (externalPath.endsWith("/emulated/0/")) {
-                externalPath = externalPath.replace("/emulated/0/", "/emulated/legacy/");
-                externalPath = externalPath + "v4a_test_file";
-                Log.i("ViPER4Android", "Now checking for external storage writable, file = " + externalPath);
-                if (checkWritable(externalPath)) {
-                    isPathFromLegacyWorking = true;
-                }
-            }
-
-            if (isPathFromLegacyWorking) {
-                mExternalStoragePathName = mExternalStoragePathName.replace("/emulated/0",
-                        "/emulated/legacy");
-                sExternalStoragePath = mExternalStoragePathName.endsWith("/")
-                        ? mExternalStoragePathName : mExternalStoragePathName + "/";
-                sV4aRoot = sExternalStoragePath + "ViPER4Android/";
-                sV4aKernelPath = sV4aRoot + "Kernel/";
-				sV4aCustomDDCPath = sV4aRoot + "DDC/";
-                sV4aProfilePath = sV4aRoot + "Profile/";
-                Log.i("ViPER4Android", "External storage path = " + sExternalStoragePath);
-                Log.i("ViPER4Android", "ViPER4Android root path = " + sV4aRoot);
-                Log.i("ViPER4Android", "ViPER4Android kernel path = " + sV4aKernelPath);
-				Log.i("ViPER4Android", "ViPER4Android custom DDC path = " + sV4aCustomDDCPath);
-                Log.i("ViPER4Android", "ViPER4Android profile path = " + sV4aProfilePath);
-                return;
-            }
-            if (isPathFromSdkWorking) {
-                sExternalStoragePath = mExternalStoragePathName.endsWith("/")
-                        ? mExternalStoragePathName : mExternalStoragePathName + "/";
-                sV4aRoot = sExternalStoragePath + "ViPER4Android/";
-                sV4aKernelPath = sV4aRoot + "Kernel/";
-				sV4aCustomDDCPath = sV4aRoot + "DDC/";
-                sV4aProfilePath = sV4aRoot + "Profile/";
-                Log.i("ViPER4Android", "External storage path = " + sExternalStoragePath);
-                Log.i("ViPER4Android", "ViPER4Android root path = " + sV4aRoot);
-                Log.i("ViPER4Android", "ViPER4Android kernel path = " + sV4aKernelPath);
-				Log.i("ViPER4Android", "ViPER4Android custom DDC path = " + sV4aCustomDDCPath);
-                Log.i("ViPER4Android", "ViPER4Android profile path = " + sV4aProfilePath);
-                return;
-            }
-
             Log.i("ViPER4Android", "Really terrible thing, external storage detection failed. V4A may malfunction");
-            sExternalStoragePath = mExternalStoragePathName.endsWith("/")
-                    ? mExternalStoragePathName : mExternalStoragePathName + "/";
+        } else {
+            String externalPath;
+            externalPath = mExternalStoragePathName.endsWith("/") ? mExternalStoragePathName : mExternalStoragePathName + "/" + "v4a_test_file";
+            Log.i("ViPER4Android", "Now checking for external storage writable, file = " + externalPath);
+            sExternalStoragePath = mExternalStoragePathName.endsWith("/") ? mExternalStoragePathName : mExternalStoragePathName + "/";
             sV4aRoot = sExternalStoragePath + "ViPER4Android/";
             sV4aKernelPath = sV4aRoot + "Kernel/";
-			sV4aCustomDDCPath = sV4aRoot + "DDC/";
+            sV4aCustomDDCPath = sV4aRoot + "DDC/";
             sV4aProfilePath = sV4aRoot + "Profile/";
+            if (checkWritable(externalPath)) {
+                new File(sV4aKernelPath).mkdirs();
+                new File(sV4aCustomDDCPath).mkdirs();
+                new File(sV4aProfilePath).mkdirs();
+            }
         }
     }
 
@@ -130,15 +69,7 @@ public class StaticEnvironment {
             proceedExternalStoragePath();
         } catch (Exception e) {
             String mExternalStoragePathName = Environment.getExternalStorageDirectory().getAbsolutePath();
-            if (Build.VERSION.SDK_INT >= 18) {
-                if (mExternalStoragePathName.endsWith("/emulated/0")
-                        || mExternalStoragePathName.endsWith("/emulated/0/")) {
-                    mExternalStoragePathName = mExternalStoragePathName.replace("/emulated/0",
-                            "/emulated/legacy");
-                }
-            }
-            sExternalStoragePath = mExternalStoragePathName.endsWith("/")
-                    ? mExternalStoragePathName : mExternalStoragePathName + "/";
+            sExternalStoragePath = mExternalStoragePathName.endsWith("/") ? mExternalStoragePathName : mExternalStoragePathName + "/";
             sV4aRoot = sExternalStoragePath + "ViPER4Android/";
             sV4aKernelPath = sV4aRoot + "Kernel/";
 			sV4aCustomDDCPath = sV4aRoot + "DDC/";
