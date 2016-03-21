@@ -1350,6 +1350,9 @@ public final class ViPER4Android extends AppCompatActivity {
             Log.e("ViPER4Android", "Cannot save preset");
             index ++;
         }
+        if (index == 4) {
+            profileDir.delete();
+        }
         SnackbarManager.show(Snackbar.with(ViPER4Android.this).text(index < 4 ? R.string.text_savefxprofile_succeeded : R.string.text_savefxprofile_failed).colorResource(R.color.colorPrimaryDark));
     }
 
