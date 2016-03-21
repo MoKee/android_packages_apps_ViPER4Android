@@ -1052,7 +1052,7 @@ public final class ViPER4Android extends AppCompatActivity {
                                                     dialog.dismiss();
                                                     Utils.restartActivity(ViPER4Android.this);
                                                 }
-                                            }).setCancelable(false).create();
+                                            }).create();
                             selectDialog.show();
                             break;
                         }
@@ -1087,7 +1087,7 @@ public final class ViPER4Android extends AppCompatActivity {
                                                     edit.apply();
                                                     dialog.dismiss();
                                                 }
-                                            }).setCancelable(false).create();
+                                            }).create();
                             selectDialog.show();
                             break;
                         }
@@ -1182,7 +1182,7 @@ public final class ViPER4Android extends AppCompatActivity {
                                                         sendBroadcast(new Intent(ViPER4Android.ACTION_SHOW_NOTIFY));
                                                     }
                                                 }
-                                            }).setCancelable(false).create();
+                                            }).create();
                             selectDialog.show();
 
                             break;
