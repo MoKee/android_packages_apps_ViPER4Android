@@ -49,6 +49,9 @@ import com.vipercn.viper4android_v2.R;
 import com.vipercn.viper4android_v2.service.ViPER4AndroidService;
 import com.vipercn.viper4android_v2.widgets.CustomViewPager;
 
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileFilter;
@@ -1317,31 +1320,37 @@ public final class ViPER4Android extends AppCompatActivity {
         Log.i("ViPER4Android", "Saving profile to " + profileDir.getAbsolutePath());
 
         final String packageName = SHARED_PREFERENCES_BASENAME + ".";
+        int index = 0;
 
         try {
             copy(new File(spDir + packageName + "bluetooth.xml"),
                     new File(profileDir, packageName + "bluetooth.xml"));
         } catch (IOException e) {
             Log.e("ViPER4Android", "Cannot save preset");
+            index ++;
         }
         try {
             copy(new File(spDir + packageName + "headset.xml"),
                     new File(profileDir, packageName + "headset.xml"));
         } catch (IOException e) {
             Log.e("ViPER4Android", "Cannot save preset");
+            index ++;
         }
         try {
             copy(new File(spDir + packageName + "speaker.xml"),
                     new File(profileDir, packageName + "speaker.xml"));
         } catch (IOException e) {
             Log.e("ViPER4Android", "Cannot save preset");
+            index ++;
         }
         try {
             copy(new File(spDir + packageName + "usb.xml"),
                     new File(profileDir, packageName + "usb.xml"));
         } catch (IOException e) {
             Log.e("ViPER4Android", "Cannot save preset");
+            index ++;
         }
+        SnackbarManager.show(Snackbar.with(ViPER4Android.this).text(index < 4 ? R.string.text_savefxprofile_succeeded : R.string.text_savefxprofile_failed).colorResource(R.color.colorPrimaryDark));
     }
 
     public void loadProfile(String name) {

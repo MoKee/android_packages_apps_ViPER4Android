@@ -32,4 +32,6 @@
 \nVersion %1$s (FX), Codename &#8220;Beautiful&#8221;.
 \n</string>
 
+    <string name="text_savefxprofile_succeeded">Successfully saved effect profile.</string>
+    <string name="text_savefxprofile_failed">Failed to save effect profile. Storage might be full or unwritable.</string>
 </resources>

@@ -38,4 +38,6 @@
 \n版本 %1$s (FX), 代码 &#8220;Beautiful&#8221;。
 \n</string>
 
+    <string name="text_savefxprofile_succeeded">音效配置已成功保存。</string>
+    <string name="text_savefxprofile_failed">音效配置保存失败，可能是存储卡无法正常读写或未作更改。</string>
 </resources>

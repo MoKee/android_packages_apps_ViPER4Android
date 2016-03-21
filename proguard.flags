@@ -40,6 +40,9 @@
 -keep class android.support.v13.* { *; }
 -keep class android.support.v13.*.* { *; }
 
+-dontwarn mokee.support.**
+-keep class mokee.support.** { *;}
+
 # Keep rastermill classes that need to be accessed from native code (JNI)
 -keep class android.support.rastermill.** { *; }
 
