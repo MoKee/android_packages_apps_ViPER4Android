@@ -871,12 +871,12 @@ public final class ViPER4Android extends AppCompatActivity {
 
                     switch (choice) {
 
-                        case R.id.checkupdate: {
+                        /*case R.id.checkupdate: {
                             Uri uri = Uri.parse(getResources().getString(R.string.text_updatelink));
                             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                             startActivity(intent);
                             break;
-                        }
+                        }*/
 
                         case R.id.drvstatus: {
                             new Thread(new Runnable() {

@@ -36,8 +36,8 @@
         android:id="@+id/changelog"
         android:title="@string/text_changelog"
         android:icon="@mipmap/gengxinrizhi"/>
-    <item
+    <!--<item
         android:id="@+id/checkupdate"
         android:title="@string/text_checkupdate"
-        android:icon="@mipmap/jianchigengxin"/>
+        android:icon="@mipmap/jianchigengxin"/>-->
 </menu>
