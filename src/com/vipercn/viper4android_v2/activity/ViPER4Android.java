@@ -657,7 +657,7 @@ public final class ViPER4Android extends AppCompatActivity {
                 } catch (NameNotFoundException e) {
                     mVersion = "N/A";
                 }
-                String mAbout = getResources().getString(R.string.about_text);
+                String mAbout = getResources().getString(R.string.about_text_mk);
                 mAbout = String.format(mAbout, mVersion) + "\n";
                 mAbout = mAbout + getResources().getString(R.string.text_help_content);
 

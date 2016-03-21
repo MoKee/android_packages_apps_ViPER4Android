@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2016 The MoKee Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="about_text_mk">***关于ViPER4Android 魔趣定制版***
+\n
+\n\'libv4a_xx_xx.so\'是ViPER4Android的核心组件。
+\n版权所有© 2006-2016，蝰蛇声学(R)。保留所有权利。
+\n此版本经过授权和修改，在魔趣开源项目上使用。
+\n未经蝰蛇声学官方许可，不得用于商业用途(包括有连带/包含关系的广告营收等)。
+\n官方论坛: forum.vipersaudio.com
+\n
+\n\'ViPER4Android.apk\'是ViPER4Android的控制面板。
+\n基于Cyanogenmod的DSPManager中部分代码而做。
+\n感谢\'艳阳飞雪\'为ViPER4Android精心打造的新图标。
+\n感谢Zhuhang@XDA。
+\n感谢M4570D0N@github、xLaMbChOpSx@github和bboa@github等。
+\n感谢V4A官方群管理员的大力协助，感谢内测组的测试、宣传推广组的宣传。
+\n
+\nViPER4Android.apk修改或反编译发行说明：
+\n由于APK的完整源代码已经托管在github上(github.com/vipersaudio)，因此如果您希望修改或加强程序，您可以在github上提交修改，经过测试的代码将会跟随新版本发行。
+\n通过直接修改或反编译APK进行程序改动可能会造成V4A无法正确工作，这将会给使用者造成一些麻烦。
+\n
+\n版本 %1$s (FX), 代码 &#8220;Beautiful&#8221;。
+\n</string>
+
+</resources>
