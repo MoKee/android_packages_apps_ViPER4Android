@@ -7,7 +7,7 @@
         <item>High Audio Quality</item>
         <item>Power Saving</item>
     </string-array>
-    <string-array name="drvinst_prefer_values">
+    <string-array name="drvinst_prefer_values" translatable="false">
         <item>sq</item>
         <item>hq</item>
         <item>lq</item>
@@ -17,7 +17,7 @@
         <item>Moderate</item>
         <item>Expert</item>
     </string-array>
-    <string-array name="ui_prefer_values">
+    <string-array name="ui_prefer_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -26,11 +26,11 @@
         <item>Normal</item>
         <item>Compatible</item>
     </string-array>
-    <string-array name="compatible_mode_values">
+    <string-array name="compatible_mode_values" translatable="false">
         <item>global</item>
         <item>local</item>
     </string-array>
-    <string-array name="vse_strength_values">
+    <string-array name="vse_strength_values" translatable="false">
         <item>0.1</item>
         <item>0.2</item>
         <item>0.3</item>
@@ -53,7 +53,7 @@
         <item>Level 7</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="colorfulmusic_coeffs_values">
+    <string-array name="colorfulmusic_coeffs_values" translatable="false">
         <item>120;200</item>
         <item>130;275</item>
         <item>140;350</item>
@@ -77,7 +77,7 @@
         <item>Level 9</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="colorfulmusic_midimage_values">
+    <string-array name="colorfulmusic_midimage_values" translatable="false">
         <item>100</item>
         <item>110</item>
         <item>120</item>
@@ -90,24 +90,24 @@
         <item>190</item>
         <item>200</item>
     </string-array>
-    <string-array name="conv_cross_channel">
-        <item>0 Percent</item>
-        <item>5 Percent</item>
-        <item>10 Percent</item>
-        <item>15 Percent</item>
-        <item>20 Percent</item>
-        <item>25 Percent</item>
-        <item>30 Percent</item>
-        <item>35 Percent</item>
-        <item>40 Percent</item>
-        <item>45 Percent</item>
-        <item>50 Percent</item>
-        <item>55 Percent</item>
-        <item>60 Percent</item>
-        <item>70 Percent</item>
-        <item>80 Percent</item>
+    <string-array name="conv_cross_channel" translatable="false">
+        <item>0％</item>
+        <item>5％</item>
+        <item>10％</item>
+        <item>15％</item>
+        <item>20％</item>
+        <item>25％</item>
+        <item>30％</item>
+        <item>35％</item>
+        <item>40％</item>
+        <item>45％</item>
+        <item>50％</item>
+        <item>55％</item>
+        <item>60％</item>
+        <item>70％</item>
+        <item>80％</item>
     </string-array>
-    <string-array name="conv_cross_channel_values">
+    <string-array name="conv_cross_channel_values" translatable="false">
         <item>0</item>
         <item>5</item>
         <item>10</item>
@@ -135,7 +135,7 @@
         <item>18 ms</item>
         <item>20 ms</item>
     </string-array>
-    <string-array name="diffsurround_delay_values">
+    <string-array name="diffsurround_delay_values" translatable="false">
         <item>200</item>
         <item>500</item>
         <item>800</item>
@@ -159,7 +159,7 @@
         <item>652m2</item>
         <item>1200m2</item>
     </string-array>
-    <string-array name="reverb_roomsize_values">
+    <string-array name="reverb_roomsize_values" translatable="false">
         <item>0</item>
         <item>10</item>
         <item>20</item>
@@ -185,7 +185,7 @@
         <item>26m</item>
         <item>36m</item>
     </string-array>
-    <string-array name="reverb_roomwidth_values">
+    <string-array name="reverb_roomwidth_values" translatable="false">
         <item>0</item>
         <item>10</item>
         <item>20</item>
@@ -198,20 +198,20 @@
         <item>90</item>
         <item>100</item>
     </string-array>
-    <string-array name="reverb_percent">
-        <item>0 Percent</item>
-        <item>10 Percent</item>
-        <item>20 Percent</item>
-        <item>30 Percent</item>
-        <item>40 Percent</item>
-        <item>50 Percent</item>
-        <item>60 Percent</item>
-        <item>70 Percent</item>
-        <item>80 Percent</item>
-        <item>90 Percent</item>
-        <item>100 Percent</item>
+    <string-array name="reverb_percent" translatable="false">
+        <item>0％</item>
+        <item>10％</item>
+        <item>20％</item>
+        <item>30％</item>
+        <item>40％</item>
+        <item>50％</item>
+        <item>60％</item>
+        <item>70％</item>
+        <item>80％</item>
+        <item>90％</item>
+        <item>100％</item>
     </string-array>
-    <string-array name="reverb_percent_values">
+    <string-array name="reverb_percent_values" translatable="false">
         <item>0</item>
         <item>10</item>
         <item>20</item>
@@ -239,7 +239,7 @@
         <item>@string/eq_preset_vocal_booster</item>
         <item>@string/eq_preset_custom</item>
     </string-array>
-    <string-array name="equalizer_preset_values">
+    <string-array name="equalizer_preset_values" translatable="false">
         <item>4.5;4.5;3.5;1.2;1.0;0.5;1.4;1.75;3.5;2.5;</item>
         <item>10.0;6.5;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
         <item>-10.5;-6.5;-4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
@@ -259,7 +259,7 @@
         <item>Moderate</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="cure_crossfeed_values">
+    <string-array name="cure_crossfeed_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -269,7 +269,7 @@
         <item>Moderate</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="analogx_mode_values">
+    <string-array name="analogx_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -281,7 +281,7 @@
         <item>Level 4</item>
         <item>Level 5</item>
     </string-array>
-    <string-array name="vhs_qual_values">
+    <string-array name="vhs_qual_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -293,7 +293,7 @@
         <item>Moderate</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="playbackgain_ratio_values">
+    <string-array name="playbackgain_ratio_values" translatable="false">
         <item>50</item>
         <item>100</item>
         <item>300</item>
@@ -311,7 +311,7 @@
         <item>10x</item>
         <item>Inf</item>
     </string-array>
-    <string-array name="multi_factor_values">
+    <string-array name="multi_factor_values" translatable="false">
         <item>100</item>
         <item>200</item>
         <item>300</item>
@@ -334,7 +334,7 @@
         <item>18.0 dB</item>
         <item>20.0 dB</item>
     </string-array>
-    <string-array name="amplification_db_values">
+    <string-array name="amplification_db_values" translatable="false">
         <item>100</item>
         <item>150</item>
         <item>200</item>
@@ -352,7 +352,7 @@
         <item>-6.0 dB</item>
         <item>-10.5 dB</item>
     </string-array>
-    <string-array name="output_db_values">
+    <string-array name="output_db_values" translatable="false">
         <item>100</item>
         <item>90</item>
         <item>80</item>
@@ -384,7 +384,7 @@
         <item>-26.0 dB</item>
         <item>-40.0 dB</item>
     </string-array>
-    <string-array name="output_volume_values">
+    <string-array name="output_volume_values" translatable="false">
         <item>200</item>
         <item>190</item>
         <item>180</item>
@@ -408,7 +408,7 @@
         <item>5</item>
         <item>1</item>
     </string-array>
-    <string-array name="channel_pan">
+    <string-array name="channel_pan" translatable="false">
         <item>1.0 : 0.0</item>
         <item>0.9 : 0.1</item>
         <item>0.8 : 0.2</item>
@@ -421,7 +421,7 @@
         <item>0.1 : 0.9</item>
         <item>0.0 : 1.0</item>
     </string-array>
-    <string-array name="channel_pan_values">
+    <string-array name="channel_pan_values" translatable="false">
         <item>-100</item>
         <item>-80</item>
         <item>-60</item>
@@ -434,41 +434,41 @@
         <item>80</item>
         <item>100</item>
     </string-array>
-    <string-array name="dynamicsystem_bass">
-        <item>0 Percent</item>
-        <item>1 Percent</item>
-        <item>2 Percent</item>
-        <item>3 Percent</item>
-        <item>4 Percent</item>
-        <item>5 Percent</item>
-        <item>6 Percent</item>
-        <item>7 Percent</item>
-        <item>8 Percent</item>
-        <item>9 Percent</item>
-        <item>10 Percent</item>
-        <item>12 Percent</item>
-        <item>14 Percent</item>
-        <item>16 Percent</item>
-        <item>18 Percent</item>
-        <item>20 Percent</item>
-        <item>22 Percent</item>
-        <item>24 Percent</item>
-        <item>26 Percent</item>
-        <item>28 Percent</item>
-        <item>30 Percent</item>
-        <item>33 Percent</item>
-        <item>36 Percent</item>
-        <item>40 Percent</item>
-        <item>45 Percent</item>
-        <item>50 Percent</item>
-        <item>55 Percent</item>
-        <item>60 Percent</item>
-        <item>70 Percent</item>
-        <item>80 Percent</item>
-        <item>90 Percent</item>
-        <item>100 Percent</item>
+    <string-array name="dynamicsystem_bass" translatable="false">
+        <item>0％</item>
+        <item>1％</item>
+        <item>2％</item>
+        <item>3％</item>
+        <item>4％</item>
+        <item>5％</item>
+        <item>6％</item>
+        <item>7％</item>
+        <item>8％</item>
+        <item>9％</item>
+        <item>10％</item>
+        <item>12％</item>
+        <item>14％</item>
+        <item>16％</item>
+        <item>18％</item>
+        <item>20％</item>
+        <item>22％</item>
+        <item>24％</item>
+        <item>26％</item>
+        <item>28％</item>
+        <item>30％</item>
+        <item>33％</item>
+        <item>36％</item>
+        <item>40％</item>
+        <item>45％</item>
+        <item>50％</item>
+        <item>55％</item>
+        <item>60％</item>
+        <item>70％</item>
+        <item>80％</item>
+        <item>90％</item>
+        <item>100％</item>
     </string-array>
-    <string-array name="dynamicsystem_bass_values">
+    <string-array name="dynamicsystem_bass_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -523,7 +523,7 @@
         <item>Unknown Type III</item>
         <item>Unknown Type IV</item>
     </string-array>
-    <string-array name="dynamicsystem_outputs_values">
+    <string-array name="dynamicsystem_outputs_values" translatable="false">
         <item>140;6200;40;60;10;80</item>
         <item>180;5800;55;80;10;70</item>
         <item>300;5600;60;105;10;50</item>
@@ -549,7 +549,7 @@
         <item>Pure Bass+</item>
         <item>Subwoofer</item>
     </string-array>
-    <string-array name="vbass_mode_values">
+    <string-array name="vbass_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -564,7 +564,7 @@
         <item>80 Hz</item>
         <item>100 Hz</item>
     </string-array>
-    <string-array name="vbass_freq_values">
+    <string-array name="vbass_freq_values" translatable="false">
         <item>30</item>
         <item>40</item>
         <item>50</item>
@@ -588,7 +588,7 @@
         <item>16.3 dB</item>
         <item>17.0 dB</item>
     </string-array>
-    <string-array name="vbass_boost_values">
+    <string-array name="vbass_boost_values" translatable="false">
         <item>50</item>
         <item>100</item>
         <item>150</item>
@@ -607,7 +607,7 @@
         <item>OZone+</item>
         <item>XHiFi</item>
     </string-array>
-    <string-array name="vclarity_mode_values">
+    <string-array name="vclarity_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -624,7 +624,7 @@
         <item>14.0 dB</item>
         <item>14.8 dB</item>
     </string-array>
-    <string-array name="vclarity_boost_values">
+    <string-array name="vclarity_boost_values" translatable="false">
         <item>0</item>
         <item>50</item>
         <item>100</item>
@@ -643,7 +643,7 @@
         <item>200 Hz</item>
         <item>220 Hz</item>
     </string-array>
-    <string-array name="speaker_lowfreq_values">
+    <string-array name="speaker_lowfreq_values" translatable="false">
         <item>100</item>
         <item>140</item>
         <item>180</item>
@@ -658,7 +658,7 @@
         <item>7000 Hz</item>
         <item>8000 Hz</item>
     </string-array>
-    <string-array name="speaker_highfreq_values">
+    <string-array name="speaker_highfreq_values" translatable="false">
         <item>3000</item>
         <item>4000</item>
         <item>5000</item>
