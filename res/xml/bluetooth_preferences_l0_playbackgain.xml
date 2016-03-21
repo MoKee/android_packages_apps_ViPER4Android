@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_playback_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.playbackgain.enable"
+            android:summaryOff="@string/pref_playback_summary_off"
+            android:summaryOn="@string/pref_playback_summary_on"
+            android:title="@string/pref_dsp_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="50"
+            android:dialogTitle="@string/dialog_effect"
+            android:entries="@array/playbackgain_ratio"
+            android:entryValues="@array/playbackgain_ratio_values"
+            android:key="viper4android.headphonefx.playbackgain.ratio"
+            android:title="@string/pref_effect_title" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

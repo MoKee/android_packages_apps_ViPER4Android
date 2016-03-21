@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_convolver_title" >
+
+        <SwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.convolver.enable"
+            android:summaryOff="@string/pref_convolver_summary_off"
+            android:summaryOn="@string/pref_convolver_summary_on"
+            android:title="@string/pref_convolver_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreferenceWithCustom
+            android:defaultValue=""
+            android:dialogTitle="@string/pref_convolver_knl_title"
+            android:key="viper4android.headphonefx.convolver.kernel"
+            android:title="@string/pref_convolver_knl" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

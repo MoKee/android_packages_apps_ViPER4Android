@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_fidelity_vb_enable" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.fidelity.bass.enable"
+            android:summaryOff="@string/pref_fidelity_vb_summary_off"
+            android:summaryOn="@string/pref_fidelity_vb_summary_on"
+            android:title="@string/pref_fidelity_vb_enable"/>
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_fidelity_vb_mode"
+            android:entries="@array/vbass_mode"
+            android:entryValues="@array/vbass_mode_values"
+            android:key="viper4android.headphonefx.fidelity.bass.mode"
+            android:title="@string/pref_fidelity_vb_mode_title" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="40"
+            android:dialogTitle="@string/pref_fidelity_vb_bassfreq"
+            android:entries="@array/vbass_freq"
+            android:entryValues="@array/vbass_freq_values"
+            android:key="viper4android.headphonefx.fidelity.bass.freq"
+            android:title="@string/pref_fidelity_vb_bassfreq_title" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="50"
+            android:dialogTitle="@string/pref_fidelity_vb_bassgain"
+            android:entries="@array/vbass_boost"
+            android:entryValues="@array/vbass_boost_values"
+            android:key="viper4android.headphonefx.fidelity.bass.gain"
+            android:title="@string/pref_fidelity_vb_bassgain_title" />
+
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

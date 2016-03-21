@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_vhs_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.vhs.enable"
+            android:summaryOff="@string/pref_vhs_summary_off"
+            android:summaryOn="@string/pref_vhs_summary_on"
+            android:title="@string/pref_curesystem_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/dialog_vhs_qual"
+            android:entries="@array/vhs_qual"
+            android:entryValues="@array/vhs_qual_values"
+            android:key="viper4android.headphonefx.vhs.qual"
+            android:title="@string/pref_select_vhs_qual_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

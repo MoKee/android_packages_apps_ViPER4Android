@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_curesystem_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.cure.enable"
+            android:summaryOff="@string/pref_curesystem_summary_off"
+            android:summaryOn="@string/pref_curesystem_summary_on"
+            android:title="@string/pref_curesystem_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/dialog_cure_crossfeed"
+            android:entries="@array/cure_crossfeed"
+            android:entryValues="@array/cure_crossfeed_values"
+            android:key="viper4android.headphonefx.cure.crossfeed"
+            android:title="@string/pref_select_cure_cf_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

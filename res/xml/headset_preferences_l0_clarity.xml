@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory android:title="@string/pref_fidelity_vc_enable" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.fidelity.clarity.enable"
+            android:summaryOff="@string/pref_fidelity_vc_summary_off"
+            android:summaryOn="@string/pref_fidelity_vc_summary_on"
+            android:title="@string/pref_fidelity_vc_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="50"
+            android:dialogTitle="@string/pref_fidelity_vc_bassgain"
+            android:entries="@array/vclarity_boost"
+            android:entryValues="@array/vclarity_boost_values"
+            android:key="viper4android.headphonefx.fidelity.clarity.gain"
+            android:title="@string/pref_fidelity_vc_bassgain_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_colorfulmusic_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.colorfulmusic.enable"
+            android:summaryOff="@string/pref_colorfulmusic_summary_off"
+            android:summaryOn="@string/pref_colorfulmusic_summary_on"
+            android:title="@string/pref_colorfulmusic_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="120;200"
+            android:dialogTitle="@string/dialog_colorfulmusic"
+            android:entries="@array/colorfulmusic_coeffs"
+            android:entryValues="@array/colorfulmusic_coeffs_values"
+            android:key="viper4android.headphonefx.colorfulmusic.coeffs"
+            android:title="@string/pref_select_colorfulmusic_title" />
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="150"
+            android:dialogTitle="@string/dialog_colorfulmusic_mi"
+            android:entries="@array/colorfulmusic_midimage"
+            android:entryValues="@array/colorfulmusic_midimage_values"
+            android:key="viper4android.headphonefx.colorfulmusic.midimage"
+            android:title="@string/pref_select_colorfulmusic_mi_title" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

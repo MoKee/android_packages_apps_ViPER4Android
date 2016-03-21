@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_spkfx_limiter_title" >
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="100"
+            android:dialogTitle="@string/pref_effect_title"
+            android:entries="@array/output_volume"
+            android:entryValues="@array/output_volume_values"
+            android:key="viper4android.headphonefx.outvol"
+            android:title="@string/pref_output_gain" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="100"
+            android:dialogTitle="@string/pref_effect_title"
+            android:entries="@array/output_db"
+            android:entryValues="@array/output_db_values"
+            android:key="viper4android.speakerfx.limiter"
+            android:title="@string/pref_spkfx_limiter_threshold" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

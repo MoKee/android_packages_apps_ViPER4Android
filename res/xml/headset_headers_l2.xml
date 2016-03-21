@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.enable"
+        android:title="@string/pref_fx_master_title"
+        android:fragment="headset|effect"
+        android:icon="@mipmap/xiaoguozongkaiguan"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.playbackgain.enable"
+        android:summaryOff="@string/pref_playback_summary_off"
+        android:summaryOn="@string/pref_playback_summary_on"
+        android:title="@string/pref_playback_title"
+        android:fragment="headset|playbackgain"
+        android:icon="@mipmap/huifangzengyi"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.viperddc.enable"
+        android:title="@string/pref_viperddc_title"
+        android:fragment="headset|viperddc"
+        android:icon="@mipmap/viperddc"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.vse.enable"
+        android:title="@string/pref_vse_title"
+        android:fragment="headset|vse"
+        android:icon="@mipmap/pinpukuozhan"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.fireq.enable"
+        android:title="@string/pref_equalizer_title"
+        android:fragment="headset|com.vipercn.viper4android_v2.activity.FireqActivity"
+        android:icon="@mipmap/firjunheqi"/>
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.convolver.enable"
+        android:title="@string/pref_convolver_title"
+        android:fragment="headset|convolver"
+        android:icon="@mipmap/maichongfankui"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.colorfulmusic.enable"
+        android:title="@string/pref_colorfulmusic_title"
+        android:fragment="headset|colorfulmusic"
+        android:icon="@mipmap/changhuanrao"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.diffsurr.enable"
+        android:title="@string/pref_diffsurr_title"
+        android:fragment="headset|diffsurr"
+        android:icon="@mipmap/chafenhuanrao"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.vhs.enable"
+        android:title="@string/pref_vhs_title"
+        android:fragment="headset|vhs"
+        android:icon="@mipmap/erjihuanraoyingqin"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.reverb.enable"
+        android:title="@string/pref_reverb_title"
+        android:fragment="headset|reverb"
+        android:icon="@mipmap/shuzihunxiang"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.dynamicsystem.enable"
+        android:title="@string/pref_dynamicsystem_title"
+        android:fragment="headset|dynamicsystem"
+        android:icon="@mipmap/dongtaixitong"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.tube.enable"
+        android:title="@string/pref_dynamicsystem_tube_title"
+        android:icon="@mipmap/dianziguanmoniqi"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.fidelity.bass.enable"
+        android:title="@string/pref_fidelity_vb_enable"
+        android:fragment="headset|bass"
+        android:icon="@mipmap/diyin"/>
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.fidelity.clarity.enable"
+        android:title="@string/pref_fidelity_vc_enable"
+        android:fragment="headset|clarity"
+        android:icon="@mipmap/qingxidu"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.cure.enable"
+        android:title="@string/pref_curesystem_title"
+        android:fragment="headset|cure"
+        android:icon="@mipmap/tingjuebaohu"/>
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.headphonefx.analogx.enable"
+        android:title="@string/pref_analogx_title"
+        android:fragment="headset|analogx"
+        android:icon="@mipmap/analogx"/>
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:title="@string/pref_fx_limiter_title"
+        android:fragment="headset|limiter"
+        android:icon="@mipmap/zongshuchumen"/>
+
+</PreferenceScreen>

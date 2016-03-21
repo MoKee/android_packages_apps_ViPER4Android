@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:fragment="speaker|effect"
+        android:key="viper4android.speakerfx.enable"
+        android:title="@string/pref_spkfx_master_title"
+        
+        android:icon="@mipmap/xiaoguozongkaiguan"/>
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:fragment="speaker|com.vipercn.viper4android_v2.activity.FireqActivity"
+        android:key="viper4android.headphonefx.fireq.enable"
+        android:title="@string/pref_equalizer_title"
+        
+        android:icon="@mipmap/firjunheqi" />
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:fragment="speaker|convolver"
+        android:key="viper4android.headphonefx.convolver.enable"
+        android:title="@string/pref_convolver_title"
+        
+        android:icon="@mipmap/maichongfankui" />
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:fragment="speaker|reverb"
+        android:key="viper4android.headphonefx.reverb.enable"
+        android:title="@string/pref_reverb_title"
+        
+        android:icon="@mipmap/shuzihunxiang" />
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:key="viper4android.speakerfx.spkopt.enable"
+        android:title="@string/pref_spk_opt_title"
+        android:icon="@mipmap/yangshengqiyouhua"
+        />
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:disableDependentsState="false"
+        android:fragment="speaker|playbackgain"
+        android:key="viper4android.headphonefx.playbackgain.enable"
+        android:title="@string/pref_xloud_title"
+        
+        android:icon="@mipmap/extroloud" />
+
+
+    <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+        android:fragment="speaker|limiter"
+        android:title="@string/pref_spkfx_limiter_title"
+        android:icon="@mipmap/zongshuchumen" />
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_dynamicsystem_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.dynamicsystem.enable"
+            android:summaryOff="@string/pref_dynamicsystem_summary_off"
+            android:summaryOn="@string/pref_dynamicsystem_summary_on"
+            android:title="@string/pref_dynamicsystem_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="100;5600;40;80;50;50"
+            android:dialogTitle="@string/pref_dynamicsystem_output"
+            android:entries="@array/dynamicsystem_outputs"
+            android:entryValues="@array/dynamicsystem_outputs_values"
+            android:key="viper4android.headphonefx.dynamicsystem.coeffs"
+            android:title="@string/pref_dynamicsystem_output_title" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/dialog_effect"
+            android:entries="@array/dynamicsystem_bass"
+            android:entryValues="@array/dynamicsystem_bass_values"
+            android:key="viper4android.headphonefx.dynamicsystem.bass"
+            android:title="@string/pref_dynamicsystem_bass" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

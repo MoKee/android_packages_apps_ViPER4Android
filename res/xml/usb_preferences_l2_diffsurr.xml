@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:title="@string/pref_diffsurr_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.diffsurr.enable"
+            android:summaryOff="@string/pref_diffsurr_summary_off"
+            android:summaryOn="@string/pref_diffsurr_summary_on"
+            android:title="@string/pref_diffsurr_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="500"
+            android:dialogTitle="@string/dialog_diffsurr_ms"
+            android:entries="@array/diffsurround_delay"
+            android:entryValues="@array/diffsurround_delay_values"
+            android:key="viper4android.headphonefx.diffsurr.delay"
+            android:title="@string/pref_select_diffsurr_ms_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

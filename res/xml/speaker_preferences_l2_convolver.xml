@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory android:title="@string/pref_convolver_title" >
+
+        <com.vipercn.viper4android_v2.preference.V4ASwitchPreference
+            android:disableDependentsState="false"
+            android:key="viper4android.headphonefx.convolver.enable"
+            android:summaryOff="@string/pref_convolver_summary_off"
+            android:summaryOn="@string/pref_convolver_summary_on"
+            android:title="@string/pref_convolver_enable" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreferenceWithCustom
+            android:defaultValue=""
+            android:dialogTitle="@string/pref_convolver_knl_title"
+            android:key="viper4android.headphonefx.convolver.kernel"
+            android:title="@string/pref_convolver_knl" />
+
+        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_convolver_crosschannel_title"
+            android:entries="@array/conv_cross_channel"
+            android:entryValues="@array/conv_cross_channel_values"
+            android:key="viper4android.headphonefx.convolver.crosschannel"
+            android:title="@string/pref_convolver_crosschannel" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
