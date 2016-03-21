@@ -49,6 +49,9 @@ import com.vipercn.viper4android_v2.R;
 import com.vipercn.viper4android_v2.service.ViPER4AndroidService;
 import com.vipercn.viper4android_v2.widgets.CustomViewPager;
 
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileFilter;
@@ -1342,6 +1345,7 @@ public final class ViPER4Android extends AppCompatActivity {
         } catch (IOException e) {
             Log.e("ViPER4Android", "Cannot save preset");
         }
+        SnackbarManager.show(Snackbar.with(ViPER4Android.this).text(R.string.text_savefxprofile_succeeded).colorResource(R.color.colorPrimaryDark));
     }
 
     public void loadProfile(String name) {

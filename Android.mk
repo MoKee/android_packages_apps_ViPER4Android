@@ -32,17 +32,23 @@ LOCAL_STATIC_JAVA_LIBRARIES += \
     android-support-v4 \
     android-support-v7-recyclerview \
     android-support-v7-appcompat \
-    android-support-v13
+    android-support-v13 \
+    mokee-support-widget
 
 LOCAL_RESOURCE_DIR := \
     frameworks/support/design/res \
+    frameworks/support/mk/widget/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     $(LOCAL_PATH)/libs/swipebacklibrary/res \
     $(LOCAL_PATH)/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages android.support.design:android.support.v7.appcompat:android.support.v7.recyclerview:me.imid.swipebacklayout.lib \
+    --extra-packages android.support.design \
+    --extra-packages android.support.v7.appcompat \
+    --extra-packages android.support.v7.recyclerview \
+    --extra-packages me.imid.swipebacklayout.lib \
+    --extra-packages mokee.support.widget \
     --rename-manifest-package com.vipercn.mokee.viper4android_v2
 
 LOCAL_PROGUARD_FLAGS := -ignorewarnings -include build/core/proguard_basic_keeps.flags

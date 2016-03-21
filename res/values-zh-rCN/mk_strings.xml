@@ -38,4 +38,5 @@
 \n版本 %1$s (FX), 代码 &#8220;Beautiful&#8221;。
 \n</string>
 
+    <string name="text_savefxprofile_succeeded">音效配置已成功保存。</string>
 </resources>
