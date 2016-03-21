@@ -42,7 +42,8 @@ LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages android.support.design:android.support.v7.appcompat:android.support.v7.recyclerview:me.imid.swipebacklayout.lib
+    --extra-packages android.support.design:android.support.v7.appcompat:android.support.v7.recyclerview:me.imid.swipebacklayout.lib \
+    --rename-manifest-package com.vipercn.mokee.viper4android_v2
 
 LOCAL_PROGUARD_FLAGS := -ignorewarnings -include build/core/proguard_basic_keeps.flags
 
