@@ -86,6 +86,7 @@ public class ViPER4AndroidService extends Service {
                 Log.i("ViPER4Android", "Unique id : " + adModuleDescriptor.uuid);
                 Log.i("ViPER4Android", "Implementor : " + adModuleDescriptor.implementor);
                 Log.i("ViPER4Android", "Connect mode : " + adModuleDescriptor.connectMode);
+                final String packageName = getResources().getResourcePackageName(R.string.app_name);
 
                 mInstance.setControlStatusListener(new AudioEffect.OnControlStatusChangeListener() {
                     @Override
@@ -93,8 +94,7 @@ public class ViPER4AndroidService extends Service {
                         if (!controlGranted) {
                             Log.i("ViPER4Android", "We lost effect control token");
                             Toast.makeText(ViPER4AndroidService.this,getString(getResources()
-                                    .getIdentifier("text_token_lost", "string", getApplicationInfo()
-                                            .packageName)), Toast.LENGTH_LONG).show();
+                                    .getIdentifier("text_token_lost", "string", packageName)), Toast.LENGTH_LONG).show();
                         } else {
                             Log.i("ViPER4Android", "We got effect control token");
                             updateSystem(true);
@@ -123,7 +123,7 @@ public class ViPER4AndroidService extends Service {
                                     + "Fucking android. I'm sorry, bro");
                             Toast.makeText(ViPER4AndroidService.this,
                                     getString(getResources().getIdentifier("text_token_lost", "string",
-                                            getApplicationInfo().packageName)), Toast.LENGTH_LONG).show();
+                                            packageName)), Toast.LENGTH_LONG).show();
                         } else {
                             Log.i("ViPER4Android", "Everything is under control for now");
                         }
@@ -1067,18 +1067,19 @@ public class ViPER4AndroidService extends Service {
 
             String mode = getAudioOutputRouting(getSharedPreferences(
                     ViPER4Android.SHARED_PREFERENCES_BASENAME + ".settings", MODE_PRIVATE));
+            String packageName = getResources().getResourcePackageName(R.string.app_name);
             if (mode.equalsIgnoreCase("headset")) {
                 showNotification(getString(getResources().getIdentifier("text_headset", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             } else if (mode.equalsIgnoreCase("bluetooth")) {
                 showNotification(getString(getResources().getIdentifier("text_bluetooth", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             } else if (mode.equalsIgnoreCase("usb")) {
                 showNotification(getString(getResources().getIdentifier("text_usb", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             } else {
                 showNotification(getString(getResources().getIdentifier("text_speaker", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             }
         }
     };
@@ -1136,7 +1137,7 @@ public class ViPER4AndroidService extends Service {
         }
 
         int mIconID = getResources().getIdentifier("smalllogo", "drawable",
-                getApplicationInfo().packageName);
+                getResources().getResourcePackageName(R.string.app_name));
         String mNotifyText = "ViPER4Android FX " + mFXType;
         CharSequence contentTitle = "ViPER4Android FX";
         Intent notificationIntent = new Intent(this, ViPER4Android.class);
@@ -1612,18 +1613,19 @@ public class ViPER4AndroidService extends Service {
 
         if (!mode.equalsIgnoreCase(mPreviousMode)) {
             mPreviousMode = mode;
+            String packageName = getResources().getResourcePackageName(R.string.app_name);
             if (mode.equalsIgnoreCase("headset"))
                 showNotification(getString(getResources().getIdentifier("text_headset", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             else if (mode.equalsIgnoreCase("bluetooth"))
                 showNotification(getString(getResources().getIdentifier("text_bluetooth", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             else if (mode.equalsIgnoreCase("usb"))
                 showNotification(getString(getResources().getIdentifier("text_usb", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
             else
                 showNotification(getString(getResources().getIdentifier("text_speaker", "string",
-                        getApplicationInfo().packageName)));
+                        packageName)));
         }
 
         SharedPreferences prefSettings = getSharedPreferences(

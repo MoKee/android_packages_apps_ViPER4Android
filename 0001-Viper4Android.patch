@@ -1,0 +1,122 @@
+From 9f64e4079eb286f389c174041a102db19dba67f9 Mon Sep 17 00:00:00 2001
+From: martincz <martincz@mokeedev.com>
+Date: Mon, 21 Mar 2016 17:23:49 +0800
+Subject: [PATCH] =?UTF-8?q?Viper4Android:=20=E4=BF=AE=E5=A4=8D=E4=B8=8E?=
+ =?UTF-8?q?=E7=94=B5=E5=AD=90=E5=B8=82=E5=9C=BA=E6=99=AE=E9=80=9A=E7=89=88?=
+ =?UTF-8?q?=E6=A3=80=E6=B5=8B=E5=86=B2=E7=AA=81=E7=9A=84=E9=97=AE=E9=A2=98?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+修改版本号会引发混乱，所以特别指定为新的包名。
+修改资源获取方式，这样可以动态识别包名。
+---
+ Android.mk                                         |  3 ++-
+ .../service/ViPER4AndroidService.java              | 26 ++++++++++++----------
+ 2 files changed, 16 insertions(+), 13 deletions(-)
+
+diff --git a/Android.mk b/Android.mk
+index ae5929a..0f606b6 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -42,7 +42,8 @@ LOCAL_RESOURCE_DIR := \
+     $(LOCAL_PATH)/res
+ 
+ LOCAL_AAPT_FLAGS := --auto-add-overlay \
+-    --extra-packages android.support.design:android.support.v7.appcompat:android.support.v7.recyclerview:me.imid.swipebacklayout.lib
++    --extra-packages android.support.design:android.support.v7.appcompat:android.support.v7.recyclerview:me.imid.swipebacklayout.lib \
++    --rename-manifest-package com.vipercn.mokee.viper4android_v2
+ 
+ LOCAL_PROGUARD_FLAGS := -ignorewarnings -include build/core/proguard_basic_keeps.flags
+ 
+diff --git a/src/com/vipercn/viper4android_v2/service/ViPER4AndroidService.java b/src/com/vipercn/viper4android_v2/service/ViPER4AndroidService.java
+index db889c3..bd63e10 100755
+--- a/src/com/vipercn/viper4android_v2/service/ViPER4AndroidService.java
++++ b/src/com/vipercn/viper4android_v2/service/ViPER4AndroidService.java
+@@ -86,6 +86,7 @@ public class ViPER4AndroidService extends Service {
+                 Log.i("ViPER4Android", "Unique id : " + adModuleDescriptor.uuid);
+                 Log.i("ViPER4Android", "Implementor : " + adModuleDescriptor.implementor);
+                 Log.i("ViPER4Android", "Connect mode : " + adModuleDescriptor.connectMode);
++                final String packageName = getResources().getResourcePackageName(R.string.app_name);
+ 
+                 mInstance.setControlStatusListener(new AudioEffect.OnControlStatusChangeListener() {
+                     @Override
+@@ -93,8 +94,7 @@ public class ViPER4AndroidService extends Service {
+                         if (!controlGranted) {
+                             Log.i("ViPER4Android", "We lost effect control token");
+                             Toast.makeText(ViPER4AndroidService.this,getString(getResources()
+-                                    .getIdentifier("text_token_lost", "string", getApplicationInfo()
+-                                            .packageName)), Toast.LENGTH_LONG).show();
++                                    .getIdentifier("text_token_lost", "string", packageName)), Toast.LENGTH_LONG).show();
+                         } else {
+                             Log.i("ViPER4Android", "We got effect control token");
+                             updateSystem(true);
+@@ -123,7 +123,7 @@ public class ViPER4AndroidService extends Service {
+                                     + "Fucking android. I'm sorry, bro");
+                             Toast.makeText(ViPER4AndroidService.this,
+                                     getString(getResources().getIdentifier("text_token_lost", "string",
+-                                            getApplicationInfo().packageName)), Toast.LENGTH_LONG).show();
++                                            packageName)), Toast.LENGTH_LONG).show();
+                         } else {
+                             Log.i("ViPER4Android", "Everything is under control for now");
+                         }
+@@ -1067,18 +1067,19 @@ public class ViPER4AndroidService extends Service {
+ 
+             String mode = getAudioOutputRouting(getSharedPreferences(
+                     ViPER4Android.SHARED_PREFERENCES_BASENAME + ".settings", MODE_PRIVATE));
++            String packageName = getResources().getResourcePackageName(R.string.app_name);
+             if (mode.equalsIgnoreCase("headset")) {
+                 showNotification(getString(getResources().getIdentifier("text_headset", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             } else if (mode.equalsIgnoreCase("bluetooth")) {
+                 showNotification(getString(getResources().getIdentifier("text_bluetooth", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             } else if (mode.equalsIgnoreCase("usb")) {
+                 showNotification(getString(getResources().getIdentifier("text_usb", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             } else {
+                 showNotification(getString(getResources().getIdentifier("text_speaker", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             }
+         }
+     };
+@@ -1136,7 +1137,7 @@ public class ViPER4AndroidService extends Service {
+         }
+ 
+         int mIconID = getResources().getIdentifier("smalllogo", "drawable",
+-                getApplicationInfo().packageName);
++                getResources().getResourcePackageName(R.string.app_name));
+         String mNotifyText = "ViPER4Android FX " + mFXType;
+         CharSequence contentTitle = "ViPER4Android FX";
+         Intent notificationIntent = new Intent(this, ViPER4Android.class);
+@@ -1612,18 +1613,19 @@ public class ViPER4AndroidService extends Service {
+ 
+         if (!mode.equalsIgnoreCase(mPreviousMode)) {
+             mPreviousMode = mode;
++            String packageName = getResources().getResourcePackageName(R.string.app_name);
+             if (mode.equalsIgnoreCase("headset"))
+                 showNotification(getString(getResources().getIdentifier("text_headset", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             else if (mode.equalsIgnoreCase("bluetooth"))
+                 showNotification(getString(getResources().getIdentifier("text_bluetooth", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             else if (mode.equalsIgnoreCase("usb"))
+                 showNotification(getString(getResources().getIdentifier("text_usb", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+             else
+                 showNotification(getString(getResources().getIdentifier("text_speaker", "string",
+-                        getApplicationInfo().packageName)));
++                        packageName)));
+         }
+ 
+         SharedPreferences prefSettings = getSharedPreferences(
+-- 
+2.5.0
+
