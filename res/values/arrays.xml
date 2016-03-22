@@ -163,17 +163,17 @@
         <item>2000</item>
     </string-array>
     <string-array name="reverb_roomsize">
-        <item>25m2</item>
-        <item>36m2</item>
-        <item>49m2</item>
-        <item>64m2</item>
-        <item>81m2</item>
-        <item>100m2</item>
-        <item>121m2</item>
-        <item>203m2</item>
-        <item>347m2</item>
-        <item>652m2</item>
-        <item>1200m2</item>
+        <item>25m²</item>
+        <item>36m²</item>
+        <item>49m²</item>
+        <item>64m²</item>
+        <item>81m²</item>
+        <item>100m²</item>
+        <item>121m²</item>
+        <item>203m²</item>
+        <item>347m²</item>
+        <item>652m²</item>
+        <item>1200m²</item>
     </string-array>
     <string-array name="reverb_roomsize_values" translatable="false">
         <item>0</item>
