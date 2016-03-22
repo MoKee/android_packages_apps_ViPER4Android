@@ -1149,7 +1149,6 @@ public class ViPER4AndroidService extends Service {
                     .setAutoCancel(false)
                     .setOngoing(true)
                     .setDefaults(0)
-                    .setWhen(System.currentTimeMillis())
                     .setSmallIcon(mIconID)
                     .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.icon))
                     .setTicker(mNotifyText)
