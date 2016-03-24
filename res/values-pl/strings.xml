@@ -19,6 +19,7 @@
   <string name="headset_title">Słuchawki</string>
   <string name="speaker_title">Głośnik</string>
   <string name="bluetooth_title">Bluetooth</string>
+  <string name="usb_title">USB/Stacja dokująca</string>
   <string name="audio_effects">Efekty dźwiękowe</string>
   <string name="dsp_settings_headset">Ustawienia - Słuchawki</string>
   <string name="dsp_settings_speaker">Ustawienia - Głośnik</string>
@@ -57,6 +58,7 @@
   <string name="pref_spk_opt_title">Optymalizacja</string>
   <string name="pref_spk_opt_summary_on">Aktywna</string>
   <string name="pref_spk_opt_summary_off">Nieaktywna</string>
+  <string name="pref_viperddc_title">VIPER-DDC</string>
   <string name="pref_viperddc_summary_on">Aktywny</string>
   <string name="pref_viperddc_summary_off">Nieaktywny</string>
   <string name="pref_viperddc_enable">DDC</string>
@@ -77,7 +79,10 @@
 \nRozszerzenie Spectrum to system przetwarzający dźwięk w realnej jakości Hi-Fi, funkcja jest używana w celu poszerzenia pasma przenoszenia strumienia audio o kompresji stratnej.
 \nJeżeli odtwarzasz formaty stratne (jak mp3, aac, ogg), funkcja pomoże uzyskać jakość dźwięku zbliżoną do formatu bezstratnego.
 \nJeżeli odtwarzasz muzykę skompresowaną bezstratnie (jak flac) wyłącz ten efekt.</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Główny przełącznik</string>
+  <string name="pref_analogx_summary_on">AnalogX jest włączony</string>
+  <string name="pref_analogx_summary_off">AnalogX jest wyłączony</string>
   <string name="pref_analogx_strength">Siła efektu</string>
   <string name="pref_analogx_strength_title">Wybierz siłę efektu</string>
   <string name="pref_equalizer_title">Equalizer</string>
@@ -118,6 +123,7 @@
   <string name="pref_curesystem_enable">Cure Tech +</string>
   <string name="pref_select_cure_cf_title">Obustronny efekt</string>
   <string name="dialog_cure_crossfeed">Obustronny efekt</string>
+  <string name="pref_convolver_title">Convolver</string>
   <string name="pref_convolver_summary_on">Aktywny</string>
   <string name="pref_convolver_summary_off">Nieaktywny</string>
   <string name="pref_convolver_enable">Convolver</string>
@@ -160,6 +166,8 @@
   <string name="eq_preset_classical">Klasyczny</string>
   <string name="eq_preset_deep">Głęboki</string>
   <string name="eq_preset_flat">Płaski</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Rock</string>
   <string name="eq_preset_small_speakers">Małe głośniki</string>
   <string name="eq_preset_treble_booster">Wzmocnienie sopranu</string>
   <string name="eq_preset_treble_reducer">Redukcja sopranu</string>
@@ -170,7 +178,9 @@
   <string name="text_enabled">Włączone</string>
   <string name="text_disabled">Wyłączone</string>
   <string name="text_headset">Słuchawki</string>
+  <string name="text_bluetooth">Bluetooth</string>
   <string name="text_speaker">Głośnik</string>
+  <string name="text_usb">USB/Stacja dokująca</string>
   <string name="text_showtrayicon">Pokaż powiadomienia</string>
   <string name="text_hidetrayicon">Ukryj powiadomienia</string>
   <string name="text_lockeffect">Stosuj do wsz. urządzeń</string>
@@ -251,6 +261,8 @@
 \n<b>Jak zmienić jakość dźwięku?</b>\n    Odinstaluj biblioteki w menu, zrestartuj telefon i wybierz nowy silnik efektów przy uruchamianiu aplikacji.
 \n
 \n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Forum</string>
   <string name="text_checkupdate">Sprawdź aktualizacje</string>
   <!-- Drawer -->
   <string name="navigation_drawer_open">Otwórz panel boczny</string>

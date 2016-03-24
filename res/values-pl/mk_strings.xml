@@ -31,4 +31,6 @@
 \n
 \nWersja %1$s (FX), nazwa kodowa \"Piękny\".
 \n</string>
+  <string name="text_savefxprofile_succeeded">Pomyślnie zapisano profil efektu.</string>
+  <string name="text_savefxprofile_failed">Nie udało się zapisać profilu efektu. Pamięć może być pełna lub niedostępna.</string>
 </resources>

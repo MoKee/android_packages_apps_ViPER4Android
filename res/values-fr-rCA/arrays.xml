@@ -78,6 +78,19 @@
     <item>652m2</item>
     <item>1200m2</item>
   </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10min</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
   <string-array name="cure_crossfeed">
     <item>Slight</item>
     <item>Modéré</item>
@@ -100,27 +113,58 @@
     <item>Modéré</item>
     <item>Extrême</item>
   </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
+    <item>9,5 dB</item>
+    <item>12,0 dB</item>
+    <item>14,0 dB</item>
+    <item>18,0 dB</item>
+    <item>20,0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1,0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-6,0 dB</item>
+    <item>-10,5 dB</item>
+  </string-array>
   <string-array name="output_volume">
-    <item>6.0 dB</item>
-    <item>5.6 dB</item>
-    <item>5.1 dB</item>
-    <item>4.6 dB</item>
-    <item>4.1 dB</item>
-    <item>3.5 dB</item>
-    <item>2.9 dB</item>
+    <item>6,0 dB</item>
+    <item>5,6 dB</item>
+    <item>5,1 dB</item>
+    <item>4,6 dB</item>
+    <item>4,1 dB</item>
+    <item>3,5 dB</item>
+    <item>2,9 dB</item>
     <item>2,3 dB</item>
     <item>1,6 dB</item>
     <item>0,8 dB</item>
     <item>0 dB</item>
-    <item>-1.0 dB</item>
-    <item>-1.9 dB</item>
-    <item>-3.0 dB</item>
+    <item>-1,0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3,0 dB</item>
     <item>-4,4 dB</item>
-    <item>-6.0 dB</item>
+    <item>-6,0 dB</item>
     <item>-8,0 dB</item>
-    <item>-10.5 dB</item>
+    <item>-10,5 dB</item>
     <item>-14,0 dB</item>
-    <item>-20.0 dB</item>
+    <item>-20,0 dB</item>
     <item>-26,0 dB</item>
     <item>-40,0 dB</item>
   </string-array>
@@ -161,14 +205,14 @@
     <item>100 Hz</item>
   </string-array>
   <string-array name="vbass_boost">
-    <item>3.5 dB</item>
-    <item>6.0 dB</item>
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
     <item>8,0 dB</item>
     <item>10,0 dB</item>
     <item>11,0 dB</item>
-    <item>12.0 dB</item>
+    <item>12,0 dB</item>
     <item>13,0 dB</item>
-    <item>14.0 dB</item>
+    <item>14,0 dB</item>
     <item>14,8 dB</item>
     <item>15,6 dB</item>
     <item>16,3 dB</item>
@@ -181,14 +225,14 @@
   </string-array>
   <string-array name="vclarity_boost">
     <item>Défaut</item>
-    <item>3.5 dB</item>
-    <item>6.0 dB</item>
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
     <item>8,0 dB</item>
     <item>10,0 dB</item>
     <item>11,0 dB</item>
-    <item>12.0 dB</item>
+    <item>12,0 dB</item>
     <item>13,0 dB</item>
-    <item>14.0 dB</item>
+    <item>14,0 dB</item>
     <item>14,8 dB</item>
   </string-array>
   <string-array name="speaker_lowfreq">
