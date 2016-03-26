@@ -54,19 +54,6 @@
     <item>Level 9</item>
     <item>Aşırı</item>
   </string-array>
-  <string-array name="reverb_roomsize">
-    <item>25 m2</item>
-    <item>36 m2</item>
-    <item>49 m2</item>
-    <item>64 m2</item>
-    <item>81 m2</item>
-    <item>100 m2</item>
-    <item>121 m2</item>
-    <item>203 m2</item>
-    <item>347 m2</item>
-    <item>652 m2</item>
-    <item>1200 m2</item>
-  </string-array>
   <string-array name="reverb_roomwidth">
     <item>5 m</item>
     <item>6 m</item>
