@@ -16,6 +16,213 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Super qualidade do áudio</item>
+    <item>Alta qualidade do Áudio</item>
+    <item>Modo Econômico</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Iniciante</item>
+    <item>Moderado</item>
+    <item>Especialista</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Compatível</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Leve</item>
+    <item>Nível 1</item>
+    <item>Nível 2</item>
+    <item>Nível 3</item>
+    <item>Nível 4</item>
+    <item>Nível 5</item>
+    <item>Nível 6</item>
+    <item>Nível 7</item>
+    <item>Extremo</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Leve</item>
+    <item>Nível 1</item>
+    <item>Nível 2</item>
+    <item>Nível 3</item>
+    <item>Nível 4</item>
+    <item>Nível 5</item>
+    <item>Nível 6</item>
+    <item>Nível 7</item>
+    <item>Nível 8</item>
+    <item>Nível 9</item>
+    <item>Extremo</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 ms</item>
+    <item>36 ms</item>
+    <item>49 ms</item>
+    <item>64 ms</item>
+    <item>81 ms</item>
+    <item>100 ms</item>
+    <item>121 ms</item>
+    <item>203 ms</item>
+    <item>347 ms</item>
+    <item>652 ms</item>
+    <item>1200 ms</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Leve</item>
+    <item>Moderado</item>
+    <item>Extremo</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Leve</item>
+    <item>Moderado</item>
+    <item>Extremo</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Nível 1</item>
+    <item>Nível 2</item>
+    <item>Nível 3</item>
+    <item>Nível 4</item>
+    <item>Nível 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Leve</item>
+    <item>Moderado</item>
+    <item>Extremo</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12.0 dB</item>
+    <item>14.0 dB</item>
+    <item>18.0 dB</item>
+    <item>20.0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Fone de ouvido extremo(v2)</item>
+    <item>Fone de ouvido de gama alta(v2)</item>
+    <item>Fone de Ouvido comum(v2)</item>
+    <item>Fone de ouvido de gama baixa(v2)</item>
+    <item>Fone de Ouvido comum(v2)</item>
+    <item>Fone de ouvido extremo(v1)</item>
+    <item>Fone de ouvido de gama alta(v1)</item>
+    <item>Fone de Ouvido comum(v1)</item>
+    <item>Fone de Ouvido comum(v1)</item>
+    <item>Fone de ouvido Apple</item>
+    <item>Fone de ouvido Monster</item>
+    <item>Fone de ouvido Moto</item>
+    <item>Fone de ouvido Philips</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Tipo Desconhecido I</item>
+    <item>Tipo Desconhecido II</item>
+    <item>Tipo Desconhecido III</item>
+    <item>Tipo Desconhecido IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Baixo Natural</item>
+    <item>Baixo+ Puro</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Natural</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Padrão</item>
     <item>3.5 dB</item>
@@ -27,5 +234,20 @@
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

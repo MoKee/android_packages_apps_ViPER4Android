@@ -16,12 +16,87 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Headset</string>
+  <string name="speaker_title">Speaker</string>
+  <string name="bluetooth_title">Bluetooth</string>
+  <string name="usb_title">USB/Dock</string>
+  <string name="audio_effects">Efek Audio</string>
+  <string name="dsp_settings_headset">Setelan Efek - Headset</string>
+  <string name="dsp_settings_speaker">Setelan Efek - Speaker</string>
+  <string name="dsp_settings_bluetooth">Setelan Efek - Bluetooth</string>
+  <string name="dsp_settings_usb">Setelan Efek - USB</string>
+  <string name="pref_dsp_enable">Power</string>
+  <string name="pref_effect_title">Pilih Kekuatan Efek</string>
+  <string name="dialog_effect">Kekuatan Efek</string>
+  <string name="pref_force_enable_text">Paksa Aktifkan V4A</string>
+  <string name="pref_force_enable_warn">Mengaktifkan paksa bisa memecahkan masalah tidak adanya efek.
+\nDi rom tertentu, anda mungkin mendapatkan hasil yang tak terduga seperti tidak suara dan menguras baterai.
+\nResiko anda tanggung sendiri. Jika hal-hal seperti itu terjadi, silakan menonaktifkannya.</string>
+  <string name="pref_fx_master_title">Power Master</string>
+  <string name="pref_fx_master_summary_on">V4A-FX dihidupkan</string>
+  <string name="pref_fx_master_summary_off">V4A-FX dimatikan</string>
+  <string name="pref_spkfx_master_title">Power Master</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX dihidupkan</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX dimatikan</string>
+  <string name="pref_fx_limiter_title">Gerbang master (Limiter)</string>
+  <string name="pref_fx_limiter_threshold">Batas ambang</string>
+  <string name="pref_spkfx_limiter_title">Gerbang master (Limiter)</string>
+  <string name="pref_spkfx_limiter_threshold">Batas ambang</string>
+  <string name="pref_viperddc_enable">Power</string>
+  <string name="pref_vse_enable">Power</string>
+  <string name="pref_analogx_enable">Power</string>
+  <string name="pref_equalizer_enable">Power</string>
+  <string name="pref_dynamicsystem_enable">Power</string>
+  <string name="pref_curesystem_enable">Power</string>
+  <string name="pref_convolver_enable">Power</string>
+  <string name="pref_vhs_enable">Power</string>
+  <string name="pref_colorfulmusic_enable">Power</string>
+  <string name="pref_diffsurr_enable">Power</string>
+  <string name="pref_reverb_enable">Power</string>
+  <string name="eq_preset_acoustic">Akustik</string>
+  <string name="eq_preset_bass_booster">Penguat Bass</string>
+  <string name="eq_preset_bass_reducer">Peredam Bass</string>
+  <string name="eq_preset_classical">Klasik</string>
+  <string name="eq_preset_deep">Dalam</string>
+  <string name="eq_preset_flat">Datar</string>
+  <string name="eq_preset_r_and_b">RnB</string>
+  <string name="eq_preset_rock">Rock</string>
+  <string name="eq_preset_small_speakers">Speaker Kecil</string>
+  <string name="eq_preset_treble_booster">Penguat Treble</string>
+  <string name="eq_preset_treble_reducer">Peredam Treble</string>
+  <string name="eq_preset_vocal_booster">Penguat Vokal</string>
+  <string name="eq_preset_custom">Kostum</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: IR sampel direktori %1$s kosong.</string>
   <string name="text_disabled">Dinonaktifkan</string>
+  <string name="text_headset">Headset</string>
+  <string name="text_usb">USB/Dock</string>
   <string name="text_yes">Ya</string>
   <string name="text_no">Tidak</string>
+  <string name="text_normal">Normal</string>
+  <string name="text_abnormal">Tidak Normal</string>
+  <string name="text_supported">Didukung</string>
+  <string name="text_unsupported">Tidak didukung</string>
   <string name="text_ok">Oke</string>
   <string name="text_cancel">Batal</string>
+  <string name="text_uiprefer">Setelan UI</string>
+  <string name="text_uiprefer_dialog">Pilih preferensi anda</string>
+  <string name="text_commode">FX Kompatibel Mode</string>
+  <string name="text_uninstall">Copot Driver</string>
+  <string name="text_install">Pasang Driver</string>
   <string name="text_changelog">Log perubahan</string>
+  <string name="text_drv_status">Status Driver</string>
+  <string name="text_drv_status_view">\n
+\nVersi Driver: %1$s
+\nNEON Hidup: %2$s
+\nHidup: %3$s
+\nStatus: %4$s
+\nFormat Audio: %5$s
+\nProses: %6$s
+\nSampling Rate: %7$d
+\n</string>
   <string name="about_exit">Keluar</string>
+  <string name="about_title">Bantuan &amp; Tentang</string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Forum</string>
   <!-- Drawer -->
 </resources>

@@ -16,7 +16,13 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Headset</string>
+  <string name="speaker_title">Phone Speaker</string>
+  <string name="bluetooth_title">Bluetooth Device</string>
+  <string name="usb_title">USB/Dock</string>
   <string name="text_disabled">Disabled</string>
+  <string name="text_headset">Headset</string>
+  <string name="text_usb">USB/Dock</string>
   <string name="text_yes">Yes</string>
   <string name="text_no">No</string>
   <string name="text_ok">OK</string>

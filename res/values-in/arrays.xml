@@ -16,6 +16,213 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Kualitas Super Audio</item>
+    <item>Kualitas Audio Tinggi</item>
+    <item>Hemat Batrai</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Pemula</item>
+    <item>Sedang</item>
+    <item>Ahli</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Kompatibel</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Sedikit</item>
+    <item>Tingkat 1</item>
+    <item>Tingkat 2</item>
+    <item>Tingkat 3</item>
+    <item>Tingkat 4</item>
+    <item>Tingkat 5</item>
+    <item>Tingkat 6</item>
+    <item>Tingkat 7</item>
+    <item>Ekstrim</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Sedikit</item>
+    <item>Tingkat 1</item>
+    <item>Tingkat 2</item>
+    <item>Tingkat 3</item>
+    <item>Tingkat 4</item>
+    <item>Tingkat 5</item>
+    <item>Tingkat 6</item>
+    <item>Tingkat 7</item>
+    <item>Tingkat 8</item>
+    <item>Tingkat 9</item>
+    <item>Ekstrim</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 md</item>
+    <item>5 md</item>
+    <item>8 md</item>
+    <item>10 md</item>
+    <item>12 md</item>
+    <item>14 md</item>
+    <item>16 md</item>
+    <item>18 md</item>
+    <item>20 md</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25m2</item>
+    <item>36m2</item>
+    <item>49m2</item>
+    <item>64m2</item>
+    <item>81m2</item>
+    <item>100m2</item>
+    <item>121m2</item>
+    <item>203m2</item>
+    <item>347m2</item>
+    <item>652m2</item>
+    <item>1200m2</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Sedikit</item>
+    <item>Sedang</item>
+    <item>Ekstrim</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Sedikit</item>
+    <item>Sedang</item>
+    <item>Ekstrim</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Tingkat 1</item>
+    <item>Tingkat 2</item>
+    <item>Tingkat 3</item>
+    <item>Tingkat 4</item>
+    <item>Tingkat 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Sedikit</item>
+    <item>Sedang</item>
+    <item>Ekstrim</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12.0 dB</item>
+    <item>14.0 dB</item>
+    <item>18.0 dB</item>
+    <item>20.0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Headphone Ekstrim(v2)</item>
+    <item>Headphone Kelas Atas(v2)</item>
+    <item>Headphone Umum(v2)</item>
+    <item>Headphone Rendah(v2)</item>
+    <item>Earphone Umum(v2)</item>
+    <item>Earphone Ekstrim(v1)</item>
+    <item>Earphone Kelas Atas(v1)</item>
+    <item>Headphone Umum(v1)</item>
+    <item>Earphone Umum(v1)</item>
+    <item>Apple Earphone</item>
+    <item>Monster Earphone</item>
+    <item>Moto Earphone</item>
+    <item>Philips Earphone</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Tipe Tidak Diketahui I</item>
+    <item>Tipe Tidak Diketahui II</item>
+    <item>Tipe Tidak Diketahui III</item>
+    <item>Tipe Tidak Diketahui IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Bass Natural</item>
+    <item>Pure Bass+</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Natural</item>
+    <item>Ozone +</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Standar</item>
     <item>3.5 dB</item>
@@ -27,5 +234,20 @@
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>
