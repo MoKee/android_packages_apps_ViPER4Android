@@ -65,6 +65,19 @@
     <item>18 мс</item>
     <item>20 мс</item>
   </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 м²</item>
+    <item>36 м²</item>
+    <item>49 м²</item>
+    <item>64 м²</item>
+    <item>81 м²</item>
+    <item>100 м²</item>
+    <item>121 м²</item>
+    <item>203 м²</item>
+    <item>347 м²</item>
+    <item>652 м²</item>
+    <item>1200 м²</item>
+  </string-array>
   <string-array name="reverb_roomwidth">
     <item>5 м</item>
     <item>6 м</item>
