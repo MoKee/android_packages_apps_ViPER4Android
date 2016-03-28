@@ -37,6 +37,9 @@
   <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX está ligado</string>
   <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX está desligado</string>
   <string name="pref_output_gain">Ganho de saída</string>
+  <string name="pref_playback_summary_on">PlaybackAGC está habilitado</string>
+  <string name="pref_playback_summary_off">PlaybackAGC está desativado</string>
+  <string name="pref_playback_output_threshold">Saída máxima</string>
   <string name="pref_playback_maxgain">Ganho Max</string>
   <string name="pref_xloud_title">eXtra Loud</string>
   <string name="pref_xloud_summary_on">eXtra-Loud está habilitado</string>
@@ -72,9 +75,12 @@
   <string name="pref_dynamicsystem_summary_off">Sistema dinâmico está desativado</string>
   <string name="pref_dynamicsystem_enable">Ativado</string>
   <string name="pref_dynamicsystem_bass">Selecione Graves dinâmicos</string>
+  <string name="pref_fidelity_title">Controle de fidelidade</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass está habilitado</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass está desativado</string>
   <string name="pref_fidelity_vb_enable">Ativar ViPER Bass</string>
+  <string name="pref_fidelity_vb_bassgain">Ganho de grave</string>
+  <string name="pref_fidelity_vb_bassgain_title">Selecione o granho de grave</string>
   <string name="pref_fidelity_vc_bassgain">Clareza</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ está ativado</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ está desativado</string>
