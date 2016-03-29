@@ -30,7 +30,7 @@
   <string name="dialog_effect">Kekuatan Efek</string>
   <string name="pref_force_enable_text">Paksa Aktifkan V4A</string>
   <string name="pref_force_enable_warn">Mengaktifkan paksa bisa memecahkan masalah tidak adanya efek.
-\nDi rom tertentu, anda mungkin mendapatkan hasil yang tak terduga seperti tidak suara dan menguras baterai.
+\nDi rom tertentu, anda mungkin mendapatkan hasil yang tidak terduga seperti tidak ada suara dan menguras baterai.
 \nResiko anda tanggung sendiri. Jika hal-hal seperti itu terjadi, silakan menonaktifkannya.</string>
   <string name="pref_fx_master_title">Power Master</string>
   <string name="pref_fx_master_summary_on">V4A-FX dihidupkan</string>
@@ -239,20 +239,41 @@
   <string name="text_service_error">Gagal saat berkomunikasi dengan layanan ViPER4Android.</string>
   <string name="about_exit">Keluar</string>
   <string name="about_title">Bantuan &amp; Tentang</string>
-  <string name="about_text">Tentang ViPER4Android *** 
+  <string name="about_text">***Tentang ViPER4Android*** 
 \n
 \n\'libv4a_xx_xx.so\' adalah kernel dari ViPER4Android.
-\nCopyright © 2006-2016 viPER akustik. Semua Hak, milik. 
-\nTanpa izin resmi, penggunaan komersial dibatasi. 
+\nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+\nTanpa izin resmi, penggunaan komersial dilarang. 
 \nForum Resmi: http://vipersaudio.com/blog/
 \n
 \n\'ViPER4Android.apk\' adalah panel kontrol visual ViPER4Android. 
-\nBase pada Cyanogenmod\'s DSPManager. \nTerimakasih untuk Zhuhang@XDA
-\nTerimakasih untuk M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\nBase pada Cyanogenmod\'s DSPManager.
+\nTerimakasih banyak untuk Zhuhang@XDA
+\nTerimakasih banyal untuk M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n
 \nVersi %1$s (FX), Kodenama “Beautiful”.
 \n</string>
+  <string name="text_help_content">***Bantuan Umum***
+\n
+\n\'Pemasangan Driver\' - IPasang/Perbarui efek driver ViPER4Android.
+\n\'Copot Driver\' - Copot efek driver ViPER4Android.
+\n\'FX Mode Kompatibel\' - Mengatur modus kompatibilitas efek.
+\n \'Normal\' - Membuat ViPER4Android efek global.
+\n \'Kompatibel\' - Membuat ViPER4Android efek lokal.
+\n
+\n<b>Tidak ada efek V4A pada semua/beberapa mediaplayers?</b>\n Anda bisa beralih mode FX kompatibel lalu memulai ulang perangkat dan mencobanya lagi.
+\n
+\n<b>Bagaimana merubah kualitas audio driver?</b>\n Copot driver pada menu lalu mulai ulang perangkan anda dan pilih kualitas yang di inginkan.
+\n
+\n<b>Bagaimana menghemat konsumsi baterai?</b>\n Jika V4A berjalan pada mode Normal, matikan pengaturan sistem suara termasuk suara sentuh dan suara kunci/buka kunci layar untuk menyimpan sampai 1,2 ~ 4 kali pakai baterai.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
   <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Forum</string>
+  <string name="text_checkupdate">Periksa pembaruan</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Buka navigasi drawer</string>
+  <string name="navigation_drawer_close">Tutup drawer navigasi</string>
+  <string name="navigation_toggle_drawer">Beralih ke tampilan rinci</string>
+  <string name="navigation_toggle_tabbed">Beralih ke tampilan minim</string>
 </resources>

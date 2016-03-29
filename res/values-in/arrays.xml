@@ -19,7 +19,7 @@
   <string-array name="drvinst_prefer">
     <item>Kualitas Super Audio</item>
     <item>Kualitas Audio Tinggi</item>
-    <item>Hemat Batrai</item>
+    <item>Hemat Baterai</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Pemula</item>

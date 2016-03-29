@@ -41,12 +41,17 @@
   <string name="pref_xloud_summary_on">eXtra Loud est activé</string>
   <string name="pref_xloud_summary_off">eXtra Loud est désactivé</string>
   <string name="pref_xloud_output_amplifer">Gain de sortie</string>
+  <string name="pref_spk_opt_summary_on">L\'optimisation du micro est activée</string>
+  <string name="pref_spk_opt_summary_off">L\'optimisation du micro est désactivée</string>
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC est activé</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC est désactivé</string>
   <string name="pref_viperddc_enable">Activé</string>
   <string name="pref_viperddc_device_manufacturer">Sélectionner un fabricant</string>
   <string name="pref_viperddc_device_model">Sélectionnez un modèle</string>
+  <string name="pref_vse_title">L\'extension Spectrum</string>
+  <string name="pref_vse_summary_on">L\'extension Spectrum est activée</string>
+  <string name="pref_vse_summary_off">L\'extension Spectrum est désactivée</string>
   <string name="pref_vse_enable">Activé</string>
   <string name="pref_vse_strength">Force</string>
   <string name="pref_analogx_title">AnalogX</string>
