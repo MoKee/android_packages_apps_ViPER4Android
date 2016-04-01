@@ -19,7 +19,7 @@
   <string-array name="drvinst_prefer">
     <item>Super Audio Quality</item>
     <item>High Audio Quality</item>
-    <item>Economie d\'énergie</item>
+    <item>Économie d\'énergie</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Débutant</item>
@@ -31,7 +31,7 @@
     <item>Compatible</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Niveau 1</item>
     <item>Niveau 2</item>
     <item>Niveau 3</item>
@@ -241,5 +241,13 @@
     <item>180 Hz</item>
     <item>200 Hz</item>
     <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

@@ -31,7 +31,7 @@
     <item>Compatible</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Niveau 1</item>
     <item>Niveau 2</item>
     <item>Niveau 3</item>
@@ -42,7 +42,7 @@
     <item>Extrême</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Niveau 1</item>
     <item>Niveau 2</item>
     <item>Niveau 3</item>
@@ -92,12 +92,12 @@
     <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Modéré</item>
     <item>Extrême</item>
   </string-array>
   <string-array name="analogx_mode">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Modéré</item>
     <item>Extrême</item>
   </string-array>
@@ -109,7 +109,7 @@
     <item>Niveau 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
-    <item>Slight</item>
+    <item>Léger</item>
     <item>Modéré</item>
     <item>Extrême</item>
   </string-array>
@@ -241,5 +241,13 @@
     <item>180 Hz</item>
     <item>200 Hz</item>
     <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

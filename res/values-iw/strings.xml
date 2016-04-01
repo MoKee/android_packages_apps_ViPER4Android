@@ -16,6 +16,46 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">אוזניות</string>
+  <string name="speaker_title">הרמקול של הפלאפון</string>
+  <string name="bluetooth_title">מכשיר בלוטוס</string>
+  <string name="usb_title">USB \ מעמד עגינה</string>
+  <string name="audio_effects">אפקטי שמע</string>
+  <string name="dsp_settings_headset">הגדרת אפקטים - באוזניות</string>
+  <string name="dsp_settings_speaker">הגדרת אפקטים - ברמקול המכשיר</string>
+  <string name="dsp_settings_bluetooth">הגדרת אפקטים - במכשירי בלוטוס</string>
+  <string name="dsp_settings_usb">הגדרת אפקטים - במכשירי USB</string>
+  <string name="pref_dsp_enable">אפשר</string>
+  <string name="pref_effect_title">בחר עוצמת אפקט</string>
+  <string name="dialog_effect">עוצמת אפקט</string>
+  <string name="pref_force_enable_text">אלץ הפעלת V4A</string>
+  <string name="pref_force_enable_warn">הפעלת כפיית הפעלה יכולה לפתור את המצב בו האפקטים לא חלים.
+\nבגרסאות שונות, אתה אולי תחווה תוצאות בלתי צפיות כמו חוסר שמע או נזילת בטריה.
+\nהשימוש הוא באחריותך, אם משהו קורה, כבה את אפשרות זו.</string>
+  <string name="pref_fx_master_title">מתג הפעלה ראשי</string>
+  <string name="pref_fx_master_summary_on">V4A-FX מופעל</string>
+  <string name="pref_fx_master_summary_off">V4A-FX כבוי</string>
+  <string name="pref_spkfx_master_title">מתג הפעלה ראשי</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX מופעל</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX כבוי</string>
+  <string name="pref_fx_limiter_title">מגביל שמע</string>
+  <string name="pref_fx_limiter_threshold">סף הגבלה</string>
+  <string name="pref_spkfx_limiter_title">מגביל שמע</string>
+  <string name="pref_spkfx_limiter_threshold">סף הגבלה</string>
+  <string name="pref_viperddc_enable">אפשר</string>
+  <string name="pref_vse_enable">אפשר</string>
+  <string name="pref_analogx_enable">אפשר</string>
+  <string name="pref_equalizer_enable">אפשר</string>
+  <string name="pref_dynamicsystem_enable">אפשר</string>
+  <string name="pref_curesystem_enable">אפשר</string>
+  <string name="pref_convolver_enable">אפשר</string>
+  <string name="pref_vhs_enable">אפשר</string>
+  <string name="pref_colorfulmusic_enable">אפשר</string>
+  <string name="pref_diffsurr_enable">אפשר</string>
+  <string name="pref_reverb_enable">אפשר</string>
+  <string name="text_disabled">מבוטל</string>
+  <string name="text_headset">אוזניות</string>
+  <string name="text_usb">USB \ מעמד עגינה</string>
   <string name="text_yes">כן</string>
   <string name="text_no">לא</string>
   <string name="text_ok">אישור</string>

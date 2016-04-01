@@ -16,8 +16,195 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string-array name="vclarity_boost">
-    <item>ברירת מחדל</item>
+  <string-array name="drvinst_prefer">
+    <item>איכות שמע גבוהה מאוד</item>
+    <item>איכות שמע גבוהה</item>
+    <item>חסכון בחשמל</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>מתחיל (בסיסי)</item>
+    <item>בינוני</item>
+    <item>מומחה (כל האפשרויות)</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>רגיל</item>
+    <item>תואם</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>קלוש</item>
+    <item>רמה 1</item>
+    <item>רמה 2</item>
+    <item>רמה 3</item>
+    <item>רמה 4</item>
+    <item>רמה 5</item>
+    <item>רמה 6</item>
+    <item>רמה 7</item>
+    <item>חזק מאוד</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>קלוש</item>
+    <item>רמה 1</item>
+    <item>רמה 2</item>
+    <item>רמה 3</item>
+    <item>רמה 4</item>
+    <item>רמה 5</item>
+    <item>רמה 6</item>
+    <item>רמה 7</item>
+    <item>רמה 8</item>
+    <item>רמה 9</item>
+    <item>חזק מאוד</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 מילי-שניות</item>
+    <item>5 מילי-שניות</item>
+    <item>8 מילי-שניות</item>
+    <item>10 מילי-שניות</item>
+    <item>12 מילי-שניות</item>
+    <item>14 מילי-שניות</item>
+    <item>16 מילי-שניות</item>
+    <item>18 מילי-שניות</item>
+    <item>20 מילי-שניות</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 מטר רבוע</item>
+    <item>36 מטר רבוע</item>
+    <item>49 מטר רבוע</item>
+    <item>64 מטר רבוע</item>
+    <item>81 מטר רבוע</item>
+    <item>100 מטר רבוע</item>
+    <item>121 מטר רבוע</item>
+    <item>203 מטר רבוע</item>
+    <item>347 מטר רבוע</item>
+    <item>652 מטר רבוע</item>
+    <item>1200 מטר רבוע</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5 מטר</item>
+    <item>6 מטר</item>
+    <item>7 מטר</item>
+    <item>8 מטר</item>
+    <item>9 מטר</item>
+    <item>10 מטר</item>
+    <item>11 מטר</item>
+    <item>14 מטר</item>
+    <item>19 מטר</item>
+    <item>26 מטר</item>
+    <item>36 מטר</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>קלוש</item>
+    <item>בינוני</item>
+    <item>חזק מאוד</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>קלוש</item>
+    <item>בינוני</item>
+    <item>חזק מאוד</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>רמה 1</item>
+    <item>רמה 2</item>
+    <item>רמה 3</item>
+    <item>רמה 4</item>
+    <item>רמה 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>קלוש</item>
+    <item>בינוני</item>
+    <item>חזק מאוד</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>פי 1</item>
+    <item>פי 2</item>
+    <item>פי 3</item>
+    <item>פי 4</item>
+    <item>פי 5</item>
+    <item>פי 6</item>
+    <item>פי 7</item>
+    <item>פי 8</item>
+    <item>פי 9</item>
+    <item>פי 10</item>
+    <item>אינסופי</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 דציבל</item>
+    <item>3.5 דציבל</item>
+    <item>6.0 דציבל</item>
+    <item>9.5 דציבל</item>
+    <item>12.0 דציבל</item>
+    <item>14.0 דציבל</item>
+    <item>18.0 דציבל</item>
+    <item>20.0 דציבל</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 דציבל</item>
+    <item>-1.0 דציבל</item>
+    <item>-1.9 דציבל</item>
+    <item>-3.0 דציבל</item>
+    <item>-6.0 דציבל</item>
+    <item>-10.5 דציבל</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 דציבל</item>
+    <item>5.6 דציבל</item>
+    <item>5.1 דציבל</item>
+    <item>4.6 דציבל</item>
+    <item>4.1 דציבל</item>
+    <item>3.5 דציבל</item>
+    <item>2.9 דציבל</item>
+    <item>2.3</item>
+    <item>1.6 דציבל</item>
+    <item>0.8 דציבל</item>
+    <item>0 דציבל</item>
+    <item>-1.0 דציבל</item>
+    <item>-1.9 דציבל</item>
+    <item>-3.0 דציבל</item>
+    <item>-4.4 דציבל</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>אוזניות קשת אקסטרים (גרסה 2)</item>
+    <item>אוזניות קשת באיכות גבוהה (גרסה 2)</item>
+    <item>אוזניות קשת רגילות (גרסה 2)</item>
+    <item>אוזניות קשת זולות (גרסה 2)</item>
+    <item>אוזניות רגילות (גרסה 2)</item>
+    <item>אוזניות קשת אקסטרים (גרסה 1)</item>
+    <item>אוזניות קשת באיכות גבוהה (גרסה 1)</item>
+    <item>אוזניות קשת רגילות (גרסה 1)</item>
+    <item>אוזניות רגילות (גרסה 1)</item>
+    <item>אוזניות של Apple</item>
+    <item>אוזניות של Monster</item>
+    <item>אוזניות של Moto</item>
+    <item>אוזניות של Philips</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>סוג לא ידוע 1</item>
+    <item>סוג לא ידוע 2</item>
+    <item>סוג לא ידוע 3</item>
+    <item>סוג לא ידוע 4</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>בס טבעי</item>
+    <item>בס טהור +</item>
+    <item>סאב-וופר (Subwoofer)</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 הרץ</item>
+    <item>40 הרץ</item>
+    <item>50 הרץ</item>
+    <item>60 הרץ</item>
+    <item>66 הרץ</item>
+    <item>78 הרץ</item>
+    <item>80 הרץ</item>
+    <item>100 הרץ</item>
+  </string-array>
+  <string-array name="vbass_boost">
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
@@ -27,5 +214,32 @@
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>טבעי</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>ברירת מחדל</item>
+    <item>3.5 דציבל</item>
+    <item>6.0 דציבל</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 דציבל</item>
+    <item>13.0 dB</item>
+    <item>14.0 דציבל</item>
+    <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 הרץ</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
   </string-array>
 </resources>
