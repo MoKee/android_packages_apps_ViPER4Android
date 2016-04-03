@@ -54,6 +54,17 @@
     <item>級別9</item>
     <item>極端</item>
   </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 毫秒</item>
+    <item>5 毫秒</item>
+    <item>8 毫秒</item>
+    <item>10 ms</item>
+    <item>12 毫秒</item>
+    <item>14 ms</item>
+    <item>16 毫秒</item>
+    <item>18 毫秒</item>
+    <item>20 毫秒</item>
+  </string-array>
   <string-array name="reverb_roomsize">
     <item>25平米</item>
     <item>36平米</item>
@@ -226,9 +237,17 @@
   </string-array>
   <string-array name="speaker_lowfreq">
     <item>100 赫茲</item>
-    <item>140 Hz</item>
-    <item>180 Hz</item>
-    <item>200 Hz</item>
-    <item>220 Hz</item>
+    <item>140 赫茲</item>
+    <item>180 赫茲</item>
+    <item>200 赫茲</item>
+    <item>220 赫茲</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 赫茲</item>
+    <item>4000 赫茲</item>
+    <item>5000 赫茲</item>
+    <item>6000 赫茲</item>
+    <item>7000 赫茲</item>
+    <item>8000 赫茲</item>
   </string-array>
 </resources>

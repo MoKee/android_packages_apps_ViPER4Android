@@ -16,16 +16,199 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Szuper audio minőség</item>
+    <item>Magas audio minőség</item>
+    <item>Energiatakarékosság</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Alacsony</item>
+    <item>Közepes</item>
+    <item>Haladó</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normál</item>
+    <item>Kompatibilis</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Enyhe</item>
+    <item>Szint 1</item>
+    <item>Szint 2</item>
+    <item>Szint 3</item>
+    <item>Szint 4</item>
+    <item>Szint 5</item>
+    <item>Szint 6</item>
+    <item>Szint 7</item>
+    <item>Extrém</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Enyhe</item>
+    <item>Szint 1</item>
+    <item>Szint 2</item>
+    <item>Szint 3</item>
+    <item>Szint 4</item>
+    <item>Szint 5</item>
+    <item>Szint 6</item>
+    <item>Szint 7</item>
+    <item>Szint 8</item>
+    <item>Szint 9</item>
+    <item>Extrém</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²-es</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Enyhe</item>
+    <item>Közepes</item>
+    <item>Extrém</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Enyhe</item>
+    <item>Közepes</item>
+    <item>Extrém</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Szint 1</item>
+    <item>Szint 2</item>
+    <item>Szint 3</item>
+    <item>Szint 4</item>
+    <item>Szint 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Enyhe</item>
+    <item>Közepes</item>
+    <item>Extrém</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Extrém fülhallgató (v2)</item>
+    <item>High-end fülhallgató (v2)</item>
+    <item>Egyszerű fülhallgató (v2)</item>
+    <item>Alacsony minőségű fülhallgató (v2)</item>
+    <item>Egyszerű headset (v2)</item>
+    <item>Extrém fülhallgató (v1)</item>
+    <item>High-end fülhallgató (v1)</item>
+    <item>Egyszerű fülhallgató (v1)</item>
+    <item>Egyszerű headset (v1)</item>
+    <item>Apple fülhallgató</item>
+    <item>Monster fülhallgató</item>
+    <item>Moto fülhallgató</item>
+    <item>Philips fülhallgató</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Ismeretlen típus I</item>
+    <item>Ismeretlen típus II</item>
+    <item>Ismeretlen típus III</item>
+    <item>Ismeretlen típus IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Természetes mély</item>
+    <item>Tiszta basszus +</item>
+    <item>Mélynyomó</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz-es</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
+    <item>12,0 dB</item>
+    <item>13.0 dB</item>
+    <item>14,0 dB</item>
+    <item>14.8 dB</item>
+    <item>15,6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Természetes</item>
+    <item>Ózon +</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Alapértelmezés</item>
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
-    <item>10.0 dB</item>
-    <item>11.0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
     <item>12.0 dB</item>
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
   </string-array>
 </resources>

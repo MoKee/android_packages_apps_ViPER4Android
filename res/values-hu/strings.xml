@@ -16,6 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="text_disabled">Kikapcsolva</string>
   <string name="text_yes">Igen</string>
   <string name="text_no">Nem</string>
   <string name="text_ok">Rendben</string>
