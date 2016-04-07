@@ -16,6 +16,103 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Qualità Audio Super</item>
+    <item>Qualità Audio Alta</item>
+    <item>Risparmio energetico</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Principiante</item>
+    <item>Moderata</item>
+    <item>Esperto</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normale</item>
+    <item>Compatibile</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Lieve</item>
+    <item>Livello 1</item>
+    <item>Livello 2</item>
+    <item>Livello 3</item>
+    <item>Livello 4</item>
+    <item>Livello 5</item>
+    <item>Livello 6</item>
+    <item>Livello 7</item>
+    <item>Estrema</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Lieve</item>
+    <item>Livello 1</item>
+    <item>Livello 2</item>
+    <item>Livello 3</item>
+    <item>Livello 4</item>
+    <item>Livello 5</item>
+    <item>Livello 6</item>
+    <item>Livello 7</item>
+    <item>Livello 8</item>
+    <item>Livello 9</item>
+    <item>Estrema</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m ²</item>
+    <item>36 m ²</item>
+    <item>49 m ²</item>
+    <item>64 m ²</item>
+    <item>81 m ²</item>
+    <item>100 m ²</item>
+    <item>121 m ²</item>
+    <item>203 m ²</item>
+    <item>347 m ²</item>
+    <item>652 m ²</item>
+    <item>1200 m ²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Lieve</item>
+    <item>Moderata</item>
+    <item>Estrema</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Lieve</item>
+    <item>Moderata</item>
+    <item>Estrema</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Livello 1</item>
+    <item>Livello 2</item>
+    <item>Livello 3</item>
+    <item>Livello 4</item>
+    <item>Livello 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Lieve</item>
+    <item>Moderata</item>
+    <item>Estrema</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Predefinito</item>
     <item>3.5 dB</item>
