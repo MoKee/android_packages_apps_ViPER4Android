@@ -16,6 +16,51 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Super Audio Quality</item>
+    <item>High Audio Quality</item>
+    <item>Εξοικονόμηση ενέργειας</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Αρχάριος</item>
+    <item>Moderate</item>
+    <item>Ειδικός</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Κανονικός</item>
+    <item>Compatible</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Slight</item>
+    <item>Επίπεδο 1</item>
+    <item>Επίπεδο 2</item>
+    <item>Επίπεδο 3</item>
+    <item>Επίπεδο 4</item>
+    <item>Επίπεδο 5</item>
+    <item>Επίπεδο 6</item>
+    <item>Επίπεδο 7</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Slight</item>
+    <item>Επίπεδο 1</item>
+    <item>Επίπεδο 2</item>
+    <item>Επίπεδο 3</item>
+    <item>Επίπεδο 4</item>
+    <item>Επίπεδο 5</item>
+    <item>Επίπεδο 6</item>
+    <item>Επίπεδο 7</item>
+    <item>Επίπεδο 8</item>
+    <item>Επίπεδο 9</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Επίπεδο 1</item>
+    <item>Επίπεδο 2</item>
+    <item>Επίπεδο 3</item>
+    <item>Επίπεδο 4</item>
+    <item>Επίπεδο 5</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Προεπιλογή</item>
     <item>3.5 dB</item>

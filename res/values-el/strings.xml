@@ -16,12 +16,43 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Ακουστικά</string>
+  <string name="bluetooth_title">Συσκευή Bluetooth</string>
+  <string name="usb_title">USB/Βάση σύνδεσης</string>
+  <string name="audio_effects">Εφέ ήχου</string>
+  <string name="pref_viperddc_enable">Ενεργοποίηση</string>
   <string name="text_disabled">Απενεργοποιημένο</string>
+  <string name="text_headset">Ακουστικά</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Ηχείο</string>
+  <string name="text_usb">USB/Βάση σύνδεσης</string>
+  <string name="text_showtrayicon">Εμφάνιση ειδοποίησης</string>
   <string name="text_yes">Ναι</string>
   <string name="text_no">Όχι</string>
   <string name="text_ok">ΟΚ</string>
   <string name="text_cancel">Ακύρωση</string>
   <string name="text_changelog">Αρχείο καταγραφής αλλαγών</string>
   <string name="about_exit">Έξοδος</string>
+  <string name="about_title">Βοήθεια &amp; σχετικά</string>
+  <string name="about_text">***Σχετικά με το ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' είναι το kernel του ViPER4Android.
+\nΠνευματική ιδιοκτησία © 2006-2016, ViPER ACOUSTIC. Όλα τα δικαιώματα διατηρούνται.
+\nΧωρίς την επίσημη άδεια, η εμπορική χρήση απαγορεύεται.
+\nΕπίσημο Forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' είναι ο οπτικός πίνακας ελέγχου του ViPER4Android.
+\nΒασίζεται στο DSPManager του Cyanogenmod.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nΈκδοση %1$s (FX), Ψευδόνυμο “Κούκλα”.
+\n</string>
+  <string name="text_view_forum">Κοινότητα</string>
+  <string name="text_checkupdate">Έλεγχος για ενημερώσεις</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Άνοιγμα μενού πλοήγησης</string>
+  <string name="navigation_drawer_close">Κλείσιμο μενού πλοήγησης</string>
+  <string name="navigation_toggle_drawer">Εναλλαγή σε Συρτάρι</string>
+  <string name="navigation_toggle_tabbed">Εναλλαγή σε Καρτέλες</string>
 </resources>
