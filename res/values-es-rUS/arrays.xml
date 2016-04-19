@@ -16,6 +16,11 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Calidad de audio superior</item>
+    <item>High Audio Quality</item>
+    <item>Power Saving</item>
+  </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>Leve</item>
     <item>Nivel 1</item>
