@@ -16,7 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Cuffie</string>
+  <string name="speaker_title">Altoparlante del telefono</string>
+  <string name="bluetooth_title">Dispositivo Bluetooth</string>
+  <string name="usb_title">USB/Dock</string>
+  <string name="audio_effects">Effetti Audio</string>
   <string name="text_disabled">Disabilitata</string>
+  <string name="text_headset">Cuffie</string>
+  <string name="text_usb">USB/Dock</string>
   <string name="text_yes">Si</string>
   <string name="text_no">No</string>
   <string name="text_ok">OK</string>

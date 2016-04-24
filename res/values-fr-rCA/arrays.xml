@@ -17,8 +17,8 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Super Audio Quality</item>
-    <item>High Audio Quality</item>
+    <item>Très haute qualité audio</item>
+    <item>Haute qualité audio</item>
     <item>Economie d\'énergie</item>
   </string-array>
   <string-array name="ui_prefer">
@@ -169,18 +169,18 @@
     <item>-40,0 dB</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
-    <item>Extreme Headphone(v2)</item>
-    <item>High-end Headphone(v2)</item>
-    <item>Common Headphone(v2)</item>
-    <item>Low-end Headphone(v2)</item>
-    <item>Common Earphone(v2)</item>
-    <item>Extreme Headphone(v1)</item>
-    <item>High-end Headphone(v1)</item>
-    <item>Common Headphone(v1)</item>
-    <item>Common Earphone(v1)</item>
+    <item>Casque Hi-Fi (V2)</item>
+    <item>Casque audio haut de gamme (V2)</item>
+    <item>Casque audio classique (V2)</item>
+    <item>Casque audio entrée de gamme (V2)</item>
+    <item>Earplug classique (V2)</item>
+    <item>Casque audio Hi-Fi (V1)</item>
+    <item>Casque audio haut de gamme (V1)</item>
+    <item>Casque audio classique (V1)</item>
+    <item>Earplug classique (V1)</item>
     <item>Écouteurs Apple</item>
     <item>Écouteurs Monster</item>
-    <item>Moto Earphone</item>
+    <item>Casque de moto</item>
     <item>Écouteurs Philips</item>
     <item>SHP2000</item>
     <item>SHP9000</item>
@@ -190,7 +190,7 @@
     <item>Type inconnu IV</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Natural Bass</item>
+    <item>Basses naturelles</item>
     <item>Pure Bass +</item>
     <item>Subwoofer</item>
   </string-array>
