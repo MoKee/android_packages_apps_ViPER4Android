@@ -57,6 +57,7 @@
   <string name="pref_spk_opt_title">喇叭優化</string>
   <string name="pref_spk_opt_summary_on">喇叭優化已啟用</string>
   <string name="pref_spk_opt_summary_off">喇叭優化已停用</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC已啟用</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC已停用</string>
   <string name="pref_viperddc_enable">啟用</string>
@@ -77,6 +78,7 @@
 \n頻譜擴展是一個用於擴展有損壓縮的頻譜的HiFi音效。
 \n如果您經常播放有損壓縮的音樂(如mp3、aac和ogg等)，本功能可以給您一個接近無損的聽感。
 \n但如果您播放無損音樂，我們則建議您停用本功能。</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">啓用</string>
   <string name="pref_analogx_summary_on">AnalogX已啓用</string>
   <string name="pref_analogx_summary_off">AnalogX已停用</string>
@@ -163,6 +165,7 @@
   <string name="eq_preset_classical">古典音樂</string>
   <string name="eq_preset_deep">深沈</string>
   <string name="eq_preset_flat">平淡</string>
+  <string name="eq_preset_r_and_b">節奏藍調</string>
   <string name="eq_preset_rock">搖滾音樂</string>
   <string name="eq_preset_small_speakers">小型喇叭</string>
   <string name="eq_preset_treble_booster">高音強化</string>
