@@ -52,6 +52,7 @@
   <string name="pref_viperddc_summary_on">ViPER-DDC est activé</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC est désactivé</string>
   <string name="pref_viperddc_enable">Activé</string>
+  <string name="pref_viperddc_device">Appareil d\'écoute</string>
   <string name="pref_viperddc_device_manufacturer">Sélectionner un fabricant</string>
   <string name="pref_viperddc_device_model">Sélectionnez un modèle</string>
   <string name="pref_vse_title">L\'extension Spectrum</string>
@@ -73,6 +74,8 @@
   <string name="pref_dynamicsystem_summary_on">Système dynamique est activée</string>
   <string name="pref_dynamicsystem_summary_off">Système dynamique est désactivé</string>
   <string name="pref_dynamicsystem_enable">Activé</string>
+  <string name="pref_dynamicsystem_output">Appareil d\'écoute</string>
+  <string name="pref_dynamicsystem_output_title">Sélectionnez l\'appareil d\'écoute</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass est activé</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass est désactivé</string>
   <string name="pref_fidelity_vb_enable">Activez ViPER Bass</string>
@@ -122,9 +125,11 @@
   <string name="text_usb">USB/Station d\'accueil</string>
   <string name="text_showtrayicon">Afficher les notifications</string>
   <string name="text_hidetrayicon">Masquer les notifications</string>
+  <string name="text_lockeffect">Effet du mode de verrouillage</string>
   <string name="text_yes">Oui</string>
   <string name="text_no">Non</string>
   <string name="text_normal">Standard</string>
+  <string name="text_abnormal">Anormal</string>
   <string name="text_supported">Prise en charge</string>
   <string name="text_unsupported">Non pris en charge</string>
   <string name="text_savefxprofile">Enregistrer le profil d\'effets</string>

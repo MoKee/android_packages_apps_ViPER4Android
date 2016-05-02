@@ -15,4 +15,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"/>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="vclarity_boost">
+    <item>இயல்புநிலை</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+</resources>
