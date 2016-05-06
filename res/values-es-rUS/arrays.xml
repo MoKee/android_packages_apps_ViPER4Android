@@ -18,8 +18,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
     <item>Calidad de audio superior</item>
-    <item>High Audio Quality</item>
+    <item>Audio de Alta Calidad</item>
     <item>Power Saving</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Beginner</item>
+    <item>Moderate</item>
+    <item>Experto</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Compatible</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>Leve</item>
@@ -45,14 +54,38 @@
     <item>Nivel 9</item>
     <item>Extremo</item>
   </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100m²</item>
+    <item>121m²</item>
+    <item>203m²</item>
+    <item>347m²</item>
+    <item>652m²</item>
+    <item>1200m²</item>
+  </string-array>
   <string-array name="cure_crossfeed">
     <item>Leve</item>
-    <item>Moderate</item>
+    <item>Moderado</item>
     <item>Extremo</item>
   </string-array>
   <string-array name="analogx_mode">
     <item>Leve</item>
-    <item>Moderate</item>
+    <item>Moderado</item>
     <item>Extremo</item>
   </string-array>
   <string-array name="vhs_qual">
@@ -64,7 +97,7 @@
   </string-array>
   <string-array name="playbackgain_ratio">
     <item>Leve</item>
-    <item>Moderate</item>
+    <item>Moderado</item>
     <item>Extremo</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
