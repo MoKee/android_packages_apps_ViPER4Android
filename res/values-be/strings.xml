@@ -16,7 +16,23 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Гарнітура</string>
+  <string name="pref_dsp_enable">Уключыць</string>
+  <string name="pref_viperddc_enable">Уключыць</string>
+  <string name="pref_vse_enable">Уключыць</string>
+  <string name="pref_analogx_enable">Уключыць</string>
+  <string name="pref_equalizer_enable">Уключыць</string>
+  <string name="pref_dynamicsystem_enable">Уключыць</string>
+  <string name="pref_curesystem_enable">Уключыць</string>
+  <string name="pref_convolver_enable">Уключыць</string>
+  <string name="pref_vhs_enable">Уключыць</string>
+  <string name="pref_colorfulmusic_enable">Уключыць</string>
+  <string name="pref_diffsurr_enable">Уключыць</string>
+  <string name="pref_reverb_enable">Уключыць</string>
+  <string name="eq_preset_flat">Пляскаты</string>
+  <string name="eq_preset_rock">Рок</string>
   <string name="text_disabled">Выключана</string>
+  <string name="text_headset">Гарнітура</string>
   <string name="text_yes">Да</string>
   <string name="text_no">Не</string>
   <string name="text_ok">ОК</string>

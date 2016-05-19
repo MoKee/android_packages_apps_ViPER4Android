@@ -16,16 +16,197 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string-array name="vclarity_boost">
-    <item>Výchozí</item>
-    <item>3.5 dB</item>
+  <string-array name="drvinst_prefer">
+    <item>Super Audio Quality</item>
+    <item>Vysoká kvalita zvuku</item>
+    <item>Úspora energie</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Začátečník</item>
+    <item>Moderovat</item>
+    <item>Expertní</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normální</item>
+    <item>Kompatibilní</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Mírný</item>
+    <item>Úroveň 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+    <item>Level 6</item>
+    <item>Level 7</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Mírný</item>
+    <item>Úroveň 1</item>
+    <item>Úroveň 2</item>
+    <item>Úroveň 3</item>
+    <item>Úroveň 4</item>
+    <item>Úroveň 5</item>
+    <item>Úroveň 6</item>
+    <item>Úroveň 7</item>
+    <item>Úroveň 8</item>
+    <item>Úroveň 9</item>
+    <item>Extrémní</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m²</item>
+    <item>36 m²</item>
+    <item>49m²</item>
+    <item>64m²</item>
+    <item>81m²</item>
+    <item>100m²</item>
+    <item>121m²</item>
+    <item>203m²</item>
+    <item>347m²</item>
+    <item>652m²</item>
+    <item>1200m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Mírný</item>
+    <item>Moderovat</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Mírný</item>
+    <item>Moderovat</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Úroveň 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Úroveň 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Mírný</item>
+    <item>Moderovat</item>
+    <item>Extrémní</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4 x</item>
+    <item>5 x</item>
+    <item>6 x</item>
+    <item>7 x</item>
+    <item>8 x</item>
+    <item>9 x</item>
+    <item>10 x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12,0 dB</item>
+    <item>14,0 dB</item>
+    <item>18,0 dB</item>
+    <item>20,0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5,6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3,5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0,8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3,5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
     <item>10.0 dB</item>
     <item>11.0 dB</item>
-    <item>12.0 dB</item>
+    <item>12,0 dB</item>
     <item>13.0 dB</item>
-    <item>14.0 dB</item>
+    <item>14,0 dB</item>
     <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Výchozí</item>
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12,0 dB</item>
+    <item>13.0 dB</item>
+    <item>14,0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>
