@@ -35,6 +35,7 @@
   <string name="pref_fx_limiter_threshold">Mezní hranice</string>
   <string name="pref_spkfx_limiter_title">Hlavní brána (omezovač)</string>
   <string name="pref_spkfx_limiter_threshold">Mezní hranice</string>
+  <string name="pref_playback_output_threshold">Maximální výstup</string>
   <string name="pref_spk_opt_title">Optimalizace reproduktoru</string>
   <string name="pref_spk_opt_summary_on">Optimalizace reproduktoru je povolena</string>
   <string name="pref_spk_opt_summary_off">Optimalizace reproduktoru je zakázána</string>
@@ -67,6 +68,12 @@
   <string name="pref_fidelity_vb_summary_on">ViPER Bass je povoleno</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass je zakázáno</string>
   <string name="pref_fidelity_vb_enable">Povolit ViPER Bass</string>
+  <string name="pref_fidelity_vb_mode">Basový režim</string>
+  <string name="pref_fidelity_vb_mode_title">Vyberte basový režim</string>
+  <string name="pref_fidelity_vb_bassfreq">Basové frekvence</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Vyberte basové frekvence</string>
+  <string name="pref_fidelity_vb_bassgain">Zvýraznění basů</string>
+  <string name="pref_fidelity_vb_bassgain_title">Výběr Bass Boost</string>
   <string name="pref_curesystem_enable">Povolit</string>
   <string name="pref_convolver_enable">Povolit</string>
   <string name="pref_convolver_knl">Impulzní odezvy</string>
@@ -113,9 +120,13 @@
   <string name="text_abnormal">Abnormální</string>
   <string name="text_supported">Podporováno</string>
   <string name="text_unsupported">Nepodporováno</string>
+  <string name="text_profileload_tip">Použít profil</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Zrušit</string>
   <string name="text_changelog">Changelog</string>
   <string name="about_exit">Konec</string>
+  <string name="text_checkupdate">Zkontrolovat aktualizace</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Otevřít navigační lištu</string>
+  <string name="navigation_drawer_close">Zavřít navigační lištu</string>
 </resources>

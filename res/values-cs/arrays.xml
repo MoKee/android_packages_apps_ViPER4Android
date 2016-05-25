@@ -33,13 +33,13 @@
   <string-array name="colorfulmusic_coeffs">
     <item>Mírný</item>
     <item>Úroveň 1</item>
-    <item>Level 2</item>
-    <item>Level 3</item>
-    <item>Level 4</item>
-    <item>Level 5</item>
-    <item>Level 6</item>
-    <item>Level 7</item>
-    <item>Extreme</item>
+    <item>Úroveň 2</item>
+    <item>Úroveň 3</item>
+    <item>Úroveň 4</item>
+    <item>Úroveň 5</item>
+    <item>Úroveň 6</item>
+    <item>Úroveň 7</item>
+    <item>Extrémní</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
     <item>Mírný</item>
@@ -94,18 +94,18 @@
   <string-array name="cure_crossfeed">
     <item>Mírný</item>
     <item>Moderovat</item>
-    <item>Extreme</item>
+    <item>Extrémní</item>
   </string-array>
   <string-array name="analogx_mode">
     <item>Mírný</item>
     <item>Moderovat</item>
-    <item>Extreme</item>
+    <item>Extrémní</item>
   </string-array>
   <string-array name="vhs_qual">
     <item>Úroveň 1</item>
-    <item>Level 2</item>
-    <item>Level 3</item>
-    <item>Level 4</item>
+    <item>Úroveň 2</item>
+    <item>Úroveň 3</item>
+    <item>Úroveň 4</item>
     <item>Úroveň 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
@@ -168,31 +168,46 @@
     <item>-26.0 dB</item>
     <item>-40.0 dB</item>
   </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
   <string-array name="vbass_boost">
     <item>3,5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
-    <item>10.0 dB</item>
+    <item>10,0 dB</item>
     <item>11.0 dB</item>
     <item>12,0 dB</item>
     <item>13.0 dB</item>
     <item>14,0 dB</item>
-    <item>14.8 dB</item>
-    <item>15.6 dB</item>
+    <item>14,8 dB</item>
+    <item>15,6 dB</item>
     <item>16.3 dB</item>
-    <item>17.0 dB</item>
+    <item>17,0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Přirozené</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
     <item>Výchozí</item>
     <item>3,5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
-    <item>10.0 dB</item>
+    <item>10,0 dB</item>
     <item>11.0 dB</item>
     <item>12,0 dB</item>
     <item>13.0 dB</item>
     <item>14,0 dB</item>
-    <item>14.8 dB</item>
+    <item>14,8 dB</item>
   </string-array>
   <string-array name="speaker_lowfreq">
     <item>100 Hz</item>
