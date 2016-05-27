@@ -17,7 +17,7 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Super Audio Quality</item>
+    <item>Vysoká kvalita zvuku</item>
     <item>Vysoká kvalita zvuku</item>
     <item>Úspora energie</item>
   </string-array>
@@ -68,15 +68,15 @@
   <string-array name="reverb_roomsize">
     <item>25 m²</item>
     <item>36 m²</item>
-    <item>49m²</item>
-    <item>64m²</item>
-    <item>81m²</item>
-    <item>100m²</item>
-    <item>121m²</item>
-    <item>203m²</item>
-    <item>347m²</item>
-    <item>652m²</item>
-    <item>1200m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
   </string-array>
   <string-array name="reverb_roomwidth">
     <item>5m</item>
@@ -167,6 +167,32 @@
     <item>-20.0 dB</item>
     <item>-26.0 dB</item>
     <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Vynikající sluchátka(v2)</item>
+    <item>Špičkové sluchátka(v2)</item>
+    <item>Běžné sluchátka(v2)</item>
+    <item>Jednoduché sluchátka(v2)</item>
+    <item>Běžné sluchátka(v2)</item>
+    <item>Vynikající sluchátka(v1)</item>
+    <item>Špičkové sluchátka(v1)</item>
+    <item>Běžné sluchátka(v1)</item>
+    <item>Běžné sluchátka(v2)</item>
+    <item>Sluchátka Apple</item>
+    <item>Sluchátka Monster</item>
+    <item>Sluchátka Moto</item>
+    <item>Sluchátka Philips</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Neznámý typ I</item>
+    <item>Neznámý typ II</item>
+    <item>Neznámý typ III</item>
+    <item>Neznámý typ IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Natural Bass</item>
+    <item>Pure Bass +</item>
+    <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">
     <item>30 Hz</item>

@@ -31,10 +31,13 @@
   <string name="pref_force_enable_text">Povolení V4A</string>
   <string name="pref_fx_master_summary_on">V4A-FX je zapnutý</string>
   <string name="pref_fx_master_summary_off">V4A-FX je vypnutý</string>
+  <string name="pref_spkfx_master_summary_on">V4A-FX je zapnutý</string>
+  <string name="pref_spkfx_master_summary_off">V4A-FX je vypnutý</string>
   <string name="pref_fx_limiter_title">Hlavní brána (omezovač)</string>
   <string name="pref_fx_limiter_threshold">Mezní hranice</string>
   <string name="pref_spkfx_limiter_title">Hlavní brána (omezovač)</string>
   <string name="pref_spkfx_limiter_threshold">Mezní hranice</string>
+  <string name="pref_playback_title">Ovládání přehrávání</string>
   <string name="pref_playback_output_threshold">Maximální výstup</string>
   <string name="pref_spk_opt_title">Optimalizace reproduktoru</string>
   <string name="pref_spk_opt_summary_on">Optimalizace reproduktoru je povolena</string>
@@ -120,9 +123,12 @@
   <string name="text_abnormal">Abnormální</string>
   <string name="text_supported">Podporováno</string>
   <string name="text_unsupported">Nepodporováno</string>
+  <string name="text_profilesaved_overwrite">Opravdu chcete přepsat existující soubor?</string>
   <string name="text_profileload_tip">Použít profil</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Zrušit</string>
+  <string name="text_drvinst_prefer">Vyberte vaše parametry</string>
+  <string name="text_uiprefer_dialog">Vyberte vaše parametry</string>
   <string name="text_changelog">Changelog</string>
   <string name="about_exit">Konec</string>
   <string name="text_checkupdate">Zkontrolovat aktualizace</string>
