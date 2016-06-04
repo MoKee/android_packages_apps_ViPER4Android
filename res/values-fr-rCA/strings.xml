@@ -104,6 +104,7 @@
   <string name="pref_reverb_summary_on">Réverbération est activée</string>
   <string name="pref_reverb_summary_off">Réverbération est désactivée</string>
   <string name="pref_reverb_enable">Activé</string>
+  <string name="pref_reverb_roomsize">Taille de la pièce</string>
   <string name="eq_preset_acoustic">Acoustique</string>
   <string name="eq_preset_bass_booster">Amplificateur des basses</string>
   <string name="eq_preset_bass_reducer">Réducteur de basses</string>

@@ -15,4 +15,77 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"/>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Super Audio Quality</item>
+    <item>High Audio Quality</item>
+    <item>Power Saving</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Beginner</item>
+    <item>Moderate</item>
+    <item>Expert</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Compatible</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Slight</item>
+    <item>Level 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+    <item>Level 6</item>
+    <item>Level 7</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Slight</item>
+    <item>Level 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+    <item>Level 6</item>
+    <item>Level 7</item>
+    <item>Level 8</item>
+    <item>Level 9</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Slight</item>
+    <item>Moderate</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Slight</item>
+    <item>Moderate</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Level 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Slight</item>
+    <item>Moderate</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Default</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+</resources>
