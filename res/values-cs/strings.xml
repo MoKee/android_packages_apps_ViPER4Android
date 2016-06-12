@@ -66,6 +66,7 @@
   <string name="pref_equalizer_preset_title">Vybrat Předvolbu</string>
   <string name="pref_dynamicsystem_title">Dynamický systém</string>
   <string name="pref_dynamicsystem_summary_on">Dynamický systém je povolen</string>
+  <string name="pref_dynamicsystem_summary_off">Dynamický systém je zakázán</string>
   <string name="pref_dynamicsystem_enable">Povolit</string>
   <string name="pref_dynamicsystem_output">Odposlouchávací zařízení</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass je povoleno</string>
@@ -128,11 +129,20 @@
   <string name="text_ok">OK</string>
   <string name="text_cancel">Zrušit</string>
   <string name="text_drvinst_prefer">Vyberte vaše parametry</string>
+  <string name="text_uiprefer">Nastavení UI</string>
   <string name="text_uiprefer_dialog">Vyberte vaše parametry</string>
+  <string name="text_commode">Kompatibilní mód FX</string>
+  <string name="text_uninstall">Odinstalace ovladače</string>
+  <string name="text_install">Instalace ovladače</string>
+  <string name="text_drvinst_ok">Ovladač nainstalován, restartujte zařízení.</string>
   <string name="text_changelog">Changelog</string>
+  <string name="text_service_error">Nelze komunikovat se službou ViPER4Android.</string>
   <string name="about_exit">Konec</string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Fórum</string>
   <string name="text_checkupdate">Zkontrolovat aktualizace</string>
   <!-- Drawer -->
   <string name="navigation_drawer_open">Otevřít navigační lištu</string>
   <string name="navigation_drawer_close">Zavřít navigační lištu</string>
+  <string name="navigation_toggle_tabbed">Přepnout na kartu zobrazení</string>
 </resources>
