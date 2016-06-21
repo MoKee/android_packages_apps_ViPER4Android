@@ -54,6 +54,17 @@
     <item>레벨 9</item>
     <item>최대치</item>
   </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
   <string-array name="reverb_roomsize">
     <item>25㎡</item>
     <item>36㎡</item>
@@ -118,10 +129,10 @@
     <item>필립스 이어폰</item>
     <item>SHP2000</item>
     <item>SHP9000</item>
-    <item>Unknown Type I</item>
-    <item>Unknown Type II</item>
-    <item>Unknown Type III</item>
-    <item>Unknown Type IV</item>
+    <item>알 수 없는 유형 I</item>
+    <item>알 수 없는 유형 II</item>
+    <item>알 수 없는 유형 III</item>
+    <item>알 수 없는 유형 IV</item>
   </string-array>
   <string-array name="vbass_mode">
     <item>내츄럴 베이스</item>

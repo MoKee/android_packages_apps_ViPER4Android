@@ -17,9 +17,9 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Kualitas Super Audio</item>
+    <item>Kualitas Audio Super</item>
     <item>Kualitas Audio Tinggi</item>
-    <item>Hemat Baterai</item>
+    <item>Hemat Daya</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Pemula</item>
@@ -28,10 +28,10 @@
   </string-array>
   <string-array name="compatible_mode">
     <item>Normal</item>
-    <item>Kompatibel</item>
+    <item>Sesuai</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Sedikit</item>
+    <item>Ringan</item>
     <item>Tingkat 1</item>
     <item>Tingkat 2</item>
     <item>Tingkat 3</item>
@@ -42,7 +42,7 @@
     <item>Ekstrim</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
-    <item>Sedikit</item>
+    <item>Ringan</item>
     <item>Tingkat 1</item>
     <item>Tingkat 2</item>
     <item>Tingkat 3</item>
@@ -66,17 +66,17 @@
     <item>20 md</item>
   </string-array>
   <string-array name="reverb_roomsize">
-    <item>25m2</item>
-    <item>36m2</item>
-    <item>49m2</item>
-    <item>64m2</item>
-    <item>81m2</item>
-    <item>100m2</item>
-    <item>121m2</item>
-    <item>203m2</item>
-    <item>347m2</item>
-    <item>652m2</item>
-    <item>1200m2</item>
+    <item>25m²</item>
+    <item>36m²</item>
+    <item>49m²</item>
+    <item>64m²</item>
+    <item>81m²</item>
+    <item>100m²</item>
+    <item>121m²</item>
+    <item>203m²</item>
+    <item>347m²</item>
+    <item>652m²</item>
+    <item>1200m²</item>
   </string-array>
   <string-array name="reverb_roomwidth">
     <item>5m</item>
@@ -92,12 +92,12 @@
     <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
-    <item>Sedikit</item>
+    <item>Ringan</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>
   <string-array name="analogx_mode">
-    <item>Sedikit</item>
+    <item>Ringan</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>
@@ -109,7 +109,7 @@
     <item>Tingkat 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
-    <item>Sedikit</item>
+    <item>Ringan</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>
