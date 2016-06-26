@@ -65,10 +65,10 @@
   <string name="pref_viperddc_device">Perangkat Mendengarkan</string>
   <string name="pref_viperddc_device_manufacturer">Pilih Pabrikan</string>
   <string name="pref_viperddc_device_model">Pilih Model</string>
-  <string name="pref_viperddc_tips">PERHATIAN:
-\nViPER-DDC adalah prosesor audio Hi-Fi asli dan digunakan untuk mengoreksi headset.
-\nViPER-DDC sekarang mendukung hampir 500 headphone, dan akan terus mendukung lebih banyak seiring waktu berjalan.
-\nJika anda tidak dapat menemukan headset anda dalam daftar, silakan menonaktifkan fitur ini sampai ditambahkan.</string>
+  <string name="pref_viperddc_tips">PEMBERITAHUAN:
+\nViPER-DDC adalah prosesor audio Hi-Fi dan digunakan untuk mengoreksi headset.
+\nViPER-DDC sekarang mendukung hampir 500 headphone, dan akan terus mendukung lebih banyak seiring waktu.
+\nJika anda tidak dapat menemukan headset anda dalam daftar, silakan menonaktifkan fitur ini sampai sudah ditambahkan.</string>
   <string name="pref_vse_title">Ekstensi Spektrum</string>
   <string name="pref_vse_summary_on">Ekstensi spektrum diaktifkan</string>
   <string name="pref_vse_summary_off">Ekstensi spektrum dinonaktifkan</string>
