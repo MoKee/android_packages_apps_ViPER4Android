@@ -19,6 +19,7 @@
   <string name="headset_title">헤드셋</string>
   <string name="speaker_title">스피커</string>
   <string name="bluetooth_title">블루투스</string>
+  <string name="usb_title">USB/독</string>
   <string name="audio_effects">오디오 효과</string>
   <string name="dsp_settings_headset">사운드 설정 - 헤드셋</string>
   <string name="dsp_settings_speaker">사운드 설정 - 스피커</string>
@@ -46,6 +47,7 @@
   <string name="pref_playback_summary_off">재생 이득 제어 꺼짐</string>
   <string name="pref_playback_output_threshold">최대 음량</string>
   <string name="pref_playback_maxgain">최대 이득 배수</string>
+  <string name="pref_xloud_title">더 크게</string>
   <string name="pref_xloud_summary_on">eXtra-Loud 켜짐</string>
   <string name="pref_xloud_summary_off">eXtra-Loud 꺼짐</string>
   <string name="pref_xloud_output_amplifer">음량 확대 레벨</string>
@@ -70,7 +72,10 @@
   <string name="pref_vse_strength_title">강도 선택</string>
   <string name="pref_vse_tips">\"참고: 
 스펙트럼 확산은 손실 압축된 스펙트럼의 확장을 위한 리얼 하이파이 오디오 프로세서입니다. 이 기능은 손실 압축된 음악(mp3, aac, ogg 등)을 들을 때, 무손실에 가까운 느낌을 줍니다. 무손실 음원을 듣는 경우 이 기능을 해제하는 것이 좋습니다.\"</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">활성화</string>
+  <string name="pref_analogx_summary_on">AnalogX 사용</string>
+  <string name="pref_analogx_summary_off">AnalogX 사용</string>
   <string name="pref_analogx_strength">강도</string>
   <string name="pref_analogx_strength_title">강도 선택</string>
   <string name="pref_equalizer_title">FIR 이퀄라이저</string>
@@ -168,6 +173,7 @@
   <string name="text_headset">헤드셋</string>
   <string name="text_bluetooth">블루투스</string>
   <string name="text_speaker">스피커</string>
+  <string name="text_usb">USB/독</string>
   <string name="text_showtrayicon">상태표시줄 아이콘 보기</string>
   <string name="text_hidetrayicon">상태표시줄 아이콘 숨기기</string>
   <string name="text_lockeffect">효과 모드 잠금</string>

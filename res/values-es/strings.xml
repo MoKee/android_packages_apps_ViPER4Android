@@ -19,6 +19,7 @@
   <string name="headset_title">Auriculares</string>
   <string name="speaker_title">Altavoz</string>
   <string name="bluetooth_title">Dispositivo Bluetooth</string>
+  <string name="usb_title">USB/Base</string>
   <string name="audio_effects">Efectos de Audio</string>
   <string name="dsp_settings_headset">Ajuste Efectos - Auriculares</string>
   <string name="dsp_settings_speaker">Ajuste Efectos - Altavoz</string>
@@ -27,6 +28,7 @@
   <string name="pref_dsp_enable">Activado</string>
   <string name="pref_effect_title">Seleccione Efecto de Intensidad</string>
   <string name="dialog_effect">Efecto de Intensidad</string>
+  <string name="pref_force_enable_text">Forzar activar V4A</string>
   <string name="pref_force_enable_warn">Turning on Force-Enable could solve no effect problem.
 \nHowever in certain roms, you may get unexpected results such as no sound and cause battery drain.
 \nSo, use at your own risks. If such cases happen, please turn this off.</string>
@@ -52,6 +54,8 @@
   <string name="pref_xloud_output_amplifer">Ganancia de Salida</string>
   <string name="pref_xloud_spk_lowfreq">Baja Frecuencia</string>
   <string name="pref_xloud_spk_highfreq">Alta Frecuencia</string>
+  <string name="pref_spk_opt_title">Optimización de altavoz</string>
+  <string name="pref_viperddc_summary_off">ViPER-DDC está deshabilitado</string>
   <string name="pref_viperddc_enable">Activado</string>
   <string name="pref_vse_enable">Activado</string>
   <string name="pref_analogx_enable">Activado</string>
@@ -139,6 +143,7 @@
   <string name="text_disabled">Desactivado</string>
   <string name="text_headset">Auriculares</string>
   <string name="text_speaker">Altavoz</string>
+  <string name="text_usb">USB/Base</string>
   <string name="text_showtrayicon">Mostrar notificación</string>
   <string name="text_lockeffect">Bloquear Modo Efectos</string>
   <string name="text_yes">Si</string>

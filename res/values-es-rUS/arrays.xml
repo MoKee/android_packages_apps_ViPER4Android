@@ -19,10 +19,10 @@
   <string-array name="drvinst_prefer">
     <item>Calidad de audio superior</item>
     <item>Audio de Alta Calidad</item>
-    <item>Power Saving</item>
+    <item>Ahorro de energía</item>
   </string-array>
   <string-array name="ui_prefer">
-    <item>Beginner</item>
+    <item>Principiante</item>
     <item>Moderate</item>
     <item>Experto</item>
   </string-array>

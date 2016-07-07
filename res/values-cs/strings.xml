@@ -129,12 +129,14 @@
   <string name="text_ok">OK</string>
   <string name="text_cancel">Zrušit</string>
   <string name="text_drvinst_prefer">Vyberte vaše parametry</string>
+  <string name="text_drvuninst_confim">Opravdu chcete odinstalovat ovladače V4A?</string>
   <string name="text_uiprefer">Nastavení UI</string>
   <string name="text_uiprefer_dialog">Vyberte vaše parametry</string>
   <string name="text_commode">Kompatibilní mód FX</string>
   <string name="text_uninstall">Odinstalace ovladače</string>
   <string name="text_install">Instalace ovladače</string>
   <string name="text_drvinst_ok">Ovladač nainstalován, restartujte zařízení.</string>
+  <string name="text_drvuninst_ok">Ovladač odinstalován, restartujte zařízení.</string>
   <string name="text_changelog">Changelog</string>
   <string name="text_service_error">Nelze komunikovat se službou ViPER4Android.</string>
   <string name="about_exit">Konec</string>

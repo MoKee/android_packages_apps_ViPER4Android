@@ -18,8 +18,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
     <item>Calidad de audio superior</item>
-    <item>High Audio Quality</item>
-    <item>Power Saving</item>
+    <item>Alta calidad de Audio</item>
+    <item>Ahorro de energía</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Principiante</item>
+    <item>Moderate</item>
+    <item>Expert</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>Leve</item>
