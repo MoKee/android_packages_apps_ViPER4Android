@@ -19,6 +19,7 @@
   <string name="headset_title">Kulaklık</string>
   <string name="speaker_title">Hoparlör</string>
   <string name="bluetooth_title">Bluetooth Kulaklık/Hoparlör</string>
+  <string name="usb_title">USB/Ünite</string>
   <string name="audio_effects">Ses Efektleri</string>
   <string name="dsp_settings_headset">Efekt Ayarları - Kulaklık</string>
   <string name="dsp_settings_speaker">Efekt Ayarları - Hoparlör</string>
@@ -104,10 +105,18 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="pref_fidelity_vc_mode_title">Berraklık Modunu Seçiniz</string>
   <string name="pref_fidelity_vc_bassgain">Berraklık</string>
   <string name="pref_fidelity_vc_bassgain_title">Berraklığı Seç</string>
+  <string name="pref_curesystem_title">İşitsel sistem koruması</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ etkinleştirildi</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ devre dışı bırakıldı</string>
   <string name="pref_curesystem_enable">Etkinleştirme</string>
+  <string name="pref_select_cure_cf_title">Binaural düzeyi seçin</string>
+  <string name="dialog_cure_crossfeed">Binaural düzeyi</string>
+  <string name="pref_convolver_summary_on">Convolver etkin</string>
+  <string name="pref_convolver_summary_off">Convolver devre dışı</string>
   <string name="pref_convolver_enable">Etkinleştirme</string>
+  <string name="pref_convolver_knl">İmpuls cevabı</string>
+  <string name="pref_convolver_knl_title">İmpuls cevabı seçin</string>
+  <string name="pref_convolver_crosschannel_title">Çapraz kanal seçin</string>
   <string name="pref_vhs_title">Kulaklık Surround +</string>
   <string name="pref_vhs_summary_on">VHS+ etkinleştirildi</string>
   <string name="pref_vhs_summary_off">VHS+ devre dışı bırakıldı</string>
@@ -147,11 +156,13 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="text_disabled">Devre dışı bırakıldı</string>
   <string name="text_headset">Kulaklık</string>
   <string name="text_speaker">Hoparlör</string>
+  <string name="text_usb">USB/Ünite</string>
   <string name="text_showtrayicon">Bildirimi Göster</string>
   <string name="text_hidetrayicon">Bildirimi Gizle</string>
   <string name="text_lockeffect">Efekt Modunu Kilitle</string>
   <string name="text_yes">Evet</string>
   <string name="text_no">Hayır</string>
+  <string name="text_normal">Normal</string>
   <string name="text_abnormal">Anormal</string>
   <string name="text_supported">Desteklenmiş</string>
   <string name="text_unsupported">Desteklenmemiş</string>
@@ -283,6 +294,7 @@ V4A Normal modda çalışıyorken sistem sesleri ayarlarından dokunma ve kilit 
  
 \"                                        <b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b>
   </string>
+  <string name="text_view_forum">Forum</string>
   <string name="text_checkupdate">Güncellemeleri Kontrol Et</string>
   <!-- Drawer -->
   <string name="navigation_toggle_drawer">Çekmece görünümüne geç</string>

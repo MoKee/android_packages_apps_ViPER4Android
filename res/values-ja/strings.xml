@@ -18,6 +18,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_yes">はい</string>
   <string name="text_no">いいえ</string>
+  <string name="text_ok">はい</string>
+  <string name="text_cancel">キャンセル</string>
+  <string name="text_changelog">変更履歴</string>
   <string name="about_exit">終了</string>
   <!-- Drawer -->
 </resources>
