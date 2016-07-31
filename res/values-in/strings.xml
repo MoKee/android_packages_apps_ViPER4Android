@@ -17,42 +17,42 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">Headset</string>
-  <string name="speaker_title">Speaker telepon</string>
-  <string name="bluetooth_title">Perangkat Bluetooth</string>
+  <string name="speaker_title">Speaker</string>
+  <string name="bluetooth_title">Bluetooth</string>
   <string name="usb_title">USB/Dock</string>
   <string name="audio_effects">Efek Audio</string>
-  <string name="dsp_settings_headset">Pengaturan Efek - Headset</string>
-  <string name="dsp_settings_speaker">Pengaturan Efek - Speaker telepon</string>
-  <string name="dsp_settings_bluetooth">Pengaturan Efek - perangkat Bluetooth</string>
-  <string name="dsp_settings_usb">Pengaturan Efek - perangkat USB</string>
-  <string name="pref_dsp_enable">Mengaktifkan</string>
+  <string name="dsp_settings_headset">Setelan Efek - Headset</string>
+  <string name="dsp_settings_speaker">Setelan Efek - Speaker</string>
+  <string name="dsp_settings_bluetooth">Setelan Efek - Bluetooth</string>
+  <string name="dsp_settings_usb">Setelan Efek - USB</string>
+  <string name="pref_dsp_enable">Power</string>
   <string name="pref_effect_title">Pilih Kekuatan Efek</string>
   <string name="dialog_effect">Kekuatan Efek</string>
   <string name="pref_force_enable_text">Paksa Aktifkan V4A</string>
   <string name="pref_force_enable_warn">Mengaktifkan paksa bisa memecahkan masalah tidak adanya efek.
 \nDi rom tertentu, anda mungkin mendapatkan hasil yang tidak terduga seperti tidak ada suara dan menguras baterai.
 \nResiko anda tanggung sendiri. Jika hal-hal seperti itu terjadi, silakan menonaktifkannya.</string>
-  <string name="pref_fx_master_title">Daya Utama</string>
+  <string name="pref_fx_master_title">Power Master</string>
   <string name="pref_fx_master_summary_on">V4A-FX dihidupkan</string>
   <string name="pref_fx_master_summary_off">V4A-FX dimatikan</string>
-  <string name="pref_spkfx_master_title">Daya Utama</string>
-  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX dihidupkan</string>
-  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX dimatikan</string>
-  <string name="pref_fx_limiter_title">Gerbang Utama (Pembatas)</string>
-  <string name="pref_fx_limiter_threshold">Batasi ambang</string>
-  <string name="pref_spkfx_limiter_title">Gerbang Utama (Pembatas)</string>
-  <string name="pref_spkfx_limiter_threshold">Batasi ambang</string>
-  <string name="pref_output_gain">Tambahan Keluaran</string>
-  <string name="pref_output_pan">Saluran Pan</string>
-  <string name="pref_playback_title">Kendali Pemutaran Tambahan</string>
-  <string name="pref_playback_summary_on">PemutaranAGC diaktifkan</string>
-  <string name="pref_playback_summary_off">PemutaranAGC dinonaktifkan</string>
-  <string name="pref_playback_output_threshold">Pengeluaran Maksimal</string>
-  <string name="pref_playback_maxgain">Tambahan Maksimal</string>
+  <string name="pref_spkfx_master_title">Power Master</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX diaktifkan</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX dinonaktifkan</string>
+  <string name="pref_fx_limiter_title">Gerbang master (Limiter)</string>
+  <string name="pref_fx_limiter_threshold">Batas ambang</string>
+  <string name="pref_spkfx_limiter_title">Gerbang master (Limiter)</string>
+  <string name="pref_spkfx_limiter_threshold">Batas ambang</string>
+  <string name="pref_output_gain">Output Gain</string>
+  <string name="pref_output_pan">Keseimbangan</string>
+  <string name="pref_playback_title">Kendali Kontrol Gain</string>
+  <string name="pref_playback_summary_on">PlaybackAGC diaktifkan</string>
+  <string name="pref_playback_summary_off">PlaybackAGC dinonaktifkan</string>
+  <string name="pref_playback_output_threshold">Maks Output</string>
+  <string name="pref_playback_maxgain">Maks Gain</string>
   <string name="pref_xloud_title">Pengeras Ekstra</string>
-  <string name="pref_xloud_summary_on">pengeras-ekstra diaktifkan</string>
-  <string name="pref_xloud_summary_off">pengeras-ekstra dinonaktifkan</string>
-  <string name="pref_xloud_output_amplifer">Tambahan Keluaran</string>
+  <string name="pref_xloud_summary_on">Pengeras ekstra diaktifkan</string>
+  <string name="pref_xloud_summary_off">Pengeras ekstra dinonaktifkan</string>
+  <string name="pref_xloud_output_amplifer">Output Gain</string>
   <string name="pref_xloud_spk_lowfreq">Respon Rendah</string>
   <string name="pref_xloud_spk_highfreq">Respon Tinggi</string>
   <string name="pref_spk_opt_title">Optimasi Speaker</string>
@@ -61,9 +61,9 @@
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC diaktifkan</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC dinonaktifkan</string>
-  <string name="pref_viperddc_enable">Mengaktifkan</string>
-  <string name="pref_viperddc_device">Perangkat Mendengarkan</string>
-  <string name="pref_viperddc_device_manufacturer">Pilih Pabrikan</string>
+  <string name="pref_viperddc_enable">Power</string>
+  <string name="pref_viperddc_device">Daftar Perangkat</string>
+  <string name="pref_viperddc_device_manufacturer">Pilih produsen</string>
   <string name="pref_viperddc_device_model">Pilih Model</string>
   <string name="pref_viperddc_tips">PEMBERITAHUAN:
 \nViPER-DDC adalah prosesor audio Hi-Fi dan digunakan untuk mengoreksi headset.
@@ -272,8 +272,8 @@
   <string name="text_view_forum">Forum</string>
   <string name="text_checkupdate">Periksa pembaruan</string>
   <!-- Drawer -->
-  <string name="navigation_drawer_open">Buka navigasi drawer</string>
-  <string name="navigation_drawer_close">Tutup drawer navigasi</string>
+  <string name="navigation_drawer_open">Buka navigasi rinci</string>
+  <string name="navigation_drawer_close">Tutup navigasi rinci</string>
   <string name="navigation_toggle_drawer">Beralih ke tampilan rinci</string>
   <string name="navigation_toggle_tabbed">Beralih ke tampilan minim</string>
 </resources>

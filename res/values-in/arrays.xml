@@ -28,10 +28,10 @@
   </string-array>
   <string-array name="compatible_mode">
     <item>Normal</item>
-    <item>Sesuai</item>
+    <item>Kompatibel</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Ringan</item>
+    <item>Sedikit</item>
     <item>Tingkat 1</item>
     <item>Tingkat 2</item>
     <item>Tingkat 3</item>
@@ -42,7 +42,7 @@
     <item>Ekstrim</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
-    <item>Ringan</item>
+    <item>Sedikit</item>
     <item>Tingkat 1</item>
     <item>Tingkat 2</item>
     <item>Tingkat 3</item>
@@ -92,12 +92,12 @@
     <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
-    <item>Ringan</item>
+    <item>Sedikit</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>
   <string-array name="analogx_mode">
-    <item>Ringan</item>
+    <item>Sedikit</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>
@@ -109,7 +109,7 @@
     <item>Tingkat 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
-    <item>Ringan</item>
+    <item>Sedikit</item>
     <item>Sedang</item>
     <item>Ekstrim</item>
   </string-array>

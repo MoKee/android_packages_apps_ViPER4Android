@@ -29,6 +29,9 @@
   <string name="pref_effect_title">Effektstärke auswählen</string>
   <string name="dialog_effect">Effektstärke</string>
   <string name="pref_force_enable_text">Erzwinge Aktivierung V4A</string>
+  <string name="pref_force_enable_warn">Force-Enable könnte das No Effekt(Keine Wirkung) Problem lösen.
+In bestimmten ROMs, könnten Sie unerwartete Ergebnisse wie keinen Ton oder einen hohen Akkuverbrauch bekommen.
+Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte aus.</string>
   <string name="pref_fx_master_title">Master-Power</string>
   <string name="pref_fx_master_summary_on">V4A-FX ist eingeschaltet</string>
   <string name="pref_fx_master_summary_off">V4A-FX ist ausgeschaltet</string>

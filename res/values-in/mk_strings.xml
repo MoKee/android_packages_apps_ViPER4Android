@@ -16,21 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="about_text_mk">***Tentang ViPER4Android (Edisi Kustom MoKee)***
+  <string name="about_text_mk">***Tentang ViPER4Android (MoKee Edisi Kostum)***
 \n
 \n\'libv4a_xx_xx.so\' adalah kernel dari ViPER4Android.
-\nHak Cipta © 2006-2016, ViPER ACOUSTIC. Seluruh hak cipta.
-\nVersi ini di lisensi dan di modifikasi untuk di gunakan Proyek MoKee Open Source.
-\nTanpa izin resmi, penggunaan komersial dilarang.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+\nVersi ini di lisensi dan di modifikasi untuk di gunakan di MoKee Open Source Project.
+\nTanpa izin resmi, penggunaan komersial dibatasi.
 \nForum Resmi: http://vipersaudio.com/blog/
 \n
-\n\'ViPER4Android.apk\' adalah kontrol visual dari ViPER4Android.
-\nBerdasarkan pada DSPManager Cyanogenmod.
+\n\'ViPER4Android.apk\' adalah setelan visual dari ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
 \nTerimakasih banyak untuk Zhuhang@XDA
 \nTerimakasih banyak untuk M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n
-\nVersi %1$s (FX), Nama Sandi “Beautiful”.
+\nVersi %1$s (FX), Kodenama “Beautiful”.
 \n</string>
   <string name="text_savefxprofile_succeeded">Efek profil berhasil di simpan.</string>
-  <string name="text_savefxprofile_failed">Gagal untuk menyimpan profil efek. Penyimpanan mungkin penuh atau tidak dapat ditulis.</string>
+  <string name="text_savefxprofile_failed">Gagal saat menyimpan efek profil. Penyimpanan mungkin penuh atau dicekal.</string>
 </resources>

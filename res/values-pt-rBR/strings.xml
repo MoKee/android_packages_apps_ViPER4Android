@@ -32,11 +32,17 @@
   <string name="pref_force_enable_warn">Ligando Forçar-Ativar poderia resolver o problema de não ter efeito.
 \nEm alguns ambientes, você pode obter resultados inesperados, como nenhum som e drenagem de bateria.
 \nUse a seu próprio risco. Se tais coisas acontecerem, por favor desliga-lo.</string>
+  <string name="pref_fx_master_title">Chave Mestra</string>
   <string name="pref_fx_master_summary_on">V4A-FX está ligado</string>
   <string name="pref_fx_master_summary_off">V4A-FX está desligado</string>
+  <string name="pref_spkfx_master_title">Chave Mestra</string>
   <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX está ligado</string>
   <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX está desligado</string>
+  <string name="pref_fx_limiter_title">Saída Máxima (Limitador)</string>
+  <string name="pref_spkfx_limiter_title">Saída Máxima (Limitador)</string>
   <string name="pref_output_gain">Ganho de saída</string>
+  <string name="pref_output_pan">Canal \'Pan\'</string>
+  <string name="pref_playback_title">Ganho de controle em Playback</string>
   <string name="pref_playback_summary_on">PlaybackAGC está habilitado</string>
   <string name="pref_playback_summary_off">PlaybackAGC está desativado</string>
   <string name="pref_playback_output_threshold">Saída máxima</string>
@@ -54,8 +60,16 @@
   <string name="pref_viperddc_summary_on">ViPER-DDC está ativado</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC está desativado</string>
   <string name="pref_viperddc_enable">Ativado</string>
+  <string name="pref_viperddc_device">Dispositivo de escuta</string>
   <string name="pref_viperddc_device_manufacturer">Selecione o fabricante</string>
   <string name="pref_viperddc_device_model">Selecione o modelo</string>
+  <string name="pref_viperddc_tips">Aviso:
+ \nViPER-DDC é um verdadeiro processador de áudio Hi-Fi e é usado para a correção do áudio.
+ \nViPER-DDC agora suporta quase 500 fones de ouvido e continuará a suportar mais conforme o tempo passa. 
+\n Se você não consegue encontrar o seu fone na lista, por favor, desabilite esse recurso, até que ele seja adicionado.</string>
+  <string name="pref_vse_title">Extensão do espectro de áudio</string>
+  <string name="pref_vse_summary_on">Extensão do espectro de áudio está ativa</string>
+  <string name="pref_vse_summary_off">Extensão do espectro de áudio está inativa</string>
   <string name="pref_vse_enable">Ativado</string>
   <string name="pref_vse_strength">Intensidade</string>
   <string name="pref_vse_strength_title">Selecione a intensidade</string>
@@ -74,17 +88,33 @@
   <string name="pref_dynamicsystem_summary_on">Sistema dinâmico está ativado</string>
   <string name="pref_dynamicsystem_summary_off">Sistema dinâmico está desativado</string>
   <string name="pref_dynamicsystem_enable">Ativado</string>
+  <string name="pref_dynamicsystem_output">Dispositivo de escuta</string>
   <string name="pref_dynamicsystem_bass">Selecione Graves dinâmicos</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Simulador de som em tubo ativo</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Simulador de som em tubo inativo</string>
   <string name="pref_fidelity_title">Controle de fidelidade</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass está habilitado</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass está desativado</string>
   <string name="pref_fidelity_vb_enable">Ativar ViPER Bass</string>
+  <string name="pref_fidelity_vb_mode">Modo impulso grave</string>
+  <string name="pref_fidelity_vb_mode_title">Escolha o modo se impulso do grave</string>
+  <string name="pref_fidelity_vb_bassfreq">Frequência do impulso grave</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Escolha a frequência do impulso grave</string>
   <string name="pref_fidelity_vb_bassgain">Ganho de grave</string>
   <string name="pref_fidelity_vb_bassgain_title">Selecione o granho de grave</string>
+  <string name="pref_fidelity_vc_summary_on">Claridade de áudio VIPER ativa</string>
+  <string name="pref_fidelity_vc_summary_off">Claridade de áudio VIPER inativa</string>
+  <string name="pref_fidelity_vc_enable">Habilitar a clareza de audio ViPER</string>
+  <string name="pref_fidelity_vc_mode">Modo de clareza de audio</string>
+  <string name="pref_fidelity_vc_mode_title">Selecione o modo de clareza de audio</string>
   <string name="pref_fidelity_vc_bassgain">Clareza</string>
+  <string name="pref_fidelity_vc_bassgain_title">Selecione o nivel da clareza de audio</string>
+  <string name="pref_curesystem_title">Proteção do sistema auditivo</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ está ativado</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ está desativado</string>
   <string name="pref_curesystem_enable">Ativado</string>
+  <string name="pref_select_cure_cf_title">Selecionar nível Bineural</string>
+  <string name="dialog_cure_crossfeed">Nível de bineural</string>
   <string name="pref_convolver_enable">Ativado</string>
   <string name="pref_vhs_summary_on">VHS + está habilitado</string>
   <string name="pref_vhs_summary_off">VHS + está desativado</string>
