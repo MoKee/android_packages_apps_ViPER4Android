@@ -122,15 +122,65 @@
   <string name="pref_convolver_knl">Risposta all\'impulso</string>
   <string name="pref_convolver_knl_title">Selezionare la risposta all\'impulso</string>
   <string name="pref_convolver_crosschannel">Attraversare il canale</string>
+  <string name="pref_convolver_crosschannel_title">Seleziona il canale</string>
+  <string name="pref_vhs_title">Cuffie Surround +</string>
+  <string name="pref_vhs_summary_on">VHS + è attivato</string>
+  <string name="pref_vhs_summary_off">VHS + è disabilitato</string>
   <string name="pref_vhs_enable">Attiva</string>
+  <string name="pref_select_vhs_qual_title">Selezionare il livello di effetto</string>
+  <string name="dialog_vhs_qual">Livello di effetto</string>
+  <string name="pref_colorfulmusic_title">Campo Surround</string>
+  <string name="pref_colorfulmusic_summary_on">Il campo surround è abilitato</string>
+  <string name="pref_colorfulmusic_summary_off">Il campo surround è disabilitato</string>
   <string name="pref_colorfulmusic_enable">Attiva</string>
+  <string name="pref_select_colorfulmusic_title">Selezionare l\'intensità del campo Surround</string>
+  <string name="dialog_colorfulmusic">Intensità del campo Surround</string>
+  <string name="pref_select_colorfulmusic_mi_title">Scegli un\'immagine di media resistenza</string>
+  <string name="dialog_colorfulmusic_mi">Immagine intensità moderata</string>
+  <string name="pref_diffsurr_title">Surround differenziale</string>
+  <string name="pref_diffsurr_summary_on">Diff surround è attivata</string>
+  <string name="pref_diffsurr_summary_off">Diff surround è disabilitato</string>
   <string name="pref_diffsurr_enable">Attiva</string>
+  <string name="pref_select_diffsurr_ms_title">Selezionare il tempo di ritardo</string>
+  <string name="dialog_diffsurr_ms">Tempo di ritardo</string>
+  <string name="pref_reverb_title">Riverbero</string>
+  <string name="pref_reverb_summary_on">Riverbero è abilitato</string>
+  <string name="pref_reverb_summary_off">Riverbero è disabilitato</string>
   <string name="pref_reverb_enable">Attiva</string>
+  <string name="pref_reverb_roomsize">Dimensioni della camera</string>
+  <string name="pref_reverb_width">Campo sonoro</string>
+  <string name="pref_reverb_damp">Fattore di smorzamento</string>
+  <string name="pref_reverb_wet">Segnale wet</string>
+  <string name="pref_reverb_dry">Segnale dry</string>
+  <string name="eq_preset_acoustic">Acustica</string>
+  <string name="eq_preset_bass_booster">Amplificazione bassi</string>
+  <string name="eq_preset_bass_reducer">Riduzione bassi</string>
+  <string name="eq_preset_classical">Classica</string>
+  <string name="eq_preset_deep">Intenso</string>
+  <string name="eq_preset_flat">Uniforme</string>
+  <string name="eq_preset_r_and_b">R &amp; B</string>
+  <string name="eq_preset_rock">Rock</string>
+  <string name="eq_preset_small_speakers">Altoparlanti piccoli</string>
+  <string name="eq_preset_treble_booster">Amplificazione alti</string>
+  <string name="eq_preset_treble_reducer">Riduzione alti</string>
+  <string name="eq_preset_vocal_booster">Amplificazione voce</string>
+  <string name="eq_preset_custom">Personalizza</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: La directory di esempio IR %1$s è vuoto.</string>
+  <string name="text_token_lost">ViPER4Android: Un programma in esecuzione ha richiesto Android per disattivare gli effetti audio, in modo che V4A verrà temporaneamente disabilitato.</string>
+  <string name="text_enabled">Abilitato</string>
   <string name="text_disabled">Disabilitata</string>
   <string name="text_headset">Cuffie</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Autoparlanti</string>
   <string name="text_usb">USB/Dock</string>
+  <string name="text_showtrayicon">Mostra notifica</string>
+  <string name="text_hidetrayicon">Nascondi notifica</string>
+  <string name="text_lockeffect">Effetto modalità di blocco</string>
   <string name="text_yes">Si</string>
   <string name="text_no">No</string>
+  <string name="text_normal">Normale</string>
+  <string name="text_abnormal">Anormale</string>
+  <string name="text_supported">Supporto</string>
   <string name="text_unsupported">Non supportato</string>
   <string name="text_loadfxprofile">Caricare il Profilo di effetto</string>
   <string name="text_newfxprofile">Nuovo effetto profilo&#8230;</string>
@@ -157,7 +207,57 @@
   <string name="text_drvinst_dataioerr">Installazione driver non riuscita: errore I/O, si prega di riavviare e riprovare.</string>
   <string name="text_drvinst_cfg_unsup">Installazione driver non riuscita: sistema android non supportato o ROM.</string>
   <string name="text_drvinst_failed">Installazione driver non riuscita: l\'installazione di busybox trovata sul tuo dispositivo non funziona. \nQuesto di solito significa che è stato installato un busybox sbagliato o rotto. V4A ha bisogno di busybox di Stericson per lavorare. \nSe sei sicuro di aver installato il busybox corretto, si prega di confermare sul vostro dispositivo i permessi di root.</string>
+  <string name="text_modifybuildprop">Attenzione: il \nLPA è attivato sul tuo dispositivo, ciò potrebbe causare a V4A un malfunzionamento. \nLPA, o \'Bassa potenza Audio\', può essere disabilitato tramite modifica Build. prop, che può essere fatto automaticamente. \nSi consiglia vivamente di fare un NANDROID o il BACKUP dei dati prima di procedere! \nVolete disabilitare LPA ora?</string>
   <string name="text_changelog">Modifiche di Versione</string>
+  <string name="text_drv_status">Stato del driver</string>
+  <string name="text_drv_status_view">\n
+\nVersione Driver: %1$s
+\nNEON Abilitato: %2$s
+\nAbilitato: %3$s
+\nStato: %4$s
+\nFormato Audio: %5$s
+\nElaborazione: %6$s
+\nFrequenza di campionamento: %7$d
+\n</string>
+  <string name="text_service_error">Non si è riuscito a comunicare con il servizio di ViPER4Android.</string>
   <string name="about_exit">Esci</string>
+  <string name="about_title">Guida e informazioni</string>
+  <string name="about_text">***Su ViPER4Android (MoKee Custom Edition)***
+\n
+\n\'libv4a_xx_xx.so\' è il kernel di ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Tutti i diritti riservati.
+\nQuesta versione è provvista di licenza e modificata per l\'uso nel progetto MoKee Open Source.
+\nNon è permeso l\'uso commerciale senza il permesso ufficiale.
+\nForum ufficiale: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' è il pannello di controllo grafico di ViPER4Android.
+\nBasato su Cyanogenmod DSPManager.
+\nGrazie a Zhuhang@XDA
+\nGrazie a M4570d0n@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Nome in codice \"Bellissimo\".
+\n</string>
+  <string name="text_help_content">***Aiuto generale***
+\n
+\n\'Installa il driver\' - \n\'Installa/Aggiorna gli effetti di ViPER4Android.
+\n\'Disinstalla il Driver\' - Disinstalla gli effetti di ViPER4Android.
+\n\'Modalità compatibile FX\' - Imposta la modalità compatibile degli effetti.
+\n    \'Normale\' - Creare ViPER4Android con un effetto globale.
+\n    \'Compatibile\' - Creare ViPER4Android con un effetto locale.
+\n
+\n<b>Nessun effetto V4A su tutti/maggior parte dei lettori multimediali?</b>\n    È possibile cambiare la modalità FX con una più compatibile, quindi riavviare il dispositivo e riprovare.
+\n
+\n<b>Come cambiare la qualità audio del driver?</b>\n    Disinstalla il driver dal menù, quindi riavviare il dispositivo e scegliere la qualità desiderata.
+\n
+\n<b>Come ridurre il consumo della batteria?</b>\n    Quando V4A è in esecuzione in modalità normale, spegnere le impostazioni audio di sistema, tra cui suoni touch e blocco/sblocco, risparmi fino a 1,2 ~ 4 volte la durata della batteria.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Forum</string>
+  <string name="text_checkupdate">Controlla aggiornamenti</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Apri il menù di navigazione</string>
+  <string name="navigation_drawer_close">Chiudi Drawer di navigazione</string>
+  <string name="navigation_toggle_drawer">Passare alla visualizzazione Drawer</string>
+  <string name="navigation_toggle_tabbed">Passare alla visualizzazione scheda</string>
 </resources>

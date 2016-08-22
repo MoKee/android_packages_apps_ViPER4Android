@@ -38,11 +38,17 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_spkfx_master_title">Master-Power</string>
   <string name="pref_spkfx_master_summary_on">V4A-LautsprecherFX ist eingeschaltet</string>
   <string name="pref_spkfx_master_summary_off">V4A-LautsprecherFX ist ausgeschaltet</string>
+  <string name="pref_fx_limiter_title">Lautstärkebegrenzer</string>
+  <string name="pref_fx_limiter_threshold">Limit Threshold</string>
+  <string name="pref_spkfx_limiter_title">Lautstärkebegrenzer</string>
+  <string name="pref_spkfx_limiter_threshold">Limit Threshold</string>
   <string name="pref_output_gain">Ausgangsverstärkung</string>
+  <string name="pref_output_pan">Channel Pan</string>
   <string name="pref_playback_title">Wiedergabesteuerung</string>
   <string name="pref_playback_summary_on">PlaybackAGC ist aktiviert</string>
   <string name="pref_playback_summary_off">PlaybackAGC ist deaktiviert</string>
   <string name="pref_playback_output_threshold">Max Ausgang</string>
+  <string name="pref_playback_maxgain">Max Gain</string>
   <string name="pref_xloud_title">eXtra Laut</string>
   <string name="pref_xloud_summary_on">eXtra-Laut ist aktiviert</string>
   <string name="pref_xloud_summary_off">eXtra-Laut ist deaktiviert</string>
@@ -56,6 +62,7 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_viperddc_summary_on">ViPER-DDC ist aktiviert</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC ist deaktiviert</string>
   <string name="pref_viperddc_enable">Aus/An</string>
+  <string name="pref_viperddc_device">Listening Device</string>
   <string name="pref_viperddc_device_manufacturer">Wählen Sie einen Hersteller</string>
   <string name="pref_viperddc_device_model">Modell auswählen</string>
   <string name="pref_vse_title">Spektrum-Erweiterung</string>
@@ -83,6 +90,7 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_dynamicsystem_summary_on">Dynamisches System ist aktiviert</string>
   <string name="pref_dynamicsystem_summary_off">Dynamisches System ist deaktiviert</string>
   <string name="pref_dynamicsystem_enable">Aus/An</string>
+  <string name="pref_dynamicsystem_output">Listening Device</string>
   <string name="pref_dynamicsystem_bass">Dynamischen Bass auswählen</string>
   <string name="pref_dynamicsystem_tube_title">Röhren-Ton-Simulator (6N1J)</string>
   <string name="pref_dynamicsystem_tube_summary_on">Röhren-Ton-Simulator ist aktiviert</string>

@@ -16,16 +16,238 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Siêu âm thanh chất lượng</item>
+    <item>Chất lượng âm thanh cao</item>
+    <item>Tiết kiệm năng lượng</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Người mới bắt đầu</item>
+    <item>Vừa phải</item>
+    <item>Chuyên gia</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Bình thường</item>
+    <item>Tương thích</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Nhẹ</item>
+    <item>Cấp độ 1</item>
+    <item>Cấp độ 2</item>
+    <item>Cấp độ 3</item>
+    <item>Cấp độ 4</item>
+    <item>Cấp độ 5</item>
+    <item>Cấp độ 6</item>
+    <item>Cấp độ 7</item>
+    <item>Cao</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Nhẹ</item>
+    <item>Cấp độ 1</item>
+    <item>Cấp độ 2</item>
+    <item>Cấp độ 3</item>
+    <item>Cấp độ 4</item>
+    <item>Cấp độ 5</item>
+    <item>Cấp độ 6</item>
+    <item>Cấp độ 7</item>
+    <item>Cấp độ 8</item>
+    <item>Cấp độ 9</item>
+    <item>Cao</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Nhẹ</item>
+    <item>Vừa phải</item>
+    <item>Cao</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Nhẹ</item>
+    <item>Vừa phải</item>
+    <item>Cao</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Cấp độ 1</item>
+    <item>Cấp độ 2</item>
+    <item>Cấp độ 3</item>
+    <item>Cấp độ 4</item>
+    <item>Cấp độ 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Nhẹ</item>
+    <item>Vừa phải</item>
+    <item>Cao</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3.5 dB</item>
+    <item>6,0 dB</item>
+    <item>9,5 dB</item>
+    <item>12,0 dB</item>
+    <item>14,0 dB</item>
+    <item>18,0 dB</item>
+    <item>20,0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6,0 dB</item>
+    <item>5,6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Tai nghe cao nhất(v2)</item>
+    <item>Tai nghe cao cấp(v2)</item>
+    <item>Tai nghe phổ biến(v2)</item>
+    <item>Tai nghe phổ biến(v2)</item>
+    <item>Tai nghe thông thường(v2)</item>
+    <item>Tai nghe cao nhất(v1)</item>
+    <item>Tai nghe cao cấp(v1)</item>
+    <item>Tai nghe thông thường(v1)</item>
+    <item>Tai nghe thông thường(v1)</item>
+    <item>Tai nghe Apple</item>
+    <item>Tai nghe Monster</item>
+    <item>Tai nghe Moto</item>
+    <item>Tai nghe Philips</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Loại chưa xác định I</item>
+    <item>Loại chưa xác định II</item>
+    <item>Loại chưa xác định III</item>
+    <item>Loại chưa xác định IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Bass tự nhiên</item>
+    <item>Bass tinh khiết +</item>
+    <item>Loa siêu trầm</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3.5 dB</item>
+    <item>6,0 dB</item>
+    <item>8,0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
+    <item>12,0 dB</item>
+    <item>13,0 dB</item>
+    <item>14,0 dB</item>
+    <item>14,8 dB</item>
+    <item>15,6 dB</item>
+    <item>16,3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Tự nhiên</item>
+    <item>OZone +</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Mặc định</item>
     <item>3.5 dB</item>
-    <item>6.0 dB</item>
-    <item>8.0 dB</item>
-    <item>10.0 dB</item>
-    <item>11.0 dB</item>
-    <item>12.0 dB</item>
-    <item>13.0 dB</item>
-    <item>14.0 dB</item>
-    <item>14.8 dB</item>
+    <item>6,0 dB</item>
+    <item>8,0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
+    <item>12,0 dB</item>
+    <item>13,0 dB</item>
+    <item>14,0 dB</item>
+    <item>14,8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

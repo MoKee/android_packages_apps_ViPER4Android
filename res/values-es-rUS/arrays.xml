@@ -23,7 +23,7 @@
   </string-array>
   <string-array name="ui_prefer">
     <item>Principiante</item>
-    <item>Moderate</item>
+    <item>Moderado</item>
     <item>Experto</item>
   </string-array>
   <string-array name="compatible_mode">
@@ -71,12 +71,25 @@
     <item>49 m²</item>
     <item>64 m²</item>
     <item>81 m²</item>
-    <item>100m²</item>
-    <item>121m²</item>
-    <item>203m²</item>
-    <item>347m²</item>
-    <item>652m²</item>
-    <item>1200m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>Leve</item>
@@ -100,20 +113,75 @@
     <item>Moderado</item>
     <item>Extremo</item>
   </string-array>
+  <string-array name="multi_factor">
+    <item>1 x</item>
+    <item>2 x</item>
+    <item>3 x</item>
+    <item>4 x</item>
+    <item>5 x</item>
+    <item>6 x</item>
+    <item>7 x</item>
+    <item>8 x</item>
+    <item>9 x</item>
+    <item>10 x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
+    <item>9,5 dB</item>
+    <item>12,0 dB</item>
+    <item>14,0 dB</item>
+    <item>18,0 dB</item>
+    <item>20,0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>dB-1,00</item>
+    <item>dB-1,90</item>
+    <item>dB-3,00</item>
+    <item>dB-6,00</item>
+    <item>dB-10,50</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6,0 dB</item>
+    <item>5.5 dB</item>
+    <item>5.2 dB</item>
+    <item>4,6 dB</item>
+    <item>4,1 dB</item>
+    <item>3,5 dB</item>
+    <item>2,9 dB</item>
+    <item>2,3 dB</item>
+    <item>1.5 dB</item>
+    <item>0,8 dB</item>
+    <item>0 dB</item>
+    <item>dB-1,00</item>
+    <item>dB-1,90</item>
+    <item>dB-3,00</item>
+    <item>dB-4,40</item>
+    <item>dB-6,00</item>
+    <item>dB-8,00</item>
+    <item>dB-10,50</item>
+    <item>dB-14,00</item>
+    <item>dB-20,00</item>
+    <item>dB-26,00</item>
+    <item>dB-40,00</item>
+  </string-array>
   <string-array name="dynamicsystem_outputs">
     <item>Extreme Headphone(v2)</item>
-    <item>High-end Headphone(v2)</item>
-    <item>Common Headphone(v2)</item>
-    <item>Low-end Headphone(v2)</item>
-    <item>Common Earphone(v2)</item>
+    <item>Headphone Gama alta(v2)</item>
+    <item>Headphone Común(v2)</item>
+    <item>Headphone Gama baja(v2)</item>
+    <item>Earphone Común(v2)</item>
     <item>Extreme Headphone(v1)</item>
-    <item>High-end Headphone(v1)</item>
-    <item>Common Headphone(v1)</item>
-    <item>Common Earphone(v1)</item>
-    <item>Apple Earphone</item>
-    <item>Monster Earphone</item>
-    <item>Moto Earphone</item>
-    <item>Philips Earphone</item>
+    <item>Headphone Gama alta(v1)</item>
+    <item>Headphone Común(v1)</item>
+    <item>Earphone Común(v1)</item>
+    <item>Auriculares de Apple</item>
+    <item>Auriculares Monster</item>
+    <item>Auricular de moto</item>
+    <item>Auricular Philips</item>
     <item>SHP2000</item>
     <item>SHP9000</item>
     <item>Desconocido Tipo I</item>
@@ -121,16 +189,65 @@
     <item>Desconocido Tipo III</item>
     <item>Desconocido Tipo IV</item>
   </string-array>
+  <string-array name="vbass_mode">
+    <item>Bajo natural</item>
+    <item>Bajo puro+</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
+    <item>8,0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
+    <item>12,0 dB</item>
+    <item>13,0 dB</item>
+    <item>14,0 dB</item>
+    <item>14,8 dB</item>
+    <item>15,6 dB</item>
+    <item>16,3 dB</item>
+    <item>17,0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Natural</item>
+    <item>Ozone +</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Predeterminado</item>
-    <item>3.5 dB</item>
-    <item>6.0 dB</item>
-    <item>8.0 dB</item>
-    <item>10.0 dB</item>
-    <item>11.0 dB</item>
-    <item>12.0 dB</item>
-    <item>13.0 dB</item>
-    <item>14.0 dB</item>
-    <item>14.8 dB</item>
+    <item>3,5 dB</item>
+    <item>6,0 dB</item>
+    <item>8,0 dB</item>
+    <item>10,0 dB</item>
+    <item>11,0 dB</item>
+    <item>12,0 dB</item>
+    <item>13,0 dB</item>
+    <item>14,0 dB</item>
+    <item>14,8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

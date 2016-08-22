@@ -18,4 +18,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="about_text_mk">Sobre ViPER4Android (MoKee Custom Edition) *** \n \n\'libv4a_xx_xx.so\' es el núcleo de ViPER4Android. \nCopyright © 2006-2016, viPER acústica. Todos los derechos reservados. \nThis versión es autorizado y modificado para su uso en el proyecto de código abierto MoKee. \nWithout el permiso oficial, de uso comercial no está permitida. \nOfficial Foro: http://vipersaudio.com/blog/ \n \n\'ViPER4Android.apk\' es el panel de control visual de ViPER4Android. \nBased el DSPManager de Cyanogenmod. \nGreat gracias Zhuhang@XDA \nGreat gracias a M4570D0N@github, xLaMbChOpSx@github, bboa@github \n \nVersion %1$s (FX), nombre en clave \"El bello\". \n</string>
   <string name="text_savefxprofile_succeeded">Guardado correctamente el perfil de efectos.</string>
+  <string name="text_savefxprofile_failed">No se pudo guardar el perfil de efectos. Almacenamiento lleno o no se puede escribir.</string>
 </resources>

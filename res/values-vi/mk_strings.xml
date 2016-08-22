@@ -16,9 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="about_text_mk">***Acerca de ViPER4Android (MoKee Custom Edition)***
+  <string name="about_text_mk">***About ViPER4Android (MoKee Custom Edition)***
 \n
-\n\'libv4a_xx_xx.so\' es el kernel de ViPER4Android.
+\n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
 \nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
 \nThis version is licenced and modified for use in MoKee Open Source Project.
 \nWithout the official permission, commercial use is disallowed.
@@ -31,6 +31,6 @@
 \n
 \nVersion %1$s (FX), Codename “Beautiful”.
 \n</string>
-  <string name="text_savefxprofile_succeeded">Guardado correctamente el perfil de efectos.</string>
-  <string name="text_savefxprofile_failed">No se pudo guardar el perfil de efectos. Almacenamiento puede estar lleno o no es posible escribir.</string>
+  <string name="text_savefxprofile_succeeded">Thành công lưu hồ sơ có hiệu lực.</string>
+  <string name="text_savefxprofile_failed">Không lưu hồ sơ có hiệu lực. Lưu trữ có thể được đầy đủ hoặc khoá.</string>
 </resources>
