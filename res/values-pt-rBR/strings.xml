@@ -260,7 +260,7 @@
 V4A executa efeito sobre todos/maioria dos mediaplayers? Você pode alternar para o modo FX compatível, em seguida, reinicie o seu dispositivo e tente novamente.
 Como mudar a qualidade de áudio driver?  Desinstale o driver no menu em seguida reinicie seu dispositivo e escolha a qualidade que você quer.
 Como reduzir o consumo de bateria?  Quando V4A está sendo executado no modo Normal, desligue as definições de som de sistema incluindo sons de toque e bloqueio/desbloqueio de sons para salvar até 1.2 ~ 4 vezes de vida de bateria.
-Fórum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+Fórum: http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Fórum</string>
   <string name="text_checkupdate">Verificar atualizações</string>
