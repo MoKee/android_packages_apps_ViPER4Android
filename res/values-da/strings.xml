@@ -16,6 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Hovedtlf.</string>
   <string name="speaker_title">Højttaler</string>
   <string name="bluetooth_title">Bluetooth-enhed</string>
   <string name="audio_effects">Lydeffekter</string>
@@ -23,6 +24,7 @@
   <string name="pref_spkfx_master_summary_on">V4A-HøjtalerFX er slået til</string>
   <string name="pref_spkfx_master_summary_off">V4A-HøjtalerFX er slået fra</string>
   <string name="eq_preset_flat">Flad</string>
+  <string name="text_headset">Hovedtlf.</string>
   <string name="text_yes">Ja</string>
   <string name="text_no">Nej</string>
   <string name="about_exit">Afslut</string>

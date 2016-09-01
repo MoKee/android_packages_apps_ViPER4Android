@@ -18,7 +18,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
     <item>Super Audio Quality</item>
-    <item>High Audio Quality</item>
+    <item>Høj lydkvalitet</item>
     <item>Strømbesparende Tilstand</item>
   </string-array>
   <string-array name="ui_prefer">
