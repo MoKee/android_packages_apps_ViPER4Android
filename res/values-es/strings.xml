@@ -55,10 +55,24 @@
   <string name="pref_xloud_spk_lowfreq">Baja Frecuencia</string>
   <string name="pref_xloud_spk_highfreq">Alta Frecuencia</string>
   <string name="pref_spk_opt_title">Optimización de altavoz</string>
+  <string name="pref_spk_opt_summary_on">Optimización de altavoz activada</string>
+  <string name="pref_spk_opt_summary_off">Optimización de altavoz desactivada</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">ViPER-DDC está habilitado</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC está deshabilitado</string>
   <string name="pref_viperddc_enable">Activado</string>
+  <string name="pref_viperddc_device">Dispositivo de Escucha</string>
+  <string name="pref_viperddc_device_manufacturer">Seleccione el fabricante</string>
+  <string name="pref_viperddc_device_model">Selecciona el modelo</string>
   <string name="pref_vse_enable">Activado</string>
+  <string name="pref_vse_strength">Intensidad</string>
+  <string name="pref_vse_strength_title">Seleccione intensidad</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Activado</string>
+  <string name="pref_analogx_summary_on">AnalogX está habilitado</string>
+  <string name="pref_analogx_summary_off">AnalogX está deshabilitado</string>
+  <string name="pref_analogx_strength">Intensidad</string>
+  <string name="pref_analogx_strength_title">Seleccione intensidad</string>
   <string name="pref_equalizer_title">FIREqualizador</string>
   <string name="pref_equalizer_summary_on">FIREqualizer esta Activado</string>
   <string name="pref_equalizer_summary_off">FIREqualizer esta Activado</string>
@@ -81,11 +95,14 @@
   <string name="pref_fidelity_vb_mode_title">Selecciona Bass Mode</string>
   <string name="pref_fidelity_vb_bassfreq">Bass Frecuencia</string>
   <string name="pref_fidelity_vb_bassfreq_title">Selecciona Bass Frecuencia</string>
+  <string name="pref_fidelity_vb_bassgain">Refuerzo de graves</string>
   <string name="pref_fidelity_vb_bassgain_title">Selecciona Bass Boost</string>
   <string name="pref_fidelity_vc_summary_on">ViPER Clarity esta Activado</string>
   <string name="pref_fidelity_vc_summary_off">ViPER Clarity esta Desactivado</string>
   <string name="pref_fidelity_vc_enable">ViPER Clarity Activado</string>
+  <string name="pref_fidelity_vc_mode">Modo claridad</string>
   <string name="pref_fidelity_vc_mode_title">Selecciona Clarity Mode</string>
+  <string name="pref_fidelity_vc_bassgain">Claridad</string>
   <string name="pref_fidelity_vc_bassgain_title">Selecciona Clarity</string>
   <string name="pref_curesystem_title">Sistema de Proteccion Auditiva</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ esta Activado</string>
@@ -133,39 +150,52 @@
   <string name="eq_preset_classical">Clasica</string>
   <string name="eq_preset_deep">Profundo</string>
   <string name="eq_preset_flat">Plano</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Rock</string>
   <string name="eq_preset_small_speakers">Altavoces Pequeños</string>
   <string name="eq_preset_treble_booster">Amplificar Agudos</string>
   <string name="eq_preset_treble_reducer">Reducir Agudos</string>
   <string name="eq_preset_vocal_booster">Amplificar Voz</string>
+  <string name="eq_preset_custom">Personalizado</string>
   <string name="text_ir_dir_isempty">ViPER4Android: El directorio IR %1$s esta vacio.</string>
   <string name="text_token_lost">ViPER4Android: Error de control de efectos, intenta volver a cargar el controlador.</string>
   <string name="text_enabled">Activado</string>
   <string name="text_disabled">Desactivado</string>
   <string name="text_headset">Auriculares</string>
+  <string name="text_bluetooth">Bluetooth</string>
   <string name="text_speaker">Altavoz</string>
   <string name="text_usb">USB/Base</string>
   <string name="text_showtrayicon">Mostrar notificación</string>
+  <string name="text_hidetrayicon">Ocultar notificación</string>
   <string name="text_lockeffect">Bloquear Modo Efectos</string>
   <string name="text_yes">Si</string>
   <string name="text_no">no</string>
+  <string name="text_normal">Normal</string>
   <string name="text_abnormal">Anormal</string>
+  <string name="text_supported">Soportado</string>
+  <string name="text_unsupported">No soportado</string>
   <string name="text_loadfxprofile">Cargar Perfil de Efecto</string>
   <string name="text_newfxprofile">Nuevo perfil de Efecto&#8230;</string>
   <string name="text_savefxprofile">Guardar Perfil de Efecto</string>
   <string name="text_profilesaved_overwrite">El nombre del perfil ya existe, ¿desea sobrescribir?</string>
+  <string name="text_profileload_tip">Aplicar perfil</string>
   <string name="text_ok">Aceptar</string>
   <string name="text_cancel">Cancelar</string>
+  <string name="text_drvinst_prefer">Por favor, elija su preferencia</string>
   <string name="text_drvinst_sqdrv">Super audio quality driver needs at least dual-core cpu and may speed up battery drain.
 \nDo you want to continue?</string>
   <string name="text_drvvernotmatch">Para utilizar ViPER4Android, necesita instalar / actualizar el controlador V4A.
 \nEl proceso de instalación se realizará automáticamente.
 \nInstalar/actualizar ahora?</string>
   <string name="text_drvuninst_confim">¿Realmente desea desinstalar el controlador v4a?</string>
+  <string name="text_uiprefer">Configuración de la interfaz de usuario</string>
+  <string name="text_uiprefer_dialog">Por favor, elija su preferencia</string>
   <string name="text_commode">Modo FX Compatible</string>
   <string name="text_uninstall">Desinstalar Driver</string>
   <string name="text_install">Instalar Driver</string>
   <string name="text_drvinst_ok">Driver instalado, por favor reinicie su teléfono.</string>
   <string name="text_drvuninst_ok">Driver desinstalado, por favor reinicie su teléfono.</string>
+  <string name="text_no_busybox">BusyBox no se ha detectado en el dispositivo, ¿quieres instalarlo ahora?</string>
   <string name="text_drvinst_acquireroot">Driver install failed, can not acquire root permission, please confirm your device has been rooted.</string>
   <string name="text_drvinst_busybox_not_installed">Driver install failed, because of no proper busybox found on this device.</string>
   <string name="text_drvinst_sdnotmounted">Driver install failed, external storage not mounted.</string>
@@ -215,7 +245,9 @@
 \n<b>¿No tienes el efecto ViPER4 en ningún reproductor?</b>\n    Puede cambiar el modo de fx a compatible y vuelva a intentarlo.
 \n
 \n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Foro</string>
+  <string name="text_checkupdate">Comprobar actualizaciones</string>
   <!-- Drawer -->
   <string name="navigation_drawer_open">Abra el cajón navegación</string>
   <string name="navigation_drawer_close">Cierre el cajón navegación</string>

@@ -28,7 +28,31 @@
   </string-array>
   <string-array name="compatible_mode">
     <item>Normal</item>
-    <item>Compatible</item>
+    <item>Kompatibel</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Let</item>
+    <item>Level 1</item>
+    <item>Niveau 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+    <item>Level 6</item>
+    <item>Level 7</item>
+    <item>Ekstrem</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Let</item>
+    <item>Level 1</item>
+    <item>Niveau 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+    <item>Level 6</item>
+    <item>Level 7</item>
+    <item>Level 8</item>
+    <item>Level 9</item>
+    <item>Ekstrem</item>
   </string-array>
   <string-array name="reverb_roomsize">
     <item>25 m²</item>
@@ -55,6 +79,28 @@
     <item>19m</item>
     <item>26m</item>
     <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Let</item>
+    <item>Moderate</item>
+    <item>Ekstrem</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Let</item>
+    <item>Moderate</item>
+    <item>Ekstrem</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Level 1</item>
+    <item>Niveau 2</item>
+    <item>Level 3</item>
+    <item>Level 4</item>
+    <item>Level 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Let</item>
+    <item>Moderate</item>
+    <item>Ekstrem</item>
   </string-array>
   <string-array name="multi_factor">
     <item>1x</item>

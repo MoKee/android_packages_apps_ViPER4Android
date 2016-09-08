@@ -91,10 +91,12 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_dynamicsystem_summary_off">Dynamisches System ist deaktiviert</string>
   <string name="pref_dynamicsystem_enable">Aus/An</string>
   <string name="pref_dynamicsystem_output">Listening Device</string>
+  <string name="pref_dynamicsystem_output_title">Aufnahmegerät wählen</string>
   <string name="pref_dynamicsystem_bass">Dynamischen Bass auswählen</string>
   <string name="pref_dynamicsystem_tube_title">Röhren-Ton-Simulator (6N1J)</string>
   <string name="pref_dynamicsystem_tube_summary_on">Röhren-Ton-Simulator ist aktiviert</string>
   <string name="pref_dynamicsystem_tube_summary_off">Röhren-Ton-Simulator ist deaktiviert</string>
+  <string name="pref_fidelity_title">Klangtreue Einstellungen</string>
   <string name="pref_fidelity_vb_summary_on">ViPER-Bass ist aktiviert</string>
   <string name="pref_fidelity_vb_summary_off">ViPER-Bass ist deaktiviert</string>
   <string name="pref_fidelity_vb_enable">ViPER-Bass aktivieren</string>
@@ -111,6 +113,7 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_fidelity_vc_mode_title">Modus der Klarheit wählen</string>
   <string name="pref_fidelity_vc_bassgain">Klarheit</string>
   <string name="pref_fidelity_vc_bassgain_title">Wähle Klarheit</string>
+  <string name="pref_curesystem_title">Auditory System Protection</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ ist aktiviert</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ ist deaktiviert</string>
   <string name="pref_curesystem_enable">Aus/An</string>

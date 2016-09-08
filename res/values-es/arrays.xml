@@ -169,25 +169,30 @@
     <item>-40.0 dB</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
-    <item>Extreme Headphone(v2)</item>
-    <item>High-end Headphone(v2)</item>
-    <item>Common Headphone(v2)</item>
-    <item>Low-end Headphone(v2)</item>
-    <item>Common Earphone(v2)</item>
-    <item>Extreme Headphone(v1)</item>
-    <item>High-end Headphone(v1)</item>
-    <item>Common Headphone(v1)</item>
-    <item>Common Earphone(v1)</item>
-    <item>Apple Earphone</item>
-    <item>Monster Earphone</item>
-    <item>Moto Earphone</item>
-    <item>Philips Earphone</item>
+    <item>Cascos Extreme(v2)</item>
+    <item>Cascos de gama alta(v2)</item>
+    <item>Cascos comunes(v2)</item>
+    <item>Cascos de gama baja(v2)</item>
+    <item>Auriculares comunes(v2)</item>
+    <item>Cascos Extreme(v1)</item>
+    <item>Cascos de gama alta(v1)</item>
+    <item>Cascos comunes(v1)</item>
+    <item>Auriculares comunes(v1)</item>
+    <item>Auriculares de Apple</item>
+    <item>Auriculares Monster</item>
+    <item>Auriculares moto</item>
+    <item>Auriculares Philips</item>
     <item>SHP2000</item>
     <item>SHP9000</item>
     <item>Desconocido Tipo I</item>
     <item>Desconocido Tipo II</item>
     <item>Desconocido Tipo III</item>
     <item>Desconocido Tipo IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Natural Bass</item>
+    <item>Pure Bass+</item>
+    <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">
     <item>30 Hz</item>

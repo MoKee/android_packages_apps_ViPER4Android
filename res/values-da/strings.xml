@@ -20,13 +20,28 @@
   <string name="speaker_title">Højttaler</string>
   <string name="bluetooth_title">Bluetooth-enhed</string>
   <string name="audio_effects">Lydeffekter</string>
+  <string name="pref_dsp_enable">Aktivér</string>
+  <string name="dialog_effect">Effektstyrke</string>
   <string name="pref_force_enable_text">Tving aktivering af V4A</string>
+  <string name="pref_fx_master_summary_on">V4A-FX er slået til</string>
   <string name="pref_spkfx_master_summary_on">V4A-HøjtalerFX er slået til</string>
   <string name="pref_spkfx_master_summary_off">V4A-HøjtalerFX er slået fra</string>
+  <string name="pref_viperddc_enable">Aktivér</string>
+  <string name="pref_vse_enable">Aktivér</string>
+  <string name="pref_analogx_enable">Aktivér</string>
+  <string name="pref_equalizer_enable">Aktivér</string>
+  <string name="pref_dynamicsystem_enable">Aktivér</string>
+  <string name="pref_curesystem_enable">Aktivér</string>
+  <string name="pref_convolver_enable">Aktivér</string>
+  <string name="pref_vhs_enable">Aktivér</string>
+  <string name="pref_colorfulmusic_enable">Aktivér</string>
+  <string name="pref_diffsurr_enable">Aktivér</string>
+  <string name="pref_reverb_enable">Aktivér</string>
   <string name="eq_preset_flat">Flad</string>
   <string name="text_headset">Hovedtlf.</string>
   <string name="text_yes">Ja</string>
   <string name="text_no">Nej</string>
+  <string name="text_ok">OK</string>
   <string name="about_exit">Afslut</string>
   <!-- Drawer -->
 </resources>
