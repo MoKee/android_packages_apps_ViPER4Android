@@ -16,6 +16,11 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Супер аудио качество</item>
+    <item>Високо качество на звука</item>
+    <item>Икономия на енергия</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Основен</item>
     <item>3.5 dB</item>

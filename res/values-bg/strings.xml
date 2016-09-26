@@ -16,6 +16,16 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Слушалки</string>
+  <string name="speaker_title">Високоговорител</string>
+  <string name="bluetooth_title">Bluetooth устройство</string>
+  <string name="text_disabled">Забранено</string>
+  <string name="text_headset">Слушалки</string>
+  <string name="text_yes">Да</string>
+  <string name="text_no">Не</string>
+  <string name="text_ok">ОК</string>
+  <string name="text_cancel">Отмени</string>
+  <string name="text_changelog">Нови неща</string>
   <string name="about_exit">Изход</string>
   <!-- Drawer -->
 </resources>

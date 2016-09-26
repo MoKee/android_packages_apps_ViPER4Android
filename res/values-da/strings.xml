@@ -42,6 +42,7 @@
   <string name="text_yes">Ja</string>
   <string name="text_no">Nej</string>
   <string name="text_ok">OK</string>
+  <string name="text_cancel">Annullér</string>
   <string name="about_exit">Afslut</string>
   <!-- Drawer -->
 </resources>
