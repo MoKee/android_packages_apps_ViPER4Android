@@ -16,6 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_text_mk">**За ViPER4 Андроид (MoKee Потребителско издание)***
+\n
+\n\'libv4a_xx_xx.so\' е ядро на ViPER4 Андроид.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Всички права запазени.
+\nТази версия е лицензирана и с права за ползване в MoKee Open Source проект.
+\nБез официални права, употреба за други не се допуска.
+\nОфициален форум: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' е визуален контролен панел на ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Codename “Beautiful”.
+\n</string>
   <string name="text_savefxprofile_succeeded">Успешно записан профил на звука.</string>
   <string name="text_savefxprofile_failed">Неуспешно записан профил на ефект. Може да няма място в хранилището.</string>
 </resources>

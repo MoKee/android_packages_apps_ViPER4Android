@@ -19,13 +19,250 @@
   <string name="headset_title">Слушалки</string>
   <string name="speaker_title">Високоговорител</string>
   <string name="bluetooth_title">Bluetooth устройство</string>
+  <string name="usb_title">USB/док</string>
+  <string name="audio_effects">Аудио ефекти</string>
+  <string name="dsp_settings_headset">Настройки на ефекти за слушалки</string>
+  <string name="dsp_settings_speaker">Настройки ефекти на говорител</string>
+  <string name="dsp_settings_bluetooth">Настройки на ефекти на Bluetooth устройство</string>
+  <string name="dsp_settings_usb">Настройки на ефекти на USB устройство</string>
+  <string name="pref_dsp_enable">Включен</string>
+  <string name="pref_effect_title">Избор на ефект за сила</string>
+  <string name="dialog_effect">Ефект на сила</string>
+  <string name="pref_force_enable_text">Форсирай включване на V4A</string>
+  <string name="pref_force_enable_warn">Включването на форсирането на сила на звука може да няма ефект. При някои ромове може да се наблюдава прекалено бързо изразходване на батерията. Използвайте на ваша отговорност или изключете тази настройка.</string>
+  <string name="pref_fx_master_title">Основно захранване</string>
+  <string name="pref_fx_master_summary_on">V4A-FX е включено</string>
+  <string name="pref_fx_master_summary_off">V4A-FX е изключено</string>
+  <string name="pref_spkfx_master_title">Основно захранване</string>
+  <string name="pref_spkfx_master_summary_on">V4A-Fx е включено</string>
+  <string name="pref_spkfx_master_summary_off">V4A-Fx е изключено</string>
+  <string name="pref_fx_limiter_title">Основен вход (Ограничен)</string>
+  <string name="pref_fx_limiter_threshold">Праг на граница</string>
+  <string name="pref_spkfx_limiter_title">Основен вход (Ограничен)</string>
+  <string name="pref_spkfx_limiter_threshold">Праг на граница</string>
+  <string name="pref_output_gain">Изходящ</string>
+  <string name="pref_output_pan">Панел с канали</string>
+  <string name="pref_playback_title">Възпроизвеждане на усилването</string>
+  <string name="pref_playback_summary_on">Възпроизвеждане на Agc е разрешено</string>
+  <string name="pref_playback_summary_off">Възпроизвеждане на Agc е забранено</string>
+  <string name="pref_playback_output_threshold">Максимална изходна сила</string>
+  <string name="pref_playback_maxgain">Основно подобрение</string>
+  <string name="pref_xloud_title">допълн. усилване</string>
+  <string name="pref_xloud_summary_on">допълн. усилване е разрешено</string>
+  <string name="pref_xloud_summary_off">допълн. усилване е забранено</string>
+  <string name="pref_xloud_output_amplifer">Изходящ</string>
+  <string name="pref_xloud_spk_lowfreq">Ниска реакция</string>
+  <string name="pref_xloud_spk_highfreq">Висока реакция</string>
+  <string name="pref_spk_opt_title">Оптимизиране на говорител</string>
+  <string name="pref_spk_opt_summary_on">Оптимизиране на говорител разрешено</string>
+  <string name="pref_spk_opt_summary_off">Оптимизиране на говорител забранено</string>
+  <string name="pref_viperddc_title">Вайпър-DDC</string>
+  <string name="pref_viperddc_summary_on">Вайпър-DDC е разрешено</string>
+  <string name="pref_viperddc_summary_off">Вайпър-DDC е забранено</string>
+  <string name="pref_viperddc_enable">Включен</string>
+  <string name="pref_viperddc_device">Прослушване на устройство</string>
+  <string name="pref_viperddc_device_manufacturer">Избор на производител</string>
+  <string name="pref_viperddc_device_model">Избор на модел</string>
+  <string name="pref_viperddc_tips">Забележка:
+\nViPER-DDC е реален усилвател на Hi-Fi аудио процесор и се използва за корекция на звука в слушалките. 
+\nViPER-DDC сега поддържа над 500 модела слушалки, като тенденцията е да се увеличи този брой. 
+\nIf ако не можете да откриете модела на вашите слушалки в списъка, моля, изключете тази функция, докато не бъдат добавени.</string>
+  <string name="pref_vse_title">Спектър на разширение</string>
+  <string name="pref_vse_summary_on">Спектър разширението е разрешено</string>
+  <string name="pref_vse_summary_off">Спектър разширение е забранено</string>
+  <string name="pref_vse_enable">Включен</string>
+  <string name="pref_vse_strength">Сила</string>
+  <string name="pref_vse_strength_title">Ефект на сила</string>
+  <string name="pref_vse_tips">Забележка: \nSpectrum разширение е истински Hi-Fi аудио процесор и той се използва за разширяване спектъра на lossy компресиран. \nIf играят lossy компресираната музика (такива mp3, aac, ogg), тази функция може да даде lossless усещане. \nHowever, ако играете lossless музика, ние ви препоръчваме да изключите тази функция.</string>
+  <string name="pref_analogx_title">AnalogX</string>
+  <string name="pref_analogx_enable">Включен</string>
+  <string name="pref_analogx_summary_on">AnalogX е разрешено</string>
+  <string name="pref_analogx_summary_off">AnalogX е забранено</string>
+  <string name="pref_analogx_strength">Сила</string>
+  <string name="pref_analogx_strength_title">Изберете сила</string>
+  <string name="pref_equalizer_title">FIREqualizer</string>
+  <string name="pref_equalizer_summary_on">FIREqualizer е разрешено</string>
+  <string name="pref_equalizer_summary_off">FIREqualizer е забранено</string>
+  <string name="pref_equalizer_enable">Включен</string>
+  <string name="pref_equalizer_preset_title">Избор на зададени</string>
+  <string name="pref_dynamicsystem_title">Динамична система</string>
+  <string name="pref_dynamicsystem_summary_on">Динамична система е активирана</string>
+  <string name="pref_dynamicsystem_summary_off">Динамична система е забранено</string>
+  <string name="pref_dynamicsystem_enable">Включен</string>
+  <string name="pref_dynamicsystem_output">Прослушване на устройство</string>
+  <string name="pref_dynamicsystem_output_title">Изберете устройство за слушане</string>
+  <string name="pref_dynamicsystem_bass">Изберете динамичен бас</string>
+  <string name="pref_dynamicsystem_tube_title">Звуков симулатор (6N1J)</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Звуков симулатор е разрешен</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Звуков симулатор е забранен</string>
+  <string name="pref_fidelity_title">Контрол на реалността</string>
+  <string name="pref_fidelity_vb_summary_on">Вайпър бас е разрешен</string>
+  <string name="pref_fidelity_vb_summary_off">Вайпър бас е забранен</string>
+  <string name="pref_fidelity_vb_enable">Разреши ViPER бас</string>
+  <string name="pref_fidelity_vb_mode">Бас настройки</string>
+  <string name="pref_fidelity_vb_mode_title">Изберете режим за бас</string>
+  <string name="pref_fidelity_vb_bassfreq">Бас честота</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Изберете бас честота</string>
+  <string name="pref_fidelity_vb_bassgain">Усилване на басите</string>
+  <string name="pref_fidelity_vb_bassgain_title">Изберете усилване на басите</string>
+  <string name="pref_fidelity_vc_summary_on">Вайпър яснота е разрешена</string>
+  <string name="pref_fidelity_vc_summary_off">Вайпър яснота е забранена</string>
+  <string name="pref_fidelity_vc_enable">Разреши ViPER яснота</string>
+  <string name="pref_fidelity_vc_mode">Режим Яснота</string>
+  <string name="pref_fidelity_vc_mode_title">Изберете режим за яснота</string>
+  <string name="pref_fidelity_vc_bassgain">Яснота</string>
+  <string name="pref_fidelity_vc_bassgain_title">Изберете режим за яснота</string>
+  <string name="pref_curesystem_title">Защита на слуховата система</string>
+  <string name="pref_curesystem_summary_on">Лек Tech + е разрешено</string>
+  <string name="pref_curesystem_summary_off">Лек Tech + е забранено</string>
+  <string name="pref_curesystem_enable">Включен</string>
+  <string name="pref_select_cure_cf_title">Изберете Binaural ниво</string>
+  <string name="dialog_cure_crossfeed">Binaural ниво</string>
+  <string name="pref_convolver_title">Convolver</string>
+  <string name="pref_convolver_summary_on">Convolver е разрешено</string>
+  <string name="pref_convolver_summary_off">Convolver е забранено</string>
+  <string name="pref_convolver_enable">Включен</string>
+  <string name="pref_convolver_knl">Импулс отговор</string>
+  <string name="pref_convolver_knl_title">Изберете импулс отговор</string>
+  <string name="pref_convolver_crosschannel">Кръстосан канал</string>
+  <string name="pref_convolver_crosschannel_title">Изберете кръстосан канал</string>
+  <string name="pref_vhs_title">Съраунд слушалки +</string>
+  <string name="pref_vhs_summary_on">VHS + е разрешено</string>
+  <string name="pref_vhs_summary_off">VHS + е забранено</string>
+  <string name="pref_vhs_enable">Включен</string>
+  <string name="pref_select_vhs_qual_title">Изберете ниво на ефект</string>
+  <string name="dialog_vhs_qual">Ниво на ефект</string>
+  <string name="pref_colorfulmusic_title">Поле съраунд</string>
+  <string name="pref_colorfulmusic_summary_on">Поле съраунд е разрешено</string>
+  <string name="pref_colorfulmusic_summary_off">Поле съраунд е забранено</string>
+  <string name="pref_colorfulmusic_enable">Включен</string>
+  <string name="pref_select_colorfulmusic_title">Изберете съраунд сила</string>
+  <string name="dialog_colorfulmusic">Изберете съраунд сила</string>
+  <string name="pref_select_colorfulmusic_mi_title">Изберете средна сила</string>
+  <string name="dialog_colorfulmusic_mi">Изберете средна сила</string>
+  <string name="pref_diffsurr_title">Диференциален съраунд</string>
+  <string name="pref_diffsurr_summary_on">Поле съраунд е разрешено</string>
+  <string name="pref_diffsurr_summary_off">Поле съраунд е забранено</string>
+  <string name="pref_diffsurr_enable">Включен</string>
+  <string name="pref_select_diffsurr_ms_title">Изберете време закъснение</string>
+  <string name="dialog_diffsurr_ms">Време закъснение</string>
+  <string name="pref_reverb_title">Ехо</string>
+  <string name="pref_reverb_summary_on">Ефект Ехо е разрешен</string>
+  <string name="pref_reverb_summary_off">Ефект Ехо е забранен</string>
+  <string name="pref_reverb_enable">Включен</string>
+  <string name="pref_reverb_roomsize">Размер на стая</string>
+  <string name="pref_reverb_width">Звуково поле</string>
+  <string name="pref_reverb_damp">Коефициент на затихване</string>
+  <string name="pref_reverb_wet">Мокър сигнал</string>
+  <string name="pref_reverb_dry">Сух сигнал</string>
+  <string name="eq_preset_acoustic">Акустика</string>
+  <string name="eq_preset_bass_booster">Усилване на басите</string>
+  <string name="eq_preset_bass_reducer">Бас редуктор</string>
+  <string name="eq_preset_classical">Класическа</string>
+  <string name="eq_preset_deep">Дълбоко</string>
+  <string name="eq_preset_flat">Плосък</string>
+  <string name="eq_preset_r_and_b">&amp;amp</string>
+  <string name="eq_preset_rock">Рок</string>
+  <string name="eq_preset_small_speakers">Малки високоговорители</string>
+  <string name="eq_preset_treble_booster">Троен бустер</string>
+  <string name="eq_preset_treble_reducer">Троен редуктор</string>
+  <string name="eq_preset_vocal_booster">Вокален бустер</string>
+  <string name="eq_preset_custom">По избор</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: IR директорията %1$s е празна.</string>
+  <string name="text_token_lost">ViPER4Android: Текущата програма е поискала да забраните аудио ефекти, така че V4A ще бъдат временно дезактивирани.</string>
+  <string name="text_enabled">Разрешено</string>
   <string name="text_disabled">Забранено</string>
   <string name="text_headset">Слушалки</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Високоговорител</string>
+  <string name="text_usb">USB/док</string>
+  <string name="text_showtrayicon">Показвай известие</string>
+  <string name="text_hidetrayicon">Скрий известие</string>
+  <string name="text_lockeffect">Ефект на заключване</string>
   <string name="text_yes">Да</string>
   <string name="text_no">Не</string>
+  <string name="text_normal">Нормално</string>
+  <string name="text_abnormal">Необичайни</string>
+  <string name="text_supported">Поддържани</string>
+  <string name="text_unsupported">Неподдържан</string>
+  <string name="text_loadfxprofile">Заредете ефекти на профил</string>
+  <string name="text_newfxprofile">Нов профил за ефект&#8230;</string>
+  <string name="text_savefxprofile">Запиши ефект профил</string>
+  <string name="text_profilesaved_overwrite">Искате ли да замените този профил?</string>
+  <string name="text_profileload_tip">Прилагане на профила</string>
   <string name="text_ok">ОК</string>
   <string name="text_cancel">Отмени</string>
+  <string name="text_drvinst_prefer">Моля, направете вашият избор</string>
+  <string name="text_drvinst_sqdrv">Драйверът за супер аудио качество изисква работата на всички ядра, което може да ускори разхода на батерията.
+\n Искате ли да продължите?</string>
+  <string name="text_drvvernotmatch">За да използвате ViPER за Андроид, трябва да актуализирате V4A драйвера. \n Това ще бъде направено автоматично. \nIn Инсталиране сега?</string>
+  <string name="text_drvuninst_confim">Наистина ли искате да деинсталирате V4A драйвера?</string>
+  <string name="text_uiprefer">UI настройка</string>
+  <string name="text_uiprefer_dialog">Моля, направете вашият избор</string>
+  <string name="text_commode">FX съвместим режим</string>
+  <string name="text_uninstall">Деинсталирайте драйвера</string>
+  <string name="text_install">Инсталиране на драйвера</string>
+  <string name="text_drvinst_ok">Драйверът е инсталиран, моля рестартирайте устройството.</string>
+  <string name="text_drvuninst_ok">Драйверът е деинсталиран. Моля, рестартирайте устройството.</string>
+  <string name="text_no_busybox">Busybox е не е открит на вашето устройство, желаете ли да го инсталирате сега?</string>
+  <string name="text_drvinst_acquireroot">Драйверът не се инсталира успешно. V4A не получи рут-права. Моля, потвърдете, че устройството ви има рут достъп.</string>
+  <string name="text_drvinst_busybox_not_installed">Драйверът не се инсталира успешно. Няма налична Busybox.</string>
+  <string name="text_drvinst_sdnotmounted">Драйверът не се инсталира. Не е монтирана външна памет.</string>
+  <string name="text_drvinst_dataioerr">Неуспех при инсталиране. I/O грешка. Моля, рестартирайте и опитайте пак.</string>
+  <string name="text_drvinst_cfg_unsup">Неуспешна инсталация. Този РОМ не се поддържа.</string>
+  <string name="text_drvinst_failed">Инсталацията не успя: busybox на устройството не работи. \n Това обикновено означава, че сте инсталирали погрешно busybox. V4A е необходим в Stericson в busybox да работи. \nIf Бъдете сигурни, че сте инсталирали правилно busybox и потвърдете, че имате пълни рут-права.</string>
+  <string name="text_modifybuildprop">ВНИМАНИЕ: \nLPA е активирана във вашето устройство, това може да предизвика V4A неизправност. \nLPA, или \"Ниска мощност на звука\". Това може да бъде прекратено чрез модифициране на build.prop, което може да се направи автоматично. \nНие силно препоръчваме да направите NANDROID архивиране на данни, преди да продължите! \nИскате ли да забраните LPA сега?</string>
   <string name="text_changelog">Нови неща</string>
+  <string name="text_drv_status">Състояние на драйвер</string>
+  <string name="text_drv_status_view">\n
+\nВерсия на драйвер: %1$s
+\nNEON Включено: %2$s
+\nВключено: %3$s
+\nСтатус: %4$s
+\nАудио формат: %5$s
+\nОставащи: %6$s
+\nОбикновен рейд: %7$d
+\n</string>
+  <string name="text_service_error">Не можа да комуникира с услугата ViPER за Андроид.</string>
   <string name="about_exit">Изход</string>
+  <string name="about_title">Помощ и относно</string>
+  <string name="about_text">**За ViPER4 Андроид (MoKee Потребителско издание)***
+\n
+\n\'libv4a_xx_xx.so\' е ядро на ViPER4 Андроид.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Всички права запазени.
+\nТази версия е лицензирана и с права за ползване в MoKee Open Source проект.
+\nБез официални права, употреба за други не се допуска.
+\nОфициален форум: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' е визуален контролен панел на ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Codename “Beautiful”.
+\n</string>
+  <string name="text_help_content">***Основна помощ***
+
+\n
+\n\'Install Driver\' - Install/Update ViPER4Android effect driver.
+\n\'Uninstall Driver\' - Uninstall ViPER4Android effect driver.
+\n\'FX Compatible Mode\' - Set effect compatibility mode.
+\n    \'Normal\' - Make ViPER4Android a global effect.
+\n    \'Compatible\' - Make ViPER4Android a local effect.
+\n
+\n<b>No V4A effect on all/most mediaplayers?</b>\n    You can switch the FX mode to compatible then restart your device and try again.
+\n
+\n<b>How to change driver audio quality?</b>\n    Uninstall driver in menu then restart your device and choose the quality you want.
+\n
+\n<b>How to reduce battery consumption?</b>\n    When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Форум</string>
+  <string name="text_checkupdate">Провери за актуализация</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Отваряне на панела за навигация</string>
+  <string name="navigation_drawer_close">Затваряне на панела за навигация</string>
+  <string name="navigation_toggle_drawer">Изглед чекмедже</string>
+  <string name="navigation_toggle_tabbed">Табличен изглед</string>
 </resources>

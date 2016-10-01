@@ -174,7 +174,7 @@
   <string name="eq_preset_vocal_booster">Penguat Vokal</string>
   <string name="eq_preset_custom">Kostum</string>
   <string name="text_ir_dir_isempty">ViPER4Android: IR sampel direktori %1$s kosong.</string>
-  <string name="text_token_lost">ViPER4Android: Sebuah program berjalan telah meminta Android untuk menonaktifkan efek audio, sehingga V4A akan dinonaktifkan.</string>
+  <string name="text_token_lost">ViPER4Android: Sebuah program yang berjalan meminta Android untuk menonaktifkan efek audio, sehingga V4A sementara dinonaktifkan.</string>
   <string name="text_enabled">Diaktifkan</string>
   <string name="text_disabled">Dinonaktifkan</string>
   <string name="text_headset">Headset</string>

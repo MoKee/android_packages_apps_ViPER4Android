@@ -21,16 +21,233 @@
     <item>Високо качество на звука</item>
     <item>Икономия на енергия</item>
   </string-array>
-  <string-array name="vclarity_boost">
-    <item>Основен</item>
-    <item>3.5 dB</item>
+  <string-array name="ui_prefer">
+    <item>Начинаещ</item>
+    <item>Средно напреднал</item>
+    <item>Експерт</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Нормално</item>
+    <item>Съвместим</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Леко</item>
+    <item>Ниво 1</item>
+    <item>Ниво 2</item>
+    <item>Ниво 3</item>
+    <item>Ниво 4</item>
+    <item>Ниво 5</item>
+    <item>Ниво 6</item>
+    <item>Ниво 7</item>
+    <item>Екстремно</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Леко</item>
+    <item>Ниво 1</item>
+    <item>Ниво 2</item>
+    <item>Ниво 3</item>
+    <item>Ниво 4</item>
+    <item>Ниво 5</item>
+    <item>Ниво 6</item>
+    <item>Ниво 7</item>
+    <item>Ниво 8</item>
+    <item>Ниво 9</item>
+    <item>Екстремно</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 м²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6 м</item>
+    <item>7 м</item>
+    <item>8 м</item>
+    <item>9 м</item>
+    <item>10 м</item>
+    <item>11 м</item>
+    <item>14 м</item>
+    <item>19 м</item>
+    <item>26 м</item>
+    <item>36 м</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Леко</item>
+    <item>Средно напреднал</item>
+    <item>Екстремно</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Леко</item>
+    <item>Средно напреднал</item>
+    <item>Екстремно</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Ниво 1</item>
+    <item>Ниво 2</item>
+    <item>Ниво 3</item>
+    <item>Ниво 4</item>
+    <item>Ниво 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Леко</item>
+    <item>Средно напреднал</item>
+    <item>Екстремно</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Инф</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12.0 dB</item>
+    <item>14.0 dB</item>
+    <item>18.0 dB</item>
+    <item>20.0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3,5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0,8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Екстремни Слушалки(v2)</item>
+    <item>Висок клас Слушалки(v2)</item>
+    <item>Класически Слушалки(v2)</item>
+    <item>Нисък клас Слушалки(v2)</item>
+    <item>Класически Слушалки(v2)</item>
+    <item>Екстремни Слушалки(v2)</item>
+    <item>Висок клас Слушалки(v2)</item>
+    <item>Класически Слушалки(v2)</item>
+    <item>Класически Слушалки(v2)</item>
+    <item>Ейпъл клас слушалки</item>
+    <item>Чудовищни слушалки</item>
+    <item>Мото слушалки</item>
+    <item>Philips слушалки</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Непознат тип I</item>
+    <item>Непознат тип II</item>
+    <item>Непознат тип III</item>
+    <item>Непознат тип IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Естествен бас</item>
+    <item>Чист бас +</item>
+    <item>Събуфър</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3,5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
-    <item>10.0 dB</item>
+    <item>10,0 dB</item>
     <item>11.0 dB</item>
     <item>12.0 dB</item>
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16,3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Естествен</item>
+    <item>Озон +</item>
+    <item>XHiFi</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Основен</item>
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10,0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>
