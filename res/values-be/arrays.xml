@@ -17,16 +17,21 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Высокая якасць</item>
-    <item>Высокая якасць гуку</item>
+    <item>Найлепшая якасць гучання</item>
+    <item>Высокая якасць гучання</item>
     <item>Энергазахаванне</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Навічок</item>
+    <item>Вопытны</item>
+    <item>Эксперт</item>
   </string-array>
   <string-array name="compatible_mode">
     <item>Звычайны</item>
-    <item>Compatible</item>
+    <item>Сумяшчальны</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Slight</item>
+    <item>Лёгкі</item>
     <item>Узровень 1</item>
     <item>Узровень 2</item>
     <item>Узровень 3</item>
@@ -34,10 +39,10 @@
     <item>Узровень 5</item>
     <item>Узровень 6</item>
     <item>Узровень 7</item>
-    <item>Extreme</item>
+    <item>Экстрэмальны</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
-    <item>Slight</item>
+    <item>Лёгкі</item>
     <item>Узровень 1</item>
     <item>Узровень 2</item>
     <item>Узровень 3</item>
@@ -47,7 +52,7 @@
     <item>Узровень 7</item>
     <item>Узровень 8</item>
     <item>Узровень 9</item>
-    <item>Extreme</item>
+    <item>Экстрэмальны</item>
   </string-array>
   <string-array name="diffsurround_delay">
     <item>2 мс</item>
@@ -86,12 +91,27 @@
     <item>26 м</item>
     <item>36 м</item>
   </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Лёгкі</item>
+    <item>Вопытны</item>
+    <item>Экстрэмальны</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Лёгкі</item>
+    <item>Вопытны</item>
+    <item>Экстрэмальны</item>
+  </string-array>
   <string-array name="vhs_qual">
     <item>Узровень 1</item>
     <item>Узровень 2</item>
     <item>Узровень 3</item>
     <item>Узровень 4</item>
     <item>Узровень 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Лёгкі</item>
+    <item>Вопытны</item>
+    <item>Экстрэмальны</item>
   </string-array>
   <string-array name="multi_factor">
     <item>1x</item>
@@ -104,11 +124,21 @@
     <item>8x</item>
     <item>9x</item>
     <item>10x</item>
-    <item>Inf</item>
+    <item>Інф</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 дБ</item>
+    <item>3.5 дБ</item>
+    <item>6.0 дБ</item>
+    <item>9.5 дБ</item>
+    <item>12.0 дБ</item>
+    <item>14.0 дБ</item>
+    <item>18.0 дБ</item>
+    <item>20.0 дБ</item>
   </string-array>
   <string-array name="output_db">
-    <item>0 dB</item>
-    <item>-1.0 dB</item>
+    <item>0 дБ</item>
+    <item>-1.0 дБ</item>
     <item>-1,9 дБ</item>
     <item>-3,0 дБ</item>
     <item>-6,0 дБ</item>
@@ -138,6 +168,32 @@
     <item>-26,0 дБ</item>
     <item>-40,0 дБ</item>
   </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Высокаякасныя навушнікі (2)</item>
+    <item>Добрыя навушнікі (2)</item>
+    <item>Звычайныя навушнікі (2)</item>
+    <item>Простыя навушнікі (2)</item>
+    <item>Звычайная гарнітура (2)</item>
+    <item>Высокаякасныя навушнікі (1)</item>
+    <item>Добрыя навушнікі (1)</item>
+    <item>Звычайныя навушнікі (1)</item>
+    <item>Звычайная гарнітура (1)</item>
+    <item>Гарнітура Apple</item>
+    <item>Гарнітура Monster</item>
+    <item>Гарнітура Moto</item>
+    <item>Гарнітура Philips</item>
+    <item>Philips SHP 2000</item>
+    <item>Philips SHP 9000</item>
+    <item>Невядомы тып 1</item>
+    <item>Невядомы тып 2</item>
+    <item>Невядомы тып 3</item>
+    <item>Невядомы тып 4</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Натуральны бас</item>
+    <item>Чысты бас +</item>
+    <item>Сабвуфер</item>
+  </string-array>
   <string-array name="vbass_freq">
     <item>30 Гц</item>
     <item>40 Гц</item>
@@ -161,6 +217,11 @@
     <item>15,6 дБ</item>
     <item>16,3 дБ</item>
     <item>17,0 дБ</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Натуральнае гучанне</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
     <item>Па змаўчанні</item>

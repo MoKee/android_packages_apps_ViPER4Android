@@ -17,14 +17,14 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Super Audio Quality</item>
+    <item>Super Lydkvalitet</item>
     <item>Høj lydkvalitet</item>
     <item>Strømbesparende Tilstand</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Begynder</item>
-    <item>Moderate</item>
-    <item>Expert</item>
+    <item>Moderat</item>
+    <item>Ekspert</item>
   </string-array>
   <string-array name="compatible_mode">
     <item>Normal</item>
@@ -32,27 +32,38 @@
   </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>Let</item>
-    <item>Level 1</item>
+    <item>Niveau 1</item>
     <item>Niveau 2</item>
-    <item>Level 3</item>
-    <item>Level 4</item>
-    <item>Level 5</item>
-    <item>Level 6</item>
-    <item>Level 7</item>
+    <item>Niveau 3</item>
+    <item>Niveau 4</item>
+    <item>Niveau 5</item>
+    <item>Niveau 6</item>
+    <item>Niveau 7</item>
     <item>Ekstrem</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
     <item>Let</item>
-    <item>Level 1</item>
+    <item>Niveau 1</item>
     <item>Niveau 2</item>
-    <item>Level 3</item>
-    <item>Level 4</item>
-    <item>Level 5</item>
-    <item>Level 6</item>
-    <item>Level 7</item>
-    <item>Level 8</item>
-    <item>Level 9</item>
+    <item>Niveau 3</item>
+    <item>Niveau 4</item>
+    <item>Niveau 5</item>
+    <item>Niveau 6</item>
+    <item>Niveau 7</item>
+    <item>Niveau 8</item>
+    <item>Niveau 9</item>
     <item>Ekstrem</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
   </string-array>
   <string-array name="reverb_roomsize">
     <item>25 m²</item>
@@ -82,24 +93,24 @@
   </string-array>
   <string-array name="cure_crossfeed">
     <item>Let</item>
-    <item>Moderate</item>
+    <item>Moderat</item>
     <item>Ekstrem</item>
   </string-array>
   <string-array name="analogx_mode">
     <item>Let</item>
-    <item>Moderate</item>
+    <item>Moderat</item>
     <item>Ekstrem</item>
   </string-array>
   <string-array name="vhs_qual">
-    <item>Level 1</item>
+    <item>Niveau 1</item>
     <item>Niveau 2</item>
-    <item>Level 3</item>
-    <item>Level 4</item>
-    <item>Level 5</item>
+    <item>Niveau 3</item>
+    <item>Niveau 4</item>
+    <item>Niveau 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
     <item>Let</item>
-    <item>Moderate</item>
+    <item>Moderat</item>
     <item>Ekstrem</item>
   </string-array>
   <string-array name="multi_factor">
@@ -157,6 +168,42 @@
     <item>-26,0 dB</item>
     <item>-40,0 dB</item>
   </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Ekstrem Hovedtelefon (v2)</item>
+    <item>Højkvalitets Hovedtelefon (v2)</item>
+    <item>Standard Hovedtelefon (v2)</item>
+    <item>Lavkvalitets Hovedtelefon (v2)</item>
+    <item>Standard Hovedtelefon (v2)</item>
+    <item>Ekstrem Hovedtelefon (v1)</item>
+    <item>Højkvalitets Hovedtelefon (v1)</item>
+    <item>Standard Hovedtelefon (v1)</item>
+    <item>Standard Øretelefon (v1)</item>
+    <item>Apple Øretelefon</item>
+    <item>Monster Øretelefon</item>
+    <item>Moto Øretelefon</item>
+    <item>Philips Øretelefon</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Ukendt Type I</item>
+    <item>Ukendt Type II</item>
+    <item>Ukendt Type III</item>
+    <item>Ukendt Type IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Naturlig Bas</item>
+    <item>Ren Bas+</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
   <string-array name="vbass_boost">
     <item>3,5 dB</item>
     <item>6,0 dB</item>
@@ -170,6 +217,11 @@
     <item>15.6 dB</item>
     <item>16.3 dB</item>
     <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Natural</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
     <item>Standard</item>
@@ -185,7 +237,7 @@
   </string-array>
   <string-array name="speaker_lowfreq">
     <item>100 Hz</item>
-    <item>140 Hz</item>
+    <item>450</item>
     <item>180 Hz</item>
     <item>200 Hz</item>
     <item>220 Hz</item>

@@ -17,7 +17,16 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">Гарнітура</string>
+  <string name="speaker_title">Дынамік тэлефона</string>
+  <string name="bluetooth_title">Bluetooth прылада</string>
+  <string name="usb_title">USB/Док-станцыя</string>
+  <string name="audio_effects">Аўдыя эфекты</string>
+  <string name="dsp_settings_headset">Настройкі эфектаў - Навушнікі</string>
+  <string name="dsp_settings_speaker">Настройкі эфектаў - Дынамік тэлефона</string>
+  <string name="dsp_settings_bluetooth">Настройкі эфектаў - Bluetooth прылада</string>
+  <string name="dsp_settings_usb">Настройкі эфектаў - USB прылада</string>
   <string name="pref_dsp_enable">Уключыць</string>
+  <string name="pref_effect_title">Выберыце сілу эфектаў</string>
   <string name="pref_viperddc_enable">Уключыць</string>
   <string name="pref_vse_enable">Уключыць</string>
   <string name="pref_analogx_enable">Уключыць</string>
@@ -33,6 +42,7 @@
   <string name="eq_preset_rock">Рок</string>
   <string name="text_disabled">Выключана</string>
   <string name="text_headset">Гарнітура</string>
+  <string name="text_usb">USB/Док-станцыя</string>
   <string name="text_yes">Да</string>
   <string name="text_no">Не</string>
   <string name="text_ok">ОК</string>

@@ -16,5 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_text_mk">***Аб ViPER4Android (MoKee Custom Edition)***
+\n
+\n\'libv4a_xx_xx.so\' з\'яуляецца часткай ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Усе права захаваны.
+\nГэта версія ліцэнзавана і мадыфікавана для выкарыстання ў MoKee Open Source Project.
+\nБез афіцыйнага дазволу, камерцыйнае выкарыстанне забаронена.
+\nАфіцыйны форум: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' з\'яўляецца візуальнай панэлью кіравання ViPER4Android.
+\nНа аснове Cyanogenmod\'s DSPManager.
+\nВялікі дзякуй Zhuhang@XDA
+\nВялікі дзякуй M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nВерсія %1$s (FX), Кодавае імя “Beautiful”.
+\n</string>
   <string name="text_savefxprofile_succeeded">Профіль паспяхова захаваны.</string>
+  <string name="text_savefxprofile_failed">Не атрымалася захаваць профіль \"эффектаў\". Мабыць памяць запоўнена ці не даступна для запісаў.</string>
 </resources>

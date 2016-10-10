@@ -237,9 +237,17 @@
   </string-array>
   <string-array name="speaker_lowfreq">
     <item>100 הרץ</item>
-    <item>140 Hz</item>
-    <item>180 Hz</item>
-    <item>200 Hz</item>
-    <item>220 Hz</item>
+    <item>140 הרץ</item>
+    <item>180 הרץ</item>
+    <item>200 הרץ</item>
+    <item>220 הרץ</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 הרץ</item>
+    <item>4000 הרץ</item>
+    <item>5000 הרץ</item>
+    <item>6000 הרץ</item>
+    <item>7000 הרץ</item>
+    <item>8000 הרץ</item>
   </string-array>
 </resources>

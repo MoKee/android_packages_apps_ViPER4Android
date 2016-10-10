@@ -17,8 +17,8 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Высокое качество</item>
-    <item>Стандартное качество</item>
+    <item>Высокое качество звука</item>
+    <item>Стандартное качество звука</item>
     <item>Энергосбережение</item>
   </string-array>
   <string-array name="ui_prefer">

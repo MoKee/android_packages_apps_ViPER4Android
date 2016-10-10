@@ -19,30 +19,257 @@
   <string name="headset_title">Hovedtlf.</string>
   <string name="speaker_title">Højttaler</string>
   <string name="bluetooth_title">Bluetooth-enhed</string>
+  <string name="usb_title">USB/Dok</string>
   <string name="audio_effects">Lydeffekter</string>
+  <string name="dsp_settings_headset">Effektindstillinger - Hovedtelefon</string>
+  <string name="dsp_settings_speaker">Effektindstillinger - Enhedshøjttaler</string>
+  <string name="dsp_settings_bluetooth">Effektindstillinger - Bluetoothenhed</string>
+  <string name="dsp_settings_usb">Effektindstillinger - USB-enhed</string>
   <string name="pref_dsp_enable">Aktivér</string>
+  <string name="pref_effect_title">Vælg Effektstyrke</string>
   <string name="dialog_effect">Effektstyrke</string>
   <string name="pref_force_enable_text">Tving aktivering af V4A</string>
+  <string name="pref_force_enable_warn">Benyttes Tvungen Aktivering, løser det måske problemet med manglende effekt.\n
+På visse ROM\'er opleves dog \"bivirkninger\" såsom manglende lyd og batteridræning.\n
+Benyt på egen risiko. Slå venligst denne funktion fra ved ovennævnte problemer.</string>
+  <string name="pref_fx_master_title">Hovedafbryder</string>
   <string name="pref_fx_master_summary_on">V4A-FX er slået til</string>
+  <string name="pref_fx_master_summary_off">V4A-FX er slået fra</string>
+  <string name="pref_spkfx_master_title">Hovedafbryder</string>
   <string name="pref_spkfx_master_summary_on">V4A-HøjtalerFX er slået til</string>
   <string name="pref_spkfx_master_summary_off">V4A-HøjtalerFX er slået fra</string>
+  <string name="pref_fx_limiter_title">Hoved-Gate (begrænser)</string>
+  <string name="pref_fx_limiter_threshold">Grænsetærskel</string>
+  <string name="pref_spkfx_limiter_title">Hoved-Gate (begrænser)</string>
+  <string name="pref_spkfx_limiter_threshold">Grænsetærskel</string>
+  <string name="pref_output_gain">Udgangsforstærkning</string>
+  <string name="pref_output_pan">Kanaloverlapning</string>
+  <string name="pref_playback_title">Forstærkningskontrol for afspilning</string>
+  <string name="pref_playback_summary_on">AfspilningsAGC er aktiv</string>
+  <string name="pref_playback_summary_off">AfspilningsAGC er inaktiv</string>
+  <string name="pref_playback_output_threshold">Maks. Udgangsniveau</string>
+  <string name="pref_playback_maxgain">Maks. Forstærkning</string>
+  <string name="pref_xloud_title">eXtra Højt</string>
+  <string name="pref_xloud_summary_on">eXtra Højt er aktiv</string>
+  <string name="pref_xloud_summary_off">eXtra Højt er inaktiv</string>
+  <string name="pref_xloud_output_amplifer">Udgangsforstærkning</string>
+  <string name="pref_spk_opt_title">Højttaleroptimering</string>
+  <string name="pref_spk_opt_summary_on">Højttaleroptimering er aktiv</string>
+  <string name="pref_spk_opt_summary_off">Højttaleroptimering er inaktiv</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">ViPER-DDC er aktiv</string>
+  <string name="pref_viperddc_summary_off">ViPER-DDC er inaktiv</string>
   <string name="pref_viperddc_enable">Aktivér</string>
+  <string name="pref_viperddc_device">Lytteenhed</string>
+  <string name="pref_viperddc_device_manufacturer">Vælg Producent</string>
+  <string name="pref_viperddc_device_model">Vælg Model</string>
+  <string name="pref_viperddc_tips">Bemærk:\n
+ViPER-DDC er en ægte Hi-Fi lydprocessor og benyttes til hovedtelefonkorrektion.\n
+ViPER-DDC understøtter nu næsten 500 hovedtelefoner og vil fremadrettet understøtte endnu flere.\n
+Optræder din hovedtelefon ikke på listen, bør du deaktivere denne funktion indtil din model er tilføjet.</string>
+  <string name="pref_vse_title">Spektrumudvidelse</string>
+  <string name="pref_vse_summary_on">Spektrumudvidelse er aktiv</string>
+  <string name="pref_vse_summary_off">Spektrumudvidelse er inaktiv</string>
   <string name="pref_vse_enable">Aktivér</string>
+  <string name="pref_vse_strength">Styrke</string>
+  <string name="pref_vse_strength_title">Vælg Styrke</string>
+  <string name="pref_vse_tips">BEMÆRK:\n
+Spectrumudvidelse er en ægte Hi-Fi lydprocessor, og som benyttes til at udvide det irreversibelt komprimerede spektrum.\n
+Afspiller du irreversibelt komprimeret musik (såsom mp3, aac, ogg), kan denne funktion give en oplevelse af tabsfrihed.\n
+Afspiller du imidlertid ukomprimeret, eller reversibelt komprimeret, musik, anbefales det at deaktivere denne funktion.</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Aktivér</string>
+  <string name="pref_analogx_summary_on">AnalogX er aktiv</string>
+  <string name="pref_analogx_summary_off">AnalogX er inaktiv</string>
+  <string name="pref_analogx_strength">Styrke</string>
+  <string name="pref_analogx_strength_title">Vælg Styrke</string>
+  <string name="pref_equalizer_title">FIREqualizer</string>
+  <string name="pref_equalizer_summary_on">FIREqualizer er aktiv</string>
+  <string name="pref_equalizer_summary_off">FIREqualizer er inaktiv</string>
   <string name="pref_equalizer_enable">Aktivér</string>
+  <string name="pref_equalizer_preset_title">Vælg forudindstilling</string>
+  <string name="pref_dynamicsystem_title">Dynamisk System</string>
+  <string name="pref_dynamicsystem_summary_on">Dynamisk system er aktivt</string>
+  <string name="pref_dynamicsystem_summary_off">Dynamisk system er inaktivt</string>
   <string name="pref_dynamicsystem_enable">Aktivér</string>
+  <string name="pref_dynamicsystem_output">Lytteenhed</string>
+  <string name="pref_dynamicsystem_output_title">Vælg aflytningsenhed</string>
+  <string name="pref_dynamicsystem_bass">Vælg Dynamisk Bas</string>
+  <string name="pref_dynamicsystem_tube_title">Tube Sound Simulator (6N1J)</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Tube Sound-simulator er aktiv</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Tube Sound-simulator er inaktiv</string>
+  <string name="pref_fidelity_title">Kvalitetskontrol</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER Bas er aktiv</string>
+  <string name="pref_fidelity_vb_summary_off">ViPER Bas er inaktiv</string>
+  <string name="pref_fidelity_vb_enable">Aktivere ViPER Bas</string>
+  <string name="pref_fidelity_vb_mode">Bastilstand</string>
+  <string name="pref_fidelity_vb_mode_title">Vælg Bastilstand</string>
+  <string name="pref_fidelity_vb_bassfreq">Basfrekvens</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Vælg Basfrekvens</string>
+  <string name="pref_fidelity_vb_bassgain">Basforstærkning</string>
+  <string name="pref_fidelity_vb_bassgain_title">Vælg Basforstærkning</string>
+  <string name="pref_fidelity_vc_summary_on">ViPER Klarhed er aktiv</string>
+  <string name="pref_fidelity_vc_summary_off">ViPER Klarhed er inaktiv</string>
+  <string name="pref_fidelity_vc_enable">Aktivere ViPER Klarhed</string>
+  <string name="pref_fidelity_vc_mode">Renhedstilstand</string>
+  <string name="pref_fidelity_vc_mode_title">Vælg Klarhedstilstand</string>
+  <string name="pref_fidelity_vc_bassgain">Klarhed</string>
+  <string name="pref_fidelity_vc_bassgain_title">Vælg Klarhed</string>
+  <string name="pref_curesystem_title">Auditiv Systembeskyttelse</string>
+  <string name="pref_curesystem_summary_on">Cure Tech+ er aktiv</string>
+  <string name="pref_curesystem_summary_off">Cure Tech+ er inaktiv</string>
   <string name="pref_curesystem_enable">Aktivér</string>
+  <string name="pref_select_cure_cf_title">Vælg Binauralt Niveau</string>
+  <string name="dialog_cure_crossfeed">Binauralt Niveau</string>
+  <string name="pref_convolver_title">Samlingsenhed</string>
+  <string name="pref_convolver_summary_on">Samlingsenhed er aktiv</string>
+  <string name="pref_convolver_summary_off">Samlingsenhed er inaktiv</string>
   <string name="pref_convolver_enable">Aktivér</string>
+  <string name="pref_convolver_knl">Impulssvar</string>
+  <string name="pref_convolver_knl_title">Vælg impulssvar</string>
+  <string name="pref_convolver_crosschannel">Kanalkrydsning</string>
+  <string name="pref_convolver_crosschannel_title">Vælg Kanalkrydsning</string>
+  <string name="pref_vhs_title">Hovedtelefon Surround +</string>
+  <string name="pref_vhs_summary_on">VHS+ er aktiv</string>
+  <string name="pref_vhs_summary_off">VHS+ er inaktiv</string>
   <string name="pref_vhs_enable">Aktivér</string>
+  <string name="pref_select_vhs_qual_title">Vælg Effektniveau</string>
+  <string name="dialog_vhs_qual">Effektniveau</string>
+  <string name="pref_colorfulmusic_title">Felt Surround</string>
+  <string name="pref_colorfulmusic_summary_on">Felt surround er aktiv</string>
+  <string name="pref_colorfulmusic_summary_off">Surroundfelt er inaktiv</string>
   <string name="pref_colorfulmusic_enable">Aktivér</string>
+  <string name="pref_select_colorfulmusic_title">Vælg Surround Feltstyrke</string>
+  <string name="dialog_colorfulmusic">Surround Feltstyrke</string>
+  <string name="pref_select_colorfulmusic_mi_title">Vælg Billedcenterstyrke</string>
+  <string name="dialog_colorfulmusic_mi">Billedcenterstyrke</string>
+  <string name="pref_diffsurr_title">Differential Surround</string>
+  <string name="pref_diffsurr_summary_on">Diff. surround er aktiv</string>
+  <string name="pref_diffsurr_summary_off">Diff. surround er inaktiv</string>
   <string name="pref_diffsurr_enable">Aktivér</string>
+  <string name="pref_select_diffsurr_ms_title">Vælg Forsinkelse</string>
+  <string name="dialog_diffsurr_ms">Forsinkelse</string>
+  <string name="pref_reverb_title">Efterklang</string>
+  <string name="pref_reverb_summary_on">Efterklang er aktiv</string>
+  <string name="pref_reverb_summary_off">Efterklang er inaktiv</string>
   <string name="pref_reverb_enable">Aktivér</string>
+  <string name="pref_reverb_roomsize">Rumstørrelse</string>
+  <string name="pref_reverb_width">Lydfelt</string>
+  <string name="pref_reverb_damp">Dæmpningsfaktor</string>
+  <string name="eq_preset_acoustic">Akustisk</string>
+  <string name="eq_preset_bass_booster">Basforstærkning</string>
+  <string name="eq_preset_bass_reducer">Basreduktion</string>
+  <string name="eq_preset_classical">Klassisk</string>
+  <string name="eq_preset_deep">Dyb</string>
   <string name="eq_preset_flat">Flad</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Sten</string>
+  <string name="eq_preset_small_speakers">Små Højttalere</string>
+  <string name="eq_preset_treble_booster">Diskantforstærker</string>
+  <string name="eq_preset_treble_reducer">Diskantreduktion</string>
+  <string name="eq_preset_vocal_booster">Vokalforstærkning</string>
+  <string name="eq_preset_custom">Tilpasset</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: IR-eksempelmappen %1$s er tom.</string>
+  <string name="text_token_lost">ViPER4Android: En kørende app har anmodet Android om at deaktivere lydeffekter, så V4A deaktiveres midlertidigt.</string>
+  <string name="text_enabled">Aktiv</string>
+  <string name="text_disabled">Inaktiv</string>
   <string name="text_headset">Hovedtlf.</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Højttaler</string>
+  <string name="text_usb">USB/Dok</string>
+  <string name="text_showtrayicon">Vis Notifikation</string>
+  <string name="text_hidetrayicon">Skjul Notifikation</string>
+  <string name="text_lockeffect">Lås Effekttilstand</string>
   <string name="text_yes">Ja</string>
   <string name="text_no">Nej</string>
+  <string name="text_normal">Normal</string>
+  <string name="text_abnormal">Unormal</string>
+  <string name="text_supported">Understøttet</string>
+  <string name="text_unsupported">Uunderstøttet</string>
+  <string name="text_loadfxprofile">Indlæs Effektprofil</string>
+  <string name="text_newfxprofile">Ny Effektprofil&#8230;</string>
+  <string name="text_savefxprofile">Gem Effektprofil</string>
+  <string name="text_profilesaved_overwrite">Vil du overskrive denne profil?</string>
+  <string name="text_profileload_tip">Anvend profil</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Annullér</string>
+  <string name="text_drvinst_prefer">Vælg venligst din præference</string>
+  <string name="text_drvinst_sqdrv">Driveren til super lydkvalitet kræver minimum en Dual-Core CPU og kan reducere batteritiden.\n
+Fortsæt?</string>
+  <string name="text_drvvernotmatch">Brug af ViPER4Android kræver installation/opdatering af V4A-driveren.\n
+Installationsproceduren udføres automatisk.\n
+Installér/Opdatér nu?</string>
+  <string name="text_drvuninst_confim">Sikker på, at du afinstallere V4A-driveren?</string>
+  <string name="text_uiprefer">UI-indstilling</string>
+  <string name="text_uiprefer_dialog">Vælg venligst din præference</string>
+  <string name="text_commode">FX-kompatibel Tilstand</string>
+  <string name="text_uninstall">Afinstallere Driver</string>
+  <string name="text_install">Afinstallere Driver</string>
+  <string name="text_drvinst_ok">Driver installeret, genstart venligst din enhed.</string>
+  <string name="text_drvuninst_ok">Driver afinstalleret, genstart venligst din enhed.</string>
+  <string name="text_no_busybox">Busybox blev ikke fundet på din enhed. Vil du installere den nu?</string>
+  <string name="text_drvinst_acquireroot">Driverinstallation mislykkedes: V4A kunne ikke opnå ROOT-tilladelse. Tjek venligst, at din enhed er blevet ROOT\'et.</string>
+  <string name="text_drvinst_busybox_not_installed">Driverinstallation mislykkedes: Ingen egnet Busybox-version fundet på denne enhed.</string>
+  <string name="text_drvinst_sdnotmounted">Driverinstallation mislykkedes: Ekstern lagerplads ikke indlæst.</string>
+  <string name="text_drvinst_dataioerr">Driverinstallation mislykkedes: I/O-fejl, genstart venligst og forsøg igen.</string>
+  <string name="text_drvinst_cfg_unsup">Driverinstallation mislykkedes: Uunderstøttet Android-system eller ROM.</string>
+  <string name="text_drvinst_failed">Driverinstallation mislykkedes: Busybox-versionen på din enhed fungerer ikke.\n
+Dette betyder normalt, at du har installeret en forkert eller defekt Busybox. V4A behøver Stericson\' Busybox for at fungere.\n
+Er du sikker på at have installeret den korrekte Busybox, så tjek venligst at din enhed er blevet fuldstændig ROOT\'et.</string>
+  <string name="text_modifybuildprop">BEMÆRK:\n
+LPA er aktiv på enheden. Dette kan medføre V4A-funktionsfejl.\n
+LPA, eller \'Low Power Audio\', kan deaktiveres via ændring af build.prop, hvilket kan udføres automatisk.\n
+Det anbefales på det kraftigste, at du foretager en NANDROID- eller DATA-sikkerhedskopiering, inden du fortsætter!\n
+Vil du deaktivere LPA nu?</string>
+  <string name="text_changelog">Ændringsoversigt</string>
+  <string name="text_drv_status">Driverstatus</string>
+  <string name="text_drv_status_view">\n\n
+Driverversion: %1$s\n
+NEON Aktiv: %2$s\n
+Aktiv: %3$s\n
+Status: %4$s\n
+Lydformat: %5$s\n
+Behandling: %6$s\n
+Samplingsfrekvens: %7$d
+\n</string>
+  <string name="text_service_error">Mislykkedes at kommunikere med tjenesten ViPER4Android.</string>
   <string name="about_exit">Afslut</string>
+  <string name="about_title">Hjælp &amp; Om</string>
+  <string name="about_text">***Om ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' er kernen i ViPER4Android.
+\nOphavsrettighed © 2006-2016, ViPER ACOUSTIC. Alle rettigheder forbeholdes.
+\nKommerciel anvendelse må ikke ske uden behørig officiel tilladelse.
+\nOfficielt Forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' er det visuelle kontrolpanel for ViPER4Android.
+\nBaseret på Cyanogenmod\'s DSPManager.
+\nStor tak til Zhuhang@XDA
+\nStor tak til M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Kodenavn “Beautiful”.
+\n</string>
+  <string name="text_help_content">***General Hjælp***
+\n
+\n\'Driverinstallation\' - Installér/Opdatér ViPER4Android-effektdriver.
+\n\'Driverafinstallation\' - Afinstallér ViPER4Android effektdriver.
+\n\'FX Kompatibilitetstilstand\' - Indstil effektkompatibilitetstilstand.
+\n    \'Normal\' - Gør ViPER4Android til en global effekt.
+\n    \'Kompatibel\' - Gør ViPER4Android til en lokal effekt.
+\n
+\n<b>Ingen V4A-effekt på alle/fleste medieafspillere?</b>\nDu kan skifte FX-tilstanden til kompatible, genstarte din enhed, og forsøge igen.
+\n
+\n<b>Ændring af driver-lydkvalitet</b>\n    Afinstallér driveren i menuen, genstart derefter din enhed og vælg den kvalitet du ønsker.
+\n
+\n<b>Reducering af batterforbruget</b>\n    Med V4A kørende i Normaltilstand, deaktivér systemlydindstillingerne inklusiv berøringslyde og lås/oplås lyde for at  spare op til 1,2~4 gange batteritid.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Forum</string>
+  <string name="text_checkupdate">Tjek for opdateringer</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Åbn sidemenu</string>
+  <string name="navigation_drawer_close">Luk sidemenu</string>
+  <string name="navigation_toggle_drawer">Skift til skuffevisning</string>
+  <string name="navigation_toggle_tabbed">Skift til fanevisning</string>
 </resources>

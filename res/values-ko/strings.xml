@@ -17,14 +17,14 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">헤드셋</string>
-  <string name="speaker_title">스피커</string>
-  <string name="bluetooth_title">블루투스</string>
+  <string name="speaker_title">휴대전화 스피커</string>
+  <string name="bluetooth_title">블루투스 기기</string>
   <string name="usb_title">USB/독</string>
   <string name="audio_effects">오디오 효과</string>
-  <string name="dsp_settings_headset">사운드 설정 - 헤드셋</string>
-  <string name="dsp_settings_speaker">사운드 설정 - 스피커</string>
-  <string name="dsp_settings_bluetooth">사운드 설정 - 블루투스</string>
-  <string name="dsp_settings_usb">사운드 설정 - USB/Dock</string>
+  <string name="dsp_settings_headset">효과 설정- 헤드셋</string>
+  <string name="dsp_settings_speaker">효과 설정 - 휴대전화 스피커</string>
+  <string name="dsp_settings_bluetooth">효과 설정 - 블루투스 기기</string>
+  <string name="dsp_settings_usb">효과 설정 - USB 기기</string>
   <string name="pref_dsp_enable">활성화</string>
   <string name="pref_effect_title">효과 강도 선택</string>
   <string name="dialog_effect">효과 강도</string>
@@ -259,6 +259,7 @@ Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
   터치음, 잠금/잠금해제음을 포함한 시스템 사운드를 끄면 배터리 사용시간을 연장할 수 있습니다. 
  
 \"<b>포럼: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">포럼</string>
   <string name="text_checkupdate">업데이트 확인</string>
   <!-- Drawer -->
