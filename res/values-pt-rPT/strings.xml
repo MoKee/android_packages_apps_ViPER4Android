@@ -16,5 +16,14 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Auriculares</string>
+  <string name="speaker_title">Auto-falante do Telefone</string>
+  <string name="bluetooth_title">Dispositivo Bluetooth</string>
+  <string name="dsp_settings_headset">Definições de Efeito - Auricular</string>
+  <string name="dsp_settings_bluetooth">Definições de Efeito - Dispositivo Bluetooth</string>
+  <string name="dialog_effect">Intensidade do Efeito</string>
+  <string name="pref_force_enable_text">Forçar Ativar V4A</string>
+  <string name="text_headset">Auriculares</string>
+  <string name="about_exit">Sair</string>
   <!-- Drawer -->
 </resources>

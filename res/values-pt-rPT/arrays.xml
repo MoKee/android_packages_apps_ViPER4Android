@@ -15,4 +15,46 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"/>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Super Audio Quality</item>
+    <item>High Audio Quality</item>
+    <item>Poupança de Energia</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Beginner</item>
+    <item>Moderada</item>
+    <item>Avançado</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normal</item>
+    <item>Compatível</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Slight</item>
+    <item>Moderada</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Slight</item>
+    <item>Moderada</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Slight</item>
+    <item>Moderada</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Predefinição</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+</resources>
