@@ -61,7 +61,7 @@
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC diaktifkan</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC dinonaktifkan</string>
-  <string name="pref_viperddc_enable">Power</string>
+  <string name="pref_viperddc_enable">Aktifkan</string>
   <string name="pref_viperddc_device">Daftar Perangkat</string>
   <string name="pref_viperddc_device_manufacturer">Pilih produsen</string>
   <string name="pref_viperddc_device_model">Pilih Model</string>
