@@ -15,4 +15,170 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"/>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>Super kakovost zvoka</item>
+    <item>Visoka audio kvaliteta</item>
+    <item>Varčevanje z energijo</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Začetnik</item>
+    <item>Moderate</item>
+    <item>Strokovnjak</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normalno</item>
+    <item>Združljivo</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Rahlo</item>
+    <item>Raven 1</item>
+    <item>Raven 2</item>
+    <item>Raven 3</item>
+    <item>Raven 4</item>
+    <item>Raven 5</item>
+    <item>Raven 6</item>
+    <item>Raven 7</item>
+    <item>Ekstremno</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Rahlo</item>
+    <item>Raven 1</item>
+    <item>Raven 2</item>
+    <item>Raven 3</item>
+    <item>Raven 4</item>
+    <item>Raven 5</item>
+    <item>Raven 6</item>
+    <item>Raven 7</item>
+    <item>Raven 8</item>
+    <item>Raven 9</item>
+    <item>Ekstremno</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25 m²</item>
+    <item>36m²</item>
+    <item>49m²</item>
+    <item>64m²</item>
+    <item>81m²</item>
+    <item>100m²</item>
+    <item>121m²</item>
+    <item>203m²</item>
+    <item>347m²</item>
+    <item>652m²</item>
+    <item>1200m²</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Rahlo</item>
+    <item>Zmerno</item>
+    <item>Ekstremno</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Rahlo</item>
+    <item>Zmerno</item>
+    <item>Ekstremno</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Raven 1</item>
+    <item>Raven 2</item>
+    <item>Raven 3</item>
+    <item>Raven 4</item>
+    <item>Raven 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Rahlo</item>
+    <item>Zmerno</item>
+    <item>Ekstremno</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12.0 dB</item>
+    <item>14.0 dB</item>
+    <item>18.0 dB</item>
+    <item>20.0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="vbass_boost">
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Privzeto</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14.8 dB</item>
+  </string-array>
+</resources>

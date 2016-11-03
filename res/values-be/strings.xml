@@ -27,6 +27,15 @@
   <string name="dsp_settings_usb">Настройкі эфектаў - USB прылада</string>
   <string name="pref_dsp_enable">Уключыць</string>
   <string name="pref_effect_title">Выберыце сілу эфектаў</string>
+  <string name="dialog_effect">Узровень</string>
+  <string name="pref_force_enable_text">Прымусова ўключыць V4A</string>
+  <string name="pref_force_enable_warn">Прымусовае ўключэнне ViPER можа рашыць праблему з эффектамі, якія атсутнічаюць. \nНа некаторых прашыўках можа адсутнічаць гук, ці хутка садзіцца акумулятар. \nВыкарыстоўвайце на ваш погляд. Як апісаныя рэчы здарацца, калі ласка выключыце гэту функцыю.</string>
+  <string name="pref_fx_master_title">Усе эфекты</string>
+  <string name="pref_fx_master_summary_on">V4A-FX уключаны</string>
+  <string name="pref_fx_master_summary_off">V4A-FX выключаны</string>
+  <string name="pref_spkfx_master_title">Усе эфекты</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX уключаны</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX выключаны</string>
   <string name="pref_viperddc_enable">Уключыць</string>
   <string name="pref_vse_enable">Уключыць</string>
   <string name="pref_analogx_enable">Уключыць</string>
