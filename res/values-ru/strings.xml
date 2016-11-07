@@ -16,15 +16,15 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string name="headset_title">НАУШНИКИ</string>
-  <string name="speaker_title">ДИНАМИК</string>
-  <string name="bluetooth_title">BLUETOOTH</string>
-  <string name="usb_title">USB</string>
+  <string name="headset_title">Наушники</string>
+  <string name="speaker_title">Динамик</string>
+  <string name="bluetooth_title">Bluetooth устройство</string>
+  <string name="usb_title">USB/Док-станция</string>
   <string name="audio_effects">Аудиоэффекты</string>
   <string name="dsp_settings_headset">Настройка эффектов — Наушники</string>
   <string name="dsp_settings_speaker">Настройка эффектов — Динамик</string>
-  <string name="dsp_settings_bluetooth">Настройка эффектов — Bluetooth</string>
-  <string name="dsp_settings_usb">Настройка эффектов — USB</string>
+  <string name="dsp_settings_bluetooth">Настройка эффектов — Bluetooth устройство</string>
+  <string name="dsp_settings_usb">Настройка эффектов — USB устройство</string>
   <string name="pref_dsp_enable">Включить</string>
   <string name="pref_effect_title">Уровень</string>
   <string name="dialog_effect">Уровень</string>

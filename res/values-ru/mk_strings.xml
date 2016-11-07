@@ -31,6 +31,6 @@
 \n
 \nВерсия %1$s (FX), Кодовое имя версии “Beautiful”.
 \n</string>
-  <string name="text_savefxprofile_succeeded">Профиль успешно сохранён.</string>
-  <string name="text_savefxprofile_failed">Не удалось сохранить профиль. Память заполнена или недоступна для записи.</string>
+  <string name="text_savefxprofile_succeeded">Профиль эффектов успешно сохранён.</string>
+  <string name="text_savefxprofile_failed">Не удалось сохранить профиль эффектов. Память заполнена или недоступна для записи.</string>
 </resources>
