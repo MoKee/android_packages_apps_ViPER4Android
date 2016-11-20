@@ -1150,7 +1150,7 @@ public class ViPER4AndroidService extends Service {
                     .setOngoing(true)
                     .setDefaults(0)
                     .setSmallIcon(mIconID)
-                    .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.icon))
+                    .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
                     .setTicker(mNotifyText)
                     .setContentTitle(contentTitle)
                     .setContentText(mFXType)

@@ -1035,7 +1035,7 @@ public final class ViPER4Android extends AppCompatActivity {
                             }
                             Dialog selectDialog = new AlertDialog.Builder(ViPER4Android.this)
                                     .setTitle(R.string.text_uiprefer_dialog)
-                                    .setIcon(R.drawable.icon)
+                                    .setIcon(R.mipmap.ic_launcher)
                                     .setSingleChoiceItems(R.array.ui_prefer, nUIPrefer,
                                             new DialogInterface.OnClickListener() {
                                                 public void onClick(DialogInterface dialog, int which) {
@@ -1067,7 +1067,7 @@ public final class ViPER4Android extends AppCompatActivity {
                             mSelectIndex = mCompatibleMode.equals("global") ? 0 : 1;
                             Dialog selectDialog = new AlertDialog.Builder(ViPER4Android.this)
                                     .setTitle(R.string.text_commode)
-                                    .setIcon(R.drawable.icon)
+                                    .setIcon(R.mipmap.ic_launcher)
                                     .setSingleChoiceItems(R.array.compatible_mode, mSelectIndex,
                                             new DialogInterface.OnClickListener() {
                                                 public void onClick(DialogInterface dialog, int which) {
@@ -1144,7 +1144,7 @@ public final class ViPER4Android extends AppCompatActivity {
 
                             Dialog selectDialog = new AlertDialog.Builder(ViPER4Android.this)
                                     .setTitle(R.string.text_lockeffect)
-                                    .setIcon(R.drawable.icon)
+                                    .setIcon(R.mipmap.ic_launcher)
                                     .setSingleChoiceItems(modeList, mLockIndex,
                                             new DialogInterface.OnClickListener() {
                                                 public void onClick(DialogInterface dialog, int which) {
