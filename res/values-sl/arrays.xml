@@ -23,7 +23,7 @@
   </string-array>
   <string-array name="ui_prefer">
     <item>Začetnik</item>
-    <item>Moderate</item>
+    <item>Zmerno</item>
     <item>Strokovnjak</item>
   </string-array>
   <string-array name="compatible_mode">
@@ -67,16 +67,29 @@
   </string-array>
   <string-array name="reverb_roomsize">
     <item>25 m²</item>
-    <item>36m²</item>
-    <item>49m²</item>
-    <item>64m²</item>
-    <item>81m²</item>
-    <item>100m²</item>
-    <item>121m²</item>
-    <item>203m²</item>
-    <item>347m²</item>
-    <item>652m²</item>
-    <item>1200m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>Rahlo</item>
@@ -155,6 +168,42 @@
     <item>-26.0 dB</item>
     <item>-40.0 dB</item>
   </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Extreme Headphone(v2)</item>
+    <item>High-end Headphone(v2)</item>
+    <item>Common Headphone(v2)</item>
+    <item>Low-end Headphone(v2)</item>
+    <item>Common Earphone(v2)</item>
+    <item>Extreme Headphone(v1)</item>
+    <item>High-end Headphone(v1)</item>
+    <item>Common Headphone(v1)</item>
+    <item>Povprečne slušalke(v1)</item>
+    <item>Apple slušalke</item>
+    <item>Monster slušalke</item>
+    <item>Moto slušalke</item>
+    <item>Philips slušalke</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Neznan tip I</item>
+    <item>Neznan tip II</item>
+    <item>Neznan tip III</item>
+    <item>Neznan tip IV</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Naravni bas</item>
+    <item>Čisti Bass +</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
   <string-array name="vbass_boost">
     <item>3.5 dB</item>
     <item>6.0 dB</item>
@@ -169,6 +218,11 @@
     <item>16.3 dB</item>
     <item>17.0 dB</item>
   </string-array>
+  <string-array name="vclarity_mode">
+    <item>Naravno</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>Privzeto</item>
     <item>3.5 dB</item>
@@ -180,5 +234,20 @@
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>

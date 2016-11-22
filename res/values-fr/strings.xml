@@ -91,9 +91,14 @@
   <string name="pref_dynamicsystem_enable">Activé</string>
   <string name="pref_dynamicsystem_output">Appareil d\'écoute</string>
   <string name="pref_dynamicsystem_output_title">Sélectionnez l\'appareil d\'écoute</string>
+  <string name="pref_dynamicsystem_bass">Sélectionner basses dynamiques</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass est activé</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass est désactivé</string>
   <string name="pref_fidelity_vb_enable">Activez ViPER Bass</string>
+  <string name="pref_fidelity_vb_mode">Mode basses</string>
+  <string name="pref_fidelity_vb_mode_title">Sélectionner le mode basse</string>
+  <string name="pref_fidelity_vb_bassfreq">Fréquence de basses</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Sélectionnez la fréquence basse</string>
   <string name="pref_fidelity_vb_bassgain">Amplification des basses</string>
   <string name="pref_fidelity_vb_bassgain_title">Sélectionnez l\'amplificateur des basses</string>
   <string name="pref_fidelity_vc_summary_on">ViPER Clarity est activée</string>
@@ -126,6 +131,7 @@
   <string name="pref_colorfulmusic_summary_off">Field surround est désactivé</string>
   <string name="pref_colorfulmusic_enable">Activé</string>
   <string name="pref_select_colorfulmusic_title">Sélectionner la force de Field Surround</string>
+  <string name="dialog_colorfulmusic">Effet surround</string>
   <string name="pref_diffsurr_title">Surround différentielle</string>
   <string name="pref_diffsurr_summary_on">Surround diff est activé</string>
   <string name="pref_diffsurr_summary_off">Surround diff est désactivé</string>

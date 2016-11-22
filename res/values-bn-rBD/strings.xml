@@ -38,6 +38,9 @@
   <string name="pref_reverb_enable">Enable</string>
   <string name="text_headset">Headset</string>
   <string name="text_usb">USB/Dock</string>
-  <string name="about_exit">Exit</string>
+  <string name="text_yes">হ্যাঁ</string>
+  <string name="text_no">না</string>
+  <string name="text_changelog">Changelog</string>
+  <string name="about_exit">প্রস্থান</string>
   <!-- Drawer -->
 </resources>

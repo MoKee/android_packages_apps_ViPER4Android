@@ -16,9 +16,45 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Slušalke</string>
+  <string name="speaker_title">Telefonski zvočnik</string>
+  <string name="bluetooth_title">Naprava Bluetooth</string>
+  <string name="pref_dsp_enable">Omogoči</string>
+  <string name="pref_effect_title">Izberite moč učinka</string>
+  <string name="dialog_effect">Moč učinka</string>
+  <string name="pref_force_enable_text">Vsili uporabo V4A</string>
+  <string name="pref_force_enable_warn">Vklop vsili uporabo, je lahko brez učineka. 
+\nPri nekaterih ROM-ih, lahko dobite nepričakovane učinke, kot naprimer brez zvoka ali praznenje baterije. 
+\nUporaba na lastno odgovornost. Če se to zgodi, prosim izklopite to možnost.</string>
+  <string name="pref_fx_master_summary_on">V4A-FX je vklopljen</string>
+  <string name="pref_fx_master_summary_off">V4A-FX je izklopljen</string>
+  <string name="pref_viperddc_enable">Omogoči</string>
+  <string name="pref_vse_enable">Omogoči</string>
+  <string name="pref_analogx_enable">Omogoči</string>
+  <string name="pref_equalizer_enable">Omogoči</string>
+  <string name="pref_dynamicsystem_enable">Omogoči</string>
+  <string name="pref_curesystem_enable">Omogoči</string>
+  <string name="pref_convolver_enable">Omogoči</string>
+  <string name="pref_vhs_enable">Omogoči</string>
+  <string name="pref_colorfulmusic_enable">Omogoči</string>
+  <string name="pref_diffsurr_enable">Omogoči</string>
+  <string name="pref_reverb_enable">Omogoči</string>
+  <string name="pref_reverb_roomsize">Velikost prostora</string>
+  <string name="eq_preset_flat">Plosko</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Rock</string>
+  <string name="eq_preset_small_speakers">Majhni zvočniki</string>
+  <string name="text_disabled">Onemogočeno</string>
+  <string name="text_headset">Slušalke</string>
+  <string name="text_speaker">Zvočnik</string>
+  <string name="text_yes">Da</string>
+  <string name="text_no">Ne</string>
   <string name="text_ok">V redu</string>
   <string name="text_cancel">Prekliči</string>
   <string name="text_changelog">Zadnje spremembe</string>
   <string name="about_exit">Izhod</string>
+  <string name="about_title">Pomoč in informacije</string>
+  <string name="text_view_forum">Forum</string>
+  <string name="text_checkupdate">Preveri za posodobitve</string>
   <!-- Drawer -->
 </resources>

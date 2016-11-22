@@ -16,22 +16,5 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string name="text_ok">OK</string>
-  <string name="about_exit">Exit</string>
-  <string name="text_help_content">***General help***
-\n
-\n\'Install Driver\' - Install/Update ViPER4Android effect driver.
-\n\'Uninstall Driver\' - Uninstall ViPER4Android effect driver.
-\n\'FX Compatible Mode\' - Set effect compatibility mode.
-\n    \'Normal\' - Make ViPER4Android a global effect.
-\n    \'Compatible\' - Make ViPER4Android a local effect.
-\n
-\n<b>No V4A effect on all/most mediaplayers?</b>\n    You can switch the FX mode to compatible then restart your device and try again.
-\n
-\n<b>How to change driver audio quality?</b>\n    Uninstall driver in menu then restart your device and choose the quality you want.
-\n
-\n<b>How to reduce battery consumption?</b>\n    When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
-\n
-\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
   <!-- Drawer -->
 </resources>

@@ -62,9 +62,9 @@
   <string name="pref_viperddc_summary_on">Цифровая коррекция включена</string>
   <string name="pref_viperddc_summary_off">Цифровая коррекция отключена</string>
   <string name="pref_viperddc_enable">Цифровая коррекция</string>
-  <string name="pref_viperddc_device">Наушники</string>
-  <string name="pref_viperddc_device_manufacturer">Производитель</string>
-  <string name="pref_viperddc_device_model">Модель</string>
+  <string name="pref_viperddc_device">Устройство прослушивания</string>
+  <string name="pref_viperddc_device_manufacturer">Выберите производителя</string>
+  <string name="pref_viperddc_device_model">Выберите модель</string>
   <string name="pref_viperddc_tips">ВНИМАНИЕ:
 \nЦифровая коррекция — коррекция под определённую модель наушников.
 \nПоддерживается более 500 моделей, данные будут дополняться.
@@ -88,8 +88,8 @@
   <string name="pref_equalizer_title">Эквалайзер</string>
   <string name="pref_equalizer_summary_on">Эквалайзер включён</string>
   <string name="pref_equalizer_summary_off">Эквалайзер отключён</string>
-  <string name="pref_equalizer_enable">Эквалайзер</string>
-  <string name="pref_equalizer_preset_title">Предустановки</string>
+  <string name="pref_equalizer_enable">Включить</string>
+  <string name="pref_equalizer_preset_title">Выберите предустановки</string>
   <string name="pref_dynamicsystem_title">Динамическая обработка</string>
   <string name="pref_dynamicsystem_summary_on">Динамическая обработка включена</string>
   <string name="pref_dynamicsystem_summary_off">Динамическая обработка отключена</string>

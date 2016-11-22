@@ -25,13 +25,13 @@
   <string name="dsp_settings_speaker">Configurações do Equalizador - Alto-falante</string>
   <string name="dsp_settings_bluetooth">Configurações do Equalizador - Dispositivo Bluetooth</string>
   <string name="dsp_settings_usb">Configurações do Equalizador - Dispositivo USB</string>
-  <string name="pref_dsp_enable">Ativado</string>
+  <string name="pref_dsp_enable">Habilitar</string>
   <string name="pref_effect_title">Selecione intensidade do efeito</string>
   <string name="dialog_effect">Intensidade do efeito</string>
   <string name="pref_force_enable_text">Forçar Ativação do V4A</string>
   <string name="pref_force_enable_warn">Ligando Forçar-Ativar poderia resolver o problema de não ter efeito.
 \nEm alguns ambientes, você pode obter resultados inesperados, como nenhum som e drenagem de bateria.
-\nUse a seu próprio risco. Se tais coisas acontecerem, por favor desliga-lo.</string>
+\nUse a seu próprio risco. Se tais coisas acontecerem, por favor desabilite esta função.</string>
   <string name="pref_fx_master_title">Chave Mestra</string>
   <string name="pref_fx_master_summary_on">V4A-FX está ligado</string>
   <string name="pref_fx_master_summary_off">V4A-FX está desligado</string>
@@ -43,41 +43,44 @@
   <string name="pref_spkfx_limiter_title">Saída Máxima (Limitador)</string>
   <string name="pref_spkfx_limiter_threshold">Limite entrada</string>
   <string name="pref_output_gain">Ganho de saída</string>
-  <string name="pref_output_pan">Canal \'Pan\'</string>
-  <string name="pref_playback_title">Ganho de controle em Playback</string>
+  <string name="pref_output_pan">Canal PAN</string>
+  <string name="pref_playback_title">Controle Ganho Reprodução</string>
   <string name="pref_playback_summary_on">PlaybackAGC está habilitado</string>
   <string name="pref_playback_summary_off">PlaybackAGC está desativado</string>
   <string name="pref_playback_output_threshold">Saída máxima</string>
-  <string name="pref_playback_maxgain">Ganho Max</string>
+  <string name="pref_playback_maxgain">Ganho Máximo</string>
   <string name="pref_xloud_title">eXtra Loud</string>
   <string name="pref_xloud_summary_on">eXtra-Loud está habilitado</string>
   <string name="pref_xloud_summary_off">eXtra-Loud está desativado</string>
   <string name="pref_xloud_output_amplifer">Ganho de saída</string>
-  <string name="pref_xloud_spk_lowfreq">Baixa resposta</string>
-  <string name="pref_xloud_spk_highfreq">Alta resposta</string>
+  <string name="pref_xloud_spk_lowfreq">Resposta em baixa</string>
+  <string name="pref_xloud_spk_highfreq">Resposta em alta</string>
   <string name="pref_spk_opt_title">Otimização do alto-falante</string>
   <string name="pref_spk_opt_summary_on">Otimização do alto-falante está ativada</string>
   <string name="pref_spk_opt_summary_off">Otimização do alto-falante está desativada</string>
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC está ativado</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC está desativado</string>
-  <string name="pref_viperddc_enable">Ativado</string>
+  <string name="pref_viperddc_enable">Habilitar</string>
   <string name="pref_viperddc_device">Dispositivo de escuta</string>
   <string name="pref_viperddc_device_manufacturer">Selecione o fabricante</string>
   <string name="pref_viperddc_device_model">Selecione o modelo</string>
   <string name="pref_viperddc_tips">Aviso:
- \nViPER-DDC é um verdadeiro processador de áudio Hi-Fi e é usado para a correção do áudio.
- \nViPER-DDC agora suporta quase 500 fones de ouvido e continuará a suportar mais conforme o tempo passa. 
-\n Se você não consegue encontrar o seu fone na lista, por favor, desabilite esse recurso, até que ele seja adicionado.</string>
-  <string name="pref_vse_title">Extensão do espectro de áudio</string>
-  <string name="pref_vse_summary_on">Extensão do espectro de áudio está ativa</string>
-  <string name="pref_vse_summary_off">Extensão do espectro de áudio está inativa</string>
-  <string name="pref_vse_enable">Ativado</string>
+ \nViPER-DDC é um processador de áudio Hi-Fi usado para correção do áudio do fone de ouvido.
+ \nViPER-DDC agora suporta quase 500 fones de ouvido e continuará a suportar mais equipamentos. 
+\n Caso não encontre o seu fone na lista, por favor, desabilite esse recurso, até que ele seja adicionado.</string>
+  <string name="pref_vse_title">Extensão de espectro</string>
+  <string name="pref_vse_summary_on">Extensão de espectro está ativa</string>
+  <string name="pref_vse_summary_off">Extensão de espectro está inativa</string>
+  <string name="pref_vse_enable">Habilitar</string>
   <string name="pref_vse_strength">Intensidade</string>
   <string name="pref_vse_strength_title">Selecione a intensidade</string>
-  <string name="pref_vse_tips">Aviso: A extensão Spectrum é um verdadeiro processador de áudio Hi-Fi e é usado para estender o espectro compactado com perdas. Você está executando a música compactada com perdas (como mp3, aac, ogg), esse recurso pode dar uma sensação sem perdas. Contudo, se você estiver executando a música sem perdas, recomendamos que você desativar esse recurso.</string>
+  <string name="pref_vse_tips">AVISO:
+\nA extensão de espectro é um processador de áudio Hi-Fi usado para estender o espectro compactado com perdas.
+\nSe você está executando música compactada com perdas (como mp3, aac, ogg), esse recurso pode minimizar e efeito de perda.
+\nContudo, se você estiver executando a música sem perdas, recomendamos desativar esse recurso.</string>
   <string name="pref_analogx_title">AnalogX</string>
-  <string name="pref_analogx_enable">Ativado</string>
+  <string name="pref_analogx_enable">Habilitar</string>
   <string name="pref_analogx_summary_on">AnalogX está ativado</string>
   <string name="pref_analogx_summary_off">AnalogX está desativado</string>
   <string name="pref_analogx_strength">Intensidade</string>
@@ -85,93 +88,93 @@
   <string name="pref_equalizer_title">FIREqualizer</string>
   <string name="pref_equalizer_summary_on">FIREqualizer está ativado</string>
   <string name="pref_equalizer_summary_off">FIREqualizer está desativado</string>
-  <string name="pref_equalizer_enable">Ativado</string>
+  <string name="pref_equalizer_enable">Habilitar</string>
   <string name="pref_equalizer_preset_title">Selecione a predefinição</string>
-  <string name="pref_dynamicsystem_title">Sistema dinâmico</string>
+  <string name="pref_dynamicsystem_title">Sistema Dinâmico</string>
   <string name="pref_dynamicsystem_summary_on">Sistema dinâmico está ativado</string>
   <string name="pref_dynamicsystem_summary_off">Sistema dinâmico está desativado</string>
-  <string name="pref_dynamicsystem_enable">Ativado</string>
+  <string name="pref_dynamicsystem_enable">Habilitar</string>
   <string name="pref_dynamicsystem_output">Dispositivo de escuta</string>
   <string name="pref_dynamicsystem_output_title">Selecione o dispositivo de escuta</string>
   <string name="pref_dynamicsystem_bass">Selecione Graves dinâmicos</string>
-  <string name="pref_dynamicsystem_tube_title">Simulador de som de tubo (6N1J)</string>
-  <string name="pref_dynamicsystem_tube_summary_on">Simulador de som em tubo ativo</string>
-  <string name="pref_dynamicsystem_tube_summary_off">Simulador de som em tubo inativo</string>
+  <string name="pref_dynamicsystem_tube_title">Simulador de som valvulado (6N1J)</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Simulador de som valvulado ativo</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Simulador de som valvulado desativado</string>
   <string name="pref_fidelity_title">Controle de fidelidade</string>
-  <string name="pref_fidelity_vb_summary_on">ViPER Bass está habilitado</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER Bass está ativado</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass está desativado</string>
   <string name="pref_fidelity_vb_enable">Ativar ViPER Bass</string>
-  <string name="pref_fidelity_vb_mode">Modo impulso grave</string>
-  <string name="pref_fidelity_vb_mode_title">Escolha o modo se impulso do grave</string>
-  <string name="pref_fidelity_vb_bassfreq">Frequência do impulso grave</string>
-  <string name="pref_fidelity_vb_bassfreq_title">Escolha a frequência do impulso grave</string>
-  <string name="pref_fidelity_vb_bassgain">Ganho de grave</string>
-  <string name="pref_fidelity_vb_bassgain_title">Selecione o granho de grave</string>
-  <string name="pref_fidelity_vc_summary_on">Claridade de áudio VIPER ativa</string>
-  <string name="pref_fidelity_vc_summary_off">Claridade de áudio VIPER inativa</string>
-  <string name="pref_fidelity_vc_enable">Habilitar a clareza de audio ViPER</string>
-  <string name="pref_fidelity_vc_mode">Modo de clareza de audio</string>
-  <string name="pref_fidelity_vc_mode_title">Selecione o modo de clareza de audio</string>
+  <string name="pref_fidelity_vb_mode">Modo de graves</string>
+  <string name="pref_fidelity_vb_mode_title">Selecione o modo de graves</string>
+  <string name="pref_fidelity_vb_bassfreq">Frequência de Graves</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Selecione a frequência de graves</string>
+  <string name="pref_fidelity_vb_bassgain">Ganho de graves</string>
+  <string name="pref_fidelity_vb_bassgain_title">Selecione o granho de graves</string>
+  <string name="pref_fidelity_vc_summary_on">Clareza ViPER está ativa</string>
+  <string name="pref_fidelity_vc_summary_off">Clareza ViPER está inativa</string>
+  <string name="pref_fidelity_vc_enable">Habilitar clareza ViPER</string>
+  <string name="pref_fidelity_vc_mode">Modo de clareza</string>
+  <string name="pref_fidelity_vc_mode_title">Selecione o modo de clareza</string>
   <string name="pref_fidelity_vc_bassgain">Clareza</string>
-  <string name="pref_fidelity_vc_bassgain_title">Selecione o nivel da clareza de audio</string>
+  <string name="pref_fidelity_vc_bassgain_title">Selecione a clareza</string>
   <string name="pref_curesystem_title">Proteção do sistema auditivo</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ está ativado</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ está desativado</string>
-  <string name="pref_curesystem_enable">Ativado</string>
-  <string name="pref_select_cure_cf_title">Selecionar nível Bineural</string>
-  <string name="dialog_cure_crossfeed">Nível de bineural</string>
+  <string name="pref_curesystem_enable">Habilitar</string>
+  <string name="pref_select_cure_cf_title">Selecionar nível biauricular</string>
+  <string name="dialog_cure_crossfeed">Nível biauricular</string>
   <string name="pref_convolver_title">Convolver</string>
   <string name="pref_convolver_summary_on">Convolver está habilitado</string>
   <string name="pref_convolver_summary_off">Convolver está desativado</string>
-  <string name="pref_convolver_enable">Ativado</string>
+  <string name="pref_convolver_enable">Habilitar</string>
   <string name="pref_convolver_knl">Resposta de impulso</string>
   <string name="pref_convolver_knl_title">Selecione a resposta de impulso</string>
   <string name="pref_convolver_crosschannel">Misturar o canal</string>
   <string name="pref_convolver_crosschannel_title">Selecione Mistura de Canais</string>
   <string name="pref_vhs_title">Fone de ouvido Surround +</string>
-  <string name="pref_vhs_summary_on">VHS + está habilitado</string>
-  <string name="pref_vhs_summary_off">VHS + está desativado</string>
-  <string name="pref_vhs_enable">Ativado</string>
+  <string name="pref_vhs_summary_on">VHS+ está ativado</string>
+  <string name="pref_vhs_summary_off">VHS+ está desativado</string>
+  <string name="pref_vhs_enable">Habilitar</string>
   <string name="pref_select_vhs_qual_title">Selecione o nível de efeito</string>
   <string name="dialog_vhs_qual">Nível de efeito</string>
-  <string name="pref_colorfulmusic_title">Área Surround</string>
-  <string name="pref_colorfulmusic_summary_on">Área surround está habilitada</string>
-  <string name="pref_colorfulmusic_summary_off">Área surround está desabilitada</string>
-  <string name="pref_colorfulmusic_enable">Ativado</string>
-  <string name="pref_select_colorfulmusic_title">Selecione a intensidade da área Surround</string>
-  <string name="dialog_colorfulmusic">Força a área Surround</string>
+  <string name="pref_colorfulmusic_title">Ambiente Surround</string>
+  <string name="pref_colorfulmusic_summary_on">Ambiente Surround está ativado</string>
+  <string name="pref_colorfulmusic_summary_off">Ambiente Surround está desativado</string>
+  <string name="pref_colorfulmusic_enable">Habilitar</string>
+  <string name="pref_select_colorfulmusic_title">Selecione a intensidade do Ambiente Surround</string>
+  <string name="dialog_colorfulmusic">Intensidade do Ambiente Surround</string>
   <string name="pref_select_colorfulmusic_mi_title">Selecione Media Força Imagem</string>
   <string name="dialog_colorfulmusic_mi">Media Força Imagem</string>
   <string name="pref_diffsurr_title">Surround diferencial</string>
-  <string name="pref_diffsurr_summary_on">Diff surround está habilitada</string>
-  <string name="pref_diffsurr_summary_off">Diff surround está desativada</string>
-  <string name="pref_diffsurr_enable">Ativado</string>
+  <string name="pref_diffsurr_summary_on">Surround diferencial está ativado</string>
+  <string name="pref_diffsurr_summary_off">Surround diferencial está desativado</string>
+  <string name="pref_diffsurr_enable">Habilitar</string>
   <string name="pref_select_diffsurr_ms_title">Selecione o tempo de atraso</string>
   <string name="dialog_diffsurr_ms">Tempo de atraso</string>
   <string name="pref_reverb_title">Reverberação</string>
-  <string name="pref_reverb_summary_on">Reverberação está habilitada</string>
-  <string name="pref_reverb_summary_off">Reverberação está desativada</string>
-  <string name="pref_reverb_enable">Ativado</string>
+  <string name="pref_reverb_summary_on">Reverberação está ativado</string>
+  <string name="pref_reverb_summary_off">Reverberação está desativado</string>
+  <string name="pref_reverb_enable">Habilitar</string>
   <string name="pref_reverb_roomsize">Tamanho do ambiente</string>
-  <string name="pref_reverb_width">Área de som</string>
+  <string name="pref_reverb_width">Ambiente do som</string>
   <string name="pref_reverb_damp">Fator de amortecimento</string>
-  <string name="pref_reverb_wet">Sinal de molhado</string>
-  <string name="pref_reverb_dry">Sinal de seca</string>
+  <string name="pref_reverb_wet">Sinal com efeito</string>
+  <string name="pref_reverb_dry">Sinal original</string>
   <string name="eq_preset_acoustic">Acústico</string>
-  <string name="eq_preset_bass_booster">Ganho de Grave</string>
-  <string name="eq_preset_bass_reducer">Redução de Grave</string>
+  <string name="eq_preset_bass_booster">Ganho de Graves</string>
+  <string name="eq_preset_bass_reducer">Redução de Graves</string>
   <string name="eq_preset_classical">Clássica</string>
   <string name="eq_preset_deep">Profundo</string>
   <string name="eq_preset_flat">Plano</string>
   <string name="eq_preset_r_and_b">R&amp;B</string>
   <string name="eq_preset_rock">Rock</string>
   <string name="eq_preset_small_speakers">Alto-falantes Pequenos</string>
-  <string name="eq_preset_treble_booster">Ganho de Agudo</string>
-  <string name="eq_preset_treble_reducer">Redução de Agudo</string>
-  <string name="eq_preset_vocal_booster">Ganho de Voz</string>
+  <string name="eq_preset_treble_booster">Ganho de Agudos</string>
+  <string name="eq_preset_treble_reducer">Redução de Agudos</string>
+  <string name="eq_preset_vocal_booster">Ganho de Vocais</string>
   <string name="eq_preset_custom">Personalizado</string>
-  <string name="text_ir_dir_isempty">ViPER4Android: O IR mostra que o diretório está vazio.</string>
-  <string name="text_token_lost">ViPER4Android: Um programa em execução solicitou Android para desativar efeitos de áudio, então V4A será temporariamente desativado.</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: O diretório de amostras %1$s IR está vazio.</string>
+  <string name="text_token_lost">ViPER4Android: Um programa em execução solicitou ao Android para desativar efeitos de áudio, então V4A será temporariamente desativado.</string>
   <string name="text_enabled">Ativo</string>
   <string name="text_disabled">Desativado</string>
   <string name="text_headset">Fone de ouvido</string>
@@ -180,7 +183,7 @@
   <string name="text_usb">USB/Dock</string>
   <string name="text_showtrayicon">Mostrar notificações</string>
   <string name="text_hidetrayicon">Ocultar notificações</string>
-  <string name="text_lockeffect">Modo de efeito de bloqueio</string>
+  <string name="text_lockeffect">Modo de Bloqueio de Efeito</string>
   <string name="text_yes">Sim</string>
   <string name="text_no">Não</string>
   <string name="text_normal">Normal</string>
@@ -194,28 +197,28 @@
   <string name="text_profileload_tip">Aplicar perfil</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Cancelar</string>
-  <string name="text_drvinst_prefer">Por favor, escolha a sua preferência</string>
+  <string name="text_drvinst_prefer">Por favor, escolha sua preferência</string>
   <string name="text_drvinst_sqdrv">Super qualidade de áudio requer pelo menos uma Cpu dual-core e pode acelerar o consumo da bateria.
 \nDeseja continuar?</string>
   <string name="text_drvvernotmatch">Para utilizar ViPER4Android, você precisa instalar/atualizar o driver V4A.
 \nO procedimento de instalação será feito automaticamente.
 \nInstalar/atualizar agora?</string>
-  <string name="text_drvuninst_confim">Tem certeza que deseja desinstalar o driver do V4A?</string>
+  <string name="text_drvuninst_confim">Você realmente deseja desinstalar o driver V4A?</string>
   <string name="text_uiprefer">Configurações da Interface</string>
-  <string name="text_uiprefer_dialog">Por favor, escolha a sua preferência</string>
-  <string name="text_commode">Modo de compatibilidade com FX</string>
-  <string name="text_uninstall">Desinstalar o Driver</string>
-  <string name="text_install">Instalar o driver</string>
+  <string name="text_uiprefer_dialog">Por favor, escolha sua preferência</string>
+  <string name="text_commode">Modo de compatibilidade FX</string>
+  <string name="text_uninstall">Desinstalar Driver</string>
+  <string name="text_install">Instalar driver</string>
   <string name="text_drvinst_ok">Driver instalado, por favor reinicie seu dispositivo.</string>
   <string name="text_drvuninst_ok">Driver desinstalado, por favor reinicie seu dispositivo.</string>
   <string name="text_no_busybox">Busybox não foi detectado no seu dispositivo, você gostaria de instalá-lo agora?</string>
   <string name="text_drvinst_acquireroot">Falha na instalação do driver: V4A não pode adquirir a permissão de root. Por favor, confirme que seu dispositivo está rooteado.</string>
-  <string name="text_drvinst_busybox_not_installed">Falha na instalação do driver: Sem instalação adequada do busybox encontrada neste dispositivo.</string>
+  <string name="text_drvinst_busybox_not_installed">Falha na instalação do driver: Nenhuma instalação apropriadad do busybox encontrada neste dispositivo.</string>
   <string name="text_drvinst_sdnotmounted">Falha na instalação do driver: armazenamento externo não está montado.</string>
   <string name="text_drvinst_dataioerr">Falha na instalação do driver: erro de E/S, reinicie e tente novamente.</string>
-  <string name="text_drvinst_cfg_unsup">Falha na instalação do driver: Sistema android ou ROM não suportado.</string>
-  <string name="text_drvinst_failed">Falha na instalação do driver: A instalação do busybox encontrada no dispositivo não funciona.
-\nIsso geralmente significa que você instalou um busybox errado ou quebrado. V4A precisa do Stericson do busybox para trabalhar.
+  <string name="text_drvinst_cfg_unsup">Falha na instalação do driver: Sistema Android ou ROM não suportado.</string>
+  <string name="text_drvinst_failed">Falha na instalação do driver: A instalação do Busybox encontrada no dispositivo não funciona.
+\nIsso geralmente significa instalação errada ou corrompida do Busybox. V4A precisa do Stericson\'s Busybox para funcionar.
 \nSe você tem certeza de ter instalado o busybox adequada, em seguida, confirme se seu dispositivo foi completamente rooteado.</string>
   <string name="text_modifybuildprop">ATENÇÃO:
 \nLPA está ativado no dispositivo, isso pode fazer com que o V4A tenha mal funcionamento.
@@ -239,13 +242,12 @@
   <string name="about_text">*** Sobre ViPER4Android ***
 \n
 \n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
-\nCopyright © 2006-2016, ViPER acústico. Todos os direitos reservados.
-\nEsta versão é licenciada e modificada para uso no Projeto de Código Aberto Mokee.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Todos os direitos reservados.
 \nSem a permissão oficial, o uso comercial não é permitido.
 \nFórum Oficial: http://vipersaudio.com/blog/
 \n
 \n\'ViPER4Android.apk\' é o painel de controle visual do ViPER4Android.
-\nCom base no DSP Manager da Cyanogenmod.
+\nBaseado no DSP Manager da Cyanogenmod.
 \nGrande agradecimento a Zhuhang@XDA
 \nGrande agradecimento a M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n
@@ -263,7 +265,7 @@ Como reduzir o consumo de bateria?  Quando V4A está sendo executado no modo Nor
 Fórum: http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Fórum</string>
-  <string name="text_checkupdate">Verificar atualizações</string>
+  <string name="text_checkupdate">Verificar atualização</string>
   <!-- Drawer -->
   <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
   <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
