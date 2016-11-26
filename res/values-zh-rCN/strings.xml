@@ -217,7 +217,7 @@
   <string name="text_drvinst_dataioerr">驱动安装失败，系统I/O错误，您可以重启手机后再试。</string>
   <string name="text_drvinst_cfg_unsup">驱动安装失败，V4A暂时不支持您的系统或ROM(您是否打过音效的补丁？)。</string>
   <string name="text_drvinst_failed">驱动安装失败，在您的设备上找到的busybox不工作。
-\n这通常意味着您安装了错误的或损坏的busybox，V4A需要stericson. busybox来安装驱动。
+\n这通常意味着您安装了错误的或损坏的busybox，V4A需要stericson.busybox来安装驱动。
 \n如果您确定您已经安装了正确的busybox，那么请确认您的设备已经完整ROOT(建议您使用RE管理器手动在/system内创建文件以验证是否完整ROOT，一般的ROOT检测软件无法正确检测虚假的ROOT)。</string>
   <string name="text_modifybuildprop">注意：
 \n您机器上的LPA功能已经开启，这可能会造成V4A没有效果。
