@@ -16,12 +16,247 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Hoofdtelefoon</string>
+  <string name="speaker_title">Telefoon Speaker</string>
+  <string name="bluetooth_title">Bluetooth-apparaat</string>
+  <string name="usb_title">USB/Dock</string>
+  <string name="audio_effects">Audio-effecten</string>
+  <string name="dsp_settings_headset">Effectinstellingen - Headset</string>
+  <string name="dsp_settings_speaker">Effectinstellingen - Telefoon Speaker</string>
+  <string name="dsp_settings_bluetooth">Effectinstellingen - Bluetooth-apparaat</string>
+  <string name="dsp_settings_usb">Effectinstellingen - USB-apparaat</string>
+  <string name="pref_dsp_enable">Inschakelen</string>
+  <string name="pref_effect_title">Selecteer Effect sterkte</string>
+  <string name="dialog_effect">Effect sterkte</string>
+  <string name="pref_force_enable_text">V4A geforceerd activeren</string>
+  <string name="pref_force_enable_warn">Force-inschakelen inschakelt, kan het geen effect-probleem oplossen. \nIn bepaalde roms, u krijgt mogelijk onverwachte resultaten zoals geen geluid en batterij drain. \nUse op uw eigen risico. Als zulke dingen gebeuren, kunt u dit uitschakelen.</string>
+  <string name="pref_fx_master_title">Master Power</string>
+  <string name="pref_fx_master_summary_on">V4A-FX is ingeschakeld</string>
+  <string name="pref_fx_master_summary_off">V4A-FX is uitgeschakeld</string>
+  <string name="pref_spkfx_master_title">Master Power</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX is ingeschakeld</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX is uitgeschakeld</string>
+  <string name="pref_fx_limiter_title">Master Gate (Limiter)</string>
+  <string name="pref_fx_limiter_threshold">Limiet drempel</string>
+  <string name="pref_spkfx_limiter_title">Master Gate (Limiter)</string>
+  <string name="pref_spkfx_limiter_threshold">Limiet drempel</string>
+  <string name="pref_output_gain">Uitvoer Gain</string>
+  <string name="pref_output_pan">Kanaal Pan</string>
+  <string name="pref_playback_title">Playback Gain Control</string>
+  <string name="pref_playback_summary_on">PlaybackAGC is ingeschakeld</string>
+  <string name="pref_playback_summary_off">PlaybackAGC is uitgeschakeld</string>
+  <string name="pref_playback_output_threshold">Max Output</string>
+  <string name="pref_playback_maxgain">Max Gain</string>
+  <string name="pref_xloud_title">eXtra luid</string>
+  <string name="pref_xloud_summary_on">extra luid is ingeschakeld</string>
+  <string name="pref_xloud_summary_off">Extra luid is uitgeschakeld</string>
+  <string name="pref_xloud_output_amplifer">Uitvoer Gain</string>
+  <string name="pref_xloud_spk_lowfreq">Lage respons</string>
+  <string name="pref_xloud_spk_highfreq">Hoge respons</string>
+  <string name="pref_spk_opt_title">Optimalisatie van de spreker</string>
+  <string name="pref_spk_opt_summary_on">Optimalisatie van de luidspreker is ingeschakeld</string>
+  <string name="pref_spk_opt_summary_off">Optimalisatie van de luidspreker is uitgeschakeld</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">ViPER-DDC is ingeschakeld</string>
+  <string name="pref_viperddc_summary_off">ViPER-DDC is uitgeschakeld</string>
+  <string name="pref_viperddc_enable">Inschakelen</string>
+  <string name="pref_viperddc_device">Luisterend apparaat</string>
+  <string name="pref_viperddc_device_manufacturer">Selecteer fabrikant</string>
+  <string name="pref_viperddc_device_model">Selecteer Model</string>
+  <string name="pref_viperddc_tips">OPMERKING: \nViPER-DDC is een echte Hi-Fi audio processor en wordt gebruikt voor correctie van de hoofdtelefoon. \nViPER-DDC bijna 500 hoofdtelefoon ondersteunt nu, en zal blijven steunen meer naarmate de tijd vordert. \nIf u de headset niet vinden in de lijst, schakel deze functie tot jou wordt toegevoegd.</string>
+  <string name="pref_vse_title">Spectrum Extensie</string>
+  <string name="pref_vse_summary_on">Spectrum-extensie is ingeschakeld</string>
+  <string name="pref_vse_summary_off">Spectrum-extensie is uitgeschakeld</string>
+  <string name="pref_vse_enable">Inschakelen</string>
+  <string name="pref_vse_strength">Sterkte</string>
+  <string name="pref_vse_strength_title">Selecteer sterkte</string>
+  <string name="pref_vse_tips">OPMERKING: \nSpectrum extensie is een echte Hi-Fi audio processor en het wordt gebruikt voor het uitbreiden van de lossy gecomprimeerde spectrum. \nIf u spelen lossy samengeperste muziek (die mp3, aac, ogg), deze functie een lossless gevoel kan geven. \nHowever, als u zijn het afspelen van lossless muziek, raden wij u deze functie uitschakelen.</string>
+  <string name="pref_analogx_title">AnalogX</string>
+  <string name="pref_analogx_enable">Inschakelen</string>
+  <string name="pref_analogx_summary_on">AnalogX is ingeschakeld</string>
+  <string name="pref_analogx_summary_off">AnalogX is uitgeschakeld</string>
+  <string name="pref_analogx_strength">Sterkte</string>
+  <string name="pref_analogx_strength_title">Selecteer sterkte</string>
+  <string name="pref_equalizer_title">FIREqualizer</string>
+  <string name="pref_equalizer_summary_on">FIREqualizer is ingeschakeld</string>
+  <string name="pref_equalizer_summary_off">FIREqualizer is uitgeschakeld</string>
+  <string name="pref_equalizer_enable">Inschakelen</string>
+  <string name="pref_equalizer_preset_title">Selecteer voorinstelling</string>
+  <string name="pref_dynamicsystem_title">Dynamisch systeem</string>
+  <string name="pref_dynamicsystem_summary_on">Dynamisch systeem is ingeschakeld</string>
+  <string name="pref_dynamicsystem_summary_off">Dynamisch systeem is uitgeschakeld</string>
+  <string name="pref_dynamicsystem_enable">Inschakelen</string>
+  <string name="pref_dynamicsystem_output">Luisterend apparaat</string>
+  <string name="pref_dynamicsystem_output_title">Luisterend apparaat selecteren</string>
+  <string name="pref_dynamicsystem_bass">Selecteer dynamische bas</string>
+  <string name="pref_dynamicsystem_tube_title">Buis geluid Simulator (6N1J)</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Buis geluid simulator is ingeschakeld</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Buis geluid simulator is uitgeschakeld</string>
+  <string name="pref_fidelity_title">Fidelity Controle</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER Bass is ingeschakeld</string>
+  <string name="pref_fidelity_vb_summary_off">ViPER Bass is uitgeschakeld</string>
+  <string name="pref_fidelity_vb_enable">Inschakelen van de ViPER Bass</string>
+  <string name="pref_fidelity_vb_mode">Bas modus</string>
+  <string name="pref_fidelity_vb_mode_title">Selecteer Bass Modus</string>
+  <string name="pref_fidelity_vb_bassfreq">Bas frequentie</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Selecteer bas frequentie</string>
+  <string name="pref_fidelity_vb_bassgain">Basversterker</string>
+  <string name="pref_fidelity_vb_bassgain_title">Selecteer Bass Boost</string>
+  <string name="pref_fidelity_vc_summary_on">ViPER duidelijkheid is ingeschakeld</string>
+  <string name="pref_fidelity_vc_summary_off">ViPER duidelijkheid is uitgeschakeld</string>
+  <string name="pref_fidelity_vc_enable">ViPER duidelijkheid inschakelen</string>
+  <string name="pref_fidelity_vc_mode">Duidelijkheid modus</string>
+  <string name="pref_fidelity_vc_mode_title">Selecteer helderheid modus</string>
+  <string name="pref_fidelity_vc_bassgain">Duidelijkheid</string>
+  <string name="pref_fidelity_vc_bassgain_title">Selecteer helderheid</string>
+  <string name="pref_curesystem_title">Auditieve systeem bescherming</string>
+  <string name="pref_curesystem_summary_on">Cure Tech + is ingeschakeld</string>
+  <string name="pref_curesystem_summary_off">Cure Tech + is uitgeschakeld</string>
+  <string name="pref_curesystem_enable">Inschakelen</string>
+  <string name="pref_select_cure_cf_title">Selecteer Binaural niveau</string>
+  <string name="dialog_cure_crossfeed">Binaural niveau</string>
+  <string name="pref_convolver_title">Convolver</string>
+  <string name="pref_convolver_summary_on">Convolver is ingeschakeld</string>
+  <string name="pref_convolver_summary_off">Convolver is uitgeschakeld</string>
+  <string name="pref_convolver_enable">Inschakelen</string>
+  <string name="pref_convolver_knl">Impulse melding </string>
+  <string name="pref_convolver_knl_title">Selecteer Impulse melding </string>
+  <string name="pref_convolver_crosschannel">Cross Kanaal</string>
+  <string name="pref_convolver_crosschannel_title">Selecteer Cross Kanaal</string>
+  <string name="pref_vhs_title">Hoofdtelefoon Surround +</string>
+  <string name="pref_vhs_summary_on">VHS + is ingeschakeld</string>
+  <string name="pref_vhs_summary_off">VHS + is uitgeschakeld</string>
+  <string name="pref_vhs_enable">Inschakelen</string>
+  <string name="pref_select_vhs_qual_title">Selecteer Effect Level</string>
+  <string name="dialog_vhs_qual">Effect Level</string>
+  <string name="pref_colorfulmusic_title">Field Surround</string>
+  <string name="pref_colorfulmusic_summary_on">Field surround is ingeschakeld </string>
+  <string name="pref_colorfulmusic_summary_off">Field surround is uitgeschakeld</string>
+  <string name="pref_colorfulmusic_enable">Inschakelen</string>
+  <string name="pref_select_colorfulmusic_title">Selecteer Field Surround Sterkte</string>
+  <string name="dialog_colorfulmusic">Field Surround Sterkte</string>
+  <string name="pref_select_colorfulmusic_mi_title">Selecteer Mid Image sterkte</string>
+  <string name="dialog_colorfulmusic_mi">Mid Image Strerkte</string>
+  <string name="pref_diffsurr_title">Differentiële Surround</string>
+  <string name="pref_diffsurr_summary_on">Diff surround is ingeschakeld</string>
+  <string name="pref_diffsurr_summary_off">Diff surround is uitgeschakeld</string>
+  <string name="pref_diffsurr_enable">Inschakelen</string>
+  <string name="pref_select_diffsurr_ms_title">Selecteer vertragingstijd</string>
+  <string name="dialog_diffsurr_ms">Vertragingstijd</string>
+  <string name="pref_reverb_title">Galm</string>
+  <string name="pref_reverb_summary_on">Galm is ingeschakeld</string>
+  <string name="pref_reverb_summary_off">Galm is uitgeschakeld</string>
+  <string name="pref_reverb_enable">Inschakelen</string>
+  <string name="pref_reverb_roomsize">Kamer grootte</string>
+  <string name="pref_reverb_width">Klankbeeld</string>
+  <string name="pref_reverb_damp">Demping Factor</string>
+  <string name="pref_reverb_wet">Nat signaal</string>
+  <string name="pref_reverb_dry">Droog signaal</string>
+  <string name="eq_preset_acoustic">Akoestiek</string>
+  <string name="eq_preset_bass_booster">Basversterker</string>
+  <string name="eq_preset_bass_reducer">Basverzwakker</string>
+  <string name="eq_preset_classical">Klassiek</string>
+  <string name="eq_preset_deep">Deep</string>
+  <string name="eq_preset_flat">Flat</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Rock</string>
+  <string name="eq_preset_small_speakers">Kleine luidsprekers</string>
+  <string name="eq_preset_treble_booster">Treble Booster</string>
+  <string name="eq_preset_treble_reducer">Treble verzwakker</string>
+  <string name="eq_preset_vocal_booster">Stemversterker</string>
+  <string name="eq_preset_custom">aangepast</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: De IR monster directory %1$s is leeg.</string>
+  <string name="text_token_lost">ViPER4Android: Een lopend programma heeft verzocht om Android te schakelen audio-effecten, zodat V4A wordt tijdelijk uitgeschakeld.</string>
+  <string name="text_enabled">Ingeschakeld</string>
   <string name="text_disabled">Uitgeschakeld</string>
+  <string name="text_headset">Hoofdtelefoon</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Luidspreker</string>
+  <string name="text_usb">USB/Dock</string>
+  <string name="text_showtrayicon">Toon meldingen</string>
+  <string name="text_hidetrayicon">Verberg Notificaties</string>
+  <string name="text_lockeffect">Lock Effect Mode</string>
   <string name="text_yes">Ja</string>
   <string name="text_no">Nee</string>
+  <string name="text_normal">Normaal</string>
+  <string name="text_abnormal">Abnormaal</string>
+  <string name="text_supported">Ondersteund</string>
+  <string name="text_unsupported">Niet ondersteund</string>
+  <string name="text_loadfxprofile">Effect-profiel laden</string>
+  <string name="text_newfxprofile">Nieuw Effect profiel...</string>
+  <string name="text_savefxprofile">Effect profiel opslaan</string>
+  <string name="text_profilesaved_overwrite">Wilt u dit profiel overschrijven?</string>
+  <string name="text_profileload_tip">Profiel toepassen</string>
   <string name="text_ok">Oké</string>
   <string name="text_cancel">Annuleren</string>
+  <string name="text_drvinst_prefer">Kies uw voorkeur</string>
+  <string name="text_drvinst_sqdrv">Super audiokwaliteit stuurprogramma vereist ten minste een dual-core cpu en kan versnellen batterij drain. \nDo die u wilt doorgaan?</string>
+  <string name="text_drvvernotmatch">Om te kunnen gebruiken ViPER4Android, moet u de V4A stuurprogramma installeren/bijwerken. \nThe-installatieprocedure zal automatisch worden gedaan. \nInstall/update nu?</string>
+  <string name="text_drvuninst_confim">Wil je echt V4A stuurprogramma verwijderen?</string>
+  <string name="text_uiprefer">UI instelling</string>
+  <string name="text_uiprefer_dialog">Kies uw voorkeur</string>
+  <string name="text_commode">FX compatibele modus</string>
+  <string name="text_uninstall">Stuurprogramma verwijderen</string>
+  <string name="text_install">Stuurprogramma installeren</string>
+  <string name="text_drvinst_ok">Driver geinstalleerd, herstart het apparaat.</string>
+  <string name="text_drvuninst_ok">Stuurprogramma verwijderd, herstart het apparaat.</string>
+  <string name="text_no_busybox">Busybox is niet aangetroffen op uw apparaat, wilt u deze nu installeren?</string>
+  <string name="text_drvinst_acquireroot">Stuurprogramma installeren mislukt: V4A heeft geen root toestemming. Controleer of dat uw apparaat geroot is.</string>
+  <string name="text_drvinst_busybox_not_installed">Stuurprogramma installeren mislukt: geen juiste busybox installatie aangetroffen op dit apparaat.</string>
+  <string name="text_drvinst_sdnotmounted">Stuurprogramma installeren mislukt: externe opslag niet gevonden.</string>
+  <string name="text_drvinst_dataioerr">Stuurprogramma installeren mislukt: I/O error, herstart en probeer het opnieuw.</string>
+  <string name="text_drvinst_cfg_unsup">Stuurprogramma installeren mislukt: niet-ondersteunde android-systeem of ROM.</string>
+  <string name="text_drvinst_failed">Stuurprogramma installeren mislukt: de installatie van de busybox gevonden op uw apparaat werkt niet. \nThis betekent meestal dat u een verkeerd of gebroken busybox hebt geïnstalleerd. V4A moet Stericson de busybox te werken. \nIf je weet zeker dat u de juiste busybox hebt geïnstalleerd, dan Bevestig uw apparaat heeft volledig is geworteld.</string>
+  <string name="text_modifybuildprop">LET op: de \nLPA is ingeschakeld voor uw apparaat, hierdoor kan V4A kuren te vertonen. \nLPA, of \'Low Power Audio\', kan worden uitgeschakeld door het wijzigen van de build.prop, die automatisch kunnen worden gedaan. \nWe raden u aan een NANDROID of DATA back-UP maken voordat u verder gaat! \nDo dat u wilt uitschakelen van LPA nu?</string>
   <string name="text_changelog">Logboek</string>
+  <string name="text_drv_status">Status van stuurprogramma \'s</string>
+  <string name="text_drv_status_view">\n
+\nDriver Versie: %1$s
+\nNEON Actief: %2$s
+\nActief: %3$s
+\nStatus: %4$s
+\nAudio Formaat: %5$s
+\nVooruitgang: %6$s
+\nSampling Score: %7$d
+\n</string>
+  <string name="text_service_error">Het is niet gelukt te communiceren met de ViPER4Android service.</string>
   <string name="about_exit">Afsluiten</string>
+  <string name="about_title">Helpen en over</string>
+  <string name="about_text">***About ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+\nWithout the official permission, commercial use is disallowed.
+\nOfficial Forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' is the visual control panel of ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Codename “Beautiful”.
+\n</string>
+  <string name="text_help_content">***General help***
+\n
+\n\'Install Driver\' - Install/Update ViPER4Android effect driver.
+\n\'Uninstall Driver\' - Uninstall ViPER4Android effect driver.
+\n\'FX Compatible Mode\' - Set effect compatibility mode.
+\n    \'Normal\' - Make ViPER4Android a global effect.
+\n    \'Compatible\' - Make ViPER4Android a local effect.
+\n
+\n<b>No V4A effect on all/most mediaplayers?</b>\n    You can switch the FX mode to compatible then restart your device and try again.
+\n
+\n<b>How to change driver audio quality?</b>\n    Uninstall driver in menu then restart your device and choose the quality you want.
+\n
+\n<b>How to reduce battery consumption?</b>\n    When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Forum</string>
+  <string name="text_checkupdate">Controleren op Updates</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Open navigatie menu</string>
+  <string name="navigation_drawer_close">Sluit navigatie menu</string>
+  <string name="navigation_toggle_drawer">Overschakelen naar menu weergave</string>
+  <string name="navigation_toggle_tabbed">Ga naar tabblad Weergave</string>
 </resources>
