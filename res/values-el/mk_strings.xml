@@ -31,4 +31,6 @@
 \n
 \nΈκδοση %1$s (FX), Ψευδόνυμο “Κούκλα”.
 \n</string>
+  <string name="text_savefxprofile_succeeded">Επιτυχείς αποθήκευση εφέ προφίλ.</string>
+  <string name="text_savefxprofile_failed">Αποτυχία αποθήκευσης προφίλ εφέ. Ο αποθ. χώρος μπορεί να είναι γεμάτος ή μη εγγράψιμος.</string>
 </resources>

@@ -17,8 +17,8 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Calidad de audio superior</item>
-    <item>Alta calidad de Audio</item>
+    <item>Calidad de Audio Superior</item>
+    <item>Calidad de Audio Alta</item>
     <item>Ahorro de energía</item>
   </string-array>
   <string-array name="ui_prefer">
@@ -190,8 +190,8 @@
     <item>Desconocido Tipo IV</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Natural Bass</item>
-    <item>Pure Bass+</item>
+    <item>Bass Natural</item>
+    <item>Bass+ Puro</item>
     <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">

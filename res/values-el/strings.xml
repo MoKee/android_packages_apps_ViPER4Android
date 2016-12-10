@@ -17,10 +17,80 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">Ακουστικά</string>
+  <string name="speaker_title">Μεγάφωνο τηλεφώνου</string>
   <string name="bluetooth_title">Συσκευή Bluetooth</string>
   <string name="usb_title">USB/Βάση σύνδεσης</string>
   <string name="audio_effects">Εφέ ήχου</string>
+  <string name="dsp_settings_headset">Ρυθμίσεις Εφέ - Ακουστικά</string>
+  <string name="dsp_settings_speaker">Ρυθμίσεις Εφέ - Μεγάφωνο τηλεφώνου</string>
+  <string name="dsp_settings_bluetooth">Ρυθμίσεις Εφέ - Συσκευή Bluetooth</string>
+  <string name="dsp_settings_usb">Ρυθμίσεις Εφέ - Συσκευή USB</string>
+  <string name="pref_dsp_enable">Ενεργοποίηση</string>
+  <string name="pref_effect_title">Επιλογή επίδρασης εφέ</string>
+  <string name="dialog_effect">Ισχύς εφέ</string>
+  <string name="pref_force_enable_text">Εξαναγκασμένη ενεργοποίηση V4A</string>
+  <string name="pref_force_enable_warn">Ενεργοποιώντας την εξαναγκαστική ενεργοποίηση μπορεί να λύσει το χωρίς εφέ πρόβλημα.
+\nΣε ορισμένες rom, μπορεί να έχετε μη αναμενόμενα αποτελέσματα όπως χωρίς ήχο και κατανάλωση μπαταρίας.
+\nΧρησιμοποιήστε με δικό σας ρίσκο. Εάν γίνει και τέτοιο, παρακαλούμε απενεργοποιήστε το.</string>
+  <string name="pref_fx_master_title">Κύρια Ισχύ</string>
+  <string name="pref_fx_master_summary_on">Το V4A-FX ενεργοποιήθηκε</string>
+  <string name="pref_fx_master_summary_off">Το V4A-FX απενεργοποιήθηκε</string>
+  <string name="pref_spkfx_master_title">Κύρια Ισχύ</string>
+  <string name="pref_spkfx_master_summary_on">Το V4A-SpeakerFX ενεργοποιήθηκε</string>
+  <string name="pref_spkfx_master_summary_off">Το V4A-SpeakerFX απενεργοποιήθηκε</string>
+  <string name="pref_fx_limiter_title">Κύρια Πύλη (Περιόριστης)</string>
+  <string name="pref_fx_limiter_threshold">Κατώτατο όριο</string>
+  <string name="pref_spkfx_limiter_title">Κύρια Πύλη (Περιόριστης)</string>
+  <string name="pref_spkfx_limiter_threshold">Κατώτατο όριο</string>
+  <string name="pref_output_gain">Ώφελος εξόδου</string>
+  <string name="pref_output_pan">Κανάλι Pan</string>
+  <string name="pref_playback_title">Ωφέλιμος έλεγχος αναπαραγωγής</string>
+  <string name="pref_playback_summary_on">Το PlaybackAGC ενεργοποιήθηκε</string>
+  <string name="pref_playback_summary_off">Το PlaybackAGC απενεργοποιήθηκε</string>
+  <string name="pref_playback_output_threshold">Μέγιστη Ισχύς</string>
+  <string name="pref_playback_maxgain">Μέγιστο ώφελος</string>
+  <string name="pref_xloud_title">έξτρα Δυνατό</string>
+  <string name="pref_xloud_summary_on">το έξτρα-δυνατό είναι ενεργοποιημένο</string>
+  <string name="pref_xloud_summary_off">το έξτρα-δυνατό είναι απενεργοποιημένο</string>
+  <string name="pref_xloud_output_amplifer">Ώφελος εξόδου</string>
+  <string name="pref_xloud_spk_lowfreq">Χαμηλή Απόκριση</string>
+  <string name="pref_xloud_spk_highfreq">Υψηλή Απόκριση</string>
+  <string name="pref_spk_opt_title">Βελτιστοποίηση Ηχείου</string>
+  <string name="pref_spk_opt_summary_on">Η βελτιστοποίηση ηχείου είναι ενεργοποιημένη</string>
+  <string name="pref_spk_opt_summary_off">Η βελτιστοποίηση ηχείου είναι απενεργοποιημένη</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">Το ViPER-DDC είναι ενεργοποιημένο</string>
+  <string name="pref_viperddc_summary_off">Το ViPER-DDC είναι απενεργοποιημένο</string>
   <string name="pref_viperddc_enable">Ενεργοποίηση</string>
+  <string name="pref_viperddc_device">Συσκευή Ακρόασης</string>
+  <string name="pref_viperddc_device_manufacturer">Επιλέξτε Κατασκευαστή</string>
+  <string name="pref_viperddc_device_model">Επιλέξτε Μοντέλο</string>
+  <string name="pref_viperddc_tips">ΣΗΜΕΊΩΣΗ: \nViPER-DDC είναι ένας αληθινός επεξεργαστής ήχου Hi-Fi και χρησιμοποιείται για τη διόρθωση του ακουστικού. \nViPER-DDC τώρα υποστηρίζει σχεδόν 500 ακουστικά, και θα συνεχίσει να στηρίζει περισσότερα όσο περνάει ο καιρός. \nΕάν δεν μπορείτε να βρείτε το ακουστικό σας στη λίστα, παρακαλούμε να απενεργοποιήσετε αυτή τη δυνατότητα έως ότου η δική σας προστεθεί.</string>
+  <string name="pref_vse_title">Επέκταση Φάσματος</string>
+  <string name="pref_vse_summary_on">Η επέκταση φάσματος ενεργοποιήθηκε</string>
+  <string name="pref_vse_summary_off">Η επέκταση φάσματος απενεργοποιήθηκε</string>
+  <string name="pref_vse_enable">Ενεργοποίηση</string>
+  <string name="pref_vse_strength">Ισχύς</string>
+  <string name="pref_vse_strength_title">Επιλογή Ισχύος</string>
+  <string name="pref_vse_tips">NOTICE:
+\nSpectrum extension is a true Hi-Fi audio processor and it is used for extending the lossy compressed spectrum.
+\nIf you are playing lossy compressed music(such mp3, aac, ogg), this feature may give a lossless feeling.
+\nHowever, if you are playing lossless music, we recommend you to disable this feature.</string>
+  <string name="pref_analogx_title">AnalogX</string>
+  <string name="pref_analogx_enable">Ενεργοποίηση</string>
+  <string name="pref_analogx_summary_on">Το AnalogX είναι ενεργοποιημένο</string>
+  <string name="pref_analogx_summary_off">Το AnalogX είναι απενεργοποιημένο</string>
+  <string name="pref_analogx_strength">Ισχύς</string>
+  <string name="pref_analogx_strength_title">Επιλογή Ισχύος</string>
+  <string name="pref_equalizer_enable">Ενεργοποίηση</string>
+  <string name="pref_dynamicsystem_enable">Ενεργοποίηση</string>
+  <string name="pref_dynamicsystem_output">Συσκευή Ακρόασης</string>
+  <string name="pref_curesystem_enable">Ενεργοποίηση</string>
+  <string name="pref_convolver_enable">Ενεργοποίηση</string>
+  <string name="pref_vhs_enable">Ενεργοποίηση</string>
+  <string name="pref_colorfulmusic_enable">Ενεργοποίηση</string>
+  <string name="pref_diffsurr_enable">Ενεργοποίηση</string>
+  <string name="pref_reverb_enable">Ενεργοποίηση</string>
   <string name="text_disabled">Απενεργοποιημένο</string>
   <string name="text_headset">Ακουστικά</string>
   <string name="text_bluetooth">Bluetooth</string>

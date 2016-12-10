@@ -44,6 +44,7 @@
   <string name="pref_playback_summary_on">PlaybackAGC est activé</string>
   <string name="pref_playback_summary_off">PlaybackAGC est désactivé</string>
   <string name="pref_playback_output_threshold">Puissance max</string>
+  <string name="pref_playback_maxgain">Gain maximal</string>
   <string name="pref_xloud_title">eXtra Loud</string>
   <string name="pref_xloud_summary_on">eXtra Loud est activé</string>
   <string name="pref_xloud_summary_off">eXtra Loud est désactivé</string>

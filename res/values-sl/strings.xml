@@ -19,6 +19,8 @@
   <string name="headset_title">Slušalke</string>
   <string name="speaker_title">Telefonski zvočnik</string>
   <string name="bluetooth_title">Naprava Bluetooth</string>
+  <string name="audio_effects">Zvočni učinki</string>
+  <string name="dsp_settings_speaker">Nastavitev učinkov - telefonski zvočnik</string>
   <string name="pref_dsp_enable">Omogoči</string>
   <string name="pref_effect_title">Izberite moč učinka</string>
   <string name="dialog_effect">Moč učinka</string>

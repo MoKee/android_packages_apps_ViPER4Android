@@ -49,6 +49,7 @@
   <string name="pref_playback_summary_off">PlaybackAGC esta Desactivado</string>
   <string name="pref_playback_output_threshold">Max Potencia de Salida</string>
   <string name="pref_playback_maxgain">Max Ganancia</string>
+  <string name="pref_xloud_title">eXtra Loud</string>
   <string name="pref_xloud_summary_on">eXtra-Loud esta Activado</string>
   <string name="pref_xloud_summary_off">eXtra-Loud esta Desactivado</string>
   <string name="pref_xloud_output_amplifer">Ganancia de Salida</string>
@@ -64,9 +65,20 @@
   <string name="pref_viperddc_device">Dispositivo de Escucha</string>
   <string name="pref_viperddc_device_manufacturer">Seleccione el fabricante</string>
   <string name="pref_viperddc_device_model">Selecciona el modelo</string>
+  <string name="pref_viperddc_tips">NOTA:
+\nViPER-DDC es un verdadero procesador de audio de Alta Fidelidad y se utiliza para la corrección del auricular.
+\nViPER-DDC ahora es compatible con casi 500 auriculares y continuará apoyando a más conforme pasa el tiempo.
+\nSi no puede encontrar el auricular en la lista, por favor desactivar esta función hasta que sea añadido.</string>
+  <string name="pref_vse_title">Spectrum Extension</string>
+  <string name="pref_vse_summary_on">Spectrum Extension habilitada</string>
+  <string name="pref_vse_summary_off">Spectrum Extension deshabilitada</string>
   <string name="pref_vse_enable">Activado</string>
   <string name="pref_vse_strength">Intensidad</string>
   <string name="pref_vse_strength_title">Seleccione intensidad</string>
+  <string name="pref_vse_tips">AVISO:
+\nSpectrum Extension es un verdadero procesador de audio de Alta Fidelidad y se utiliza para ampliar el espectro comprimido con pérdidas.
+\nSi está reproduciendo música comprimida \"con pérdidas\" (como mp3, aac, ogg), esta característica puede dar una sensación \"sin pérdidas\".
+\nSin embargo, si estás reproduciendo música \"sin pérdidas\", te recomendamos desactivar esta función.</string>
   <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Activado</string>
   <string name="pref_analogx_summary_on">AnalogX está habilitado</string>
@@ -92,6 +104,7 @@
   <string name="pref_fidelity_vb_summary_on">ViPER Bass esta Activado</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass esta Desactivado</string>
   <string name="pref_fidelity_vb_enable">ViPER Bass Activado</string>
+  <string name="pref_fidelity_vb_mode">Modo de Bajos</string>
   <string name="pref_fidelity_vb_mode_title">Selecciona Bass Mode</string>
   <string name="pref_fidelity_vb_bassfreq">Bass Frecuencia</string>
   <string name="pref_fidelity_vb_bassfreq_title">Selecciona Bass Frecuencia</string>
@@ -110,11 +123,14 @@
   <string name="pref_curesystem_enable">Activado</string>
   <string name="pref_select_cure_cf_title">Selecciona Nivel Binaural</string>
   <string name="dialog_cure_crossfeed">Nivel Binaural</string>
+  <string name="pref_convolver_title">Convolver</string>
   <string name="pref_convolver_summary_on">Convolver esta Activado</string>
   <string name="pref_convolver_summary_off">Convolver esta Desactivado</string>
   <string name="pref_convolver_enable">Activado</string>
   <string name="pref_convolver_knl">Respuesta de Impulso</string>
   <string name="pref_convolver_knl_title">Selecciona Respuesta de Impulso</string>
+  <string name="pref_convolver_crosschannel">Canal Cruzado</string>
+  <string name="pref_convolver_crosschannel_title">Seleccione Canal Cruzado</string>
   <string name="pref_vhs_title">Auriculares Surround +</string>
   <string name="pref_vhs_summary_on">VHS+ esta Activado</string>
   <string name="pref_vhs_summary_off">VHS+ esta Desactivado</string>
