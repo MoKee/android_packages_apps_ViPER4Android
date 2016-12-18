@@ -16,5 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_text_mk">***O ViPER4Android (MoKee Custom Edition)***
+\n
+\n\'libv4a_xx_xx.so\' je jedro ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Vse pravice pridržane.
+\nTa različica je licencirana in prirejena za MoKee Open Source Project.
+\nBrez uradnega dovoljenja, uporaba v komercijalne namene ni dovoljena.
+\nUradni forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' je grafična nadzorna plošča ViPER4Android.
+\nTemelji na Cyanogenmod\'s DSPManager.
+\nPosebna zahvala Zhuhang@XDA
+\nPosebna zahvala tudi M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVerzija %1$s (FX), Kodno ime “Beautiful”.
+\n</string>
   <string name="text_savefxprofile_succeeded">Zvočni profil uspešno shranjen.</string>
+  <string name="text_savefxprofile_failed">Ni mogoče shraniti profila zvočnega učinka. Shramba je morda polna ali vanjo ni mogoče pisati.</string>
 </resources>

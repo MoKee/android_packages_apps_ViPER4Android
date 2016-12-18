@@ -19,8 +19,12 @@
   <string name="headset_title">Slušalke</string>
   <string name="speaker_title">Telefonski zvočnik</string>
   <string name="bluetooth_title">Naprava Bluetooth</string>
+  <string name="usb_title">USB/Dock</string>
   <string name="audio_effects">Zvočni učinki</string>
+  <string name="dsp_settings_headset">Nastavitev učinkov - naglavne slušalke</string>
   <string name="dsp_settings_speaker">Nastavitev učinkov - telefonski zvočnik</string>
+  <string name="dsp_settings_bluetooth">Nastavitev učinkov - bluetooth naprave</string>
+  <string name="dsp_settings_usb">Nastavitev učinkov - USB naprave</string>
   <string name="pref_dsp_enable">Omogoči</string>
   <string name="pref_effect_title">Izberite moč učinka</string>
   <string name="dialog_effect">Moč učinka</string>
@@ -30,32 +34,117 @@
 \nUporaba na lastno odgovornost. Če se to zgodi, prosim izklopite to možnost.</string>
   <string name="pref_fx_master_summary_on">V4A-FX je vklopljen</string>
   <string name="pref_fx_master_summary_off">V4A-FX je izklopljen</string>
+  <string name="pref_playback_output_threshold">Max izhod</string>
+  <string name="pref_xloud_title">eXtra glasno</string>
+  <string name="pref_xloud_summary_on">eXtra-glasno omogočeno</string>
+  <string name="pref_xloud_summary_off">eXtra-glasno onemogočeno</string>
+  <string name="pref_xloud_spk_lowfreq">Nizek odziv</string>
+  <string name="pref_xloud_spk_highfreq">Visok odziv</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">ViPER-DDC je omogočen</string>
+  <string name="pref_viperddc_summary_off">ViPER-DDC je onemogočen</string>
   <string name="pref_viperddc_enable">Omogoči</string>
+  <string name="pref_viperddc_device_manufacturer">Izberite proizvajalca</string>
+  <string name="pref_viperddc_device_model">Izberite Model</string>
+  <string name="pref_viperddc_tips">OBVESTILO: 
+\nViPER-DDC je resni Hi-Fi avdio procesor in se uporablja za popravek naglavnih slušalk. 
+\nViPER-DDC za zdaj podpira skoraj 500 slušalk in jih bo s časom podpiral še več. 
+\nČe svojih slušalk ne najdete na seznamu, prosim onemogočite to funkcijo, dokler se vaših ne doda.</string>
   <string name="pref_vse_enable">Omogoči</string>
+  <string name="pref_vse_strength">Moč</string>
+  <string name="pref_vse_strength_title">Izberite moč učinka</string>
+  <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Omogoči</string>
+  <string name="pref_analogx_summary_on">AnalogX omogočen</string>
+  <string name="pref_analogx_summary_off">AnalogX onemogočen</string>
+  <string name="pref_analogx_strength">Moč</string>
+  <string name="pref_analogx_strength_title">Izberite moč učinka</string>
+  <string name="pref_equalizer_title">FIREqualizer</string>
+  <string name="pref_equalizer_summary_on">FIREqualizer omogočen</string>
+  <string name="pref_equalizer_summary_off">FIREqualizer onemogočen</string>
   <string name="pref_equalizer_enable">Omogoči</string>
+  <string name="pref_equalizer_preset_title">Izberite prednastavitev</string>
   <string name="pref_dynamicsystem_enable">Omogoči</string>
   <string name="pref_curesystem_enable">Omogoči</string>
   <string name="pref_convolver_enable">Omogoči</string>
+  <string name="pref_vhs_summary_on">VHS + je omogočen</string>
+  <string name="pref_vhs_summary_off">VHS + je onemogočen</string>
   <string name="pref_vhs_enable">Omogoči</string>
   <string name="pref_colorfulmusic_enable">Omogoči</string>
   <string name="pref_diffsurr_enable">Omogoči</string>
+  <string name="dialog_diffsurr_ms">Zakasnitev</string>
   <string name="pref_reverb_enable">Omogoči</string>
   <string name="pref_reverb_roomsize">Velikost prostora</string>
+  <string name="pref_reverb_wet">Mokri signal</string>
+  <string name="pref_reverb_dry">Suhi signal</string>
+  <string name="eq_preset_acoustic">Akustično</string>
+  <string name="eq_preset_bass_booster">Bass ojačevalec</string>
+  <string name="eq_preset_bass_reducer">Bass omejitev</string>
+  <string name="eq_preset_classical">Klasično</string>
+  <string name="eq_preset_deep">Globoko</string>
   <string name="eq_preset_flat">Plosko</string>
   <string name="eq_preset_r_and_b">R&amp;B</string>
   <string name="eq_preset_rock">Rock</string>
   <string name="eq_preset_small_speakers">Majhni zvočniki</string>
+  <string name="eq_preset_custom">Po meri</string>
+  <string name="text_enabled">V uporabi</string>
   <string name="text_disabled">Onemogočeno</string>
   <string name="text_headset">Slušalke</string>
+  <string name="text_bluetooth">Bluetooth</string>
   <string name="text_speaker">Zvočnik</string>
+  <string name="text_usb">USB/Dock</string>
+  <string name="text_showtrayicon">Prikaži obvestilo</string>
+  <string name="text_hidetrayicon">Skrije obvestilo</string>
   <string name="text_yes">Da</string>
   <string name="text_no">Ne</string>
+  <string name="text_normal">Običajno</string>
+  <string name="text_abnormal">Neobičajno</string>
+  <string name="text_supported">Podprto</string>
+  <string name="text_unsupported">Nepodprto</string>
+  <string name="text_loadfxprofile">Naloži zvočni profil</string>
+  <string name="text_newfxprofile">Novi zvočni profil&#8230;</string>
+  <string name="text_savefxprofile">Shrani zvočni profil</string>
+  <string name="text_profilesaved_overwrite">Ali želite prepisati ta profil?</string>
+  <string name="text_profileload_tip">Uporabi profil</string>
   <string name="text_ok">V redu</string>
   <string name="text_cancel">Prekliči</string>
+  <string name="text_drvinst_prefer">Prosim izberite svoje nastavitve</string>
+  <string name="text_uiprefer">Nastavitve UI</string>
+  <string name="text_uiprefer_dialog">Prosim izberite svoje nastavitve</string>
+  <string name="text_commode">FX združljiv način</string>
+  <string name="text_uninstall">Odstrani gonilnik</string>
+  <string name="text_install">Namesti gonilnik</string>
+  <string name="text_drvinst_ok">Gonilnik nameščen, znova zaženite napravo.</string>
+  <string name="text_drvuninst_ok">Gonilnik odstranjen, znova zaženite napravo.</string>
   <string name="text_changelog">Zadnje spremembe</string>
+  <string name="text_drv_status">Stanje gonilnika</string>
+  <string name="text_drv_status_view">\n
+\nRazličica gonilnika: %1$s
+\nNEON omogočen: %2$s
+\nOmogočen: %3$s
+\nStatus: %4$s
+\nAudio Format: %5$s
+\nObdelava: %6$s
+\nStopnja vzorčenja: %7$d
+\n</string>
+  <string name="text_service_error">Komunikacija s storitvijo ViPER4Android ni uspela.</string>
   <string name="about_exit">Izhod</string>
   <string name="about_title">Pomoč in informacije</string>
+  <string name="about_text">***O ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' je jedro ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Vse pravice pridržane.
+\nBrez uradnega dovoljenja, uporaba v komercijalne namene ni dovoljena.
+\nUradni forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' je grafična nadzorna plošča ViPER4Android.
+\nTemelji na Cyanogenmod\'s DSPManager.
+\nPosebna zahvala Zhuhang@XDA
+\nPosebna zahvala tudi M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVerzija %1$s (FX), Kodno ime “Beautiful”.
+\n</string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Forum</string>
   <string name="text_checkupdate">Preveri za posodobitve</string>
   <!-- Drawer -->
