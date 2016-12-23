@@ -206,6 +206,7 @@
   <string name="text_uiprefer">界面控制級別</string>
   <string name="text_uiprefer_dialog">請選擇您的偏好</string>
   <string name="text_commode">音效兼容模式</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">解除安裝驅動程式</string>
   <string name="text_install">安裝驅動程式</string>
   <string name="text_drvinst_ok">驅動程式已安裝，請重啟手機以生效。</string>

@@ -207,6 +207,7 @@
   <string name="text_uiprefer">Setelan UI</string>
   <string name="text_uiprefer_dialog">Pilih preferensi anda</string>
   <string name="text_commode">FX Kompatibel Mode</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Copot Driver</string>
   <string name="text_install">Pasang Driver</string>
   <string name="text_drvinst_ok">Yey! Driver terinstall, silahkan mulai ulang perangkat anda.</string>

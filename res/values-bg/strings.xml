@@ -200,6 +200,7 @@
   <string name="text_uiprefer">UI настройка</string>
   <string name="text_uiprefer_dialog">Моля, направете вашият избор</string>
   <string name="text_commode">FX съвместим режим</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Деинсталирайте драйвера</string>
   <string name="text_install">Инсталиране на драйвера</string>
   <string name="text_drvinst_ok">Драйверът е инсталиран, моля рестартирайте устройството.</string>
