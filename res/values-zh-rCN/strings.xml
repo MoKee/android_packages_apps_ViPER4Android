@@ -206,6 +206,7 @@
   <string name="text_uiprefer">界面控制级别</string>
   <string name="text_uiprefer_dialog">请选择您的偏好</string>
   <string name="text_commode">音效兼容模式</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">卸载驱动</string>
   <string name="text_install">安装驱动</string>
   <string name="text_drvinst_ok">驱动安装完成，请重启手机以生效。</string>

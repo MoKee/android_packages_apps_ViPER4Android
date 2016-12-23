@@ -196,6 +196,7 @@
   <string name="text_uiprefer">UI instelling</string>
   <string name="text_uiprefer_dialog">Kies uw voorkeur</string>
   <string name="text_commode">FX compatibele modus</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Stuurprogramma verwijderen</string>
   <string name="text_install">Stuurprogramma installeren</string>
   <string name="text_drvinst_ok">Driver geinstalleerd, herstart het apparaat.</string>
