@@ -206,6 +206,7 @@
   <string name="text_uiprefer">Интерфейс</string>
   <string name="text_uiprefer_dialog">Уровень</string>
   <string name="text_commode">Совместимость</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Удалить драйвер</string>
   <string name="text_install">Установить драйвер</string>
   <string name="text_drvinst_ok">Драйвер установлен. Перезагрузите устройство.</string>

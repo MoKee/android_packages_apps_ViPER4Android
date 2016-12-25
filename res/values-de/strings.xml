@@ -182,6 +182,7 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="text_drvuninst_confim">Möchten Sie den V4A Treiber wirklich deinstallieren?</string>
   <string name="text_uiprefer">UI-Einstellung</string>
   <string name="text_commode">FX-Kompatiblen Modus</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Treiber deinstallieren</string>
   <string name="text_install">Treiber installieren</string>
   <string name="text_drvinst_ok">Treiber installiert, starten Sie Ihr Gerät bitte neu.</string>
