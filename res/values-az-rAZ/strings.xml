@@ -16,5 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="text_drv_blank"></string>
+  <string name="about_exit">Çıxış</string>
   <!-- Drawer -->
 </resources>

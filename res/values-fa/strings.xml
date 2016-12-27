@@ -16,6 +16,7 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">تغییرات ایجاد شده</string>
   <!-- Drawer -->
 </resources>

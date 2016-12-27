@@ -197,6 +197,7 @@
   <string name="text_uiprefer">UI 설정</string>
   <string name="text_uiprefer_dialog">UI 선택</string>
   <string name="text_commode">FX 호환 모드</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">드라이버 제거</string>
   <string name="text_install">드라이버 설치</string>
   <string name="text_drvinst_ok">드라이버가 설치되었습니다. 기기를 재시작해 주십시오.</string>

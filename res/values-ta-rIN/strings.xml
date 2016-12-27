@@ -20,6 +20,7 @@
   <string name="text_no">இல்லை</string>
   <string name="text_ok">சரி</string>
   <string name="text_cancel">ரத்துசெய்</string>
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">மாற்றம் பதிவு</string>
   <string name="about_exit">வெளியேறுதல்</string>
   <!-- Drawer -->

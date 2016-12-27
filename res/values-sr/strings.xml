@@ -21,6 +21,7 @@
   <string name="text_no">Не</string>
   <string name="text_ok">ОК</string>
   <string name="text_cancel">Поништи</string>
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">Евиденција измена</string>
   <string name="about_exit">Излаз</string>
   <!-- Drawer -->

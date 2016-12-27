@@ -24,6 +24,7 @@
   <string name="dialog_effect">Intensidade do Efeito</string>
   <string name="pref_force_enable_text">Forçar Ativar V4A</string>
   <string name="text_headset">Auriculares</string>
+  <string name="text_drv_blank"></string>
   <string name="about_exit">Sair</string>
   <!-- Drawer -->
 </resources>

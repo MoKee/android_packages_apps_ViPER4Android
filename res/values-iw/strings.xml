@@ -60,6 +60,7 @@
   <string name="text_no">לא</string>
   <string name="text_ok">אישור</string>
   <string name="text_cancel">ביטול</string>
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">יומן שינויים</string>
   <string name="about_exit">יציאה</string>
   <!-- Drawer -->

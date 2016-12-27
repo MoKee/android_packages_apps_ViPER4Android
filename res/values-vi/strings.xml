@@ -196,6 +196,7 @@
   <string name="text_uiprefer">Cài đặt giao diện người dùng</string>
   <string name="text_uiprefer_dialog">Vui lòng chọn sở thích của bạn</string>
   <string name="text_commode">Chế độ tương thích FX</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Gỡ cài đặt trình điều khiển</string>
   <string name="text_install">Cài đặt trình điều khiển</string>
   <string name="text_drvinst_ok">Các trình điều khiển được cài đặt, xin vui lòng khởi động lại thiết bị của bạn.</string>

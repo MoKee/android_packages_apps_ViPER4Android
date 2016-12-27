@@ -198,6 +198,7 @@ Saját felelősségre használd. Ha ezek történnek, kérjük kapcsold ezt ki.<
   <string name="text_uiprefer">Kezelőfelület beállítás</string>
   <string name="text_uiprefer_dialog">Kérlek válaszd ki a preferenciád</string>
   <string name="text_commode">FX Kompatibilitási mód</string>
+  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Driver eltávolítása</string>
   <string name="text_install">Driver telepítése</string>
   <string name="text_drvinst_ok">Driver telepítve, kérlek indítsd újra a készüléked.</string>

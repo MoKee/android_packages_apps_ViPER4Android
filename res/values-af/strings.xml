@@ -18,5 +18,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_yes">Ja</string>
   <string name="text_no">Nee</string>
+  <string name="text_drv_blank"></string>
   <!-- Drawer -->
 </resources>

@@ -19,6 +19,7 @@
   <string name="text_disabled">Deaktivert</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Angre</string>
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">Endringslogg</string>
   <string name="about_exit">Lukk</string>
   <!-- Drawer -->

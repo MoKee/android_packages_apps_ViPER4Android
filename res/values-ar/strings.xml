@@ -21,6 +21,7 @@
   <string name="text_no">لا</string>
   <string name="text_ok">تم</string>
   <string name="text_cancel">إلغاء</string>
+  <string name="text_drv_blank"></string>
   <string name="text_changelog">سجل التغييرات</string>
   <string name="about_exit">خروج</string>
   <!-- Drawer -->
