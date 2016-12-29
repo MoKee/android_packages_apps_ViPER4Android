@@ -38,7 +38,11 @@
   <string name="pref_spkfx_limiter_title">Hlavní brána (omezovač)</string>
   <string name="pref_spkfx_limiter_threshold">Mezní hranice</string>
   <string name="pref_playback_title">Ovládání přehrávání</string>
+  <string name="pref_playback_summary_on">PlaybackAGC je povolen</string>
+  <string name="pref_playback_summary_off">PlaybackAGC je zakázán</string>
   <string name="pref_playback_output_threshold">Maximální výstup</string>
+  <string name="pref_xloud_spk_lowfreq">Nízká odezva</string>
+  <string name="pref_xloud_spk_highfreq">Vysoká odezva</string>
   <string name="pref_spk_opt_title">Optimalizace reproduktoru</string>
   <string name="pref_spk_opt_summary_on">Optimalizace reproduktoru je povolena</string>
   <string name="pref_spk_opt_summary_off">Optimalizace reproduktoru je zakázána</string>

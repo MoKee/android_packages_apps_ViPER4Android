@@ -65,6 +65,10 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_viperddc_device">Listening Device</string>
   <string name="pref_viperddc_device_manufacturer">Wählen Sie einen Hersteller</string>
   <string name="pref_viperddc_device_model">Modell auswählen</string>
+  <string name="pref_viperddc_tips">HINWEIS: 
+\nViPER-DDC ist ein echter Hi-Fi audio-Prozessor und dient zur Korrektur der Kopfhörer. 
+\nViPER-DDC unterstützt jetzt fast 500 Kopfhörer und wird in Zukunft weitere Geräte unterstützen. 
+\nIf Falls Sie Ihre Kopfhörer nicht in der Liste finden können deaktivieren Sie bitte diese Funktion, bis es hinzugefügt wird.</string>
   <string name="pref_vse_title">Spektrum-Erweiterung</string>
   <string name="pref_vse_summary_on">Spektrum-Erweiterung ist aktiviert</string>
   <string name="pref_vse_summary_off">Spektrum-Erweiterung ist deaktiviert</string>
@@ -118,6 +122,7 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="pref_curesystem_summary_off">Cure Tech+ ist deaktiviert</string>
   <string name="pref_curesystem_enable">Aus/An</string>
   <string name="pref_convolver_enable">Aus/An</string>
+  <string name="pref_vhs_title">Kopfhörer-Surround +</string>
   <string name="pref_vhs_summary_on">VHS+ ist aktiviert</string>
   <string name="pref_vhs_summary_off">VHS+ ist deaktiviert</string>
   <string name="pref_vhs_enable">Aus/An</string>
@@ -193,6 +198,9 @@ Benutzung auf eigene Gefahr. Wenn solche Dinge passieren, schaltet diese bitte a
   <string name="text_drvinst_sdnotmounted">Treiberinstallation fehlgeschlagen: Externer Speicher nicht eingelegt.</string>
   <string name="text_drvinst_dataioerr">Treiberinstallation fehlgeschlagen: I/O-Fehler, bitte Gerät neustarten, und versuchen Sie es erneut.</string>
   <string name="text_drvinst_cfg_unsup">Treiberinstallation fehlgeschlagen: Android-System oder ROM wird nicht unterstützt.</string>
+  <string name="text_drvinst_failed">Treiberinstallation ist fehlgeschlagen: die Busybox Installation auf Ihrem Gerät funktioniert nicht. 
+\nDies bedeutet normalerweise, dass Sie eine falsche oder fehlerhafte Busybox installiert haben. V4A braucht Stericsons Busybox um funktionieren zu können. 
+\nIf Falls Sie sicher sind, dass Sie die richtige Busybox installiert haben, dann überprüfen Sie bitte ob Ihr Gerät komplett gerooted ist.</string>
   <string name="text_modifybuildprop">ACHTUNG:
 \nLPA ist auf Ihrem Gerät aktiviert, dies kann zu Fehlfunktionen führen.
 \nLPA oder \"Low Power Audio\" kann deaktiviert werden, durch Ändern der build.prop, die automatisch durchgeführt werden kann. 
