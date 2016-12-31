@@ -31,6 +31,6 @@
 \n
 \nVersão %1$s (FX), Codinome “Beautiful”.
 \n</string>
-  <string name="text_savefxprofile_succeeded">Perfil de efeito salvo co sucesso.</string>
+  <string name="text_savefxprofile_succeeded">Perfil de efeito salvo com sucesso.</string>
   <string name="text_savefxprofile_failed">Falha ao salvar o perfil de efeito. Armazenamento pode estar cheio ou não gravável.</string>
 </resources>

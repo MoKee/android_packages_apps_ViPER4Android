@@ -27,11 +27,11 @@
     <item>Експерт</item>
   </string-array>
   <string-array name="compatible_mode">
-    <item>Немає</item>
-    <item>Включити</item>
+    <item>Нормальний</item>
+    <item>Сумісний</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
-    <item>Мінімум</item>
+    <item>Слабкий</item>
     <item>Рівень 1</item>
     <item>Рівень 2</item>
     <item>Рівень 3</item>
@@ -39,7 +39,7 @@
     <item>Рівень 5</item>
     <item>Рівень 6</item>
     <item>Рівень 7</item>
-    <item>Максимум</item>
+    <item>Екстремальний</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
     <item>Мінімум</item>
@@ -52,7 +52,7 @@
     <item>Рівень 7</item>
     <item>Рівень 8</item>
     <item>Рівень 9</item>
-    <item>Максимум</item>
+    <item>Екстремальний</item>
   </string-array>
   <string-array name="diffsurround_delay">
     <item>2 мс</item>
@@ -92,26 +92,26 @@
     <item>36 м</item>
   </string-array>
   <string-array name="cure_crossfeed">
-    <item>Мінімум</item>
+    <item>Слабкий</item>
     <item>Середній</item>
-    <item>Максимум</item>
+    <item>Екстремальний</item>
   </string-array>
   <string-array name="analogx_mode">
-    <item>Мінімум</item>
-    <item>Досвідчений</item>
-    <item>Максимум</item>
+    <item>Слабкий</item>
+    <item>Помірний</item>
+    <item>Екстремальний</item>
   </string-array>
   <string-array name="vhs_qual">
     <item>Маленький зал</item>
-    <item>Невеликий зал</item>
-    <item>Середній зал</item>
-    <item>Великий зал</item>
-    <item>Величезний зал</item>
+    <item>Рівень 2</item>
+    <item>Рівень 3</item>
+    <item>Рівень 4</item>
+    <item>Рівень 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
-    <item>Мінімум</item>
-    <item>Середній</item>
-    <item>Максимум</item>
+    <item>Слабкий</item>
+    <item>Помірний</item>
+    <item>Екстремальний</item>
   </string-array>
   <string-array name="multi_factor">
     <item>1x</item>
@@ -124,7 +124,7 @@
     <item>8x</item>
     <item>9x</item>
     <item>10x</item>
-    <item>∞</item>
+    <item>Інф</item>
   </string-array>
   <string-array name="amplification_db">
     <item>0 дБ</item>
@@ -169,30 +169,30 @@
     <item>-40,0 дБ</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
-    <item>Відмінні навушники 2</item>
+    <item>Екстремальні навушники(v2)</item>
     <item>Хороші навушники 2</item>
-    <item>Звичайні навушники 2</item>
-    <item>Прості навушники 2</item>
-    <item>Звичайна гарнітура 2</item>
-    <item>Відмінні навушники 1</item>
-    <item>Хороші навушники 1</item>
-    <item>Звичайні навушники 1</item>
-    <item>Звичайна гарнітура 1</item>
+    <item>Звичайні навушники(v2)</item>
+    <item>Прості навушники(v2)</item>
+    <item>Звичайна гарнітура(v2)</item>
+    <item>Екстремальні навушники (v1)</item>
+    <item>Хороші навушники(v1)</item>
+    <item>Звичайні навушники(v1)</item>
+    <item>Звичайна гарнітура(v1)</item>
     <item>Гарнітура Apple</item>
     <item>Гарнітура Monster</item>
     <item>Гарнітура Moto</item>
     <item>Гарнітура Philips</item>
     <item>Philips SHP 2000</item>
     <item>Philips SHP 9000</item>
-    <item>Умовний тип 1</item>
-    <item>Умовний тип 2</item>
-    <item>Умовний тип 3</item>
-    <item>Умовний тип 4</item>
+    <item>Невідомий тип І</item>
+    <item>Невідомий тип ІІ</item>
+    <item>Невідомий тип ІІІ</item>
+    <item>Невідомий тип ІV</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Природний</item>
-    <item>Очищений</item>
-    <item>Сабвуферний</item>
+    <item>Природний бас</item>
+    <item>Чистий бас+</item>
+    <item>Сабвуфер</item>
   </string-array>
   <string-array name="vbass_freq">
     <item>30 Гц</item>
@@ -205,18 +205,18 @@
     <item>100 Гц</item>
   </string-array>
   <string-array name="vbass_boost">
-    <item>3,5 дБ</item>
-    <item>6,0 дБ</item>
-    <item>8,0 дБ</item>
-    <item>10,0 дБ</item>
-    <item>11,0 дБ</item>
-    <item>12,0 дБ</item>
-    <item>13,0 дБ</item>
-    <item>14,0 дБ</item>
-    <item>14,8 дБ</item>
-    <item>15,6 дБ</item>
-    <item>16,3 дБ</item>
-    <item>17,0 дБ</item>
+    <item>3.5 дБ</item>
+    <item>6.0 дБ</item>
+    <item>8.0 дБ</item>
+    <item>10.0 дБ</item>
+    <item>11.0 дБ</item>
+    <item>12.0 дБ</item>
+    <item>13.0 дБ</item>
+    <item>14.0 дБ</item>
+    <item>14.8 дБ</item>
+    <item>15.6 дБ</item>
+    <item>16.3 дБ</item>
+    <item>17.0 дБ</item>
   </string-array>
   <string-array name="vclarity_mode">
     <item>Природний</item>
@@ -224,16 +224,16 @@
     <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
-    <item>По умолчанию</item>
-    <item>3,5 дБ</item>
-    <item>6,0 дБ</item>
-    <item>8,0 дБ</item>
-    <item>10,0 дБ</item>
-    <item>11,0 дБ</item>
-    <item>12,0 дБ</item>
-    <item>13,0 дБ</item>
-    <item>14,0 дБ</item>
-    <item>14,8 дБ</item>
+    <item>За замовчуванням</item>
+    <item>3.5 дБ</item>
+    <item>6.0 дБ</item>
+    <item>8.0 дБ</item>
+    <item>10.0 дБ</item>
+    <item>11.0 дБ</item>
+    <item>12.0 дБ</item>
+    <item>13.0 дБ</item>
+    <item>14.0 дБ</item>
+    <item>14.8 дБ</item>
   </string-array>
   <string-array name="speaker_lowfreq">
     <item>100 Гц</item>

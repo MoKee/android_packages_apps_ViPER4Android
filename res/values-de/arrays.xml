@@ -79,17 +79,17 @@
     <item>1200m²</item>
   </string-array>
   <string-array name="reverb_roomwidth">
-    <item>5 Meter</item>
-    <item>6 Meter</item>
-    <item>7 Meter</item>
-    <item>8 Meter</item>
-    <item>9 Meter</item>
-    <item>10 Meter</item>
-    <item>11 Meter</item>
-    <item>14 Meter</item>
-    <item>19 Meter</item>
-    <item>26 Meter</item>
-    <item>36 Meter</item>
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>Schwach</item>
@@ -190,7 +190,7 @@
     <item>Unbekannter Typ IV</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Natürlichen Bass</item>
+    <item>Natürlicher Bass</item>
     <item>Purer Bass+</item>
     <item>Subwoofer</item>
   </string-array>
@@ -224,7 +224,7 @@
     <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
-    <item>Voreinstellung</item>
+    <item>Standard</item>
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>

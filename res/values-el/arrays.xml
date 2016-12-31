@@ -17,18 +17,18 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>Super Audio Quality</item>
-    <item>High Audio Quality</item>
+    <item>Σούπερ Ποιότητα Ήχου</item>
+    <item>Υψηλή Ποιότητα Ήχου</item>
     <item>Εξοικονόμηση ενέργειας</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Αρχάριος</item>
-    <item>Moderate</item>
+    <item>Μέτρια</item>
     <item>Ειδικός</item>
   </string-array>
   <string-array name="compatible_mode">
     <item>Κανονικός</item>
-    <item>Compatible</item>
+    <item>Συμβατό</item>
   </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>Slight</item>
@@ -54,12 +54,27 @@
     <item>Επίπεδο 9</item>
     <item>Extreme</item>
   </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Slight</item>
+    <item>Μέτρια</item>
+    <item>Extreme</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Slight</item>
+    <item>Μέτρια</item>
+    <item>Extreme</item>
+  </string-array>
   <string-array name="vhs_qual">
     <item>Επίπεδο 1</item>
     <item>Επίπεδο 2</item>
     <item>Επίπεδο 3</item>
     <item>Επίπεδο 4</item>
     <item>Επίπεδο 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Slight</item>
+    <item>Μέτρια</item>
+    <item>Extreme</item>
   </string-array>
   <string-array name="vclarity_boost">
     <item>Προεπιλογή</item>

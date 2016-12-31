@@ -22,7 +22,7 @@
 \nCopyright © 2006-2016, ViPER ACOUSTIC. Alle Rechte vorbehalten.
 \nDiese Version ist Lizenziert und Modifiziert für MoKee Open Source Project.
 \nOhne die offizielle Erlaubnis, ist die kommerzielle Nutzung nicht zulässig.
-\nOffizieller Forum: http://vipersaudio.com/blog/
+\nOffizielles Forum: http://vipersaudio.com/blog/
 \n
 \n\'ViPER4Android.apk\' ist der visuelle Bedienfeld von ViPER4Android.
 \nBasisiert auf dem CyanogenMod DSPManager.
@@ -32,5 +32,5 @@
 \nVersion: %1$s (FX), Codename: “Beautiful”.
 \n</string>
   <string name="text_savefxprofile_succeeded">Effekt-Profil erfolgreich gespeichert.</string>
-  <string name="text_savefxprofile_failed">Effekt-Profil speichern fehlgeschlagen. Speicher kann voll oder nicht schreibbar sein.</string>
+  <string name="text_savefxprofile_failed">Effekt-Profil speichern fehlgeschlagen. Möglicherweise Speicher voll oder nicht schreibbar.</string>
 </resources>
