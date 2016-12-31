@@ -262,13 +262,13 @@
 \ N \'Normal\' - ViPER4Android als globaler Effekt.
 \ N \'Kompatibel\' - ViPER4Android als lokalen Effekt.
 \ N
-\ N <b> Kein V4A-Effekt auf alle / die meisten Mediaplayer? </ B> \ n Sie können den FX-Modus auf kompatibel umschalten, dann das Gerät neu starten und es erneut versuchen.
+\ N <b> Kein V4A-Effekt auf alle / die meisten Mediaplayer? </b> \ n Sie können den FX-Modus auf kompatibel umschalten, dann das Gerät neu starten und es erneut versuchen.
 \ N
-\ N <b> So ändern Sie die Audioqualität des Treibers </ b> \ n Deinstallieren Sie den Treiber im Menü, starten Sie das Gerät neu und wählen Sie die gewünschte Qualität.
+\ N <b> So ändern Sie die Audioqualität des Treibers </b> \ n Deinstallieren Sie den Treiber im Menü, starten Sie das Gerät neu und wählen Sie die gewünschte Qualität.
 \ N
-\ N <b> Wie kann der Batterieverbrauch gesenkt werden? </ B> \ n Wenn V4A im Normalmodus läuft, schalten Sie die System-Sound-Einstellungen einschließlich Touch-Töne aus und sperren/entsperren Sie Sounds, um bis zu 1,2 bis 4-mal Akkulaufzeit zu sparen.
+\ N <b> Wie kann der Batterieverbrauch gesenkt werden? </b> \ n Wenn V4A im Normalmodus läuft, schalten Sie die System-Sound-Einstellungen einschließlich Touch-Töne aus und sperren/entsperren Sie Sounds, um bis zu 1,2 bis 4-mal Akkulaufzeit zu sparen.
 \ N
-\ N <b> Forum: http://forum.xda-developers.com/showthread.php?t=2191223 </ b></string>
+\ N <b> Forum: http://forum.xda-developers.com/showthread.php?t=2191223 </b></string>
   <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
   <string name="text_view_forum">Forum</string>
   <string name="text_checkupdate">Nach Update suchen</string>
