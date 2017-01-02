@@ -138,29 +138,29 @@
   </string-array>
   <string-array name="output_db">
     <item>0 dB</item>
-    <item>dB-1,00</item>
-    <item>dB-1,90</item>
-    <item>dB-3,00</item>
-    <item>dB-6,00</item>
-    <item>dB-10,50</item>
+    <item>-1,0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-6,0 dB</item>
+    <item>-10,5 dB</item>
   </string-array>
   <string-array name="output_volume">
     <item>6,0 dB</item>
-    <item>5.5 dB</item>
-    <item>5.2 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
     <item>4,6 dB</item>
     <item>4,1 dB</item>
     <item>3,5 dB</item>
     <item>2,9 dB</item>
     <item>2,3 dB</item>
-    <item>1.5 dB</item>
+    <item>1.6 dB</item>
     <item>0,8 dB</item>
     <item>0 dB</item>
-    <item>dB-1,00</item>
-    <item>dB-1,90</item>
-    <item>dB-3,00</item>
-    <item>dB-4,40</item>
-    <item>dB-6,00</item>
+    <item>-1,0 dB</item>
+    <item>-1,9 dB</item>
+    <item>-3,0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6,0 dB</item>
     <item>dB-8,00</item>
     <item>dB-10,50</item>
     <item>dB-14,00</item>

@@ -19,7 +19,7 @@
   <string-array name="drvinst_prefer">
     <item>Kualitas Audio Super</item>
     <item>Kualitas Audio Tinggi</item>
-    <item>Hemat Daya</item>
+    <item>Hemat Baterai</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>Pemula</item>
@@ -219,7 +219,7 @@
     <item>17.0 dB</item>
   </string-array>
   <string-array name="vclarity_mode">
-    <item>Natural</item>
+    <item>Alami</item>
     <item>Ozone +</item>
     <item>XHiFi</item>
   </string-array>
