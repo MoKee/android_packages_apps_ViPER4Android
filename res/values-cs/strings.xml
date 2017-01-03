@@ -41,6 +41,9 @@
   <string name="pref_playback_summary_on">PlaybackAGC je povolen</string>
   <string name="pref_playback_summary_off">PlaybackAGC je zakázán</string>
   <string name="pref_playback_output_threshold">Maximální výstup</string>
+  <string name="pref_xloud_title">eXtra Loud</string>
+  <string name="pref_xloud_summary_on">eXtra-Loud je povoleno</string>
+  <string name="pref_xloud_summary_off">eXtra-Loud je zakázáno</string>
   <string name="pref_xloud_spk_lowfreq">Nízká odezva</string>
   <string name="pref_xloud_spk_highfreq">Vysoká odezva</string>
   <string name="pref_spk_opt_title">Optimalizace reproduktoru</string>
