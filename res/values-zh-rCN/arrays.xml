@@ -169,15 +169,15 @@
     <item>-40.0 分贝</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
-    <item>发烧级耳机(v2)</item>
-    <item>高档耳机(v2)</item>
-    <item>一般耳机(v2)</item>
-    <item>低档耳机(v2)</item>
-    <item>耳塞(v2)</item>
-    <item>发烧级耳机(v1)</item>
-    <item>高端耳机(v1)</item>
-    <item>一般耳机(v1)</item>
-    <item>中高端耳塞(v1)</item>
+    <item>发烧级耳机（v2）</item>
+    <item>高档耳机（v2）</item>
+    <item>一般耳机（v2）</item>
+    <item>低档耳机（v2）</item>
+    <item>耳塞（v2）</item>
+    <item>发烧级耳机（v1）</item>
+    <item>高端耳机（v1）</item>
+    <item>一般耳机（v1）</item>
+    <item>中高端耳塞（v1）</item>
     <item>苹果耳塞</item>
     <item>魔音耳塞</item>
     <item>摩托耳塞</item>

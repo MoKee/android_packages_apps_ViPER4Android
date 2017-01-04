@@ -37,9 +37,9 @@
   <string name="pref_spkfx_master_title">效果总开关</string>
   <string name="pref_spkfx_master_summary_on">V4A扬声器效果已开启</string>
   <string name="pref_spkfx_master_summary_off">V4A扬声器效果已关闭</string>
-  <string name="pref_fx_limiter_title">总输出门(限幅)</string>
+  <string name="pref_fx_limiter_title">总输出门（限幅）</string>
   <string name="pref_fx_limiter_threshold">限制级别</string>
-  <string name="pref_spkfx_limiter_title">总输出门(限幅)</string>
+  <string name="pref_spkfx_limiter_title">总输出门（限幅）</string>
   <string name="pref_spkfx_limiter_threshold">限制级别</string>
   <string name="pref_output_gain">输出增益</string>
   <string name="pref_output_pan">声道平衡</string>
@@ -76,7 +76,7 @@
   <string name="pref_vse_strength_title">选择强度</string>
   <string name="pref_vse_tips">注意：
 \n频谱扩展是一个用于扩展有损压缩的频谱的HiFi音效。
-\n如果您经常播放有损压缩的音乐(如mp3、aac和ogg等)，本功能可以给您一个接近无损的听感。
+\n如果您经常播放有损压缩的音乐（如mp3、aac和ogg等），本功能可以给您一个接近无损的听感。
 \n但如果您播放无损音乐，我们则建议您关闭本功能。</string>
   <string name="pref_analogx_title">AnalogX音效</string>
   <string name="pref_analogx_enable">启用</string>
@@ -96,7 +96,7 @@
   <string name="pref_dynamicsystem_output">监听设备</string>
   <string name="pref_dynamicsystem_output_title">选择监听设备</string>
   <string name="pref_dynamicsystem_bass">选择动态低音</string>
-  <string name="pref_dynamicsystem_tube_title">电子管模拟器(6N1J)</string>
+  <string name="pref_dynamicsystem_tube_title">电子管模拟器（6N1J）</string>
   <string name="pref_dynamicsystem_tube_summary_on">电子管模拟器已启用</string>
   <string name="pref_dynamicsystem_tube_summary_off">电子管模拟器已禁用</string>
   <string name="pref_fidelity_title">保真控制</string>
@@ -173,7 +173,7 @@
   <string name="eq_preset_vocal_booster">人声强化</string>
   <string name="eq_preset_custom">自定义</string>
   <string name="text_ir_dir_isempty">ViPER4Android: 脉冲反馈样本文件夹 %1$s 是空的。</string>
-  <string name="text_token_lost">ViPER4Android: 某个程序已经请求操作系统禁用全局音效，因此V4A将会被暂时禁用。</string>
+  <string name="text_token_lost">ViPER4Android：某个程序已请求禁用全局音效，因此V4A将会被暂时禁用。</string>
   <string name="text_enabled">已启用</string>
   <string name="text_disabled">已禁用</string>
   <string name="text_headset">头戴设备</string>
@@ -216,7 +216,7 @@
   <string name="text_drvinst_busybox_not_installed">驱动安装失败，在您的手机上未找到正确的busybox。</string>
   <string name="text_drvinst_sdnotmounted">驱动安装失败，未找到可读写的外置或内置存储。</string>
   <string name="text_drvinst_dataioerr">驱动安装失败，系统I/O错误，您可以重启手机后再试。</string>
-  <string name="text_drvinst_cfg_unsup">驱动安装失败，V4A暂时不支持您的系统或ROM(您是否打过音效的补丁？)。</string>
+  <string name="text_drvinst_cfg_unsup">驱动安装失败，V4A暂时不支持您的系统或ROM（您是否打过音效的补丁？）</string>
   <string name="text_drvinst_failed">驱动安装失败，在您的设备上找到的busybox不工作。
 \n这通常意味着您安装了错误的或损坏的busybox，V4A需要stericson. busybox来安装驱动。
 \n如果您确定您已经安装了正确的busybox，那么请确认您的设备已经完整ROOT(建议您使用RE管理器手动在/system内创建文件以验证是否完整ROOT，一般的ROOT检测软件无法正确检测虚假的ROOT)。</string>

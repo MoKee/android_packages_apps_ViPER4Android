@@ -72,9 +72,9 @@
   <string name="pref_vse_summary_off">Пашырэнне спектру адключана</string>
   <string name="pref_vse_enable">Уключыць</string>
   <string name="pref_vse_strength">Моц</string>
-  <string name="pref_vse_strength_title">Абярыце магутнасць</string>
+  <string name="pref_vse_strength_title">Абярыце моц</string>
   <string name="pref_vse_tips">УВАГА:
-\n \"Пашырэнне спектру\" - пашырэнне згубленых пры сціску спектру.
+\n \"Пашырэнне спектру\" - пашырэнне згубленнага пры сціску спектру.
 \n Пры прайграванні фарматаў з стратамі (MP3, AAC, OGG) гук можа быць набліжаны да гуку фарматаў без страт.
 \n Пры прайграванні несціснутых фарматаў адключыце гэтую функцыю.</string>
   <string name="pref_analogx_title">AnalogX</string>
@@ -82,7 +82,7 @@
   <string name="pref_analogx_summary_on">AnalogX уключаны</string>
   <string name="pref_analogx_summary_off">AnalogX адключаны</string>
   <string name="pref_analogx_strength">Моц</string>
-  <string name="pref_analogx_strength_title">Абярыце магутнасць</string>
+  <string name="pref_analogx_strength_title">Абярыце моц</string>
   <string name="pref_equalizer_title">FIRЕэквалайзер</string>
   <string name="pref_equalizer_summary_on">FIRЕэквалайзер ўключаны</string>
   <string name="pref_equalizer_summary_off">FIRЕэквалайзер адключаны</string>
@@ -108,18 +108,21 @@
   <string name="pref_fidelity_vb_bassfreq_title">Абраць частату баса</string>
   <string name="pref_fidelity_vb_bassgain">Узмацненне басоў</string>
   <string name="pref_fidelity_vb_bassgain_title">Абраць узмацненне басоў</string>
+  <string name="pref_fidelity_vc_summary_on">ViPER Clarity уключана</string>
+  <string name="pref_fidelity_vc_summary_off">ViPER Clarity адключана</string>
   <string name="pref_curesystem_enable">Уключыць</string>
   <string name="pref_convolver_enable">Уключыць</string>
   <string name="pref_vhs_enable">Уключыць</string>
   <string name="pref_colorfulmusic_enable">Уключыць</string>
   <string name="pref_diffsurr_enable">Уключыць</string>
   <string name="pref_reverb_enable">Уключыць</string>
+  <string name="eq_preset_classical">Класіка</string>
   <string name="eq_preset_flat">Пляскаты</string>
   <string name="eq_preset_rock">Рок</string>
-  <string name="text_disabled">Выключана</string>
+  <string name="text_disabled">Адключана</string>
   <string name="text_headset">Гарнітура</string>
   <string name="text_usb">USB/Док-станцыя</string>
-  <string name="text_yes">Да</string>
+  <string name="text_yes">Так</string>
   <string name="text_no">Не</string>
   <string name="text_ok">ОК</string>
   <string name="text_cancel">Адмена</string>
