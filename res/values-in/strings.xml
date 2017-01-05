@@ -61,7 +61,7 @@
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC diaktifkan</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC dinonaktifkan</string>
-  <string name="pref_viperddc_enable">Aktifkan</string>
+  <string name="pref_viperddc_enable">Power</string>
   <string name="pref_viperddc_device">Daftar Perangkat</string>
   <string name="pref_viperddc_device_manufacturer">Pilih produsen</string>
   <string name="pref_viperddc_device_model">Pilih Model</string>
@@ -91,8 +91,8 @@
   <string name="pref_equalizer_enable">Power</string>
   <string name="pref_equalizer_preset_title">Pilih Preset</string>
   <string name="pref_dynamicsystem_title">Dinamik Sistem</string>
-  <string name="pref_dynamicsystem_summary_on">Sistem dinamis diaktifkan</string>
-  <string name="pref_dynamicsystem_summary_off">Sistem dinamis dinonaktifkan</string>
+  <string name="pref_dynamicsystem_summary_on">Sistem dinamik diaktifkan</string>
+  <string name="pref_dynamicsystem_summary_off">Sistem dinamik dinonaktifkan</string>
   <string name="pref_dynamicsystem_enable">Power</string>
   <string name="pref_dynamicsystem_output">Daftar Perangkat</string>
   <string name="pref_dynamicsystem_output_title">Pilih Daftar Perangkat</string>
@@ -250,13 +250,13 @@
 \n\'ViPER4Android.apk\' adalah panel kontrol visual ViPER4Android. 
 \nBase pada Cyanogenmod\'s DSPManager.
 \nTerimakasih banyak untuk Zhuhang@XDA
-\nTerimakasih banyal untuk M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\nTerimakasih banyak untuk M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n
-\nVersi %1$s (FX), Kodenama “Beautiful”.
+\nVersi %1$s (FX), Kodename “Beautiful”.
 \n</string>
   <string name="text_help_content">***Bantuan Umum***
 \n
-\n\'Pemasangan Driver\' - IPasang/Perbarui efek driver ViPER4Android.
+\n\'Pemasangan Driver\' - Pasang/Perbarui efek driver ViPER4Android.
 \n\'Copot Driver\' - Copot efek driver ViPER4Android.
 \n\'FX Mode Kompatibel\' - Mengatur modus kompatibilitas efek.
 \n \'Normal\' - Membuat ViPER4Android efek global.
