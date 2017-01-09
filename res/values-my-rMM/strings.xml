@@ -17,5 +17,6 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_drv_blank"></string>
+  <string name="about_exit">ထွက်မည်</string>
   <!-- Drawer -->
 </resources>

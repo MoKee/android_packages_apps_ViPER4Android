@@ -26,8 +26,8 @@
   <string name="dsp_settings_bluetooth">Настройкі эфектаў - Bluetooth прылада</string>
   <string name="dsp_settings_usb">Настройкі эфектаў - USB прылада</string>
   <string name="pref_dsp_enable">Уключыць</string>
-  <string name="pref_effect_title">Выберыце сілу эфектаў</string>
-  <string name="dialog_effect">Узровень</string>
+  <string name="pref_effect_title">Ўзровень</string>
+  <string name="dialog_effect">Ўзровень</string>
   <string name="pref_force_enable_text">Прымусова ўключыць V4A</string>
   <string name="pref_force_enable_warn">Прымусовае ўключэнне ViPER можа рашыць праблему з эфектамі, якія атсутнічаюць. \nНа некаторых прашыўках можа адсутнічаць гук, ці хутка садзіцца акумулятар. \nВыкарыстоўвайце на ваш погляд. Як апісаныя рэчы здарацца, калі ласка выключыце гэту функцыю.</string>
   <string name="pref_fx_master_title">Усе эфекты</string>
@@ -37,19 +37,19 @@
   <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX уключаны</string>
   <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX выключаны</string>
   <string name="pref_fx_limiter_title">Выхадны сігнал</string>
-  <string name="pref_fx_limiter_threshold">Інтэнсіўнасць выхаднога</string>
+  <string name="pref_fx_limiter_threshold">Лімітэр</string>
   <string name="pref_spkfx_limiter_title">Выхадны сігнал</string>
-  <string name="pref_spkfx_limiter_threshold">Інтэнсіўнасць выхаднога</string>
+  <string name="pref_spkfx_limiter_threshold">Лімітэр</string>
   <string name="pref_output_gain">Ўзмацненне</string>
   <string name="pref_output_pan">Баланс</string>
   <string name="pref_playback_title">Аўтарэгуляванне узмацнення</string>
   <string name="pref_playback_summary_on">PlaybackAGC уключана</string>
   <string name="pref_playback_summary_off">PlaybackAGC адключана</string>
-  <string name="pref_playback_output_threshold">Максімал. выходная</string>
-  <string name="pref_playback_maxgain">Макс. каэф. узмацнення</string>
-  <string name="pref_xloud_title">eXtra гучнасць</string>
-  <string name="pref_xloud_summary_on">eXtra гучнасць уключана</string>
-  <string name="pref_xloud_summary_off">eXtra гучнасць адключана</string>
+  <string name="pref_playback_output_threshold">Парог</string>
+  <string name="pref_playback_maxgain">Мяжа</string>
+  <string name="pref_xloud_title">Супергуснасць</string>
+  <string name="pref_xloud_summary_on">Супергучнасць уключана</string>
+  <string name="pref_xloud_summary_off">Супергучнасць адключана</string>
   <string name="pref_xloud_output_amplifer">Ўзмацненне</string>
   <string name="pref_xloud_spk_lowfreq">Нізкая частата</string>
   <string name="pref_xloud_spk_highfreq">Высокая частата</string>
@@ -59,7 +59,7 @@
   <string name="pref_viperddc_title">Лічбавая карэкцыя навушнікаў</string>
   <string name="pref_viperddc_summary_on">Лічбавая карэкцыя ўключана</string>
   <string name="pref_viperddc_summary_off">Лічбавая карэкцыя адключана</string>
-  <string name="pref_viperddc_enable">Уключыць</string>
+  <string name="pref_viperddc_enable">Лічбавая карэкцыя</string>
   <string name="pref_viperddc_device">Прылады праслухоўвання</string>
   <string name="pref_viperddc_device_manufacturer">Абярыце вытворцы</string>
   <string name="pref_viperddc_device_model">Абярыце мадэль</string>
@@ -70,7 +70,7 @@
   <string name="pref_vse_title">Пашырэнне спектру</string>
   <string name="pref_vse_summary_on">Пашырэнне спектру ўключана</string>
   <string name="pref_vse_summary_off">Пашырэнне спектру адключана</string>
-  <string name="pref_vse_enable">Уключыць</string>
+  <string name="pref_vse_enable">Пашырэнне спектра</string>
   <string name="pref_vse_strength">Моц</string>
   <string name="pref_vse_strength_title">Абярыце моц</string>
   <string name="pref_vse_tips">УВАГА:
@@ -83,9 +83,9 @@
   <string name="pref_analogx_summary_off">AnalogX адключаны</string>
   <string name="pref_analogx_strength">Моц</string>
   <string name="pref_analogx_strength_title">Абярыце моц</string>
-  <string name="pref_equalizer_title">FIRЕэквалайзер</string>
-  <string name="pref_equalizer_summary_on">FIRЕэквалайзер ўключаны</string>
-  <string name="pref_equalizer_summary_off">FIRЕэквалайзер адключаны</string>
+  <string name="pref_equalizer_title">Эквалайзер</string>
+  <string name="pref_equalizer_summary_on">Эквалайзер ўключаны</string>
+  <string name="pref_equalizer_summary_off">Эквалайзер адключаны</string>
   <string name="pref_equalizer_enable">Уключыць</string>
   <string name="pref_equalizer_preset_title">Абраць перадусталёўкі</string>
   <string name="pref_dynamicsystem_title">Дынамічная апрацоўка</string>
@@ -94,7 +94,7 @@
   <string name="pref_dynamicsystem_enable">Уключыць</string>
   <string name="pref_dynamicsystem_output">Прылады праслухоўвання</string>
   <string name="pref_dynamicsystem_output_title">Абярыце прыладу праслухоўвання</string>
-  <string name="pref_dynamicsystem_bass">Абярыце дынамічны бас</string>
+  <string name="pref_dynamicsystem_bass">Узровень НЧ</string>
   <string name="pref_dynamicsystem_tube_title">Лямпавы гук (6N1J)</string>
   <string name="pref_dynamicsystem_tube_summary_on">Лямпавы гук уключаны</string>
   <string name="pref_dynamicsystem_tube_summary_off">Лямпавы гук адключаны</string>
@@ -110,24 +110,307 @@
   <string name="pref_fidelity_vb_bassgain_title">Абраць узмацненне басоў</string>
   <string name="pref_fidelity_vc_summary_on">ViPER Clarity уключана</string>
   <string name="pref_fidelity_vc_summary_off">ViPER Clarity адключана</string>
+  <string name="pref_fidelity_vc_enable">Рэстаўрацыя ВЧ</string>
+  <string name="pref_fidelity_vc_mode">Алгарытм</string>
+  <string name="pref_fidelity_vc_mode_title">Алгарытм</string>
+  <string name="pref_fidelity_vc_bassgain">Ўзмацненне</string>
+  <string name="pref_fidelity_vc_bassgain_title">Ўзмацненне</string>
+  <string name="pref_curesystem_title">Слыхавая сістэма абароны (красфідэр)</string>
+  <string name="pref_curesystem_summary_on">Красфідэр уключаны</string>
+  <string name="pref_curesystem_summary_off">Красфідэр выключаны</string>
   <string name="pref_curesystem_enable">Уключыць</string>
+  <string name="pref_select_cure_cf_title">Бінауральны узровень</string>
+  <string name="dialog_cure_crossfeed">Ўзровень</string>
+  <string name="pref_convolver_title">Канвольвер</string>
+  <string name="pref_convolver_summary_on">Канвольвер уключаны</string>
+  <string name="pref_convolver_summary_off">Канвольвер адключаны</string>
   <string name="pref_convolver_enable">Уключыць</string>
+  <string name="pref_convolver_knl">Імпульс</string>
+  <string name="pref_convolver_knl_title">Імпульс</string>
+  <string name="pref_convolver_crosschannel">Скрыжаванне каналаў</string>
+  <string name="pref_convolver_crosschannel_title">Скрыжаванне каналаў</string>
+  <string name="pref_vhs_title">Аб\'ёмны гук у навушніках</string>
+  <string name="pref_vhs_summary_on">Аб\'ёмны гук у навушніках уключаны</string>
+  <string name="pref_vhs_summary_off">Аб\'ёмны гук у навушніках адключаны</string>
   <string name="pref_vhs_enable">Уключыць</string>
+  <string name="pref_select_vhs_qual_title">Памер залы</string>
+  <string name="dialog_vhs_qual">Памер залы</string>
+  <string name="pref_colorfulmusic_title">Прасторавы гук</string>
+  <string name="pref_colorfulmusic_summary_on">Прасторавы гук уключаны</string>
+  <string name="pref_colorfulmusic_summary_off">Прасторавы гук адключаны</string>
   <string name="pref_colorfulmusic_enable">Уключыць</string>
+  <string name="pref_select_colorfulmusic_title">Памер прасторы</string>
+  <string name="dialog_colorfulmusic">Памер прасторы</string>
+  <string name="pref_select_colorfulmusic_mi_title">Шчыльнасць цэнтра</string>
+  <string name="dialog_colorfulmusic_mi">Шчыльнасць цэнтра</string>
+  <string name="pref_diffsurr_title">Хаас-эфект</string>
+  <string name="pref_diffsurr_summary_on">Хаас-эфект уключаны</string>
+  <string name="pref_diffsurr_summary_off">Хаас-эфект адключаны</string>
   <string name="pref_diffsurr_enable">Уключыць</string>
+  <string name="pref_select_diffsurr_ms_title">Затрымка канала</string>
+  <string name="dialog_diffsurr_ms">Затрымка канала</string>
+  <string name="pref_reverb_title">Рэверберацыя</string>
+  <string name="pref_reverb_summary_on">Рэверберацыя уключана</string>
+  <string name="pref_reverb_summary_off">Рэверберацыя адключана</string>
   <string name="pref_reverb_enable">Уключыць</string>
+  <string name="pref_reverb_roomsize">Плошча залы</string>
+  <string name="pref_reverb_width">Шырыня сцэны</string>
+  <string name="pref_reverb_damp">Згасанне</string>
+  <string name="pref_reverb_wet">Адлюстраваны сігнал</string>
+  <string name="pref_reverb_dry">Прамы сігнал</string>
+  <string name="eq_preset_acoustic">Акустыка</string>
+  <string name="eq_preset_bass_booster">Узмацніць НЧ</string>
+  <string name="eq_preset_bass_reducer">Аслабіць НЧ</string>
   <string name="eq_preset_classical">Класіка</string>
+  <string name="eq_preset_deep">Глыбіня</string>
   <string name="eq_preset_flat">Пляскаты</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
   <string name="eq_preset_rock">Рок</string>
+  <string name="eq_preset_small_speakers">Міні-дынамікі</string>
+  <string name="eq_preset_treble_booster">Узмацніць ВЧ</string>
+  <string name="eq_preset_treble_reducer">Аслабіць ВЧ</string>
+  <string name="eq_preset_vocal_booster">Узмацніць вакал</string>
+  <string name="eq_preset_custom">Уручную</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: тэчка імпульсаў %1$s пустая.</string>
+  <string name="text_token_lost">ViPER4Android: адна з праграм выканала запыт на адключэнне аўдыеэфектаў, V4A будзе часова адключаны.</string>
+  <string name="text_enabled">Уключана</string>
   <string name="text_disabled">Адключана</string>
   <string name="text_headset">Гарнітура</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Дынамік</string>
   <string name="text_usb">USB/Док-станцыя</string>
+  <string name="text_showtrayicon">Паказаць апавяшчэнне</string>
+  <string name="text_hidetrayicon">Адключыць значок</string>
+  <string name="text_lockeffect">Фіксацыя эфектаў</string>
   <string name="text_yes">Так</string>
   <string name="text_no">Не</string>
+  <string name="text_normal">Звычайны</string>
+  <string name="text_abnormal">Канфлікт</string>
+  <string name="text_supported">Сумяшчальны</string>
+  <string name="text_unsupported">Несумяшчальны</string>
+  <string name="text_loadfxprofile">Загрузіць профіль</string>
+  <string name="text_newfxprofile">Новы профіль&#8230;</string>
+  <string name="text_savefxprofile">Захаваць профіль</string>
+  <string name="text_profilesaved_overwrite">Профіль з такім імем існуе, перазапісаць?</string>
+  <string name="text_profileload_tip">Загрузка профілю</string>
   <string name="text_ok">ОК</string>
   <string name="text_cancel">Адмена</string>
+  <string name="text_drvinst_prefer">Абраць драйвер</string>
+  <string name="text_drvinst_sqdrv">Для Высокай якасці эфектаў рэкамендуецца двух\'ядравы працэсар, магчымы хуткі разрад батарэі.\nПрацягнуць?</string>
+  <string name="text_drvvernotmatch">Для працы ViPER4Android неабходная ўстаноўка/абнаўленне драйвера. \nВыканаць зараз?</string>
+  <string name="text_drvuninst_confim">Выдальць драйвер ViPER4Android?</string>
+  <string name="text_uiprefer">Інтэрфейс</string>
+  <string name="text_uiprefer_dialog">Абраць драйвер</string>
+  <string name="text_commode">Сумяшчальнасць</string>
   <string name="text_drv_blank"></string>
+  <string name="text_uninstall">Выдаліць драйвер</string>
+  <string name="text_install">Усталяваць драйвер</string>
+  <string name="text_drvinst_ok">Драйвер ўсталяваны. Перазагрузіце прыладу.</string>
+  <string name="text_drvuninst_ok">Драйвер выдалены. Перазагрузіце прыладу.</string>
+  <string name="text_no_busybox">BusyBox не знойдзены, усталяваць цяпер?</string>
+  <string name="text_drvinst_acquireroot">Драйвер не ўстаноўлены. Не атрымалася атрымаць правы root, пераканайцеся ў наяўнасці root-доступу да прылады.</string>
+  <string name="text_drvinst_busybox_not_installed">Драйвер не ўстаноўлены, так як падыходная версія BusyBox не знойдзена.</string>
+  <string name="text_drvinst_sdnotmounted">Драйвер не ўстаноўлены, так як вонкавы назапашвальнік ня змантаваны.</string>
+  <string name="text_drvinst_dataioerr">Драйвер не ўстаноўлены. Адбылася памылка ўводу-вываду, перезагрузіце прыладу і паспрабуйце яшчэ раз.</string>
+  <string name="text_drvinst_cfg_unsup">Ўстаноўкі драйвераў не атрымалася: Непадтрымоўваная Сістэма Android або ROM.</string>
+  <string name="text_drvinst_failed">Драйвер не ўстаноўлены. Праверце наяўнасць root-правоў і BusyBox.</string>
+  <string name="text_modifybuildprop">УВАГА: \nна гэтай прыладзе ўключана функцыя LPA, што можа выклікаць збоі ў працы V4A. \nLPA азначае \"Low Power Audio\", яе можна адключыць з дапамогай змены build.prop, працэс будзе выкананы аўтаматычна. \nНастойліва рэкамендуецца зрабіць NANDROID BACKUP або DATA BACKUP перад выкананнем! \nАдключыць LPA цяпер?</string>
   <string name="text_changelog">Спic змен</string>
+  <string name="text_drv_status">Стан драйвера</string>
+  <string name="text_drv_status_view">\n
+\nДрайвер: %1$s
+\nNEON уключаны: %2$s
+\nViPER уключаны: %3$s
+\nСтан: %4$s
+\nАўдыёфармат: %5$s
+\nАпрацоўка: %6$s
+\nДыскрэтызацыя: %7$d Гц
+\n</string>
+  <string name="text_service_error">Не атрымалася запусціць ViPER4Android.</string>
   <string name="about_exit">Выхад</string>
+  <string name="about_title">Дапамога</string>
+  <string name="about_text">***About ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+\nWithout the official permission, commercial use is disallowed.
+\nOfficial Forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' is the visual control panel of ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Codename “Beautiful”.
+\n</string>
+  <string name="text_help_content">***Кароткая даведка***
+\n
+\n\"Усталяваць драйвер\" — усталяваць/абнавіць драйвер эфектаў ViPER4Android.
+\n
+\n\"Выдаліць драйвер\" — выдаліць драйвер эфектаў ViPER4Android.
+\n
+\n\"Сумяшчальнасць\" — ўсталяваць рэжым сумяшчальнасці.
+\n    \"Не\" — зрабіць ViPER4Android глабальным эфектам.
+\n    \"Уключыць\" — зрабіць ViPER4Android лакальным эфектам.
+\n
+\n
+\n***Пытанні і адазы***
+\n
+\n<b>В.: эфекты V4A не працуюць ва ўсіх ці ў большасці медыяплэераў?</b>
+\nО.: паспрабуйце ўключыць рэжым сумяшчальнасці, перазапусціць прылада і праверыць яшчэ раз.
+\n
+\n<b>В.: як пераключыць якасць гуку?</b>
+\nО.: выдаліце ​​драйвер камандай у меню, перазапусціце прылада і абярыце жаданы ўзровень якасці гуку.
+\n
+\n<b>В.: як знізіць энергаспажыванне?</b>
+\nО.: пры адключанай сумяшчальнасці, адмова ад гукаў дотыку і разблакоўкі можа ў 4 разы падоўжыць працу ад батарэі; выкарыстоўвайце драйвер \"Энергазберажэнне\".
+\n
+\n<b>В.: як наладзіць працу V4A і PowerAmp?</b>
+\nО.: калі V4A будзе выкарыстоўвацца і ў іншых праграмах (онлайн-радыё, відэаплэер і т. п.), тады ў PowerAmp неабходна адключыць \"Прамое кіраванне гучнасцю\" (DVC), у V4A адключыць \"Сумяшчальнасць\" і перазагрузіць прылада.
+\nКалі V4A будзе выкарыстоўвацца толькі з PowerAmp, у V4A неабходна ўключыць \"Сумяшчальнасць\", у PowerAmp - \"Падтрымку FX\" (FX азначае \"эфекты\"), тады функцыя DVC зможа працаваць.
+\n
+\n<b>В.: V4A спыняе апрацоўку пасля згортвання або праз некаторы час?</b>
+\nО.: уключыце адлюстраванне значка паведамлення.
+\n
+\n<b>В.: што такое "Фіксацыя эфектаў"?</b>
+\nО.: налады абранай ўкладкі ўжываецца для ўсіх выхадаў (навушнікі, дынамік, bluetooth, usb).
+\n
+\n<b>В.: чаму пункт "Стан" неактыўны?</b>
+\nО.: ўключана \"Сумяшчальнасць\".
+\n
+\n
+\n<b>Форум: http://forum.xda-developers.com/showthread.php?t=2191223</b>
+\n
+\n
+\nУВАГА:
+\nне рэкамендуецца бесперапыннае праслухоўванне больш за 1-2 гадзін у дзень, для укладных слухавак час скарачаецца ўдвая. Магчымы адкладзеныя праблемы са слыхам пры празмернай гучнасці, а таксама поўная беззваротная страта слыху з-за залішняй гукавога ціску пры выкарыстанні навушнікаў-ўкладышаў.
+\nПри сымптоме звону ў вушах рэкамендуецца перагледзець выкарыстоўваюцца налады, узровень гучнасці, мадэль навушнікаў ў бок меншай нагрузкі на слых.
+\n
+\n
+\n***Драйверы***
+\n
+\n\"Высокая якасць\" - 64-бітная апрацоўка з якая плавае коскі, эквалайзер 127-га парадку з канчатковай імпульснай характарыстыкай (для ЦП ARM з пашырэннем NEON).
+\n
+\n\"Стандартнае якасць\" - 28-бітная апрацоўка з фіксаванай коскай, эквалайзер з нелінейнай фазай (для ЦП ARM з пашырэннем NEON; блізкі па характарыстыках для ЦП x86).
+\n
+\n\"Энергазберажэнне\" - 24-бітная апрацоўка з фіксаванай коскі, эквалайзер з нелінейнай фазай (для ЦП ARM з пашырэннем NEON; па змаўчанні для ЦП ARM з пашырэннем VFP і без яго).
+\n
+\n
+\n***Эфекты***
+\n
+\n*Навушнікі*
+\n
+\n1. \"Усе эфекты\". Налада адказвае за ўключэнне музычных эфектаў для слухавак.
+\n
+\n2.\"Аўтарэгуляванне ўзмацнення\", \"АРУ\". Асноўнае прызначэнне - дынамічнае павышэнне ці паніжэнне гучнасці гуку.
+\n
+\n2.1 \"Узровень\" - хуткасць павышэння ці паніжэння, і чым ён вышэй - \"Максімум\", тым хутчэй нарастанне і вышэй узровень канчатковай гучнасці. На ўзроўні \"Мінімум\" канчатковая гучнасць нарастае павольней, яе ўзровень будзе бліжэй да зыходнай гучнасці. Рэкамендуецца \"Сярэдні\" ўзровень.
+\n
+\n2.2 Максімальнае ўзмацненне - \"Мяжа\". Калі ўзровень запісу кампазіцыі занадта нізкі, для ўзмацнення гуку можна ўстанавіць павышаныя значэння. Чым вышэй значэнне, тым вышэй гучнасць. Занадта вялікая ўзмацненне таксама зробіць прыкметнымі шумы ў кампазіцыі. Рэкамендуецца \"4x\".
+\n
+\n2.3 Максімальны ўзровень - \"Парог\". Вызначае максімальную гучнасць ў дб, якой можа дасягнуць \"Аўтарэгуляванне ўзмацнення\". Большаму значэнні адпавядае падвышаная гучнасць, \"0 дб\" з\'яўляецца максімальным узроўнем. Для змякчэння гучання рэкамендуецца \"-1,9 дб\".
+\n
+\n3. \"Лічбавая карэкцыя\" - карэкцыя прайгравання пад пэўную мадэль прылады. У якасці эталона выкарыстоўваецца Beyerdynamic T1. Кіруе АЧХ, пераходнай характарыстыкай, фазавай затрымкай і т. Д. Для карэктнай працы неабходна наяўнасць прылады ў базе дадзеных, прылады будуць дадавацца запісу гэтай версіі.
+\n
+\n4. \"Пашырэнне спектру\" - пашырэнне згубленых пры сціску спектру. Пры прайграванні фарматаў з стратамі (MP3, AAC, OGG) гук можа быць набліжаны да гуку фарматаў без страт. Адключыце пры прайграванні несціснутых фарматаў.
+\n
+\n5. \"Эквалайзер\". Десяціпалосны лінейны эквалайзер, n-га парадку (вызначаецца драйверам)
+\n
+\n5.1 \"Перадусталёўкі\". Вы можаце выбраць адну з прадусталяваных налад эквалайзера. Пры выбары \"Уручную\" гучанне будзе адпавядаць становішчу рэгулятараў, устаноўленаму карыстальнікам.
+\n
+\n5.2 Лінейны графічны эквалайзер. Калі закрануць графік, ва ўсплываючым акне можна наладзіць ўзроўні ўзмацнення і падаўлення частот у 10 дыяпазонах.
+\n
+\n6.\"Конвольвер\". Калі загружаны ўзор імпульснага водгуку - \"Імпульс\", гук будзе апрацаваны аналагічна умовам, пры якіх быў запісаны імпульс. Калі пры стварэнні імпульсу ўжываліся розныя эфекты, яны таксама акажуць уплыў на гучанне разам з акустыкай памяшкання і асаблівасцямі гучання прайгравае апаратуры, характарыстыкі якіх перадае імпульсны водгук.
+\nПераканайцеся, што на карце памяці маецца папка ViPER4Android / Kernel /, імпульсы павінны размяшчацца ў ёй. Калі тэчка не існуе, пры захаванні профілю налад яна ствараецца аўтаматычна.
+\n
+\n6.1 \"Імпульс\". У спісе адлюстроўваюцца імпульсы, якія знаходзяцца ў тэчцы ViPER4Android/Kernel/.
+\n
+\n6.2 \"Скрыжаванне каналаў\" - узаемапранікненне каналаў. Размяшчае гук перад вамі.
+\n
+\n7. \"Прасторавы гук\". У асноўным выкарыстоўваецца для стварэння эфекту пашыранага гучання. Гук можа быць стэрэа- або монафанічным.
+\n
+\n7.1 \"Памер прасторы\". Гэтае значэнне вызначае інтэнсіўнасць эфекту. Большаму значэнні адпавядае павялічаны стэрэаэфект. Гук будзе даносіцца зводдаль і справа.
+\n
+\n7.2 \"Шчыльнасць цэнтра\" вобразу. Гэтае значэнне вызначае шчыльнасць гучання ў сярэдзіне ўяўнай сцэны. Пры вялікіх значэннях гучанне інструментаў здаецца збліжаным і размешчаным у цэнтры сцэны, пры меншых гучанне становіцца аддаленым і змешчаным да яе краях.
+\n
+\n8. Дыферэнцыяльнае аб\'ёмнае гучанне, вядомае як \"Хаас-эфект\".
+\n
+\n8.1 \"Затрымка канала\". Гэтае значэнне вызначае запазненне (інтэрвал) паміж левым і правым каналамі. Больш значэнне - шырэй гук. Зрушэнне стереопанорамы з\'яўляецца ўяўным і абумоўлена псіхакустычнай асаблівасцямі слыху, эфект больш актуальна для монафанічных запісаў.
+\n
+\n9. \"Аб\'ёмны гук у навушніках\". Віртуальны эфект прасторавага гучання для слухавак. Закліканы узнавіць лакалізацыю крыніц гукаў у памяшканні пры дапамозе комплекснай апрацоўкі сігналу.
+\n
+\n9.1 \"Памер залы\" - вызначае памер віртуальнага памяшкання.
+\n
+\n10. \"Рэверберацыя\". Выкарыстоўвае матэматычны метад для імітацыі адчуванні навакольнага прасторы. Напрыклад, кампазіцыя можа гучаць падобна выкананню ў зале, гасцінай, ваннай і т. д.
+\n
+\n10.1 \"Плошча залы\". Гэтае значэнне вызначае памер віртуальнага памяшкання. Пры павелічэнні, гук становіцца шырэй і з\'яўляецца больш рэха.
+\n
+\n10.2 \"Шырыня сцэны\". Гэта значэнне задае шырыню вышэйпаказанага віртуальнага памяшкання ў метрах. Калі прыняць пляц залы за 100 м², шырыню сцэны задаць як 14 м, даўжыня залы будзе роўная 7,14 м. Такім чынам, плошча залы і шырыня сцэны вызначаюць прапорцыі віртуальнага памяшкання. Пры павелічэнні значэння гук, які прыходзіць з абодвух бакоў, будзе адчувацца ясней.
+\n
+\n10.3 \"Згасанне\". Гэтае значэнне вызначае вільготнасць паветра ў віртуальнай памяшканні - вільгаць лёгка паглынае ўсё рэха. Больш значэнне - менш чутных рэха.
+\n
+\n10.4 \"Адлюстраваны сігнал\". Гэтае значэнне вызначае ўзровень рэверберыраваннага гуку з улікам вільготнасці і памеру віртуальнага памяшкання.
+\n
+\n10.5 \"Прамы сігнал\". Гэтае значэнне вызначае ўзровень зыходнага гуку.
+\nДля імітацыі памяшканняў з нізкай вільготнасцю паветра, такіх як гасцёўня, зала і іншыя закрытыя прасторы, можна выкарыстоўваць плошчу залы і шырыню сцэны для задання памеру віртуальнага памяшкання, вільготнасць паветра выбіраецца ў межах 0 ... 20 адсоткаў, узровень рэверберыраваннага сігналу - 20 ... 50 адсоткаў , узровень зыходнага сігналу - каля 50 адсоткаў.
+\nДля імітацыі памяшканняў з высокай вільготнасцю паветра, такіх як ванная пакой і іншыя закрытыя прасторы з высокай вільготнасцю, вільготнасць паветра выбіраецца ў межах 50 ... 100 адсоткаў, узровень рэверберыраваннага сігналу - 40 ... 80 адсоткаў, узровень зыходнага сігналу - каля 50 адсоткаў.
+\n
+\n11. \"Дынамічная апрацоўка\" адказвае за дынамічны дыяпазон гуку. Іншымі словамі, за ніжнія і верхнія частоты, а таксама лімітаванне ўзроўню сігналу.
+\n
+\n11.1 \"Навушнікі\". Значэнне апісвае тып падлучаных слухавак. Калі не атрымоўваецца знайсці сабе прылада для насычанага гучання НЧ, абярыце \"Звычайныя навушнікі\". Звычайныя навушнікі выбраны абагульнена. Рэкамендуюцца \"Звычайныя навушнікі\".
+\n
+\n11.2 \"Узровень НЧ\". Значэнне вызначае асераднёны узровень нізкіх частот, большае значэнне павялічвае іх інтэнсіўнасць. Рэкамендуецца \"33 адсоткі\".
+\n
+\n11.3 Сімуляцыя лямпы - мадэль \"6N1J\". Гэтая налада адказвае за ўключэнне сімуляцыі гучання лямпы. V4A выкарыстоўвае спрошчаную матэматычную мадэль сімуляцыі лямпавага гуку. Пры ўключэнні эфекту да гуку дадаецца вялікая колькасць выпадковых высокачашчынных гарманічных скажэнняў і павялічваецца колькасць няцотных гарамонік.
+\n
+\n12. Кіраванне пэўнасцю гучання - \"Рэстаўрацыя гуку\". Замяняе тэхналогію Аднаўленне Гуку XHiFi. Кіруе Нізамі - \"Рэстаўрацыя НЧ\", а таксама вярхамі - \"Рэстаўрацыя ВЧ\".
+\n
+\n12.1 \"Алгарытм\" рэстаўрацыі НЧ. Даступныя \"Натуральны\", \"Вычышчаны\" і \"Сабвуферный\". \"Натуральны\" - тое ж, што і V4A XHiFi\'s Lo Contour. \"Вычышчаны\" - надае нізам чысціню. \"Сабвуферный\" - робіць нізы вельмі магутнымі.
+\n
+\n12.2 Частата НЧ - \"частата\". Ўсталёўвае частату НЧ. Рэкамендуецца \"60 Гц\" для ўсіх алгарытмаў.
+\n
+\n12.3 Ўзмацненне НЧ - \"узмацненне\". Адказвае за гучнасць НЧ. Рэкамендуецца \"6 дб\" для \"Натуральны\", \"8 дб\" для \"Вычышчаны\".
+\n
+\n12.4 \"Рэстаўрацыя ВЧ\" - эфект выразнага гуку.
+\n
+\n12.5 Алгарытм павышэння выразна гуку - \"алгарытм\". Алгарытмы \"Натуральны\", \"OZone +\" і \"XHiFi\" выконваюць рознае павышэнне выразна гуку. Ozone + выконвае простую апрацоўку ВЧ. XHiFi гэта тое ж, што і V4A XHiFi\'s Hi Clarity.
+\n
+\n12.6 \"Узровень\". Інтэнсіўнасць працы эфекту \"Рэстаўрацыя ВЧ\". Рэкамендуецца \"3,5 дб\" для \"Натуральны\", \"8 дб\" для \"Ozone +\", \"Па змаўчанні\" для XHiFi.
+\n
+\n13. \"Кросфідэр\". Зніжае стому пры працяглым праслухоўванні, эксперыментальная функцыя.
+\n
+\n13.1 \"Бінауральный ўзровень\". Інтэнсіўнасць эфекту. Рэкамендуецца \"Сярэдні\" ўзровень.
+\n
+\n14. \"Выхадны сігнал\". Даступныя ўзмацненне, баланс і лімітаванне ўзроўню выхаднога сігналу V4A. Лімітэр выкарыстоўваецца для прадухілення скажэнняў, выкліканых перагрузкай, у сваю чаргу ствараючы скажэнні, выкліканыя кліпінгам.
+\n
+\n14.1 \"Узмацненне\". Значэнне рэгулюе агульную выходную гучнасць.
+\n
+\n14.2 Панарамаванне каналаў, або стэрэабаланс - \"Баланс\". Вызначае суадносіны левага і правага каналаў у выходным сігнале.
+\n
+\n14.3 \"Лімітэр\". Вызначае межы абмежаванні амплітуды гукавых ваганняў лімітэр, максімальнае значэнне \"0 дб\".
+\nЧым менш значэнне, тым лягчэй дасягнуць абмежаванні амплітуды гуку, што прывядзе да страты дэталяў гучання з-за клиппинга, але дапаможа эфектыўна кіраваць канчатковай выхадны гучнасцю. Рэкамендуецца \"0 дб\".
+\n
+\n
+\n*Дынамік тэлефона*
+\n
+\n1. Галоўны выключальнік - \"Усе эфекты\". Дазваляе ўключыць эфекты V4A для дынаміка.
+\n
+\n2. Аптымізацыя дынаміка. Аптымізуе гук убудаванага дынаміка.
+\n
+\n3. \"Супергучнасць\". Спрыяе ўзмацненню гуку, але ў разумных межах - для прадухілення пашкоджанні дынаміка. Не перагружайце дынамік.
+\n
+\n3.1 Інтэнсіўнасць эфекту - \"Узровень\". Вызначае хуткасць ўзмацнення або падаўлення, пры большым значэнні павялічваецца хуткасць і павышаецца канчатковая гучнасць, пры меншым значэнні хуткасць запавольваецца, выніковая гучнасць набліжаецца да зыходнай гучнасці. Рэкамендуецца \"Сярэдні\" ўзровень.
+\n
+\n3.2 Максімальнае ўзмацненне - \"Мяжа\". Калі ўзровень запісу кампазіцыі занадта нізкі, для ўзмацнення гуку можна ўстанавіць павышаныя значэння. Чым вышэй значэнне, тым вышэй гучнасць. Рэкамендуецца \"∞\".
+\n
+\n3.3 Максімальны ўзровень - \"Парог\". Вызначае максімальную гучнасць гуку ў дб, большаму значэнні адпавядае падвышаная гучнасць, 0 дб з\'яўляецца максімальным узроўнем. Рэкамендуецца \"0 дб\".
+    </string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Форум</string>
+  <string name="text_checkupdate">Абнаўленні</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Адкрыць панэль</string>
+  <string name="navigation_drawer_close">Зачыніць панель</string>
+  <string name="navigation_toggle_drawer">Бакавая панэль</string>
+  <string name="navigation_toggle_tabbed">Ўкладкі</string>
 </resources>
