@@ -22,7 +22,7 @@
     <item>Güç Tasarrufu</item>
   </string-array>
   <string-array name="ui_prefer">
-    <item>Acemi</item>
+    <item>Yeni başlayan</item>
     <item>Asistan</item>
     <item>Uzman</item>
   </string-array>
@@ -169,19 +169,19 @@
     <item>-40.0 dB</item>
   </string-array>
   <string-array name="dynamicsystem_outputs">
-    <item>Aşırı İyi Kulaklık (Baş) (v2)</item>
-    <item>High-end Kulaklık (Baş) (v2)</item>
-    <item>Normal Kulaklık (Baş)(v2)</item>
-    <item>Low-end Kulaklık (Baş) (v2)</item>
-    <item>Normal Kulaklık (Kulak) (v2)</item>
+    <item>Aşırı İyi Kafaüstü Kulaklık (v2)</item>
+    <item>Yüksek Seviye Kafaüstü Kulaklık (v2)</item>
+    <item>Normal Kafaüstü Kulaklık (v2)</item>
+    <item>Düşük Seviye Kafaüstü Kulaklık (v2)</item>
+    <item>Normal Kulakiçi Kulaklık (v2)</item>
     <item>Aşırı İyi Kulaklık (Baş) (v1)</item>
-    <item>High-end Kulaklık (Baş) (v1)</item>
-    <item>Normal Kulaklık (Baş) (v1)</item>
-    <item>Normal Kulaklık (Kulak) (v1)</item>
-    <item>Apple Kulaklık (Kulak)</item>
-    <item>Monster Kulaklık (Kulak)</item>
-    <item>Moto Kulaklık (Kulak)</item>
-    <item>Philips Kulaklık (Kulak)</item>
+    <item>Yüksek Seviye Kafaüstü Kulaklık (v1)</item>
+    <item>Normal Kafaüstü Kulaklık (v1)</item>
+    <item>Normal Kulakiçi Kulaklık (v1)</item>
+    <item>Apple Kulakiçi Kulaklık</item>
+    <item>Monster Kulakiçi Kulaklık</item>
+    <item>Moto Kulakiçi Kulaklık</item>
+    <item>Philips Kulakiçi Kulaklık</item>
     <item>SHP2000</item>
     <item>SHP9000</item>
     <item>Bilinmeyen Tür I</item>
@@ -190,9 +190,9 @@
     <item>Bilinmeyen Tür IV</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Doğal Bas</item>
-    <item>Saf bas +</item>
-    <item>Subwoofer (Düşük Hz lerde çalışır)</item>
+    <item>Doğal Bass</item>
+    <item>Saf Bass+</item>
+    <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">
     <item>30 Hz</item>

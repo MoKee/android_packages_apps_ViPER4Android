@@ -19,7 +19,7 @@
   <string-array name="drvinst_prefer">
     <item>顶级音质</item>
     <item>高音质</item>
-    <item>省电优先</item>
+    <item>节能优先</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>简单界面</item>
@@ -66,30 +66,30 @@
     <item>20 毫秒</item>
   </string-array>
   <string-array name="reverb_roomsize">
-    <item>25平米</item>
-    <item>36平米</item>
-    <item>49平米</item>
-    <item>64平米</item>
-    <item>81平米</item>
-    <item>100平米</item>
-    <item>121平米</item>
-    <item>203平米</item>
-    <item>347平米</item>
-    <item>652平米</item>
-    <item>1200平米</item>
+    <item>25 平方米</item>
+    <item>36 平方米</item>
+    <item>49 平方米</item>
+    <item>64 平方米</item>
+    <item>81 平方米</item>
+    <item>100 平方米</item>
+    <item>121 平方米</item>
+    <item>203 平方米</item>
+    <item>347 平方米</item>
+    <item>652 平方米</item>
+    <item>1200 平方米</item>
   </string-array>
   <string-array name="reverb_roomwidth">
-    <item>5米</item>
-    <item>6米</item>
-    <item>7米</item>
-    <item>8米</item>
-    <item>9米</item>
-    <item>10米</item>
-    <item>11米</item>
-    <item>14米</item>
-    <item>19米</item>
-    <item>26米</item>
-    <item>36米</item>
+    <item>5 米</item>
+    <item>6 米</item>
+    <item>7 米</item>
+    <item>8 米</item>
+    <item>9 米</item>
+    <item>10 米</item>
+    <item>11 米</item>
+    <item>14 米</item>
+    <item>19 米</item>
+    <item>26 米</item>
+    <item>36 米</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>轻微</item>
@@ -114,16 +114,16 @@
     <item>极端</item>
   </string-array>
   <string-array name="multi_factor">
-    <item>1倍</item>
-    <item>2倍</item>
-    <item>3倍</item>
-    <item>4倍</item>
-    <item>5倍</item>
-    <item>6倍</item>
-    <item>7倍</item>
-    <item>8倍</item>
-    <item>9倍</item>
-    <item>10倍</item>
+    <item>1 倍</item>
+    <item>2 倍</item>
+    <item>3 倍</item>
+    <item>4 倍</item>
+    <item>5 倍</item>
+    <item>6 倍</item>
+    <item>7 倍</item>
+    <item>8 倍</item>
+    <item>9 倍</item>
+    <item>10 倍</item>
     <item>无穷大</item>
   </string-array>
   <string-array name="amplification_db">

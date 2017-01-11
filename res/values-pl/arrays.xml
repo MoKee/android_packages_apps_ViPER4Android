@@ -39,10 +39,10 @@
     <item>Poziom 5</item>
     <item>Poziom 6</item>
     <item>Poziom 7</item>
-    <item>Mocna</item>
+    <item>Mocny</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
-    <item>Delikatna</item>
+    <item>Lekki</item>
     <item>Poziom 1</item>
     <item>Poziom 2</item>
     <item>Poziom 3</item>
@@ -52,7 +52,7 @@
     <item>Poziom 7</item>
     <item>Poziom 8</item>
     <item>Poziom 9</item>
-    <item>Mocna</item>
+    <item>Mocny</item>
   </string-array>
   <string-array name="diffsurround_delay">
     <item>2 ms</item>
@@ -66,17 +66,17 @@
     <item>20 ms</item>
   </string-array>
   <string-array name="reverb_roomsize">
-    <item>25 m2</item>
-    <item>36 m2</item>
-    <item>49 m2</item>
-    <item>64 m2</item>
-    <item>81 m2</item>
-    <item>100 m2</item>
-    <item>121 m2</item>
-    <item>203 m2</item>
-    <item>347 m2</item>
-    <item>652 m2</item>
-    <item>1200 m2</item>
+    <item>25 m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100 m²</item>
+    <item>121 m²</item>
+    <item>203 m²</item>
+    <item>347 m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
   </string-array>
   <string-array name="reverb_roomwidth">
     <item>5 m</item>
@@ -92,13 +92,13 @@
     <item>36 m</item>
   </string-array>
   <string-array name="cure_crossfeed">
-    <item>Delikatny</item>
+    <item>Lekki</item>
     <item>Umiarkowany</item>
     <item>Mocny</item>
   </string-array>
   <string-array name="analogx_mode">
-    <item>Delikatna</item>
-    <item>Standardowy</item>
+    <item>Lekki</item>
+    <item>Umiarkowany</item>
     <item>Mocna</item>
   </string-array>
   <string-array name="vhs_qual">

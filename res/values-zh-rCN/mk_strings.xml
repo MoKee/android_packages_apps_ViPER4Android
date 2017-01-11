@@ -16,27 +16,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="about_text_mk">***关于ViPER4Android 魔趣定制版***
+  <string name="about_text_mk">关于 ViPER4Android 魔趣定制版
 \n
-\n\'libv4a_xx_xx.so\'是ViPER4Android的核心组件。
-\n版权所有© 2006-2016，蝰蛇声学(R)。保留所有权利。
+\nlibv4a_xx_xx.so 是 ViPER4Android 的核心组件。
+\n版权所有 Copyright © 2006-2017，蝰蛇声学®。保留所有权利。
 \n此版本经过授权和修改，在魔趣开源项目上使用。
-\n未经蝰蛇声学官方许可，不得用于商业用途(包括有连带/包含关系的广告营收等)。
-\n官方论坛: forum.vipersaudio.com
+\n未经蝰蛇声学官方许可，不得用于商业用途（包括有连带/包含关系的广告营收等）。
+\n官方论坛：forum.vipersaudio.com
 \n
-\n\'ViPER4Android.apk\'是ViPER4Android的控制面板。
-\n基于Cyanogenmod的DSPManager中部分代码而做。
-\n感谢\'艳阳飞雪\'为ViPER4Android精心打造的新图标。
-\n感谢Zhuhang@XDA。
-\n感谢M4570D0N@github、xLaMbChOpSx@github和bboa@github等。
-\n感谢V4A官方群管理员的大力协助，感谢内测组的测试、宣传推广组的宣传。
+\nViPER4Android.apk 是 ViPER4Android 的控制面板。
+\n基于 Cyanogenmod 的 DSPManager 中部分代码而做。
+\n感谢 艳阳飞雪 为 ViPER4Android 精心打造的新图标。
+\n感谢 Zhuhang@XDA。
+\n感谢 M4570D0N@github、xLaMbChOpSx@github 和 bboa@github 等。
+\n感谢 ViPER4Android 官方群管理员的大力协助，感谢内测组的测试、宣传推广组的宣传。
 \n
-\nViPER4Android.apk修改或反编译发行说明：
-\n由于APK的完整源代码已经托管在github上(github.com/vipersaudio)，因此如果您希望修改或加强程序，您可以在github上提交修改，经过测试的代码将会跟随新版本发行。
-\n通过直接修改或反编译APK进行程序改动可能会造成V4A无法正确工作，这将会给使用者造成一些麻烦。
+\nViPER4Android.apk 修改或反编译发行说明：
+\n由于程序的完整源代码已经托管在 github 上（github.com/vipersaudio），因此如果您希望修改或加强程序，可以在 github 上提交修改，经过测试的代码将会跟随新版本发行。
+\n通过直接修改或反编译程序进行改动可能会导致 ViPER4Android 无法正常工作，这将会给使用者带来一些麻烦。
 \n
-\n版本 %1$s (FX), 代码 “Beautiful”。
+\n版本 %1$s (FX)，代码 “Beautiful”。
 \n</string>
   <string name="text_savefxprofile_succeeded">音效配置已成功保存。</string>
-  <string name="text_savefxprofile_failed">配置保存失败，可能是存储卡无法正常读写或未作更改。</string>
+  <string name="text_savefxprofile_failed">配置保存失败，可能是存储卡空间已满或无法正常读写。</string>
 </resources>
