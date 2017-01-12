@@ -25,13 +25,11 @@
   <string name="dsp_settings_speaker">Efekt Ayarları - Hoparlör</string>
   <string name="dsp_settings_bluetooth">Efekt Ayarları - Bluetooth Kulaklık/Hoparlör</string>
   <string name="dsp_settings_usb">Efekt Ayarları - USB Cihazı</string>
-  <string name="pref_dsp_enable">Etkinleştirme</string>
+  <string name="pref_dsp_enable">Etkinleştir</string>
   <string name="pref_effect_title">Efekt Gücünü Seç</string>
   <string name="dialog_effect">Efekt Gücü</string>
-  <string name="pref_force_enable_text">V4A yı Etkinleştirmeye Zorla</string>
-  <string name="pref_force_enable_warn">\"Etkinleştirmeye zorlamak efekt olmama sorununu çözebilir. 
-Ancak bazı ROMlarda sesin gitmesine ya da pil tüketiminin aşırı derecede artmasına neden olabilir. 
-Bu yüzden, lütfen riskiniz altında kullanın. Eğer böyle durumlar meydana gelirse, lütfen bu özelliği kapatın.\"</string>
+  <string name="pref_force_enable_text">V4A\'yı Etkinleştirmeyi Zorla</string>
+  <string name="pref_force_enable_warn">Etkinleştirmeye zorlamak, efektlerin çalışmaması sorununu çözebilir. \nAncak bazı ROM\'larda sesin çıkmaması ya da pil tüketiminin aşırı derecede artması gibi sorunlar görülebilir. \nKullanımdan doğacak riskler size aittir. Problemlerle karşılaşırsanız lütfen bunu devre dışı bırakın.</string>
   <string name="pref_fx_master_title">Ana Güç</string>
   <string name="pref_fx_master_summary_on">V4A-FX Açık</string>
   <string name="pref_fx_master_summary_off">V4A-FX Kapalı</string>
@@ -47,8 +45,8 @@ Bu yüzden, lütfen riskiniz altında kullanın. Eğer böyle durumlar meydana g
   <string name="pref_playback_title">Playback Kazanç Kontrolü</string>
   <string name="pref_playback_summary_on">PlaybackAGC etkinleştirildi</string>
   <string name="pref_playback_summary_off">PlaybackAGC devre dışı bırakıldı</string>
-  <string name="pref_playback_output_threshold">Maks Çıkış</string>
-  <string name="pref_playback_maxgain">Maks Kazanç</string>
+  <string name="pref_playback_output_threshold">Maksimum Çıkış</string>
+  <string name="pref_playback_maxgain">Maksimum Kazanç</string>
   <string name="pref_xloud_title">Aşırı Yüksek Ses</string>
   <string name="pref_xloud_summary_on">eXtra-Loud etkinleştirildi</string>
   <string name="pref_xloud_summary_off">eXtra-Loud devre dışı bırakıldı</string>
@@ -61,7 +59,7 @@ Bu yüzden, lütfen riskiniz altında kullanın. Eğer böyle durumlar meydana g
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC etkinleştirildi</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC devre dışı bırakıldı</string>
-  <string name="pref_viperddc_enable">Etkinleştirme</string>
+  <string name="pref_viperddc_enable">Etkinleştir</string>
   <string name="pref_viperddc_device">Dinleme Cihazı</string>
   <string name="pref_viperddc_device_manufacturer">Üretici Seç</string>
   <string name="pref_viperddc_device_model">Model Seç</string>
@@ -71,8 +69,8 @@ ViPER-DDC 500 e yakın kulaklığı destekler, ve daha fazlasını desteklemeye 
 Bu yüzden, eğer kulaklığınızı listede bulamıyorsanız, bu özelliği kapatınız.\"</string>
   <string name="pref_vse_title">Spektrum Uzantısı</string>
   <string name="pref_vse_summary_on">Spektrum uzantısı etkinleştirildi</string>
-  <string name="pref_vse_summary_off">Spektrum uzantısı devre dışı bırakıldı</string>
-  <string name="pref_vse_enable">Etkinleştirme</string>
+  <string name="pref_vse_summary_off">Spektrum genişletme devre dışı bırakıldı</string>
+  <string name="pref_vse_enable">Etkinleştir</string>
   <string name="pref_vse_strength">Güç</string>
   <string name="pref_vse_strength_title">Güç Seç</string>
   <string name="pref_vse_tips">\"NOTICE: 
@@ -88,8 +86,8 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="pref_equalizer_title">FIREqualizer</string>
   <string name="pref_equalizer_summary_on">FIREqualizer etkinleştirildi</string>
   <string name="pref_equalizer_summary_off">FIREqualizer devre dışı bırakıldı</string>
-  <string name="pref_equalizer_enable">Etkinleştirme</string>
-  <string name="pref_equalizer_preset_title">Müzik Türünü Seçin</string>
+  <string name="pref_equalizer_enable">Etkinleştir</string>
+  <string name="pref_equalizer_preset_title">Önayar seç</string>
   <string name="pref_dynamicsystem_title">Dinamik Sistem</string>
   <string name="pref_dynamicsystem_summary_on">Dinamik sistem etkinleştirildi</string>
   <string name="pref_dynamicsystem_summary_off">Dinamik sistem devre dışı bırakıldı</string>
@@ -103,9 +101,9 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="pref_fidelity_title">Doğruluk Kontrolü</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass etkinleştirildi</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass devre dışı bırakıldı</string>
-  <string name="pref_fidelity_vb_enable">ViPER Bass ı Etkinleştir</string>
-  <string name="pref_fidelity_vb_mode">Bas Modu</string>
-  <string name="pref_fidelity_vb_mode_title">Bas Modunu Seçin</string>
+  <string name="pref_fidelity_vb_enable">ViPER Bass\'ı Etkinleştir</string>
+  <string name="pref_fidelity_vb_mode">Bass Modu</string>
+  <string name="pref_fidelity_vb_mode_title">Bass Modunu Seçin</string>
   <string name="pref_fidelity_vb_bassfreq">Bas Sıklığı</string>
   <string name="pref_fidelity_vb_bassfreq_title">Bas Sıklığını Seçin</string>
   <string name="pref_fidelity_vb_bassgain">Bas Yükseltme</string>
@@ -113,11 +111,11 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="pref_fidelity_vc_summary_on">ViPER Clarity etkinleştirildi</string>
   <string name="pref_fidelity_vc_summary_off">ViPER Clarity devre dışı bırakıldı</string>
   <string name="pref_fidelity_vc_enable">ViPER Clarity i Etkinleştir</string>
-  <string name="pref_fidelity_vc_mode">Berraklık Modu</string>
-  <string name="pref_fidelity_vc_mode_title">Berraklık Modunu Seçiniz</string>
-  <string name="pref_fidelity_vc_bassgain">Berraklık</string>
-  <string name="pref_fidelity_vc_bassgain_title">Berraklığı Seç</string>
-  <string name="pref_curesystem_title">İşitsel sistem koruması</string>
+  <string name="pref_fidelity_vc_mode">Netlik Modu</string>
+  <string name="pref_fidelity_vc_mode_title">Netlik Modunu Seçiniz</string>
+  <string name="pref_fidelity_vc_bassgain">Netlik</string>
+  <string name="pref_fidelity_vc_bassgain_title">Netliği Seç</string>
+  <string name="pref_curesystem_title">İşitme sistemi koruması</string>
   <string name="pref_curesystem_summary_on">Cure Tech+ etkinleştirildi</string>
   <string name="pref_curesystem_summary_off">Cure Tech+ devre dışı bırakıldı</string>
   <string name="pref_curesystem_enable">Etkinleştirme</string>
@@ -161,8 +159,8 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="pref_reverb_wet">Yaş Sinyal</string>
   <string name="pref_reverb_dry">Kuru Sinyal</string>
   <string name="eq_preset_acoustic">Akustik</string>
-  <string name="eq_preset_bass_booster">Bas Yükseltici</string>
-  <string name="eq_preset_bass_reducer">Bas Azaltıcı</string>
+  <string name="eq_preset_bass_booster">Bass Yükseltici</string>
+  <string name="eq_preset_bass_reducer">Bass Azaltıcı</string>
   <string name="eq_preset_classical">Klasik</string>
   <string name="eq_preset_deep">Derin</string>
   <string name="eq_preset_flat">Düz</string>
@@ -198,8 +196,8 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="text_ok">Tamam</string>
   <string name="text_cancel">İptal</string>
   <string name="text_drvinst_prefer">Lütfen seçiminizi yapınız</string>
-  <string name="text_drvinst_sqdrv">\"Süper ses kalitesi sürücüsü en az iki çekirdekli işlemci gerektirir ve pil tüketimini hızlandırır. 
-Yine de devam etmek istiyor musunuz?\"</string>
+  <string name="text_drvinst_sqdrv">Süper ses kalitesi sürücüsü en az iki çekirdekli bir işlemci gerektirir ve pil tüketimini artırabilir. 
+\nDevam etmek istiyor musunuz?</string>
   <string name="text_drvvernotmatch">\"ViPER4Android\'i kullanmak için, V4A sürücüsünü yüklemeniz/güncellemeniz gerekmektedir. 
 
 Şimdi yüklensin/güncellensin mi ?\"</string>
@@ -221,11 +219,11 @@ Yine de devam etmek istiyor musunuz?\"</string>
   <string name="text_drvinst_failed">\"Sürücü yüklenemedi , cihazınızda bulunan busybox çalışmıyor. 
 Bu yanlış ya da bozuk busybox yüklenmiş anlamına gelmektedir, V4A çalışmak için stericson busybox ürününe ihtiyaç duyar. 
 Eğer uygun busybox ı yüklediğinizden eminseniz, lütfen cihazınızın tamamen rootlanmış olduğundan emin olun.\"</string>
-  <string name="text_modifybuildprop">\"UYARI: 
-LPA özelliği cihazınızda etkinleştirilmiş, bu V4A nın işlevsizliğine sebep olabilir. 
-LPA nın anlamı \" Düşük Güçlü Ses\", bu sorunu build.prop u düzenleyerek düzeltebiliriz. 
-İşleme başlamadan önce şiddetle NANDROİD YEDEĞİ ya da VERİ YEDEĞİ almanızı öneririz!
-LPA yı şimdi devre dışı bırakmak ister misiniz?\"</string>
+  <string name="text_modifybuildprop">UYARI: 
+LPA özelliği cihazınızda etkinleştirilmiş, bu V4A\'nın düzgün çalışmamasına sebep olabilir. 
+LPA, yani \" Düşük Güçlü Ses\", build.prop düzenlenerek devre dışı bırakılabilir. Bu, otomatik olarak yapılabilir. 
+İşleme başlamadan önce şiddetle NANDROID YEDEĞİ ya da VERİ YEDEĞİ almanızı öneririz!
+LPA yı şimdi devre dışı bırakmak ister misiniz?</string>
   <string name="text_changelog">Değişiklik Listesi</string>
   <string name="text_drv_status">Sürücü Durumu</string>
   <string name="text_drv_status_view">\"

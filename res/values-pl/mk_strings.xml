@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="about_text_mk">***O ViPER4Android (MoKee - niestandardowa edycja)***
+  <string name="about_text_mk">***O ViPER4Android (edycja MoKee)***
 \n
 \n\'libv4a_xx_xx.so\' to jądro systemu ViPER4Android.
-\nCopyright © 2006-2016, ViPER ACOUSTIC. Wszystkie prawa zarezerwowane.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. Wszystkie prawa zastrzeżone.
 \nTa wersja jest licencjonowana i zmodyfikowana dla użytku w projekcie MoKee Open Source.
-\nBez oficjalnego pozwolenia, komercyjne użytkowanie jest zabronione.
+\nBez oficjalnego pozwolenia komercyjne użytkowanie jest zabronione.
 \nOficjalne Forum: http://vipersaudio.com/blog/
 \n
 \n\'ViPER4Android.apk\' to panel kontroli dźwięku w ViPER4Android.
-\nBazowane na DSPManager od CyanogenMod.
+\nBazuje na DSPManager od CyanogenMod.
 \nWielkie dzięki dla Zhuhang@XDA
 \nWielkie dzięki dla M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n

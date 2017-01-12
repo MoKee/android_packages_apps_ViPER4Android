@@ -22,8 +22,8 @@
     <item>Güç Tasarrufu</item>
   </string-array>
   <string-array name="ui_prefer">
-    <item>Yeni başlayan</item>
-    <item>Asistan</item>
+    <item>Başlangıç</item>
+    <item>Orta</item>
     <item>Uzman</item>
   </string-array>
   <string-array name="compatible_mode">
@@ -36,7 +36,7 @@
     <item>Seviye 2</item>
     <item>Seviye 3</item>
     <item>Seviye 4</item>
-    <item>Düzey 5</item>
+    <item>Seviye 5</item>
     <item>Seviye 6</item>
     <item>Seviye 7</item>
     <item>Aşırı</item>
@@ -98,7 +98,7 @@
   </string-array>
   <string-array name="analogx_mode">
     <item>Az</item>
-    <item>Asistan</item>
+    <item>Orta</item>
     <item>Aşırı</item>
   </string-array>
   <string-array name="vhs_qual">
@@ -174,7 +174,7 @@
     <item>Normal Kafaüstü Kulaklık (v2)</item>
     <item>Düşük Seviye Kafaüstü Kulaklık (v2)</item>
     <item>Normal Kulakiçi Kulaklık (v2)</item>
-    <item>Aşırı İyi Kulaklık (Baş) (v1)</item>
+    <item>Aşırı İyi Kafaüstü Kulaklık (v1)</item>
     <item>Yüksek Seviye Kafaüstü Kulaklık (v1)</item>
     <item>Normal Kafaüstü Kulaklık (v1)</item>
     <item>Normal Kulakiçi Kulaklık (v1)</item>
@@ -220,7 +220,7 @@
   </string-array>
   <string-array name="vclarity_mode">
     <item>Doğal</item>
-    <item>Ozon +</item>
+    <item>OZone+</item>
     <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">

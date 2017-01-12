@@ -99,7 +99,7 @@
   <string-array name="analogx_mode">
     <item>Lekki</item>
     <item>Umiarkowany</item>
-    <item>Mocna</item>
+    <item>Mocny</item>
   </string-array>
   <string-array name="vhs_qual">
     <item>Poziom 1</item>
@@ -109,9 +109,9 @@
     <item>Poziom 5</item>
   </string-array>
   <string-array name="playbackgain_ratio">
-    <item>Delikatna</item>
-    <item>Umiarkowana</item>
-    <item>Mocna</item>
+    <item>Lekki</item>
+    <item>Umiarkowany</item>
+    <item>Mocny</item>
   </string-array>
   <string-array name="multi_factor">
     <item>1x</item>
@@ -184,14 +184,14 @@
     <item>Douszne Philips</item>
     <item>Philips SHP 2000</item>
     <item>Philips SHP 9000</item>
-    <item>Nieznany typ I</item>
-    <item>Nieznany typ II</item>
-    <item>Nieznany typ III</item>
-    <item>Nieznany typ IV</item>
+    <item>Nieznany typ 1</item>
+    <item>Nieznany typ 2</item>
+    <item>Nieznany typ 3</item>
+    <item>Nieznany typ 4</item>
   </string-array>
   <string-array name="vbass_mode">
-    <item>Naturalny Bas</item>
-    <item>Czysty Bas+</item>
+    <item>Naturalny bas</item>
+    <item>Czysty bas+</item>
     <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">
@@ -219,12 +219,12 @@
     <item>17.0 dB</item>
   </string-array>
   <string-array name="vclarity_mode">
-    <item>Naturalna</item>
+    <item>Naturalny</item>
     <item>OZone+</item>
     <item>XHiFi</item>
   </string-array>
   <string-array name="vclarity_boost">
-    <item>Domyślnie</item>
+    <item>Domyślne</item>
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
