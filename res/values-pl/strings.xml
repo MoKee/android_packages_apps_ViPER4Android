@@ -132,29 +132,29 @@
   <string name="pref_convolver_crosschannel">Nakładanie kanałów</string>
   <string name="pref_convolver_crosschannel_title">Wybierz nałożenie kanałów</string>
   <string name="pref_vhs_title">Wirtualny dźwięk przestrzenny+</string>
-  <string name="pref_vhs_summary_on">Aktywny</string>
-  <string name="pref_vhs_summary_off">Nieaktywny</string>
-  <string name="pref_vhs_enable">VHS+</string>
-  <string name="pref_select_vhs_qual_title">Poziom efektu</string>
-  <string name="dialog_vhs_qual">Wybierz poziom efektu</string>
+  <string name="pref_vhs_summary_on">VHS+ aktywny</string>
+  <string name="pref_vhs_summary_off">VHS+ nieaktywny</string>
+  <string name="pref_vhs_enable">Aktywuj</string>
+  <string name="pref_select_vhs_qual_title">Wybierz poziom efektu</string>
+  <string name="dialog_vhs_qual">Poziom efektu</string>
   <string name="pref_colorfulmusic_title">Dźwięk przestrzenny</string>
-  <string name="pref_colorfulmusic_summary_on">Aktywny</string>
-  <string name="pref_colorfulmusic_summary_off">Nieaktywny</string>
-  <string name="pref_colorfulmusic_enable">Dźwięk przestrzenny</string>
-  <string name="pref_select_colorfulmusic_title">Siła efektu</string>
-  <string name="dialog_colorfulmusic">Wybierz siłę efektu</string>
-  <string name="pref_select_colorfulmusic_mi_title">Głębia efektu</string>
-  <string name="dialog_colorfulmusic_mi">Wybierz głębię efektu</string>
+  <string name="pref_colorfulmusic_summary_on">Dźwięk przestrzenny aktywny</string>
+  <string name="pref_colorfulmusic_summary_off">Dźwięk przestrzenny nieaktywny</string>
+  <string name="pref_colorfulmusic_enable">Aktywuj</string>
+  <string name="pref_select_colorfulmusic_title">Wybierz siłę dźwięku przestrzennego</string>
+  <string name="dialog_colorfulmusic">Siła dźwięku przestrzennego</string>
+  <string name="pref_select_colorfulmusic_mi_title">Wybierz siłę tonów średnich</string>
+  <string name="dialog_colorfulmusic_mi">Siła tonów średnich</string>
   <string name="pref_diffsurr_title">Psychoakustyka</string>
-  <string name="pref_diffsurr_summary_on">Aktywny</string>
-  <string name="pref_diffsurr_summary_off">Nieaktywny</string>
-  <string name="pref_diffsurr_enable">Efekt Haasa</string>
-  <string name="pref_select_diffsurr_ms_title">Opóźnienie</string>
-  <string name="dialog_diffsurr_ms">Wybierz opóźnienie</string>
-  <string name="pref_reverb_title">Echo</string>
-  <string name="pref_reverb_summary_on">Aktywny</string>
-  <string name="pref_reverb_summary_off">Nieaktywny</string>
-  <string name="pref_reverb_enable">Pogłos</string>
+  <string name="pref_diffsurr_summary_on">Psychoakustyka aktywna</string>
+  <string name="pref_diffsurr_summary_off">Psychoakustyka nieaktywna</string>
+  <string name="pref_diffsurr_enable">Aktywuj</string>
+  <string name="pref_select_diffsurr_ms_title">Wybierz opóźnienie</string>
+  <string name="dialog_diffsurr_ms">Opóźnienie</string>
+  <string name="pref_reverb_title">Pogłos</string>
+  <string name="pref_reverb_summary_on">Pogłos aktywny</string>
+  <string name="pref_reverb_summary_off">Pogłos nieaktywny</string>
+  <string name="pref_reverb_enable">Aktywuj</string>
   <string name="pref_reverb_roomsize">Wielkość pokoju</string>
   <string name="pref_reverb_width">Pole akustyczne</string>
   <string name="pref_reverb_damp">Współczynnik tłumienia</string>
@@ -174,7 +174,7 @@
   <string name="eq_preset_vocal_booster">Wzmocnienie wokalu</string>
   <string name="eq_preset_custom">Własny</string>
   <string name="text_ir_dir_isempty">Brak przykładowych impulsów w %1$s.</string>
-  <string name="text_token_lost">Niektóre programy wymagają wyłączenia swoich efektów. Do tego czasu V4A nie będzie aktywny.</string>
+  <string name="text_token_lost">Jakiś program zażądał od Androida wyłączenia efektów, więc V4A będzie tymczasowo nieaktywny.</string>
   <string name="text_enabled">Włączone</string>
   <string name="text_disabled">Wyłączone</string>
   <string name="text_headset">Słuchawki</string>
@@ -183,7 +183,7 @@
   <string name="text_usb">USB/Stacja dokująca</string>
   <string name="text_showtrayicon">Pokaż powiadomienia</string>
   <string name="text_hidetrayicon">Ukryj powiadomienia</string>
-  <string name="text_lockeffect">Stosuj do wsz. urządzeń</string>
+  <string name="text_lockeffect">Tryb zastrzegania efektu</string>
   <string name="text_yes">Tak</string>
   <string name="text_no">Nie</string>
   <string name="text_normal">Prawidłowy</string>
@@ -191,19 +191,19 @@
   <string name="text_supported">Wspierany</string>
   <string name="text_unsupported">Niewspierany</string>
   <string name="text_loadfxprofile">Wczytaj profil</string>
-  <string name="text_newfxprofile">Nowy profil&#8230;</string>
+  <string name="text_newfxprofile">Utwórz nowy profil&#8230;</string>
   <string name="text_savefxprofile">Zapisz profil</string>
-  <string name="text_profilesaved_overwrite">Profil o takiej nazwie już istnieje, zastąpić?</string>
-  <string name="text_profileload_tip">Wczytaj do?</string>
-  <string name="text_ok">Ok</string>
+  <string name="text_profilesaved_overwrite">Chcesz nadpisać ten profil?</string>
+  <string name="text_profileload_tip">Zastosuj profil</string>
+  <string name="text_ok">OK</string>
   <string name="text_cancel">Anuluj</string>
-  <string name="text_drvinst_prefer">Wybierz silnik efektów</string>
-  <string name="text_drvinst_sqdrv">B. wysoka jakość wymaga co najmniej dwurdzeniowego procesora i może zwiększyć zużycie baterii.
+  <string name="text_drvinst_prefer">Wybierz interfejs</string>
+  <string name="text_drvinst_sqdrv">Bardzo wysoka jakość wymaga co najmniej dwurdzeniowego procesora i może zwiększyć zużycie baterii.
 \nKontynuować?</string>
-  <string name="text_drvvernotmatch">Do korzystania z ViPER4Android konieczna jest instalacja/aktualizacja dodatkowych bibliotek.
+  <string name="text_drvvernotmatch">Do korzystania z ViPER4Android konieczna jest instalacja/aktualizacja dodatkowych bibliotek V4A.
 \nZainstalować/Zaktualizować je teraz?</string>
-  <string name="text_drvuninst_confim">Czy na pewno chcesz usunąć dodatkowe biblioteki?</string>
-  <string name="text_uiprefer">Interfejs</string>
+  <string name="text_drvuninst_confim">Czy na pewno chcesz usunąć dodatkowe biblioteki V4A?</string>
+  <string name="text_uiprefer">Ustawienia interfejsu</string>
   <string name="text_uiprefer_dialog">Wybierz interfejs</string>
   <string name="text_commode">Tryb kompatybilności</string>
   <string name="text_drv_blank"></string>
@@ -211,24 +211,25 @@
   <string name="text_install">Zainstaluj biblioteki</string>
   <string name="text_drvinst_ok">Biblioteki zostały zainstalowane, zrestartuj telefon.</string>
   <string name="text_drvuninst_ok">Biblioteki zostały usunięte, zrestartuj telefon.</string>
-  <string name="text_no_busybox">Brak Busybox, zainstalować teraz?</string>
-  <string name="text_drvinst_acquireroot">Błąd podczas instalacji bibliotek, brak uprawnień roota.</string>
-  <string name="text_drvinst_busybox_not_installed">Błąd podczas instalacji bibliotek, zła wersja Busybox.</string>
-  <string name="text_drvinst_sdnotmounted">Błąd podczas instalacji bibliotek, karta pamięci odmontowana.</string>
-  <string name="text_drvinst_dataioerr">Błąd podczas instalacji bibliotek, uruchom ponownie telefon.</string>
-  <string name="text_drvinst_cfg_unsup">Błąd podczas instalacji bibliotek, niewspierany rom lub wersja androida.</string>
-  <string name="text_drvinst_failed">Błąd przy instalacji bibliotek.</string>
+  <string name="text_no_busybox">Brak Busybox. Czy zainstalować teraz?</string>
+  <string name="text_drvinst_acquireroot">Błąd podczas instalacji bibliotek, brak uprawnień roota. Sprawdź poziom uprawnień dla V4A.</string>
+  <string name="text_drvinst_busybox_not_installed">Błąd podczas instalacji bibliotek: niewłaściwa wersja Busybox.</string>
+  <string name="text_drvinst_sdnotmounted">Błąd podczas instalacji bibliotek: karta pamięci odmontowana.</string>
+  <string name="text_drvinst_dataioerr">Błąd podczas instalacji bibliotek: uruchom ponownie telefon i spróbuj jeszcze raz.</string>
+  <string name="text_drvinst_cfg_unsup">Błąd podczas instalacji bibliotek: niewspierany ROM lub wersja Androida.</string>
+  <string name="text_drvinst_failed">Błąd przy instalacji bibliotek: niewłaściwa wersja Busybox.
+\nZainstaluj wersję Stericson i sprawdź, czy posiadasz uprawnienia root.</string>
   <string name="text_modifybuildprop">UWAGA:
-\nWykryto aktywną funkcję LPA, która może powodować zniekształcenia w ViPERZE.
-\nSkrót LPA oznacza \'Low Power Audio\', możemy wyłączyć LPA za Ciebie modyfikując build.prop.
-\nZaleca się najpierw zrobić nandroid backup całego romu!
+\nWykryto aktywną funkcję LPA, która może powodować zniekształcenia w ViPERze.
+\nSkrót LPA oznacza \'Low Power Audio\'. Możemy wyłączyć LPA za ciebie, modyfikując build.prop.
+\nZaleca się najpierw zrobić Nandroid backup lub kopię zapasową całego ROMu!
 \nWyłączyć LPA?</string>
   <string name="text_changelog">Lista zmian</string>
-  <string name="text_drv_status">Pokaż stan</string>
+  <string name="text_drv_status">Stan sterowników</string>
   <string name="text_drv_status_view">\n
 \nWersja bibliotek: %1$s
 \nTechnologia NEON: %2$s
-\nTechnologia V4A: %3$s
+\nV4A włączony: %3$s
 \nStan: %4$s
 \nFormat dźwięku: %5$s
 \nPrzetwarzanie: %6$s
@@ -239,25 +240,25 @@
   <string name="about_title">Informacje i pomoc</string>
   <string name="about_text">***O ViPER4Android***
 \n
-\n\'libv4a_xx_xx.so\' jest silnikiem aplikacji.
+\n\'libv4a_xx_xx.so\' jest silnikiem aplikacji ViPER4Android.
 \nCopyright © 2006-2016, ViPER ACOUSTIC. Wszelkie prawa zastrzeżone.
 \nKomercyjne rozpowszechnianie bez zgody twórcy jest zabronione.
-\nOficjalne forum: forum.vipersaudio.com
+\nOficjalne forum: forum.vipersaudio.com/blog/
 \n
 \nNiewielkie części kodu zostały oparte o DSPManager grupy CyanogenMod.
-\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\nPodziękowania dla M4570D0N@github, xLaMbChOpSx@github, bboa@github
 \n
-\nWersja %1$s (FX), Codename “Beautiful”.
+\nWersja %1$s (FX), nazwa kodowa: \"Piękny\".
 \n</string>
-  <string name="text_help_content">***Mini FAQ***
+  <string name="text_help_content">***Mini pomoc***
 \n
-\n\'Zainstaluj biblioteki\' - Instaluje lub aktualizuje biblioteki efektów.
-\n\'Usuń biblioteki\' - Odinstalowuje biblioteki efektów.
-\n\'Tryb kompatybilności\' - Wybierz tryb kompatybilności efektów.
-\n \'Normalny\' - Efekty działają globalnie.
-\n \'Kompatybilny\' - Efekty działają lokalnie.
+\n\'Zainstaluj biblioteki\' - instaluje lub aktualizuje biblioteki efektów V4A
+\n\'Usuń biblioteki\' - odinstalowuje biblioteki efektów
+\n\'Tryb kompatybilności\' - wybierz tryb kompatybilności efektów
+\n  \'Normalny\' - efekty działają globalnie
+\n  \'Kompatybilny\' - Efekty działają lokalnie
 \n
-\n<b>Efekty V4A nie działają w Twoich odtwarzaczach?</b>\n    Przełącz się w tryb kompatybilności i spróbuj ponownie.
+\n<b>Efekty V4A nie działają w Twoich odtwarzaczach?</b>\n    Przełącz się na tryb kompatybilny i spróbuj ponownie.
 \n
 \n<b>Jak zmienić jakość dźwięku?</b>\n    Odinstaluj biblioteki w menu, zrestartuj telefon i wybierz nowy silnik efektów przy uruchamianiu aplikacji.
 \n
@@ -268,6 +269,6 @@
   <!-- Drawer -->
   <string name="navigation_drawer_open">Otwórz panel boczny</string>
   <string name="navigation_drawer_close">Zamknij panel boczny</string>
-  <string name="navigation_toggle_drawer">Panel boczny</string>
-  <string name="navigation_toggle_tabbed">Widok kolumn</string>
+  <string name="navigation_toggle_drawer">Przełącz do widoku szuflady</string>
+  <string name="navigation_toggle_tabbed">Przełącz do widoku kolumn</string>
 </resources>

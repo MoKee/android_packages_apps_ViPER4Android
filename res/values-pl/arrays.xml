@@ -17,7 +17,7 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>B. wysoka jakość dźwięku</item>
+    <item>Bardzo wysoka jakość dźwięku</item>
     <item>Wysoka jakość dźwięku</item>
     <item>Oszczędność baterii</item>
   </string-array>
@@ -124,7 +124,7 @@
     <item>8x</item>
     <item>9x</item>
     <item>10x</item>
-    <item>Inf</item>
+    <item>Maksimum</item>
   </string-array>
   <string-array name="amplification_db">
     <item>0 dB</item>
@@ -182,8 +182,8 @@
     <item>Douszne Monster</item>
     <item>Douszne Motoroli</item>
     <item>Douszne Philips</item>
-    <item>Philips SHP 2000</item>
-    <item>Philips SHP 9000</item>
+    <item>Philips SHP2000</item>
+    <item>Philips SHP9000</item>
     <item>Nieznany typ 1</item>
     <item>Nieznany typ 2</item>
     <item>Nieznany typ 3</item>
@@ -191,7 +191,7 @@
   </string-array>
   <string-array name="vbass_mode">
     <item>Naturalny bas</item>
-    <item>Czysty bas+</item>
+    <item>Czysty Bas+</item>
     <item>Subwoofer</item>
   </string-array>
   <string-array name="vbass_freq">

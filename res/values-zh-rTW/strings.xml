@@ -17,23 +17,23 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">耳機</string>
-  <string name="speaker_title">喇叭</string>
+  <string name="speaker_title">手機揚聲器</string>
   <string name="bluetooth_title">藍牙裝置</string>
-  <string name="usb_title">USB和音訊底座</string>
+  <string name="usb_title">USB 與座架</string>
   <string name="audio_effects">音訊效果</string>
   <string name="dsp_settings_headset">音效設定 - 耳機</string>
-  <string name="dsp_settings_speaker">音效設定 - 喇叭</string>
+  <string name="dsp_settings_speaker">音效設定 - 揚聲器</string>
   <string name="dsp_settings_bluetooth">音效設定 - 藍牙裝置</string>
-  <string name="dsp_settings_usb">音效設定 - USB和音訊底座</string>
+  <string name="dsp_settings_usb">音效設定 - USB 裝置</string>
   <string name="pref_dsp_enable">啓用</string>
   <string name="pref_effect_title">選擇效果強度</string>
   <string name="dialog_effect">效果強度</string>
-  <string name="pref_force_enable_text">強行啟用V4A音效</string>
-  <string name="pref_force_enable_warn">開啟強行啟用後可以解決大部份播放器無音效的問題，但可能會在某些ROM上造成其他影響，如沒有聲音和加快耗電等問題。
-\n如果遇到類似現象，請關閉這個功能。</string>
+  <string name="pref_force_enable_text">強行啟用 V4A 音效</string>
+  <string name="pref_force_enable_warn">開啟強行啟用後可以解決大部份播放器無音效的問題，但可能會在某些 Rom 上造成其他影響，如沒有聲音和加快耗電等問題。
+\n如果遇到類似現象，請關閉此功能。</string>
   <string name="pref_fx_master_title">音效總開關</string>
-  <string name="pref_fx_master_summary_on">V4A音效已開啓</string>
-  <string name="pref_fx_master_summary_off">V4A音效已關閉</string>
+  <string name="pref_fx_master_summary_on">V4A 音效已開啟</string>
+  <string name="pref_fx_master_summary_off">V4A 音效已關閉</string>
   <string name="pref_spkfx_master_title">音效總開關</string>
   <string name="pref_spkfx_master_summary_on">V4A喇叭音效已開啓</string>
   <string name="pref_spkfx_master_summary_off">V4A喇叭音效已關閉</string>
@@ -54,19 +54,19 @@
   <string name="pref_xloud_output_amplifer">音量放大強度</string>
   <string name="pref_xloud_spk_lowfreq">低頻響應頻率</string>
   <string name="pref_xloud_spk_highfreq">高頻響應頻率</string>
-  <string name="pref_spk_opt_title">喇叭優化</string>
-  <string name="pref_spk_opt_summary_on">喇叭優化已啟用</string>
-  <string name="pref_spk_opt_summary_off">喇叭優化已停用</string>
+  <string name="pref_spk_opt_title">揚聲器優化</string>
+  <string name="pref_spk_opt_summary_on">揚聲器優化已啟用</string>
+  <string name="pref_spk_opt_summary_off">揚聲器優化已停用</string>
   <string name="pref_viperddc_title">ViPER-DDC</string>
-  <string name="pref_viperddc_summary_on">ViPER-DDC已啟用</string>
-  <string name="pref_viperddc_summary_off">ViPER-DDC已停用</string>
+  <string name="pref_viperddc_summary_on">ViPER-DDC 已啟用</string>
+  <string name="pref_viperddc_summary_off">ViPER-DDC 已停用</string>
   <string name="pref_viperddc_enable">啟用</string>
-  <string name="pref_viperddc_device">監聽設備</string>
+  <string name="pref_viperddc_device">監聽裝置</string>
   <string name="pref_viperddc_device_manufacturer">選擇耳機廠商</string>
   <string name="pref_viperddc_device_model">選擇耳機型號</string>
   <string name="pref_viperddc_tips">注意：
-\nViPER-DDC是一個用於耳機校正的HiFi音效。
-\n目前ViPER-DDC已經支援近500款耳機的校正，而且也將繼續支援更多的耳機。
+\nViPER-DDC 是一個用於耳機校正的 HiFi 音效。
+\n目前 ViPER-DDC 已經支援近 500 款耳機的校正，而且也將繼續支援更多的耳機。
 \n我們強烈建議您在列表中選擇精確對應您耳機型號的選項，這樣可以給您帶來最佳的音頻體驗。</string>
   <string name="pref_vse_title">頻譜擴展</string>
   <string name="pref_vse_summary_on">頻譜擴展已啟用</string>
@@ -80,8 +80,8 @@
 \n但如果您播放無損音樂，我們則建議您停用本功能。</string>
   <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">啓用</string>
-  <string name="pref_analogx_summary_on">AnalogX已啓用</string>
-  <string name="pref_analogx_summary_off">AnalogX已停用</string>
+  <string name="pref_analogx_summary_on">AnalogX 已啓用</string>
+  <string name="pref_analogx_summary_off">AnalogX 已停用</string>
   <string name="pref_analogx_strength">強度</string>
   <string name="pref_analogx_strength_title">選擇強度</string>
   <string name="pref_equalizer_title">FIR等化器</string>
@@ -92,33 +92,33 @@
   <string name="pref_dynamicsystem_title">動態系統</string>
   <string name="pref_dynamicsystem_summary_on">動態系統已啓用</string>
   <string name="pref_dynamicsystem_summary_off">動態系統已停用</string>
-  <string name="pref_dynamicsystem_enable">啓用</string>
-  <string name="pref_dynamicsystem_output">監聽設備</string>
-  <string name="pref_dynamicsystem_output_title">選擇監聽設備</string>
+  <string name="pref_dynamicsystem_enable">啟用</string>
+  <string name="pref_dynamicsystem_output">監聽裝置</string>
+  <string name="pref_dynamicsystem_output_title">選擇監聽裝置</string>
   <string name="pref_dynamicsystem_bass">選擇動態低音</string>
-  <string name="pref_dynamicsystem_tube_title">電子管模擬器(6N1J)</string>
+  <string name="pref_dynamicsystem_tube_title">電子管模擬器 (6N1J)</string>
   <string name="pref_dynamicsystem_tube_summary_on">電子管模擬器已啓用</string>
   <string name="pref_dynamicsystem_tube_summary_off">電子管模擬器已停用</string>
   <string name="pref_fidelity_title">保真控制</string>
-  <string name="pref_fidelity_vb_summary_on">ViPER低音已啟用</string>
-  <string name="pref_fidelity_vb_summary_off">ViPER低音已停用</string>
-  <string name="pref_fidelity_vb_enable">啟用ViPER低音</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER 低音已啟用</string>
+  <string name="pref_fidelity_vb_summary_off">ViPER 低音已停用</string>
+  <string name="pref_fidelity_vb_enable">啟用 ViPER 低音</string>
   <string name="pref_fidelity_vb_mode">低音處理模式</string>
   <string name="pref_fidelity_vb_mode_title">低音處理模式</string>
   <string name="pref_fidelity_vb_bassfreq">低音頻點</string>
   <string name="pref_fidelity_vb_bassfreq_title">選擇低音頻點</string>
   <string name="pref_fidelity_vb_bassgain">低音增益</string>
   <string name="pref_fidelity_vb_bassgain_title">選擇低音增益</string>
-  <string name="pref_fidelity_vc_summary_on">ViPER清晰度已啟用</string>
-  <string name="pref_fidelity_vc_summary_off">ViPER清晰度已停用</string>
-  <string name="pref_fidelity_vc_enable">啟用ViPER清晰度</string>
+  <string name="pref_fidelity_vc_summary_on">ViPER 清晰度已啟用</string>
+  <string name="pref_fidelity_vc_summary_off">ViPER 清晰度已停用</string>
+  <string name="pref_fidelity_vc_enable">啟用 ViPER 清晰度</string>
   <string name="pref_fidelity_vc_mode">清晰度處理模式</string>
   <string name="pref_fidelity_vc_mode_title">選擇清晰度處理模式</string>
   <string name="pref_fidelity_vc_bassgain">清晰度</string>
   <string name="pref_fidelity_vc_bassgain_title">選擇清晰度</string>
   <string name="pref_curesystem_title">聽覺保護</string>
-  <string name="pref_curesystem_summary_on">Cure技術已啟用</string>
-  <string name="pref_curesystem_summary_off">Cure技術已停用</string>
+  <string name="pref_curesystem_summary_on">Cure 技術已啟用</string>
+  <string name="pref_curesystem_summary_off">Cure 技術已停用</string>
   <string name="pref_curesystem_enable">啟用</string>
   <string name="pref_select_cure_cf_title">選擇交叉反饋強度</string>
   <string name="dialog_cure_crossfeed">交叉反饋強度</string>
@@ -139,7 +139,7 @@
   <string name="pref_colorfulmusic_title">臨場感模擬</string>
   <string name="pref_colorfulmusic_summary_on">臨場感模擬已啟用</string>
   <string name="pref_colorfulmusic_summary_off">臨場感模擬已停用</string>
-  <string name="pref_colorfulmusic_enable">啓用</string>
+  <string name="pref_colorfulmusic_enable">啟用</string>
   <string name="pref_select_colorfulmusic_title">選擇臨場感模擬強度</string>
   <string name="dialog_colorfulmusic">臨場感模擬強度</string>
   <string name="pref_select_colorfulmusic_mi_title">選擇人聲強度</string>
@@ -167,7 +167,7 @@
   <string name="eq_preset_flat">平淡</string>
   <string name="eq_preset_r_and_b">節奏藍調</string>
   <string name="eq_preset_rock">搖滾音樂</string>
-  <string name="eq_preset_small_speakers">小型喇叭</string>
+  <string name="eq_preset_small_speakers">小型揚聲器</string>
   <string name="eq_preset_treble_booster">高音強化</string>
   <string name="eq_preset_treble_reducer">高音弱化</string>
   <string name="eq_preset_vocal_booster">人聲強化</string>
@@ -178,8 +178,8 @@
   <string name="text_disabled">已停用</string>
   <string name="text_headset">頭戴裝置</string>
   <string name="text_bluetooth">藍牙裝置</string>
-  <string name="text_speaker">喇叭</string>
-  <string name="text_usb">USB和音頻底座</string>
+  <string name="text_speaker">揚聲器</string>
+  <string name="text_usb">USB 與座架</string>
   <string name="text_showtrayicon">啟用狀態列圖示</string>
   <string name="text_hidetrayicon">停用狀態列圖示</string>
   <string name="text_lockeffect">鎖定音效模式</string>
@@ -189,31 +189,31 @@
   <string name="text_abnormal">發生錯誤</string>
   <string name="text_supported">支援</string>
   <string name="text_unsupported">不支援</string>
-  <string name="text_loadfxprofile">載入音效配置</string>
-  <string name="text_newfxprofile">新建音效配置&#8230;</string>
-  <string name="text_savefxprofile">儲存音效配置</string>
-  <string name="text_profilesaved_overwrite">配置檔案名稱已經存在，是否需要覆蓋？</string>
-  <string name="text_profileload_tip">應用音效配置到</string>
+  <string name="text_loadfxprofile">載入音效設定檔</string>
+  <string name="text_newfxprofile">新的音效設定檔&#8230;</string>
+  <string name="text_savefxprofile">儲存音效設定檔</string>
+  <string name="text_profilesaved_overwrite">您想覆蓋此設定檔嗎？</string>
+  <string name="text_profileload_tip">套用設定檔</string>
   <string name="text_ok">確定</string>
   <string name="text_cancel">取消</string>
   <string name="text_drvinst_prefer">請選擇您的偏好</string>
-  <string name="text_drvinst_sqdrv">最高音質需要至少雙核的CPU，而且可能會加快電量消耗。
+  <string name="text_drvinst_sqdrv">最高音質需要至少雙核的 CPU，而且可能會加快電量消耗。
 \n您確定要繼續嗎？</string>
-  <string name="text_drvvernotmatch">爲了正常使用ViPER4Android音效，您需要安裝或更新V4A驅動程式。
+  <string name="text_drvvernotmatch">爲了正常使用 ViPER4Android 音效，您需要安裝或更新 V4A 驅動程式。
 \n安裝或更新過程將會自動完成，解除安裝時可以使用選單中的解除安裝驅動程式。
 \n現在安裝或更新嗎？</string>
-  <string name="text_drvuninst_confim">您確定要解除安裝V4A驅動程式嗎？</string>
-  <string name="text_uiprefer">界面控制級別</string>
+  <string name="text_drvuninst_confim">您確定要解除安裝 V4A 驅動程式嗎？</string>
+  <string name="text_uiprefer">使用者介面設定</string>
   <string name="text_uiprefer_dialog">請選擇您的偏好</string>
-  <string name="text_commode">音效兼容模式</string>
+  <string name="text_commode">音效相容模式</string>
   <string name="text_drv_blank"></string>
   <string name="text_uninstall">解除安裝驅動程式</string>
   <string name="text_install">安裝驅動程式</string>
   <string name="text_drvinst_ok">驅動程式已安裝，請重啟手機以生效。</string>
   <string name="text_drvuninst_ok">驅動程式已解除安裝，請重啟手機以生效。</string>
-  <string name="text_no_busybox">您還未安裝正確的busybox，這可能會影響驅動程式的安裝。您是否需要安裝？</string>
+  <string name="text_no_busybox">您還未安裝正確的 busybox，這可能會影響驅動程式的安裝。您是否需要安裝？</string>
   <string name="text_drvinst_acquireroot">驅動安裝失敗，未能取得正確的ROOT權限。請確定您已經完整ROOT。</string>
-  <string name="text_drvinst_busybox_not_installed">驅動程式安裝失敗，在您的手機上未找到正確的busybox。</string>
+  <string name="text_drvinst_busybox_not_installed">驅動程式安裝失敗，在您的手機上未找到正確的 busybox。</string>
   <string name="text_drvinst_sdnotmounted">驅動程式安裝失敗，未找到可讀寫的外部或內部儲存空間。</string>
   <string name="text_drvinst_dataioerr">驅動程式安裝失敗，系統I/O錯誤，您可以重啟手機後再試。</string>
   <string name="text_drvinst_cfg_unsup">驅動程式安裝失敗，V4A暫時不支援您的系統或ROM。</string>
@@ -239,7 +239,7 @@
 \n</string>
   <string name="text_service_error">無法和ViPER4Android背景服務建立連接，可能是無法載入驅動程式或背景服務程序已被殺死。</string>
   <string name="about_exit">退出</string>
-  <string name="about_title">幫助和關於</string>
+  <string name="about_title">關於與說明</string>
   <string name="about_text">***關於ViPER4Android***
 \n
 \n\'libv4a_xx_xx.so\'是ViPER4Android的核心組件。

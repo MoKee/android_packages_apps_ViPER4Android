@@ -41,6 +41,7 @@
   <string name="pref_fx_limiter_threshold">Seuil de limite</string>
   <string name="pref_spkfx_limiter_threshold">Seuil de limite</string>
   <string name="pref_output_gain">Gain de sortie</string>
+  <string name="pref_playback_title">Contrôle de Gain de lecture</string>
   <string name="pref_playback_summary_on">PlaybackAGC est activé</string>
   <string name="pref_playback_summary_off">PlaybackAGC est désactivé</string>
   <string name="pref_playback_output_threshold">Puissance max</string>
@@ -93,6 +94,7 @@
   <string name="pref_dynamicsystem_output">Appareil d\'écoute</string>
   <string name="pref_dynamicsystem_output_title">Sélectionnez l\'appareil d\'écoute</string>
   <string name="pref_dynamicsystem_bass">Sélectionner basses dynamiques</string>
+  <string name="pref_fidelity_title">Contrôle de la fidélité</string>
   <string name="pref_fidelity_vb_summary_on">ViPER Bass est activé</string>
   <string name="pref_fidelity_vb_summary_off">ViPER Bass est désactivé</string>
   <string name="pref_fidelity_vb_enable">Activez ViPER Bass</string>
@@ -146,6 +148,8 @@
   <string name="pref_reverb_roomsize">Taille de la pièce</string>
   <string name="pref_reverb_width">Champ sonore</string>
   <string name="pref_reverb_damp">Facteur d\'amortissement</string>
+  <string name="pref_reverb_wet">Signal humide</string>
+  <string name="pref_reverb_dry">Signal sec</string>
   <string name="eq_preset_acoustic">Acoustique</string>
   <string name="eq_preset_bass_booster">Amplificateur des basses</string>
   <string name="eq_preset_bass_reducer">Réducteur de basses</string>

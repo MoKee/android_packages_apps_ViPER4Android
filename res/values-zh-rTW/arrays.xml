@@ -22,8 +22,8 @@
     <item>省電優先</item>
   </string-array>
   <string-array name="ui_prefer">
-    <item>簡單界面</item>
-    <item>複雜界面</item>
+    <item>新手</item>
+    <item>適度</item>
     <item>專家界面</item>
   </string-array>
   <string-array name="compatible_mode">
@@ -32,23 +32,23 @@
   </string-array>
   <string-array name="colorfulmusic_coeffs">
     <item>輕微</item>
-    <item>級別1</item>
-    <item>級別2</item>
-    <item>級別3</item>
-    <item>級別4</item>
-    <item>級別5</item>
-    <item>級別6</item>
-    <item>級別7</item>
+    <item>級別 1</item>
+    <item>級別 2</item>
+    <item>級別 3</item>
+    <item>級別 4</item>
+    <item>級別 5</item>
+    <item>級別 6</item>
+    <item>級別 7</item>
     <item>極端</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
     <item>輕微</item>
-    <item>級別1</item>
-    <item>級別2</item>
-    <item>級別3</item>
-    <item>級別4</item>
-    <item>級別5</item>
-    <item>級別6</item>
+    <item>級別 1</item>
+    <item>級別 2</item>
+    <item>級別 3</item>
+    <item>級別 4</item>
+    <item>級別 5</item>
+    <item>級別 6</item>
     <item>級別7</item>
     <item>級別8</item>
     <item>級別9</item>
@@ -66,30 +66,30 @@
     <item>20 ms</item>
   </string-array>
   <string-array name="reverb_roomsize">
-    <item>25平米</item>
-    <item>36平米</item>
-    <item>49平米</item>
-    <item>64平米</item>
-    <item>81平米</item>
-    <item>100平米</item>
-    <item>121平米</item>
-    <item>203平米</item>
-    <item>347平米</item>
-    <item>652平米</item>
-    <item>1200平米</item>
+    <item>25 平方公尺</item>
+    <item>36 平方公尺</item>
+    <item>49 平方公尺</item>
+    <item>64 平方公尺</item>
+    <item>81 平方公尺</item>
+    <item>100 平方公尺</item>
+    <item>121 平方公尺</item>
+    <item>203 平方公尺</item>
+    <item>347 平方公尺</item>
+    <item>652 平方公尺</item>
+    <item>1200 平方公尺</item>
   </string-array>
   <string-array name="reverb_roomwidth">
-    <item>5米</item>
-    <item>6米</item>
-    <item>7米</item>
-    <item>8米</item>
-    <item>9米</item>
-    <item>10米</item>
-    <item>11米</item>
-    <item>14米</item>
-    <item>19米</item>
-    <item>26米</item>
-    <item>36米</item>
+    <item>5 公尺</item>
+    <item>6 公尺</item>
+    <item>7 公尺</item>
+    <item>8 公尺</item>
+    <item>9 公尺</item>
+    <item>10 公尺</item>
+    <item>11 公尺</item>
+    <item>14 公尺</item>
+    <item>19 公尺</item>
+    <item>26 公尺</item>
+    <item>36 公尺</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>輕微</item>
