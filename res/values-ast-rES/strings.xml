@@ -16,6 +16,8 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="text_yes">Sí</string>
+  <string name="text_no">Non</string>
   <string name="text_drv_blank"></string>
   <!-- Drawer -->
 </resources>

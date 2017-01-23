@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="about_text_mk">***About ViPER4Android (MoKee Custom Edition)*** \n \n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android. \nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved. \nThis version is licenced and modified for use in MoKee Open Source Project. \nWithout the official permission, commercial use is disallowed. \nOfficial Forum: http://vipersaudio.com/blog/ \n \n\'ViPER4Android.apk\' is the visual control panel of ViPER4Android. \nBased on Cyanogenmod\'s DSPManager. \nGreat thanks to Zhuhang@XDA \nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github \n \nVersion %1$s (FX), Codename “Beautiful”. \n</string>
   <string name="text_savefxprofile_succeeded">Successfully saved effect profile.</string>
   <string name="text_savefxprofile_failed">Failed to save effect profile. Storage might be full or unwritable.</string>
 </resources>

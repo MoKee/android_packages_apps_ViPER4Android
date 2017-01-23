@@ -276,8 +276,8 @@
   <string name="text_view_forum">論壇</string>
   <string name="text_checkupdate">檢查更新</string>
   <!-- Drawer -->
-  <string name="navigation_drawer_open">開啟導航欄</string>
-  <string name="navigation_drawer_close">關閉導航欄</string>
-  <string name="navigation_toggle_drawer">切換到導航瀏覽</string>
+  <string name="navigation_drawer_open">開啟導覽清單</string>
+  <string name="navigation_drawer_close">關閉導覽清單</string>
+  <string name="navigation_toggle_drawer">切換至清單檢視</string>
   <string name="navigation_toggle_tabbed">切換到分頁瀏覽</string>
 </resources>

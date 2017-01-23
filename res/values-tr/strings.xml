@@ -73,10 +73,10 @@ Bu yüzden, eğer kulaklığınızı listede bulamıyorsanız, bu özelliği kap
   <string name="pref_vse_enable">Etkinleştir</string>
   <string name="pref_vse_strength">Güç</string>
   <string name="pref_vse_strength_title">Güç Seç</string>
-  <string name="pref_vse_tips">\"NOTICE: 
-Spectrum extension is a true Hi-Fi audio processor and it is used for extending the lossy compressed spectrum. 
-If you are playing lossy compressed music(such mp3, aac, ogg), this feature may gives you a lossless feeling. 
-But if you are playing lossless music, we recommend you to disable this feature.\"</string>
+  <string name="pref_vse_tips">DİKKAT:
+\nSpectrum uzantısı gerçek bir Hi-Fi ses işlemcisidir ve kayıplı sıkıştırılmış spektrumun genişletilmesi için kullanılır.
+\nKayıplı sıkıştırılmış müzik dinliyorsanız (MP3, aac, ogg gibi) oynuyorsanız, bu özellik kayıpsız bir his verebilir.
+\nAncak kayıpsız müzik çalıyorsanız, bu özelliği devre dışı bırakmanızı öneririz.</string>
   <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Etkinleştirme</string>
   <string name="pref_analogx_summary_on">AnalogX etkin</string>
@@ -164,7 +164,7 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="eq_preset_classical">Klasik</string>
   <string name="eq_preset_deep">Derin</string>
   <string name="eq_preset_flat">Düz</string>
-  <string name="eq_preset_r_and_b">RB</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
   <string name="eq_preset_rock">Rock</string>
   <string name="eq_preset_small_speakers">Küçük Hoparlörler</string>
   <string name="eq_preset_treble_booster">Tiz Yükseltici</string>
@@ -199,8 +199,8 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="text_drvinst_sqdrv">Süper ses kalitesi sürücüsü en az iki çekirdekli bir işlemci gerektirir ve pil tüketimini artırabilir. 
 \nDevam etmek istiyor musunuz?</string>
   <string name="text_drvvernotmatch">\"ViPER4Android\'i kullanmak için, V4A sürücüsünü yüklemeniz/güncellemeniz gerekmektedir. 
-
-Şimdi yüklensin/güncellensin mi ?\"</string>
+\nYükleme prosedürü otomatik olarak gerçekleştirilecektir.
+\nŞimdi kurulsun/güncellensin mi?</string>
   <string name="text_drvuninst_confim">V4A sürücüsünü kaldırmak istediğinizden emin misiniz?</string>
   <string name="text_uiprefer">KA (Kull. Arayüzü) Ayarı</string>
   <string name="text_uiprefer_dialog">Lütfen seçiminizi yapınız</string>
@@ -216,9 +216,9 @@ But if you are playing lossless music, we recommend you to disable this feature.
   <string name="text_drvinst_sdnotmounted">Sürücü yüklenemedi, harici hafıza bulunamadı.</string>
   <string name="text_drvinst_dataioerr">Sürücü yüklenemedi , I/O error, lütfen yeniden başlatıp tekrar deneyin.</string>
   <string name="text_drvinst_cfg_unsup">Sürücü yüklenemedi , desteklenmeyen Android sürümü ya da ROM.</string>
-  <string name="text_drvinst_failed">\"Sürücü yüklenemedi , cihazınızda bulunan busybox çalışmıyor. 
-Bu yanlış ya da bozuk busybox yüklenmiş anlamına gelmektedir, V4A çalışmak için stericson busybox ürününe ihtiyaç duyar. 
-Eğer uygun busybox ı yüklediğinizden eminseniz, lütfen cihazınızın tamamen rootlanmış olduğundan emin olun.\"</string>
+  <string name="text_drvinst_failed">Sürücü yüklenemedi, cihazınızda bulunan busybox çalışmıyor. 
+\nBu yanlış ya da bozuk busybox yüklenmiş anlamına gelmektedir, V4A çalışmak için stericson busybox ürününe ihtiyaç duyar. 
+\nEğer uygun busybox ı yüklediğinizden eminseniz, lütfen cihazınızın tamamen rootlanmış olduğundan emin olun.</string>
   <string name="text_modifybuildprop">UYARI: 
 LPA özelliği cihazınızda etkinleştirilmiş, bu V4A\'nın düzgün çalışmamasına sebep olabilir. 
 LPA, yani \" Düşük Güçlü Ses\", build.prop düzenlenerek devre dışı bırakılabilir. Bu, otomatik olarak yapılabilir. 

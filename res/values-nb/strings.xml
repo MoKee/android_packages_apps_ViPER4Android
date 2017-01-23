@@ -17,6 +17,8 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_disabled">Deaktivert</string>
+  <string name="text_yes">Ja</string>
+  <string name="text_no">Nei</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Angre</string>
   <string name="text_drv_blank"></string>

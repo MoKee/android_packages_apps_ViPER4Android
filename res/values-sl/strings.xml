@@ -40,6 +40,9 @@
   <string name="pref_xloud_summary_off">eXtra-glasno onemogočeno</string>
   <string name="pref_xloud_spk_lowfreq">Nizek odziv</string>
   <string name="pref_xloud_spk_highfreq">Visok odziv</string>
+  <string name="pref_spk_opt_title">Optimizacija zvočnika</string>
+  <string name="pref_spk_opt_summary_on">Optimizacija zvočnika omogočena</string>
+  <string name="pref_spk_opt_summary_off">Optimizacija zvočnika onemogočena</string>
   <string name="pref_viperddc_title">ViPER-DDC</string>
   <string name="pref_viperddc_summary_on">ViPER-DDC je omogočen</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC je onemogočen</string>
@@ -50,9 +53,16 @@
 \nViPER-DDC je resni Hi-Fi avdio procesor in se uporablja za popravek naglavnih slušalk. 
 \nViPER-DDC za zdaj podpira skoraj 500 slušalk in jih bo s časom podpiral še več. 
 \nČe svojih slušalk ne najdete na seznamu, prosim onemogočite to funkcijo, dokler se vaših ne doda.</string>
+  <string name="pref_vse_title">Razširitev spektra</string>
+  <string name="pref_vse_summary_on">Razširitev spektra omogočena</string>
+  <string name="pref_vse_summary_off">Razširitev spektra onemogočena</string>
   <string name="pref_vse_enable">Omogoči</string>
   <string name="pref_vse_strength">Moč</string>
   <string name="pref_vse_strength_title">Izberite moč učinka</string>
+  <string name="pref_vse_tips">OBVESTILO: 
+\nRazširitev spektra je pravi Hi-Fi avdio procesor in ga uporabljamo za razširitev izgubljenega spektra pri kompresiji. 
+\nČe predvajate stisnjene datoteke, (kot mp3, aac, ogg) vam lahko ta funkcija doda občutek polnosti. 
+\nVendar, če predvajate glazbo brez kompresije, (kot wav, aiff) vam priporočamo, da onemogočite to funkcijo.</string>
   <string name="pref_analogx_title">AnalogX</string>
   <string name="pref_analogx_enable">Omogoči</string>
   <string name="pref_analogx_summary_on">AnalogX omogočen</string>

@@ -17,7 +17,7 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="vclarity_boost">
-    <item>Susmaya görə</item>
+    <item>İlkin</item>
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
