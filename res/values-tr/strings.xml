@@ -205,7 +205,6 @@ Bu yüzden, eğer kulaklığınızı listede bulamıyorsanız, bu özelliği kap
   <string name="text_uiprefer">KA (Kull. Arayüzü) Ayarı</string>
   <string name="text_uiprefer_dialog">Lütfen seçiminizi yapınız</string>
   <string name="text_commode">FX Uyumluluk Modu</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Sürücüyü Kaldır</string>
   <string name="text_install">Sürücüyü Yükle</string>
   <string name="text_drvinst_ok">Sürücü yüklendi, lütfen cihazınızı yeniden başlatın.</string>

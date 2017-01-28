@@ -122,7 +122,6 @@
   <string name="text_uiprefer">Nastavitve UI</string>
   <string name="text_uiprefer_dialog">Prosim izberite svoje nastavitve</string>
   <string name="text_commode">FX združljiv način</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Odstrani gonilnik</string>
   <string name="text_install">Namesti gonilnik</string>
   <string name="text_drvinst_ok">Gonilnik nameščen, znova zaženite napravo.</string>

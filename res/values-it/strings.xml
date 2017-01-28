@@ -196,7 +196,6 @@
   <string name="text_uiprefer">Impostazione dell\'interfaccia utente</string>
   <string name="text_uiprefer_dialog">Per favore scegli la tua preferenza</string>
   <string name="text_commode">Modalità compatibile con FX</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Disinstallare Driver</string>
   <string name="text_install">Installare Driver</string>
   <string name="text_drvinst_ok">Driver installato, riavviare il dispositivo.</string>

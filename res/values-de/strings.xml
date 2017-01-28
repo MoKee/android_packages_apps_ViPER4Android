@@ -206,7 +206,6 @@
   <string name="text_uiprefer">UI-Einstellung</string>
   <string name="text_uiprefer_dialog">Bitte wählen Sie Ihre Präferenz</string>
   <string name="text_commode">FX Kompatibilitätsmodus</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Treiber deinstallieren</string>
   <string name="text_install">Treiber installieren</string>
   <string name="text_drvinst_ok">Treiber installiert, starten Sie Ihr Gerät bitte neu.</string>

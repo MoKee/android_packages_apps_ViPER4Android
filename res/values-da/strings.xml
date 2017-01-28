@@ -203,7 +203,6 @@ Installér/Opdatér nu?</string>
   <string name="text_uiprefer">UI-indstilling</string>
   <string name="text_uiprefer_dialog">Vælg venligst din præference</string>
   <string name="text_commode">FX-kompatibel Tilstand</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Afinstallere Driver</string>
   <string name="text_install">Afinstallere Driver</string>
   <string name="text_drvinst_ok">Driver installeret, genstart venligst din enhed.</string>

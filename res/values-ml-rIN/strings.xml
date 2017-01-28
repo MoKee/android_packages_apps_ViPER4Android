@@ -18,6 +18,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_ok">ശരി</string>
   <string name="text_cancel">റദ്ദാക്കുക</string>
-  <string name="text_drv_blank"></string>
   <!-- Drawer -->
 </resources>

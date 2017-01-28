@@ -202,7 +202,6 @@
   <string name="text_uiprefer">Інтэрфейс</string>
   <string name="text_uiprefer_dialog">Абраць драйвер</string>
   <string name="text_commode">Сумяшчальнасць</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Выдаліць драйвер</string>
   <string name="text_install">Усталяваць драйвер</string>
   <string name="text_drvinst_ok">Драйвер ўсталяваны. Перазагрузіце прыладу.</string>

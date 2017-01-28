@@ -19,7 +19,6 @@
   <string name="text_yes">Taip</string>
   <string name="text_no">Ne</string>
   <string name="text_cancel">Atšaukti</string>
-  <string name="text_drv_blank"></string>
   <string name="about_exit">Išeiti</string>
   <!-- Drawer -->
 </resources>

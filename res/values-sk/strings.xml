@@ -18,7 +18,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="text_ok">OK</string>
   <string name="text_cancel">Zrušiť</string>
-  <string name="text_drv_blank"></string>
   <string name="text_changelog">Zoznam zmien</string>
   <string name="about_exit">Ukončiť</string>
   <!-- Drawer -->

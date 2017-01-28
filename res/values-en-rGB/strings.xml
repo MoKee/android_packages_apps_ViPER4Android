@@ -27,7 +27,6 @@
   <string name="text_no">No</string>
   <string name="text_ok">OK</string>
   <string name="text_cancel">Cancel</string>
-  <string name="text_drv_blank"></string>
   <string name="text_changelog">Changelog</string>
   <string name="about_exit">Exit</string>
   <!-- Drawer -->

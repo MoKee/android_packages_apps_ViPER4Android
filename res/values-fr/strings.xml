@@ -197,7 +197,6 @@
   <string name="text_uiprefer">Paramètre de l’interface utilisateur</string>
   <string name="text_uiprefer_dialog">Veuillez choisir votre préférence</string>
   <string name="text_commode">Mode FX Compatible</string>
-  <string name="text_drv_blank"></string>
   <string name="text_uninstall">Désinstaller le pilote</string>
   <string name="text_install">Installer le pilote</string>
   <string name="text_drvinst_ok">Pilote installé, veuillez redémarrer votre téléphone.</string>
