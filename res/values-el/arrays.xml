@@ -39,7 +39,7 @@
     <item>Επίπεδο 5</item>
     <item>Επίπεδο 6</item>
     <item>Επίπεδο 7</item>
-    <item>Extreme</item>
+    <item>Ακραίο</item>
   </string-array>
   <string-array name="colorfulmusic_midimage">
     <item>Slight</item>
@@ -52,17 +52,17 @@
     <item>Επίπεδο 7</item>
     <item>Επίπεδο 8</item>
     <item>Επίπεδο 9</item>
-    <item>Extreme</item>
+    <item>Ακραίο</item>
   </string-array>
   <string-array name="cure_crossfeed">
     <item>Slight</item>
     <item>Μέτρια</item>
-    <item>Extreme</item>
+    <item>Ακραίο</item>
   </string-array>
   <string-array name="analogx_mode">
     <item>Slight</item>
     <item>Μέτρια</item>
-    <item>Extreme</item>
+    <item>Ακραίο</item>
   </string-array>
   <string-array name="vhs_qual">
     <item>Επίπεδο 1</item>
@@ -74,7 +74,7 @@
   <string-array name="playbackgain_ratio">
     <item>Slight</item>
     <item>Μέτρια</item>
-    <item>Extreme</item>
+    <item>Ακραίο</item>
   </string-array>
   <string-array name="vclarity_boost">
     <item>Προεπιλογή</item>

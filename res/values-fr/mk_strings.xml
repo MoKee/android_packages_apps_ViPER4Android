@@ -28,5 +28,5 @@
 \nVersion %1$s (FX), Codenale \"Beautiful\". 
 \n</string>
   <string name="text_savefxprofile_succeeded">Profil d\'effet a été enregistrés avec succès.</string>
-  <string name="text_savefxprofile_failed">L\'enregistrement du profil d\'effets a échoué. Le stockage est peut être complet ou verrouillé en écriture.</string>
+  <string name="text_savefxprofile_failed">L\'enregistrement du profil d\'effets a échoué. L\'espace de stockage est peut être plein ou verrouillé en écriture.</string>
 </resources>
