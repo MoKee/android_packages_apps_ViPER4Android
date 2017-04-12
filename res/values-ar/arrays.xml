@@ -16,6 +16,11 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string-array name="drvinst_prefer">
+    <item>جودة صوت فائقة</item>
+    <item>High Audio Quality</item>
+    <item>Power Saving</item>
+  </string-array>
   <string-array name="vclarity_boost">
     <item>الإفتراضي</item>
     <item>3.5 dB</item>
