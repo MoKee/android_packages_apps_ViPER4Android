@@ -16,7 +16,257 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="headset_title">Kuulokkeet</string>
+  <string name="speaker_title">Puhelimen kaiutin</string>
+  <string name="bluetooth_title">Bluetooth-laite</string>
+  <string name="usb_title">USB/Telakka</string>
+  <string name="audio_effects">Ääniefektit</string>
+  <string name="dsp_settings_headset">DSP Asetukset - Kuulokkeet</string>
+  <string name="dsp_settings_speaker">DSP Asetukset - Puhelimen kaiutin</string>
+  <string name="dsp_settings_bluetooth">DSP Asetukset - Bluetooth-laite</string>
+  <string name="dsp_settings_usb">DSP-asetukset - USB-laite</string>
+  <string name="pref_dsp_enable">Ota käyttöön</string>
+  <string name="pref_effect_title">Valitse voimakkuus</string>
+  <string name="dialog_effect">Efektin voimakkuus</string>
+  <string name="pref_force_enable_text">Pakota päälle V4A</string>
+  <string name="pref_force_enable_warn">Pakottamalla voidaan ratkaista ei effektiä ongelma.
+\nVoi tulla myös ongelmia äänen ja akunkeston kanssa.
+\nKäytä omalla vastuulla.</string>
+  <string name="pref_fx_master_title">Päävirta</string>
+  <string name="pref_fx_master_summary_on">V4A-SpeakerFX on kytketty päälle</string>
+  <string name="pref_fx_master_summary_off">V4A-SpeakerFX on kytketty pois</string>
+  <string name="pref_spkfx_master_title">Päävirta</string>
+  <string name="pref_spkfx_master_summary_on">V4A-SpeakerFX on kytketty päälle</string>
+  <string name="pref_spkfx_master_summary_off">V4A-SpeakerFX on kytketty pois</string>
+  <string name="pref_fx_limiter_title">Master gate (limitteri)</string>
+  <string name="pref_fx_limiter_threshold">Kaventaa kynnys</string>
+  <string name="pref_spkfx_limiter_title">Master gate (limitteri)</string>
+  <string name="pref_spkfx_limiter_threshold">Kaventaa kynnys</string>
+  <string name="pref_output_gain">Lähtösignaalin vahvistus</string>
+  <string name="pref_output_pan">Kanavan puoli</string>
+  <string name="pref_playback_title">Soiton voimakkuudenohjaus</string>
+  <string name="pref_playback_summary_on">PlaybackAGC on käytössä</string>
+  <string name="pref_playback_summary_off">PlaybackAGC on käytössä</string>
+  <string name="pref_playback_output_threshold">Maksimi ulostulo</string>
+  <string name="pref_playback_maxgain">Maksimi hyöty</string>
+  <string name="pref_xloud_title">erittäin kovaa</string>
+  <string name="pref_xloud_summary_on">erittäin kova on otettu käyttöön</string>
+  <string name="pref_xloud_summary_off">Erittäin kova poistettu käytöstä</string>
+  <string name="pref_xloud_output_amplifer">Lähtösignaalin vahvistus</string>
+  <string name="pref_xloud_spk_lowfreq">Hidas vastaus.</string>
+  <string name="pref_xloud_spk_highfreq">Korkea vastaus</string>
+  <string name="pref_spk_opt_title">Kaiuttimien optimointi</string>
+  <string name="pref_spk_opt_summary_on">Kaiuttimien optimointi on käytössä</string>
+  <string name="pref_spk_opt_summary_off">Kaiuttimien optimointi on pois käytöstä</string>
+  <string name="pref_viperddc_title">ViPER-DDC</string>
+  <string name="pref_viperddc_summary_on">ViPER DDC on käytössä</string>
+  <string name="pref_viperddc_summary_off">ViPER DDC on poistettu käytöstä</string>
+  <string name="pref_viperddc_enable">Ota käyttöön</string>
+  <string name="pref_viperddc_device">Listening Device</string>
+  <string name="pref_viperddc_device_manufacturer">Valitse valmistaja</string>
+  <string name="pref_viperddc_device_model">Valitse malli</string>
+  <string name="pref_viperddc_tips">Varoitus: \nViPER-DDC on tosi Hi-Fi kuuluva jalostaa ja käytetään kuulokkeet korjaus. \nViPER-DDC nyt tukee lähes 500 kuulokkeet ja tukee edelleen enemmän ajan myötä. \nIf et löydä kuulokkeiden luettelosta Poista toiminto, ennen kuin sinun on lisätty.</string>
+  <string name="pref_vse_title">Spektrum laajennus</string>
+  <string name="pref_vse_summary_on">Spektrin laajennus on käytössä</string>
+  <string name="pref_vse_summary_off">Spektrin laajennus on pois käytöstä</string>
+  <string name="pref_vse_enable">Ota käyttöön</string>
+  <string name="pref_vse_strength">vahvuus</string>
+  <string name="pref_vse_strength_title">Valitse voimakkuus</string>
+  <string name="pref_vse_tips">Varoitus: \nSpectrum laajennus on totta Hi-Fi kuuluva jalostaa ja sitä käytetään laajentaa häviöllinen pakattu spectrum. \nIf pelaavat häviöllinen pakatun musiikin (niin mp3, aac, ogg), tämä ominaisuus voi antaa lossless tunne. \nHowever, jos pelaat häviötön, Suosittelemme voit poistaa tämän ominaisuuden käytöstä.</string>
+  <string name="pref_analogx_title">AnalogX</string>
+  <string name="pref_analogx_enable">Ota käyttöön</string>
+  <string name="pref_analogx_summary_on">AnalogX on käytössä</string>
+  <string name="pref_analogx_summary_off">AnalogX on poistettu käytöstä</string>
+  <string name="pref_analogx_strength">vahvuus</string>
+  <string name="pref_analogx_strength_title">Valitse voimakkuus</string>
+  <string name="pref_equalizer_title">Taajuuskorjain</string>
+  <string name="pref_equalizer_summary_on">Taajuuskorjain päällä</string>
+  <string name="pref_equalizer_summary_off">Taajuuskorjain pois päältä</string>
+  <string name="pref_equalizer_enable">Ota käyttöön</string>
+  <string name="pref_equalizer_preset_title">Valitse esiasetus</string>
+  <string name="pref_dynamicsystem_title">Dynaaminen järjestelmä</string>
+  <string name="pref_dynamicsystem_summary_on">Dynaaminen järjestelmä on käytössä</string>
+  <string name="pref_dynamicsystem_summary_off">Dynaaminen järjestelmä on poistettu käytöstä</string>
+  <string name="pref_dynamicsystem_enable">Ota käyttöön</string>
+  <string name="pref_dynamicsystem_output">Listening Device</string>
+  <string name="pref_dynamicsystem_output_title">Valitse kuuntelu-laite</string>
+  <string name="pref_dynamicsystem_bass">Valitse Dynaaminen basso</string>
+  <string name="pref_dynamicsystem_tube_title">Putkiääni simulaattori (6N1J)</string>
+  <string name="pref_dynamicsystem_tube_summary_on">Putkiääni simulointi on käytössä</string>
+  <string name="pref_dynamicsystem_tube_summary_off">Putkiääni simulointi on pois käytöstä</string>
+  <string name="pref_fidelity_title">Uskollisuus -paneeli</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER basso on käytössä</string>
+  <string name="pref_fidelity_vb_summary_off">ViPER basso on pois käytöstä</string>
+  <string name="pref_fidelity_vb_enable">Ota käyttöön ViPER Bass</string>
+  <string name="pref_fidelity_vb_mode">Basso tila</string>
+  <string name="pref_fidelity_vb_mode_title">Valitse basso-tila</string>
+  <string name="pref_fidelity_vb_bassfreq">Basson taajuus</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Valitse basson taajuus</string>
+  <string name="pref_fidelity_vb_bassgain">Basson korostus</string>
+  <string name="pref_fidelity_vb_bassgain_title">Valitse basso-tila</string>
+  <string name="pref_fidelity_vc_summary_on">ViPER selkeys on käytössä</string>
+  <string name="pref_fidelity_vc_summary_off">ViPER Clarity on poistettu käytöstä</string>
+  <string name="pref_fidelity_vc_enable">Ottaa käyttöön ViPER Clarityn</string>
+  <string name="pref_fidelity_vc_mode">Selkeys-tila</string>
+  <string name="pref_fidelity_vc_mode_title">Valitse selkeys-tila</string>
+  <string name="pref_fidelity_vc_bassgain">Selkeys</string>
+  <string name="pref_fidelity_vc_bassgain_title">Valitse selkeys-tila</string>
+  <string name="pref_curesystem_title">Kuulon suojaus</string>
+  <string name="pref_curesystem_summary_on">Cure Tech+ on käytössä</string>
+  <string name="pref_curesystem_summary_off">Cure Tech+ on pois käytöstä</string>
+  <string name="pref_curesystem_enable">Ota käyttöön</string>
+  <string name="pref_select_cure_cf_title">Valitse binauraalinen taso</string>
+  <string name="dialog_cure_crossfeed">Binauraalinen taso</string>
+  <string name="pref_convolver_title">Convolver</string>
+  <string name="pref_convolver_summary_on">Convolver on käytössä</string>
+  <string name="pref_convolver_summary_off">Convolver on pois käytöstä</string>
+  <string name="pref_convolver_enable">Ota käyttöön</string>
+  <string name="pref_convolver_knl">Impulssivaste</string>
+  <string name="pref_convolver_knl_title">Valitse impulssivaste</string>
+  <string name="pref_convolver_crosschannel">ristikanava</string>
+  <string name="pref_convolver_crosschannel_title">Valitse kanava</string>
+  <string name="pref_vhs_title">Kuulokkeiden Surround +</string>
+  <string name="pref_vhs_summary_on">VHS + on käytössä</string>
+  <string name="pref_vhs_summary_off">VHS + on poistettu käytöstä</string>
+  <string name="pref_vhs_enable">Ota käyttöön</string>
+  <string name="pref_select_vhs_qual_title">Valitse effektin taso</string>
+  <string name="dialog_vhs_qual">Taso</string>
+  <string name="pref_colorfulmusic_title">Field Surround</string>
+  <string name="pref_colorfulmusic_summary_on">Field Surround on poistettu käytöstä</string>
+  <string name="pref_colorfulmusic_summary_off">Kentän surround on poistettu käytöstä</string>
+  <string name="pref_colorfulmusic_enable">Ota käyttöön</string>
+  <string name="pref_select_colorfulmusic_title">Valitse Field Surround voimakkuus</string>
+  <string name="dialog_colorfulmusic">Field Surround voimakkuus</string>
+  <string name="pref_select_colorfulmusic_mi_title">Mid Imagen voimakkuus</string>
+  <string name="dialog_colorfulmusic_mi">Mid Imagen voimakkuus</string>
+  <string name="pref_diffsurr_title">Erilainen Surround</string>
+  <string name="pref_diffsurr_summary_on">Diff surround on käytössä</string>
+  <string name="pref_diffsurr_summary_off">Diff surround poistettu käytöstä</string>
+  <string name="pref_diffsurr_enable">Ota käyttöön</string>
+  <string name="pref_select_diffsurr_ms_title">Valitse viiveaika</string>
+  <string name="dialog_diffsurr_ms">Viive</string>
+  <string name="pref_reverb_title">Kaiku</string>
+  <string name="pref_reverb_summary_on">Kaiku on käytössä</string>
+  <string name="pref_reverb_summary_off">Kaiku on poistettu käytöstä</string>
+  <string name="pref_reverb_enable">Ota käyttöön</string>
+  <string name="pref_reverb_roomsize">Huoneen koko</string>
+  <string name="pref_reverb_width">Äänikenttä</string>
+  <string name="pref_reverb_damp">Cog vaimennuskerroin</string>
+  <string name="pref_reverb_wet">Märkä signaali</string>
+  <string name="pref_reverb_dry">Kuiva signaali</string>
+  <string name="eq_preset_acoustic">Akustinen</string>
+  <string name="eq_preset_bass_booster">Basson korostus</string>
+  <string name="eq_preset_bass_reducer">Basson vaimennus</string>
+  <string name="eq_preset_classical">Klassinen</string>
+  <string name="eq_preset_deep">Syvä</string>
+  <string name="eq_preset_flat">Neutraali</string>
+  <string name="eq_preset_r_and_b">R&amp;B</string>
+  <string name="eq_preset_rock">Rock</string>
+  <string name="eq_preset_small_speakers">Pienet kaiuttimet</string>
+  <string name="eq_preset_treble_booster">Diskantin korostus</string>
+  <string name="eq_preset_treble_reducer">Diskantin vaimennus</string>
+  <string name="eq_preset_vocal_booster">Laulun korostus</string>
+  <string name="eq_preset_custom">Mukautettu</string>
+  <string name="text_ir_dir_isempty">ViPER4Android: IR näytekansio %1$s on tyhjä.</string>
+  <string name="text_token_lost">ViPER4Android: Käynnissä ohjelma on pyytänyt Android poistaa äänitehosteita, joten V4A tilapäisesti pois käytöstä.</string>
+  <string name="text_enabled">Käytössä</string>
+  <string name="text_disabled">Poistettu käytöstä</string>
+  <string name="text_headset">Kuulokkeet</string>
+  <string name="text_bluetooth">Bluetooth</string>
+  <string name="text_speaker">Kaiutin</string>
+  <string name="text_usb">USB/Telakka</string>
+  <string name="text_showtrayicon">Näytä ilmoitus</string>
+  <string name="text_hidetrayicon">Piilota ilmoitus</string>
+  <string name="text_lockeffect">Vaikutus lukitustila</string>
   <string name="text_yes">Kyllä</string>
   <string name="text_no">Ei</string>
+  <string name="text_normal">Normaali</string>
+  <string name="text_abnormal">Epänormaali</string>
+  <string name="text_supported">Tuettu</string>
+  <string name="text_unsupported">Ei tuettu</string>
+  <string name="text_loadfxprofile">Lataa effekti-profiili</string>
+  <string name="text_newfxprofile">Uusi effekti-profiili&#8230;</string>
+  <string name="text_savefxprofile">Tallenna effekti-profiili</string>
+  <string name="text_profilesaved_overwrite">Haluatko ylikirjoittaa tämän profiilin?</string>
+  <string name="text_profileload_tip">Käytä profiilia</string>
+  <string name="text_ok">OK</string>
+  <string name="text_cancel">Peruuta</string>
+  <string name="text_drvinst_prefer">Valitse parametrisi</string>
+  <string name="text_drvinst_sqdrv">Super äänenlaatu ohjain vaatii vähintään kaksiytiminen suoritin ja voi nopeuttaa akun valua. \nDo jatkaa?</string>
+  <string name="text_drvvernotmatch">In order to use ViPER4Android, you need to install/update the V4A driver.
+\nThe installation procedure will be done automatically.
+\nInstall/update now?</string>
+  <string name="text_drvuninst_confim">Do you really want to uninstall V4A driver?</string>
+  <string name="text_uiprefer">Käyttöliittymän asetukset</string>
+  <string name="text_uiprefer_dialog">Valitse parametrisi</string>
+  <string name="text_commode">FX Compatible Mode</string>
+  <string name="text_uninstall">Poista ohjaimen asennus</string>
+  <string name="text_install">Asenna ohjain</string>
+  <string name="text_drvinst_ok">Driver installed, please reboot your device.</string>
+  <string name="text_drvuninst_ok">Driver uninstalled, please reboot your device.</string>
+  <string name="text_no_busybox">Busybox was not detected on your device, would you like to install it now?</string>
+  <string name="text_drvinst_acquireroot">Driver install failed: V4A couldn\'t acquire root permission. Please confirm your device has been rooted.</string>
+  <string name="text_drvinst_busybox_not_installed">Driver install failed: No proper busybox installation found on this device.</string>
+  <string name="text_drvinst_sdnotmounted">Driver install failed: External storage not mounted.</string>
+  <string name="text_drvinst_dataioerr">Driver install failed: I/O error, please reboot and try again.</string>
+  <string name="text_drvinst_cfg_unsup">Driver install failed: Unsupported android system or ROM.</string>
+  <string name="text_drvinst_failed">Driver install failed: The busybox installation found on your device does not work.
+\nThis usually means you installed a wrong or broken busybox. V4A needs Stericson\'s busybox to work.
+\nIf you are sure you installed the proper busybox, then please confirm your device has been completely rooted.</string>
+  <string name="text_modifybuildprop">ATTENTION:
+\nLPA is enabled on your device, this may cause V4A to malfunction.
+\nLPA, or \'Low Power Audio\', can be disabled through modifying build.prop, which can be done automatically.
+\nWe strongly recommend you to make a NANDROID or DATA BACKUP before proceeding!
+\nDo you wish to disable LPA now?</string>
+  <string name="text_changelog">Muutoslogi</string>
+  <string name="text_drv_status">Ohjaimen tila</string>
+  <string name="text_drv_status_view">\n
+\nDriver Version: %1$s
+\nNEON Enabled: %2$s
+\nEnabled: %3$s
+\nStatus: %4$s
+\nAudio Format: %5$s
+\nProcessing: %6$s
+\nSampling Rate: %7$d
+\n</string>
+  <string name="text_service_error">Failed to communicate with the ViPER4Android service.</string>
+  <string name="about_exit">Lopeta</string>
+  <string name="about_title">Ohje ja tietoa</string>
+  <string name="about_text">***About ViPER4Android***
+\n
+\n\'libv4a_xx_xx.so\' is the kernel of ViPER4Android.
+\nCopyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
+\nWithout the official permission, commercial use is disallowed.
+\nOfficial Forum: http://vipersaudio.com/blog/
+\n
+\n\'ViPER4Android.apk\' is the visual control panel of ViPER4Android.
+\nBased on Cyanogenmod\'s DSPManager.
+\nGreat thanks to Zhuhang@XDA
+\nGreat thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+\n
+\nVersion %1$s (FX), Codename “Beautiful”.
+\n</string>
+  <string name="text_help_content">***General help***
+\n
+\n\'Install Driver\' - Install/Update ViPER4Android effect driver.
+\n\'Uninstall Driver\' - Uninstall ViPER4Android effect driver.
+\n\'FX Compatible Mode\' - Set effect compatibility mode.
+\n    \'Normal\' - Make ViPER4Android a global effect.
+\n    \'Compatible\' - Make ViPER4Android a local effect.
+\n
+\n<b>No V4A effect on all/most mediaplayers?</b>\n    You can switch the FX mode to compatible then restart your device and try again.
+\n
+\n<b>How to change driver audio quality?</b>\n    Uninstall driver in menu then restart your device and choose the quality you want.
+\n
+\n<b>How to reduce battery consumption?</b>\n    When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life.
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+  <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+  <string name="text_view_forum">Foorumi</string>
+  <string name="text_checkupdate">Tarkista päivitys</string>
   <!-- Drawer -->
+  <string name="navigation_drawer_open">Avaa navigointivalikko</string>
+  <string name="navigation_drawer_close">Sulje navigointivalikko</string>
+  <string name="navigation_toggle_drawer">Switch to Drawer view</string>
+  <string name="navigation_toggle_tabbed">Switch to Tab view</string>
 </resources>

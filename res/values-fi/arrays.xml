@@ -16,8 +16,195 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string-array name="vclarity_boost">
-    <item>Oletus</item>
+  <string-array name="drvinst_prefer">
+    <item>Super äänenlaatu</item>
+    <item>Erinomainen äänenlaatu</item>
+    <item>Virransäästötila</item>
+  </string-array>
+  <string-array name="ui_prefer">
+    <item>Aloittelija</item>
+    <item>Kohtalainen</item>
+    <item>Asiantuntija</item>
+  </string-array>
+  <string-array name="compatible_mode">
+    <item>Normaali</item>
+    <item>Yhteensopiva</item>
+  </string-array>
+  <string-array name="colorfulmusic_coeffs">
+    <item>Kevyt</item>
+    <item>Taso 1</item>
+    <item>Taso 2</item>
+    <item>Taso 3</item>
+    <item>Taso 4</item>
+    <item>Taso 5</item>
+    <item>Taso 6</item>
+    <item>Taso 7</item>
+    <item>Äärimmäinen</item>
+  </string-array>
+  <string-array name="colorfulmusic_midimage">
+    <item>Kevyt</item>
+    <item>Taso 1</item>
+    <item>Taso 2</item>
+    <item>Taso 3</item>
+    <item>Taso 4</item>
+    <item>Taso 5</item>
+    <item>Taso 6</item>
+    <item>Taso 7</item>
+    <item>Taso 8</item>
+    <item>Taso 9</item>
+    <item>Äärimmäinen</item>
+  </string-array>
+  <string-array name="diffsurround_delay">
+    <item>2 ms</item>
+    <item>5 ms</item>
+    <item>8 ms</item>
+    <item>10 ms</item>
+    <item>12 ms</item>
+    <item>14 ms</item>
+    <item>16 ms</item>
+    <item>18 ms</item>
+    <item>20 ms</item>
+  </string-array>
+  <string-array name="reverb_roomsize">
+    <item>25m²</item>
+    <item>36 m²</item>
+    <item>49 m²</item>
+    <item>64 m²</item>
+    <item>81 m²</item>
+    <item>100m²</item>
+    <item>121 m²</item>
+    <item>203m²</item>
+    <item>347m²</item>
+    <item>652 m²</item>
+    <item>1200 m²</item>
+  </string-array>
+  <string-array name="reverb_roomwidth">
+    <item>5m</item>
+    <item>6m</item>
+    <item>7m</item>
+    <item>8m</item>
+    <item>9m</item>
+    <item>10m</item>
+    <item>11m</item>
+    <item>14m</item>
+    <item>19m</item>
+    <item>26m</item>
+    <item>36m</item>
+  </string-array>
+  <string-array name="cure_crossfeed">
+    <item>Kevyt</item>
+    <item>Kohtalainen</item>
+    <item>Äärimmäinen</item>
+  </string-array>
+  <string-array name="analogx_mode">
+    <item>Kevyt</item>
+    <item>Kohtalainen</item>
+    <item>Äärimmäinen</item>
+  </string-array>
+  <string-array name="vhs_qual">
+    <item>Taso 1</item>
+    <item>Taso 2</item>
+    <item>Taso 3</item>
+    <item>Taso 4</item>
+    <item>Taso 5</item>
+  </string-array>
+  <string-array name="playbackgain_ratio">
+    <item>Kevyt</item>
+    <item>Kohtalainen</item>
+    <item>Äärimmäinen</item>
+  </string-array>
+  <string-array name="multi_factor">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+    <item>5x</item>
+    <item>6x</item>
+    <item>7x</item>
+    <item>8x</item>
+    <item>9x</item>
+    <item>10x</item>
+    <item>Inf</item>
+  </string-array>
+  <string-array name="amplification_db">
+    <item>0 dB</item>
+    <item>3.5 dB</item>
+    <item>6.0 dB</item>
+    <item>9.5 dB</item>
+    <item>12.0 dB</item>
+    <item>14.0 dB</item>
+    <item>18.0 dB</item>
+    <item>20.0 dB</item>
+  </string-array>
+  <string-array name="output_db">
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-6.0 dB</item>
+    <item>-10.5 dB</item>
+  </string-array>
+  <string-array name="output_volume">
+    <item>6.0 dB</item>
+    <item>5.6 dB</item>
+    <item>5.1 dB</item>
+    <item>4.6 dB</item>
+    <item>4.1 dB</item>
+    <item>3.5 dB</item>
+    <item>2.9 dB</item>
+    <item>2.3 dB</item>
+    <item>1.6 dB</item>
+    <item>0.8 dB</item>
+    <item>0 dB</item>
+    <item>-1.0 dB</item>
+    <item>-1.9 dB</item>
+    <item>-3.0 dB</item>
+    <item>-4.4 dB</item>
+    <item>-6.0 dB</item>
+    <item>-8.0 dB</item>
+    <item>-10.5 dB</item>
+    <item>-14.0 dB</item>
+    <item>-20.0 dB</item>
+    <item>-26.0 dB</item>
+    <item>-40.0 dB</item>
+  </string-array>
+  <string-array name="dynamicsystem_outputs">
+    <item>Extreme Headphone(v2)</item>
+    <item>Huippuluokan kuulokkeet(v2)</item>
+    <item>Normaalit kuulokkeet (v2)</item>
+    <item>Low-end Headphone(v2)</item>
+    <item>Common Earphone(v2)</item>
+    <item>Extreme Headphone(v1)</item>
+    <item>High-end Headphone(v1)</item>
+    <item>Common Headphone(v1)</item>
+    <item>Common Earphone(v1)</item>
+    <item>Apple-kuulokkeet</item>
+    <item>Monster kuulokkeet</item>
+    <item>Moto kuulokkeet</item>
+    <item>Philips kuulokkeet</item>
+    <item>SHP2000</item>
+    <item>SHP9000</item>
+    <item>Tuntematon tyyppi</item>
+    <item>Tuntematon tyyppi</item>
+    <item>Tuntematon tyyppi</item>
+    <item>Tuntematon tyyppi</item>
+  </string-array>
+  <string-array name="vbass_mode">
+    <item>Luonnollinen basso</item>
+    <item>Puhdas basso +</item>
+    <item>Subwoofer</item>
+  </string-array>
+  <string-array name="vbass_freq">
+    <item>30 Hz</item>
+    <item>40 Hz</item>
+    <item>50 Hz</item>
+    <item>60 Hz</item>
+    <item>66 Hz</item>
+    <item>78 Hz</item>
+    <item>80 Hz</item>
+    <item>100 Hz</item>
+  </string-array>
+  <string-array name="vbass_boost">
     <item>3.5 dB</item>
     <item>6.0 dB</item>
     <item>8.0 dB</item>
@@ -27,5 +214,40 @@
     <item>13.0 dB</item>
     <item>14.0 dB</item>
     <item>14.8 dB</item>
+    <item>15.6 dB</item>
+    <item>16.3 dB</item>
+    <item>17.0 dB</item>
+  </string-array>
+  <string-array name="vclarity_mode">
+    <item>Luonnollinen</item>
+    <item>OZone+</item>
+    <item>XHiFi</item>
+  </string-array>
+  <string-array name="vclarity_boost">
+    <item>Oletus</item>
+    <item>3,5 dB</item>
+    <item>6.0 dB</item>
+    <item>8.0 dB</item>
+    <item>10.0 dB</item>
+    <item>11.0 dB</item>
+    <item>12.0 dB</item>
+    <item>13.0 dB</item>
+    <item>14.0 dB</item>
+    <item>14,8 dB</item>
+  </string-array>
+  <string-array name="speaker_lowfreq">
+    <item>100 Hz</item>
+    <item>140 Hz</item>
+    <item>180 Hz</item>
+    <item>200 Hz</item>
+    <item>220 Hz</item>
+  </string-array>
+  <string-array name="speaker_highfreq">
+    <item>3000 Hz</item>
+    <item>4000 Hz</item>
+    <item>5000 Hz</item>
+    <item>6000 Hz</item>
+    <item>7000 Hz</item>
+    <item>8000 Hz</item>
   </string-array>
 </resources>
