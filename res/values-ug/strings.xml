@@ -16,5 +16,6 @@
      limitations under the License.
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="about_exit">چېكىنىش</string>
   <!-- Drawer -->
 </resources>

@@ -32,12 +32,16 @@
   <string name="pref_force_enable_warn">Vklop vsili uporabo, je lahko brez učineka. 
 \nPri nekaterih ROM-ih, lahko dobite nepričakovane učinke, kot naprimer brez zvoka ali praznenje baterije. 
 \nUporaba na lastno odgovornost. Če se to zgodi, prosim izklopite to možnost.</string>
+  <string name="pref_fx_master_title">Glavno stikalo</string>
   <string name="pref_fx_master_summary_on">V4A-FX je vklopljen</string>
   <string name="pref_fx_master_summary_off">V4A-FX je izklopljen</string>
+  <string name="pref_spkfx_master_title">Glavno stikalo</string>
   <string name="pref_playback_output_threshold">Max izhod</string>
+  <string name="pref_playback_maxgain">Max povečanje</string>
   <string name="pref_xloud_title">eXtra glasno</string>
   <string name="pref_xloud_summary_on">eXtra-glasno omogočeno</string>
   <string name="pref_xloud_summary_off">eXtra-glasno onemogočeno</string>
+  <string name="pref_xloud_output_amplifer">Ojačitev izhoda</string>
   <string name="pref_xloud_spk_lowfreq">Nizek odziv</string>
   <string name="pref_xloud_spk_highfreq">Visok odziv</string>
   <string name="pref_spk_opt_title">Optimizacija zvočnika</string>
@@ -47,6 +51,7 @@
   <string name="pref_viperddc_summary_on">ViPER-DDC je omogočen</string>
   <string name="pref_viperddc_summary_off">ViPER-DDC je onemogočen</string>
   <string name="pref_viperddc_enable">Omogoči</string>
+  <string name="pref_viperddc_device">Seznam naprav</string>
   <string name="pref_viperddc_device_manufacturer">Izberite proizvajalca</string>
   <string name="pref_viperddc_device_model">Izberite Model</string>
   <string name="pref_viperddc_tips">OBVESTILO: 
@@ -74,7 +79,22 @@
   <string name="pref_equalizer_summary_off">FIREqualizer onemogočen</string>
   <string name="pref_equalizer_enable">Omogoči</string>
   <string name="pref_equalizer_preset_title">Izberite prednastavitev</string>
+  <string name="pref_dynamicsystem_title">Dinamični sistem</string>
+  <string name="pref_dynamicsystem_summary_on">Dinamični sistem je omogočen</string>
+  <string name="pref_dynamicsystem_summary_off">Dinamični sistem je onemogočen</string>
   <string name="pref_dynamicsystem_enable">Omogoči</string>
+  <string name="pref_dynamicsystem_output">Seznam naprav</string>
+  <string name="pref_dynamicsystem_output_title">Izbira naprave iz seznama</string>
+  <string name="pref_dynamicsystem_bass">Učinek dinamičnega basa</string>
+  <string name="pref_fidelity_vb_summary_on">ViPER bas je omogočen</string>
+  <string name="pref_fidelity_vb_summary_off">ViPER bas je onemogočen</string>
+  <string name="pref_fidelity_vb_enable">Omogoči ViPER bas</string>
+  <string name="pref_fidelity_vb_mode">Način bas-a</string>
+  <string name="pref_fidelity_vb_mode_title">Izbira načina bas-a</string>
+  <string name="pref_fidelity_vb_bassfreq">Frekvenca bas-a</string>
+  <string name="pref_fidelity_vb_bassfreq_title">Izbira frekvence bas-a</string>
+  <string name="pref_fidelity_vb_bassgain">Povečanje bas-a</string>
+  <string name="pref_fidelity_vb_bassgain_title">Izbira ojačitve bas-a</string>
   <string name="pref_curesystem_enable">Omogoči</string>
   <string name="pref_convolver_enable">Omogoči</string>
   <string name="pref_vhs_summary_on">VHS + je omogočen</string>
