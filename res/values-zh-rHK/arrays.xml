@@ -17,9 +17,9 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string-array name="drvinst_prefer">
-    <item>最高音質</item>
+    <item>超高音質</item>
     <item>高音質</item>
-    <item>省電優先</item>
+    <item>慳電優先</item>
   </string-array>
   <string-array name="ui_prefer">
     <item>簡單界面</item>

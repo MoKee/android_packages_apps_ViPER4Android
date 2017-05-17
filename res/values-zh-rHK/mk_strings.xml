@@ -35,5 +35,5 @@
 \n版本 %1$s (FX), 代碼 “Beautiful”。
 \n</string>
   <string name="text_savefxprofile_succeeded">音效設定已成功儲存。</string>
-  <string name="text_savefxprofile_failed">設定儲存失敗，可能是記憶咭已滿或無法存取。</string>
+  <string name="text_savefxprofile_failed">設定儲存失敗，可能是儲存空間已滿或無法寫入。</string>
 </resources>

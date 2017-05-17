@@ -17,9 +17,9 @@
  -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
   <string name="headset_title">耳機</string>
-  <string name="speaker_title">喇叭</string>
+  <string name="speaker_title">手機揚聲器</string>
   <string name="bluetooth_title">藍牙裝置</string>
-  <string name="usb_title">USB和音訊底座</string>
+  <string name="usb_title">USB 與座架</string>
   <string name="audio_effects">音訊效果</string>
   <string name="dsp_settings_headset">音效設定 - 耳機</string>
   <string name="dsp_settings_speaker">音效設定 - 喇叭</string>
@@ -192,7 +192,7 @@
   <string name="text_loadfxprofile">載入音效配置</string>
   <string name="text_newfxprofile">新建音效配置&#8230;</string>
   <string name="text_savefxprofile">儲存音效配置</string>
-  <string name="text_profilesaved_overwrite">配置檔案名稱已經存在，是否需要覆蓋？</string>
+  <string name="text_profilesaved_overwrite">您想覆蓋此設定檔嗎？</string>
   <string name="text_profileload_tip">應用音效配置到</string>
   <string name="text_ok">確定</string>
   <string name="text_cancel">取消</string>

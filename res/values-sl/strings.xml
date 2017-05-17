@@ -36,6 +36,7 @@
   <string name="pref_fx_master_summary_on">V4A-FX je vklopljen</string>
   <string name="pref_fx_master_summary_off">V4A-FX je izklopljen</string>
   <string name="pref_spkfx_master_title">Glavno stikalo</string>
+  <string name="pref_output_gain">Ojačitev izhoda</string>
   <string name="pref_playback_output_threshold">Max izhod</string>
   <string name="pref_playback_maxgain">Max povečanje</string>
   <string name="pref_xloud_title">eXtra glasno</string>
@@ -95,6 +96,9 @@
   <string name="pref_fidelity_vb_bassfreq_title">Izbira frekvence bas-a</string>
   <string name="pref_fidelity_vb_bassgain">Povečanje bas-a</string>
   <string name="pref_fidelity_vb_bassgain_title">Izbira ojačitve bas-a</string>
+  <string name="pref_fidelity_vc_mode_title">Izberite način jasnost</string>
+  <string name="pref_fidelity_vc_bassgain">Jasnost</string>
+  <string name="pref_fidelity_vc_bassgain_title">Izberite jasnost</string>
   <string name="pref_curesystem_enable">Omogoči</string>
   <string name="pref_convolver_enable">Omogoči</string>
   <string name="pref_vhs_summary_on">VHS + je omogočen</string>
